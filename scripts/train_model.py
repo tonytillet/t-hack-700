@@ -176,7 +176,7 @@ class GrippePredictor:
         
         return models
     
-    def save_models(self, models, output_dir='../models'):
+    def save_models(self, models, output_dir='models'):
         """Sauvegarde les modèles entraînés"""
         print(f"\n💾 Sauvegarde des modèles...")
         
@@ -258,27 +258,11 @@ def main():
     # Initialisation
     predictor = GrippePredictor()
     
-    # Recherche du dernier dataset
-    processed_dir = '../data/processed'
-    
-    if not os.path.exists(processed_dir):
-        print(f"❌ Dossier non trouvé: {processed_dir}")
-        print("💡 Exécutez d'abord: python fuse_data.py")
+    # Chargement des données
+    dataset_file = 'data/processed/dataset_grippe_20251020_163607.csv'
+    if not os.path.exists(dataset_file):
+        print(f"❌ Dataset non trouvé: {dataset_file}")
         return
-    
-    # Liste des fichiers dataset_grippe_*.csv
-    dataset_files = [f for f in os.listdir(processed_dir) if f.startswith('dataset_grippe_') and f.endswith('.csv')]
-    
-    if not dataset_files:
-        print(f"❌ Aucun dataset trouvé dans {processed_dir}")
-        print("💡 Exécutez d'abord: python fuse_data.py")
-        return
-    
-    # Prendre le dernier fichier (tri par nom = tri par timestamp)
-    latest_dataset = sorted(dataset_files)[-1]
-    dataset_file = os.path.join(processed_dir, latest_dataset)
-    
-    print(f"📂 Chargement du dataset: {latest_dataset}")
     
     df = predictor.load_data(dataset_file)
     
@@ -302,7 +286,7 @@ def main():
     df_pred = predictor.generate_predictions(df, models)
     
     # Sauvegarde du dataset avec prédictions
-    output_file = f'../data/processed/dataset_with_predictions_{config["timestamp"]}.csv'
+    output_file = f'data/processed/dataset_with_predictions_{config["timestamp"]}.csv'
     df_pred.to_csv(output_file, index=False)
     print(f"\n💾 Dataset avec prédictions sauvegardé: {output_file}")
     

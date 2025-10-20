@@ -192,7 +192,7 @@ class SPFDataCollector:
         
         for data_type, df in all_data.items():
             filename = f"{prefix}_{data_type}_{timestamp}.csv"
-            filepath = os.path.join('..', 'data', 'spf', filename)
+            filepath = os.path.join('data', 'spf', filename)
             df.to_csv(filepath, index=False)
             print(f"💾 {data_type} sauvegardé: {filepath}")
         

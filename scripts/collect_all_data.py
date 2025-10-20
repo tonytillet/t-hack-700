@@ -123,7 +123,7 @@ def main():
     print("📋 FICHIERS CRÉÉS:")
     data_dirs = ['google_trends', 'wikipedia', 'spf', 'context']
     for dir_name in data_dirs:
-        dir_path = os.path.join('..', 'data', dir_name)
+        dir_path = os.path.join('data', dir_name)
         if os.path.exists(dir_path):
             files = os.listdir(dir_path)
             print(f"   {dir_name}/: {len(files)} fichier(s)")

@@ -135,7 +135,7 @@ class WikipediaCollector:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             filename = f"wikipedia_{timestamp}.csv"
         
-        filepath = os.path.join('..', 'data', 'wikipedia', filename)
+        filepath = os.path.join('data', 'wikipedia', filename)
         df.to_csv(filepath, index=False)
         print(f"💾 Données sauvegardées: {filepath}")
         
