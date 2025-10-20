@@ -249,4 +249,3 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 - [Google Trends](https://trends.google.com/)
 - [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page)
 
----
