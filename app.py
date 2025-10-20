@@ -36,17 +36,30 @@ class GrippeDashboard:
         self.load_data()
     
     def load_data(self):
-        """Charge les données et modèles"""
-        # Chargement du dataset avec prédictions
-        dataset_files = [f for f in os.listdir('data/processed') if 'dataset_with_predictions' in f and f.endswith('.csv')]
-        if dataset_files:
-            latest_dataset = sorted(dataset_files)[-1]
+      
+        """Charge les données et modèles améliorés"""
+        # Chargement du dataset amélioré avec features temporelles
+        enhanced_files = [f for f in os.listdir('data/processed') if f.startswith('dataset_grippe_enhanced_')]
+        if enhanced_files:
+            latest_dataset = sorted(enhanced_files)[-1]
             self.data = pd.read_csv(f'data/processed/{latest_dataset}')
             self.data['date'] = pd.to_datetime(self.data['date'])
-            st.success(f"✅ Données chargées: {latest_dataset}")
+            st.success(f"✅ Dataset amélioré chargé: {latest_dataset}")
+            st.info("🔄 Features temporelles inter-années (N-2, N-1, N) activées")
         else:
-            st.error("❌ Aucun dataset trouvé")
-            return
+            # Fallback sur le dataset original
+            dataset_files = [f for f in os.listdir('data/processed') if 'dataset_with_predictions' in f and f.endswith('.csv')]
+            if dataset_files:
+                latest_dataset = sorted(dataset_files)[-1]
+                self.data = pd.read_csv(f'data/processed/{latest_dataset}')
+                self.data['date'] = pd.to_datetime(self.data['date'])
+                st.success(f"✅ Données chargées: {latest_dataset}")
+            else:
+                st.error("❌ Aucun dataset trouvé")
+                return
+        
+        # Calcul du FLURISK amélioré
+        self.data = self.calculate_enhanced_flurisk(self.data)
         
         # Chargement de la configuration des modèles
         config_files = [f for f in os.listdir('models') if f.startswith('config_') and f.endswith('.json')]

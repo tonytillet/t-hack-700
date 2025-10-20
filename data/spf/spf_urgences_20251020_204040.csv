@@ -1,0 +1,1366 @@
+date,region,region_code,urgences_grippe
+2023-10-23,Île-de-France,11,57
+2023-10-30,Île-de-France,11,71
+2023-11-06,Île-de-France,11,65
+2023-11-13,Île-de-France,11,75
+2023-11-20,Île-de-France,11,79
+2023-11-27,Île-de-France,11,68
+2023-12-04,Île-de-France,11,73
+2023-12-11,Île-de-France,11,67
+2023-12-18,Île-de-France,11,77
+2023-12-25,Île-de-France,11,80
+2024-01-01,Île-de-France,11,66
+2024-01-08,Île-de-France,11,77
+2024-01-15,Île-de-France,11,91
+2024-01-22,Île-de-France,11,66
+2024-01-29,Île-de-France,11,93
+2024-02-05,Île-de-France,11,72
+2024-02-12,Île-de-France,11,66
+2024-02-19,Île-de-France,11,71
+2024-02-26,Île-de-France,11,65
+2024-03-04,Île-de-France,11,63
+2024-03-11,Île-de-France,11,68
+2024-03-18,Île-de-France,11,50
+2024-03-25,Île-de-France,11,36
+2024-04-01,Île-de-France,11,45
+2024-04-08,Île-de-France,11,36
+2024-04-15,Île-de-France,11,33
+2024-04-22,Île-de-France,11,27
+2024-04-29,Île-de-France,11,37
+2024-05-06,Île-de-France,11,42
+2024-05-13,Île-de-France,11,39
+2024-05-20,Île-de-France,11,32
+2024-05-27,Île-de-France,11,14
+2024-06-03,Île-de-France,11,32
+2024-06-10,Île-de-France,11,29
+2024-06-17,Île-de-France,11,21
+2024-06-24,Île-de-France,11,32
+2024-07-01,Île-de-France,11,29
+2024-07-08,Île-de-France,11,13
+2024-07-15,Île-de-France,11,29
+2024-07-22,Île-de-France,11,15
+2024-07-29,Île-de-France,11,27
+2024-08-05,Île-de-France,11,20
+2024-08-12,Île-de-France,11,36
+2024-08-19,Île-de-France,11,33
+2024-08-26,Île-de-France,11,30
+2024-09-02,Île-de-France,11,36
+2024-09-09,Île-de-France,11,39
+2024-09-16,Île-de-France,11,27
+2024-09-23,Île-de-France,11,28
+2024-09-30,Île-de-France,11,52
+2024-10-07,Île-de-France,11,58
+2024-10-14,Île-de-France,11,65
+2024-10-21,Île-de-France,11,57
+2024-10-28,Île-de-France,11,74
+2024-11-04,Île-de-France,11,66
+2024-11-11,Île-de-France,11,68
+2024-11-18,Île-de-France,11,64
+2024-11-25,Île-de-France,11,77
+2024-12-02,Île-de-France,11,65
+2024-12-09,Île-de-France,11,91
+2024-12-16,Île-de-France,11,79
+2024-12-23,Île-de-France,11,79
+2024-12-30,Île-de-France,11,84
+2025-01-06,Île-de-France,11,100
+2025-01-13,Île-de-France,11,67
+2025-01-20,Île-de-France,11,93
+2025-01-27,Île-de-France,11,78
+2025-02-03,Île-de-France,11,72
+2025-02-10,Île-de-France,11,73
+2025-02-17,Île-de-France,11,64
+2025-02-24,Île-de-France,11,62
+2025-03-03,Île-de-France,11,71
+2025-03-10,Île-de-France,11,72
+2025-03-17,Île-de-France,11,40
+2025-03-24,Île-de-France,11,37
+2025-03-31,Île-de-France,11,62
+2025-04-07,Île-de-France,11,24
+2025-04-14,Île-de-France,11,58
+2025-04-21,Île-de-France,11,48
+2025-04-28,Île-de-France,11,40
+2025-05-05,Île-de-France,11,26
+2025-05-12,Île-de-France,11,47
+2025-05-19,Île-de-France,11,47
+2025-05-26,Île-de-France,11,19
+2025-06-02,Île-de-France,11,28
+2025-06-09,Île-de-France,11,35
+2025-06-16,Île-de-France,11,20
+2025-06-23,Île-de-France,11,32
+2025-06-30,Île-de-France,11,16
+2025-07-07,Île-de-France,11,18
+2025-07-14,Île-de-France,11,20
+2025-07-21,Île-de-France,11,14
+2025-07-28,Île-de-France,11,26
+2025-08-04,Île-de-France,11,19
+2025-08-11,Île-de-France,11,32
+2025-08-18,Île-de-France,11,43
+2025-08-25,Île-de-France,11,30
+2025-09-01,Île-de-France,11,26
+2025-09-08,Île-de-France,11,44
+2025-09-15,Île-de-France,11,37
+2025-09-22,Île-de-France,11,51
+2025-09-29,Île-de-France,11,45
+2025-10-06,Île-de-France,11,75
+2025-10-13,Île-de-France,11,60
+2025-10-20,Île-de-France,11,65
+2023-10-23,Auvergne-Rhône-Alpes,84,60
+2023-10-30,Auvergne-Rhône-Alpes,84,48
+2023-11-06,Auvergne-Rhône-Alpes,84,82
+2023-11-13,Auvergne-Rhône-Alpes,84,63
+2023-11-20,Auvergne-Rhône-Alpes,84,75
+2023-11-27,Auvergne-Rhône-Alpes,84,92
+2023-12-04,Auvergne-Rhône-Alpes,84,73
+2023-12-11,Auvergne-Rhône-Alpes,84,82
+2023-12-18,Auvergne-Rhône-Alpes,84,76
+2023-12-25,Auvergne-Rhône-Alpes,84,81
+2024-01-01,Auvergne-Rhône-Alpes,84,80
+2024-01-08,Auvergne-Rhône-Alpes,84,87
+2024-01-15,Auvergne-Rhône-Alpes,84,78
+2024-01-22,Auvergne-Rhône-Alpes,84,97
+2024-01-29,Auvergne-Rhône-Alpes,84,58
+2024-02-05,Auvergne-Rhône-Alpes,84,74
+2024-02-12,Auvergne-Rhône-Alpes,84,76
+2024-02-19,Auvergne-Rhône-Alpes,84,77
+2024-02-26,Auvergne-Rhône-Alpes,84,62
+2024-03-04,Auvergne-Rhône-Alpes,84,57
+2024-03-11,Auvergne-Rhône-Alpes,84,54
+2024-03-18,Auvergne-Rhône-Alpes,84,55
+2024-03-25,Auvergne-Rhône-Alpes,84,43
+2024-04-01,Auvergne-Rhône-Alpes,84,76
+2024-04-08,Auvergne-Rhône-Alpes,84,58
+2024-04-15,Auvergne-Rhône-Alpes,84,46
+2024-04-22,Auvergne-Rhône-Alpes,84,40
+2024-04-29,Auvergne-Rhône-Alpes,84,24
+2024-05-06,Auvergne-Rhône-Alpes,84,39
+2024-05-13,Auvergne-Rhône-Alpes,84,36
+2024-05-20,Auvergne-Rhône-Alpes,84,36
+2024-05-27,Auvergne-Rhône-Alpes,84,28
+2024-06-03,Auvergne-Rhône-Alpes,84,19
+2024-06-10,Auvergne-Rhône-Alpes,84,11
+2024-06-17,Auvergne-Rhône-Alpes,84,18
+2024-06-24,Auvergne-Rhône-Alpes,84,31
+2024-07-01,Auvergne-Rhône-Alpes,84,14
+2024-07-08,Auvergne-Rhône-Alpes,84,2
+2024-07-15,Auvergne-Rhône-Alpes,84,11
+2024-07-22,Auvergne-Rhône-Alpes,84,12
+2024-07-29,Auvergne-Rhône-Alpes,84,19
+2024-08-05,Auvergne-Rhône-Alpes,84,32
+2024-08-12,Auvergne-Rhône-Alpes,84,34
+2024-08-19,Auvergne-Rhône-Alpes,84,26
+2024-08-26,Auvergne-Rhône-Alpes,84,43
+2024-09-02,Auvergne-Rhône-Alpes,84,47
+2024-09-09,Auvergne-Rhône-Alpes,84,37
+2024-09-16,Auvergne-Rhône-Alpes,84,46
+2024-09-23,Auvergne-Rhône-Alpes,84,39
+2024-09-30,Auvergne-Rhône-Alpes,84,49
+2024-10-07,Auvergne-Rhône-Alpes,84,48
+2024-10-14,Auvergne-Rhône-Alpes,84,55
+2024-10-21,Auvergne-Rhône-Alpes,84,61
+2024-10-28,Auvergne-Rhône-Alpes,84,84
+2024-11-04,Auvergne-Rhône-Alpes,84,44
+2024-11-11,Auvergne-Rhône-Alpes,84,59
+2024-11-18,Auvergne-Rhône-Alpes,84,68
+2024-11-25,Auvergne-Rhône-Alpes,84,55
+2024-12-02,Auvergne-Rhône-Alpes,84,92
+2024-12-09,Auvergne-Rhône-Alpes,84,81
+2024-12-16,Auvergne-Rhône-Alpes,84,80
+2024-12-23,Auvergne-Rhône-Alpes,84,79
+2024-12-30,Auvergne-Rhône-Alpes,84,89
+2025-01-06,Auvergne-Rhône-Alpes,84,74
+2025-01-13,Auvergne-Rhône-Alpes,84,96
+2025-01-20,Auvergne-Rhône-Alpes,84,79
+2025-01-27,Auvergne-Rhône-Alpes,84,72
+2025-02-03,Auvergne-Rhône-Alpes,84,99
+2025-02-10,Auvergne-Rhône-Alpes,84,56
+2025-02-17,Auvergne-Rhône-Alpes,84,75
+2025-02-24,Auvergne-Rhône-Alpes,84,71
+2025-03-03,Auvergne-Rhône-Alpes,84,54
+2025-03-10,Auvergne-Rhône-Alpes,84,61
+2025-03-17,Auvergne-Rhône-Alpes,84,68
+2025-03-24,Auvergne-Rhône-Alpes,84,46
+2025-03-31,Auvergne-Rhône-Alpes,84,52
+2025-04-07,Auvergne-Rhône-Alpes,84,50
+2025-04-14,Auvergne-Rhône-Alpes,84,48
+2025-04-21,Auvergne-Rhône-Alpes,84,15
+2025-04-28,Auvergne-Rhône-Alpes,84,31
+2025-05-05,Auvergne-Rhône-Alpes,84,31
+2025-05-12,Auvergne-Rhône-Alpes,84,39
+2025-05-19,Auvergne-Rhône-Alpes,84,30
+2025-05-26,Auvergne-Rhône-Alpes,84,15
+2025-06-02,Auvergne-Rhône-Alpes,84,1
+2025-06-09,Auvergne-Rhône-Alpes,84,22
+2025-06-16,Auvergne-Rhône-Alpes,84,34
+2025-06-23,Auvergne-Rhône-Alpes,84,10
+2025-06-30,Auvergne-Rhône-Alpes,84,16
+2025-07-07,Auvergne-Rhône-Alpes,84,27
+2025-07-14,Auvergne-Rhône-Alpes,84,23
+2025-07-21,Auvergne-Rhône-Alpes,84,37
+2025-07-28,Auvergne-Rhône-Alpes,84,16
+2025-08-04,Auvergne-Rhône-Alpes,84,7
+2025-08-11,Auvergne-Rhône-Alpes,84,37
+2025-08-18,Auvergne-Rhône-Alpes,84,25
+2025-08-25,Auvergne-Rhône-Alpes,84,36
+2025-09-01,Auvergne-Rhône-Alpes,84,27
+2025-09-08,Auvergne-Rhône-Alpes,84,31
+2025-09-15,Auvergne-Rhône-Alpes,84,34
+2025-09-22,Auvergne-Rhône-Alpes,84,42
+2025-09-29,Auvergne-Rhône-Alpes,84,47
+2025-10-06,Auvergne-Rhône-Alpes,84,47
+2025-10-13,Auvergne-Rhône-Alpes,84,67
+2025-10-20,Auvergne-Rhône-Alpes,84,51
+2023-10-23,Nouvelle-Aquitaine,75,65
+2023-10-30,Nouvelle-Aquitaine,75,60
+2023-11-06,Nouvelle-Aquitaine,75,68
+2023-11-13,Nouvelle-Aquitaine,75,82
+2023-11-20,Nouvelle-Aquitaine,75,70
+2023-11-27,Nouvelle-Aquitaine,75,60
+2023-12-04,Nouvelle-Aquitaine,75,65
+2023-12-11,Nouvelle-Aquitaine,75,88
+2023-12-18,Nouvelle-Aquitaine,75,86
+2023-12-25,Nouvelle-Aquitaine,75,83
+2024-01-01,Nouvelle-Aquitaine,75,95
+2024-01-08,Nouvelle-Aquitaine,75,90
+2024-01-15,Nouvelle-Aquitaine,75,79
+2024-01-22,Nouvelle-Aquitaine,75,79
+2024-01-29,Nouvelle-Aquitaine,75,60
+2024-02-05,Nouvelle-Aquitaine,75,84
+2024-02-12,Nouvelle-Aquitaine,75,77
+2024-02-19,Nouvelle-Aquitaine,75,82
+2024-02-26,Nouvelle-Aquitaine,75,73
+2024-03-04,Nouvelle-Aquitaine,75,80
+2024-03-11,Nouvelle-Aquitaine,75,66
+2024-03-18,Nouvelle-Aquitaine,75,71
+2024-03-25,Nouvelle-Aquitaine,75,47
+2024-04-01,Nouvelle-Aquitaine,75,57
+2024-04-08,Nouvelle-Aquitaine,75,63
+2024-04-15,Nouvelle-Aquitaine,75,43
+2024-04-22,Nouvelle-Aquitaine,75,46
+2024-04-29,Nouvelle-Aquitaine,75,23
+2024-05-06,Nouvelle-Aquitaine,75,2
+2024-05-13,Nouvelle-Aquitaine,75,35
+2024-05-20,Nouvelle-Aquitaine,75,44
+2024-05-27,Nouvelle-Aquitaine,75,14
+2024-06-03,Nouvelle-Aquitaine,75,22
+2024-06-10,Nouvelle-Aquitaine,75,23
+2024-06-17,Nouvelle-Aquitaine,75,11
+2024-06-24,Nouvelle-Aquitaine,75,21
+2024-07-01,Nouvelle-Aquitaine,75,34
+2024-07-08,Nouvelle-Aquitaine,75,33
+2024-07-15,Nouvelle-Aquitaine,75,20
+2024-07-22,Nouvelle-Aquitaine,75,27
+2024-07-29,Nouvelle-Aquitaine,75,30
+2024-08-05,Nouvelle-Aquitaine,75,33
+2024-08-12,Nouvelle-Aquitaine,75,45
+2024-08-19,Nouvelle-Aquitaine,75,40
+2024-08-26,Nouvelle-Aquitaine,75,27
+2024-09-02,Nouvelle-Aquitaine,75,22
+2024-09-09,Nouvelle-Aquitaine,75,27
+2024-09-16,Nouvelle-Aquitaine,75,37
+2024-09-23,Nouvelle-Aquitaine,75,56
+2024-09-30,Nouvelle-Aquitaine,75,50
+2024-10-07,Nouvelle-Aquitaine,75,30
+2024-10-14,Nouvelle-Aquitaine,75,61
+2024-10-21,Nouvelle-Aquitaine,75,70
+2024-10-28,Nouvelle-Aquitaine,75,71
+2024-11-04,Nouvelle-Aquitaine,75,73
+2024-11-11,Nouvelle-Aquitaine,75,65
+2024-11-18,Nouvelle-Aquitaine,75,84
+2024-11-25,Nouvelle-Aquitaine,75,68
+2024-12-02,Nouvelle-Aquitaine,75,64
+2024-12-09,Nouvelle-Aquitaine,75,79
+2024-12-16,Nouvelle-Aquitaine,75,62
+2024-12-23,Nouvelle-Aquitaine,75,87
+2024-12-30,Nouvelle-Aquitaine,75,88
+2025-01-06,Nouvelle-Aquitaine,75,77
+2025-01-13,Nouvelle-Aquitaine,75,109
+2025-01-20,Nouvelle-Aquitaine,75,73
+2025-01-27,Nouvelle-Aquitaine,75,81
+2025-02-03,Nouvelle-Aquitaine,75,82
+2025-02-10,Nouvelle-Aquitaine,75,52
+2025-02-17,Nouvelle-Aquitaine,75,56
+2025-02-24,Nouvelle-Aquitaine,75,61
+2025-03-03,Nouvelle-Aquitaine,75,49
+2025-03-10,Nouvelle-Aquitaine,75,59
+2025-03-17,Nouvelle-Aquitaine,75,48
+2025-03-24,Nouvelle-Aquitaine,75,42
+2025-03-31,Nouvelle-Aquitaine,75,41
+2025-04-07,Nouvelle-Aquitaine,75,38
+2025-04-14,Nouvelle-Aquitaine,75,41
+2025-04-21,Nouvelle-Aquitaine,75,30
+2025-04-28,Nouvelle-Aquitaine,75,46
+2025-05-05,Nouvelle-Aquitaine,75,19
+2025-05-12,Nouvelle-Aquitaine,75,35
+2025-05-19,Nouvelle-Aquitaine,75,9
+2025-05-26,Nouvelle-Aquitaine,75,27
+2025-06-02,Nouvelle-Aquitaine,75,18
+2025-06-09,Nouvelle-Aquitaine,75,6
+2025-06-16,Nouvelle-Aquitaine,75,24
+2025-06-23,Nouvelle-Aquitaine,75,20
+2025-06-30,Nouvelle-Aquitaine,75,23
+2025-07-07,Nouvelle-Aquitaine,75,18
+2025-07-14,Nouvelle-Aquitaine,75,12
+2025-07-21,Nouvelle-Aquitaine,75,11
+2025-07-28,Nouvelle-Aquitaine,75,15
+2025-08-04,Nouvelle-Aquitaine,75,22
+2025-08-11,Nouvelle-Aquitaine,75,27
+2025-08-18,Nouvelle-Aquitaine,75,39
+2025-08-25,Nouvelle-Aquitaine,75,36
+2025-09-01,Nouvelle-Aquitaine,75,46
+2025-09-08,Nouvelle-Aquitaine,75,27
+2025-09-15,Nouvelle-Aquitaine,75,46
+2025-09-22,Nouvelle-Aquitaine,75,45
+2025-09-29,Nouvelle-Aquitaine,75,59
+2025-10-06,Nouvelle-Aquitaine,75,29
+2025-10-13,Nouvelle-Aquitaine,75,47
+2025-10-20,Nouvelle-Aquitaine,75,50
+2023-10-23,Occitanie,76,57
+2023-10-30,Occitanie,76,61
+2023-11-06,Occitanie,76,78
+2023-11-13,Occitanie,76,64
+2023-11-20,Occitanie,76,64
+2023-11-27,Occitanie,76,89
+2023-12-04,Occitanie,76,62
+2023-12-11,Occitanie,76,86
+2023-12-18,Occitanie,76,82
+2023-12-25,Occitanie,76,63
+2024-01-01,Occitanie,76,55
+2024-01-08,Occitanie,76,88
+2024-01-15,Occitanie,76,71
+2024-01-22,Occitanie,76,80
+2024-01-29,Occitanie,76,85
+2024-02-05,Occitanie,76,84
+2024-02-12,Occitanie,76,66
+2024-02-19,Occitanie,76,71
+2024-02-26,Occitanie,76,72
+2024-03-04,Occitanie,76,58
+2024-03-11,Occitanie,76,49
+2024-03-18,Occitanie,76,56
+2024-03-25,Occitanie,76,51
+2024-04-01,Occitanie,76,50
+2024-04-08,Occitanie,76,32
+2024-04-15,Occitanie,76,44
+2024-04-22,Occitanie,76,21
+2024-04-29,Occitanie,76,55
+2024-05-06,Occitanie,76,35
+2024-05-13,Occitanie,76,37
+2024-05-20,Occitanie,76,36
+2024-05-27,Occitanie,76,20
+2024-06-03,Occitanie,76,24
+2024-06-10,Occitanie,76,4
+2024-06-17,Occitanie,76,20
+2024-06-24,Occitanie,76,8
+2024-07-01,Occitanie,76,20
+2024-07-08,Occitanie,76,18
+2024-07-15,Occitanie,76,30
+2024-07-22,Occitanie,76,11
+2024-07-29,Occitanie,76,18
+2024-08-05,Occitanie,76,42
+2024-08-12,Occitanie,76,27
+2024-08-19,Occitanie,76,22
+2024-08-26,Occitanie,76,33
+2024-09-02,Occitanie,76,34
+2024-09-09,Occitanie,76,40
+2024-09-16,Occitanie,76,34
+2024-09-23,Occitanie,76,51
+2024-09-30,Occitanie,76,48
+2024-10-07,Occitanie,76,49
+2024-10-14,Occitanie,76,67
+2024-10-21,Occitanie,76,58
+2024-10-28,Occitanie,76,43
+2024-11-04,Occitanie,76,74
+2024-11-11,Occitanie,76,79
+2024-11-18,Occitanie,76,91
+2024-11-25,Occitanie,76,67
+2024-12-02,Occitanie,76,69
+2024-12-09,Occitanie,76,67
+2024-12-16,Occitanie,76,89
+2024-12-23,Occitanie,76,84
+2024-12-30,Occitanie,76,85
+2025-01-06,Occitanie,76,85
+2025-01-13,Occitanie,76,75
+2025-01-20,Occitanie,76,86
+2025-01-27,Occitanie,76,58
+2025-02-03,Occitanie,76,91
+2025-02-10,Occitanie,76,64
+2025-02-17,Occitanie,76,82
+2025-02-24,Occitanie,76,79
+2025-03-03,Occitanie,76,67
+2025-03-10,Occitanie,76,53
+2025-03-17,Occitanie,76,46
+2025-03-24,Occitanie,76,66
+2025-03-31,Occitanie,76,56
+2025-04-07,Occitanie,76,49
+2025-04-14,Occitanie,76,40
+2025-04-21,Occitanie,76,41
+2025-04-28,Occitanie,76,26
+2025-05-05,Occitanie,76,26
+2025-05-12,Occitanie,76,45
+2025-05-19,Occitanie,76,25
+2025-05-26,Occitanie,76,22
+2025-06-02,Occitanie,76,11
+2025-06-09,Occitanie,76,11
+2025-06-16,Occitanie,76,28
+2025-06-23,Occitanie,76,28
+2025-06-30,Occitanie,76,32
+2025-07-07,Occitanie,76,37
+2025-07-14,Occitanie,76,26
+2025-07-21,Occitanie,76,27
+2025-07-28,Occitanie,76,21
+2025-08-04,Occitanie,76,42
+2025-08-11,Occitanie,76,45
+2025-08-18,Occitanie,76,47
+2025-08-25,Occitanie,76,24
+2025-09-01,Occitanie,76,51
+2025-09-08,Occitanie,76,58
+2025-09-15,Occitanie,76,33
+2025-09-22,Occitanie,76,43
+2025-09-29,Occitanie,76,55
+2025-10-06,Occitanie,76,65
+2025-10-13,Occitanie,76,67
+2025-10-20,Occitanie,76,67
+2023-10-23,Hauts-de-France,32,55
+2023-10-30,Hauts-de-France,32,76
+2023-11-06,Hauts-de-France,32,61
+2023-11-13,Hauts-de-France,32,64
+2023-11-20,Hauts-de-France,32,73
+2023-11-27,Hauts-de-France,32,65
+2023-12-04,Hauts-de-France,32,85
+2023-12-11,Hauts-de-France,32,81
+2023-12-18,Hauts-de-France,32,85
+2023-12-25,Hauts-de-France,32,67
+2024-01-01,Hauts-de-France,32,80
+2024-01-08,Hauts-de-France,32,70
+2024-01-15,Hauts-de-France,32,77
+2024-01-22,Hauts-de-France,32,85
+2024-01-29,Hauts-de-France,32,81
+2024-02-05,Hauts-de-France,32,76
+2024-02-12,Hauts-de-France,32,97
+2024-02-19,Hauts-de-France,32,62
+2024-02-26,Hauts-de-France,32,65
+2024-03-04,Hauts-de-France,32,57
+2024-03-11,Hauts-de-France,32,65
+2024-03-18,Hauts-de-France,32,41
+2024-03-25,Hauts-de-France,32,40
+2024-04-01,Hauts-de-France,32,34
+2024-04-08,Hauts-de-France,32,34
+2024-04-15,Hauts-de-France,32,54
+2024-04-22,Hauts-de-France,32,31
+2024-04-29,Hauts-de-France,32,38
+2024-05-06,Hauts-de-France,32,34
+2024-05-13,Hauts-de-France,32,46
+2024-05-20,Hauts-de-France,32,40
+2024-05-27,Hauts-de-France,32,27
+2024-06-03,Hauts-de-France,32,27
+2024-06-10,Hauts-de-France,32,4
+2024-06-17,Hauts-de-France,32,8
+2024-06-24,Hauts-de-France,32,17
+2024-07-01,Hauts-de-France,32,36
+2024-07-08,Hauts-de-France,32,19
+2024-07-15,Hauts-de-France,32,12
+2024-07-22,Hauts-de-France,32,35
+2024-07-29,Hauts-de-France,32,38
+2024-08-05,Hauts-de-France,32,28
+2024-08-12,Hauts-de-France,32,42
+2024-08-19,Hauts-de-France,32,23
+2024-08-26,Hauts-de-France,32,26
+2024-09-02,Hauts-de-France,32,35
+2024-09-09,Hauts-de-France,32,28
+2024-09-16,Hauts-de-France,32,41
+2024-09-23,Hauts-de-France,32,43
+2024-09-30,Hauts-de-France,32,43
+2024-10-07,Hauts-de-France,32,39
+2024-10-14,Hauts-de-France,32,61
+2024-10-21,Hauts-de-France,32,58
+2024-10-28,Hauts-de-France,32,53
+2024-11-04,Hauts-de-France,32,96
+2024-11-11,Hauts-de-France,32,66
+2024-11-18,Hauts-de-France,32,58
+2024-11-25,Hauts-de-France,32,80
+2024-12-02,Hauts-de-France,32,69
+2024-12-09,Hauts-de-France,32,58
+2024-12-16,Hauts-de-France,32,63
+2024-12-23,Hauts-de-France,32,79
+2024-12-30,Hauts-de-France,32,91
+2025-01-06,Hauts-de-France,32,69
+2025-01-13,Hauts-de-France,32,92
+2025-01-20,Hauts-de-France,32,70
+2025-01-27,Hauts-de-France,32,96
+2025-02-03,Hauts-de-France,32,70
+2025-02-10,Hauts-de-France,32,69
+2025-02-17,Hauts-de-France,32,63
+2025-02-24,Hauts-de-France,32,68
+2025-03-03,Hauts-de-France,32,69
+2025-03-10,Hauts-de-France,32,52
+2025-03-17,Hauts-de-France,32,53
+2025-03-24,Hauts-de-France,32,47
+2025-03-31,Hauts-de-France,32,49
+2025-04-07,Hauts-de-France,32,50
+2025-04-14,Hauts-de-France,32,30
+2025-04-21,Hauts-de-France,32,38
+2025-04-28,Hauts-de-France,32,52
+2025-05-05,Hauts-de-France,32,41
+2025-05-12,Hauts-de-France,32,35
+2025-05-19,Hauts-de-France,32,34
+2025-05-26,Hauts-de-France,32,38
+2025-06-02,Hauts-de-France,32,52
+2025-06-09,Hauts-de-France,32,16
+2025-06-16,Hauts-de-France,32,23
+2025-06-23,Hauts-de-France,32,12
+2025-06-30,Hauts-de-France,32,27
+2025-07-07,Hauts-de-France,32,13
+2025-07-14,Hauts-de-France,32,23
+2025-07-21,Hauts-de-France,32,20
+2025-07-28,Hauts-de-France,32,17
+2025-08-04,Hauts-de-France,32,32
+2025-08-11,Hauts-de-France,32,26
+2025-08-18,Hauts-de-France,32,24
+2025-08-25,Hauts-de-France,32,40
+2025-09-01,Hauts-de-France,32,35
+2025-09-08,Hauts-de-France,32,31
+2025-09-15,Hauts-de-France,32,55
+2025-09-22,Hauts-de-France,32,40
+2025-09-29,Hauts-de-France,32,55
+2025-10-06,Hauts-de-France,32,59
+2025-10-13,Hauts-de-France,32,51
+2025-10-20,Hauts-de-France,32,68
+2023-10-23,Grand Est,44,50
+2023-10-30,Grand Est,44,76
+2023-11-06,Grand Est,44,59
+2023-11-13,Grand Est,44,58
+2023-11-20,Grand Est,44,83
+2023-11-27,Grand Est,44,66
+2023-12-04,Grand Est,44,66
+2023-12-11,Grand Est,44,79
+2023-12-18,Grand Est,44,80
+2023-12-25,Grand Est,44,74
+2024-01-01,Grand Est,44,77
+2024-01-08,Grand Est,44,83
+2024-01-15,Grand Est,44,81
+2024-01-22,Grand Est,44,76
+2024-01-29,Grand Est,44,99
+2024-02-05,Grand Est,44,75
+2024-02-12,Grand Est,44,76
+2024-02-19,Grand Est,44,71
+2024-02-26,Grand Est,44,78
+2024-03-04,Grand Est,44,66
+2024-03-11,Grand Est,44,56
+2024-03-18,Grand Est,44,41
+2024-03-25,Grand Est,44,45
+2024-04-01,Grand Est,44,52
+2024-04-08,Grand Est,44,31
+2024-04-15,Grand Est,44,39
+2024-04-22,Grand Est,44,55
+2024-04-29,Grand Est,44,31
+2024-05-06,Grand Est,44,42
+2024-05-13,Grand Est,44,32
+2024-05-20,Grand Est,44,32
+2024-05-27,Grand Est,44,23
+2024-06-03,Grand Est,44,17
+2024-06-10,Grand Est,44,28
+2024-06-17,Grand Est,44,24
+2024-06-24,Grand Est,44,1
+2024-07-01,Grand Est,44,1
+2024-07-08,Grand Est,44,14
+2024-07-15,Grand Est,44,28
+2024-07-22,Grand Est,44,24
+2024-07-29,Grand Est,44,40
+2024-08-05,Grand Est,44,17
+2024-08-12,Grand Est,44,23
+2024-08-19,Grand Est,44,19
+2024-08-26,Grand Est,44,37
+2024-09-02,Grand Est,44,46
+2024-09-09,Grand Est,44,34
+2024-09-16,Grand Est,44,66
+2024-09-23,Grand Est,44,40
+2024-09-30,Grand Est,44,49
+2024-10-07,Grand Est,44,64
+2024-10-14,Grand Est,44,55
+2024-10-21,Grand Est,44,58
+2024-10-28,Grand Est,44,79
+2024-11-04,Grand Est,44,65
+2024-11-11,Grand Est,44,71
+2024-11-18,Grand Est,44,81
+2024-11-25,Grand Est,44,78
+2024-12-02,Grand Est,44,79
+2024-12-09,Grand Est,44,76
+2024-12-16,Grand Est,44,86
+2024-12-23,Grand Est,44,69
+2024-12-30,Grand Est,44,70
+2025-01-06,Grand Est,44,76
+2025-01-13,Grand Est,44,90
+2025-01-20,Grand Est,44,88
+2025-01-27,Grand Est,44,75
+2025-02-03,Grand Est,44,80
+2025-02-10,Grand Est,44,74
+2025-02-17,Grand Est,44,68
+2025-02-24,Grand Est,44,89
+2025-03-03,Grand Est,44,73
+2025-03-10,Grand Est,44,70
+2025-03-17,Grand Est,44,60
+2025-03-24,Grand Est,44,50
+2025-03-31,Grand Est,44,41
+2025-04-07,Grand Est,44,53
+2025-04-14,Grand Est,44,49
+2025-04-21,Grand Est,44,39
+2025-04-28,Grand Est,44,38
+2025-05-05,Grand Est,44,34
+2025-05-12,Grand Est,44,46
+2025-05-19,Grand Est,44,33
+2025-05-26,Grand Est,44,21
+2025-06-02,Grand Est,44,30
+2025-06-09,Grand Est,44,12
+2025-06-16,Grand Est,44,9
+2025-06-23,Grand Est,44,22
+2025-06-30,Grand Est,44,3
+2025-07-07,Grand Est,44,16
+2025-07-14,Grand Est,44,1
+2025-07-21,Grand Est,44,25
+2025-07-28,Grand Est,44,17
+2025-08-04,Grand Est,44,4
+2025-08-11,Grand Est,44,29
+2025-08-18,Grand Est,44,46
+2025-08-25,Grand Est,44,33
+2025-09-01,Grand Est,44,25
+2025-09-08,Grand Est,44,24
+2025-09-15,Grand Est,44,47
+2025-09-22,Grand Est,44,54
+2025-09-29,Grand Est,44,69
+2025-10-06,Grand Est,44,39
+2025-10-13,Grand Est,44,41
+2025-10-20,Grand Est,44,61
+2023-10-23,Pays de la Loire,52,78
+2023-10-30,Pays de la Loire,52,56
+2023-11-06,Pays de la Loire,52,65
+2023-11-13,Pays de la Loire,52,84
+2023-11-20,Pays de la Loire,52,76
+2023-11-27,Pays de la Loire,52,72
+2023-12-04,Pays de la Loire,52,81
+2023-12-11,Pays de la Loire,52,80
+2023-12-18,Pays de la Loire,52,89
+2023-12-25,Pays de la Loire,52,85
+2024-01-01,Pays de la Loire,52,73
+2024-01-08,Pays de la Loire,52,88
+2024-01-15,Pays de la Loire,52,87
+2024-01-22,Pays de la Loire,52,77
+2024-01-29,Pays de la Loire,52,84
+2024-02-05,Pays de la Loire,52,79
+2024-02-12,Pays de la Loire,52,77
+2024-02-19,Pays de la Loire,52,47
+2024-02-26,Pays de la Loire,52,62
+2024-03-04,Pays de la Loire,52,53
+2024-03-11,Pays de la Loire,52,68
+2024-03-18,Pays de la Loire,52,60
+2024-03-25,Pays de la Loire,52,43
+2024-04-01,Pays de la Loire,52,33
+2024-04-08,Pays de la Loire,52,43
+2024-04-15,Pays de la Loire,52,42
+2024-04-22,Pays de la Loire,52,28
+2024-04-29,Pays de la Loire,52,22
+2024-05-06,Pays de la Loire,52,33
+2024-05-13,Pays de la Loire,52,41
+2024-05-20,Pays de la Loire,52,18
+2024-05-27,Pays de la Loire,52,28
+2024-06-03,Pays de la Loire,52,18
+2024-06-10,Pays de la Loire,52,14
+2024-06-17,Pays de la Loire,52,23
+2024-06-24,Pays de la Loire,52,14
+2024-07-01,Pays de la Loire,52,23
+2024-07-08,Pays de la Loire,52,27
+2024-07-15,Pays de la Loire,52,32
+2024-07-22,Pays de la Loire,52,13
+2024-07-29,Pays de la Loire,52,41
+2024-08-05,Pays de la Loire,52,15
+2024-08-12,Pays de la Loire,52,33
+2024-08-19,Pays de la Loire,52,34
+2024-08-26,Pays de la Loire,52,23
+2024-09-02,Pays de la Loire,52,13
+2024-09-09,Pays de la Loire,52,37
+2024-09-16,Pays de la Loire,52,38
+2024-09-23,Pays de la Loire,52,26
+2024-09-30,Pays de la Loire,52,53
+2024-10-07,Pays de la Loire,52,54
+2024-10-14,Pays de la Loire,52,73
+2024-10-21,Pays de la Loire,52,50
+2024-10-28,Pays de la Loire,52,44
+2024-11-04,Pays de la Loire,52,77
+2024-11-11,Pays de la Loire,52,63
+2024-11-18,Pays de la Loire,52,97
+2024-11-25,Pays de la Loire,52,53
+2024-12-02,Pays de la Loire,52,85
+2024-12-09,Pays de la Loire,52,82
+2024-12-16,Pays de la Loire,52,74
+2024-12-23,Pays de la Loire,52,84
+2024-12-30,Pays de la Loire,52,62
+2025-01-06,Pays de la Loire,52,105
+2025-01-13,Pays de la Loire,52,87
+2025-01-20,Pays de la Loire,52,76
+2025-01-27,Pays de la Loire,52,90
+2025-02-03,Pays de la Loire,52,85
+2025-02-10,Pays de la Loire,52,84
+2025-02-17,Pays de la Loire,52,63
+2025-02-24,Pays de la Loire,52,54
+2025-03-03,Pays de la Loire,52,56
+2025-03-10,Pays de la Loire,52,62
+2025-03-17,Pays de la Loire,52,49
+2025-03-24,Pays de la Loire,52,63
+2025-03-31,Pays de la Loire,52,72
+2025-04-07,Pays de la Loire,52,43
+2025-04-14,Pays de la Loire,52,41
+2025-04-21,Pays de la Loire,52,35
+2025-04-28,Pays de la Loire,52,43
+2025-05-05,Pays de la Loire,52,35
+2025-05-12,Pays de la Loire,52,31
+2025-05-19,Pays de la Loire,52,15
+2025-05-26,Pays de la Loire,52,24
+2025-06-02,Pays de la Loire,52,19
+2025-06-09,Pays de la Loire,52,17
+2025-06-16,Pays de la Loire,52,36
+2025-06-23,Pays de la Loire,52,16
+2025-06-30,Pays de la Loire,52,17
+2025-07-07,Pays de la Loire,52,21
+2025-07-14,Pays de la Loire,52,24
+2025-07-21,Pays de la Loire,52,38
+2025-07-28,Pays de la Loire,52,12
+2025-08-04,Pays de la Loire,52,15
+2025-08-11,Pays de la Loire,52,36
+2025-08-18,Pays de la Loire,52,27
+2025-08-25,Pays de la Loire,52,36
+2025-09-01,Pays de la Loire,52,34
+2025-09-08,Pays de la Loire,52,19
+2025-09-15,Pays de la Loire,52,40
+2025-09-22,Pays de la Loire,52,58
+2025-09-29,Pays de la Loire,52,53
+2025-10-06,Pays de la Loire,52,37
+2025-10-13,Pays de la Loire,52,60
+2025-10-20,Pays de la Loire,52,53
+2023-10-23,Bretagne,53,62
+2023-10-30,Bretagne,53,57
+2023-11-06,Bretagne,53,78
+2023-11-13,Bretagne,53,86
+2023-11-20,Bretagne,53,78
+2023-11-27,Bretagne,53,66
+2023-12-04,Bretagne,53,73
+2023-12-11,Bretagne,53,78
+2023-12-18,Bretagne,53,77
+2023-12-25,Bretagne,53,84
+2024-01-01,Bretagne,53,80
+2024-01-08,Bretagne,53,78
+2024-01-15,Bretagne,53,96
+2024-01-22,Bretagne,53,88
+2024-01-29,Bretagne,53,74
+2024-02-05,Bretagne,53,71
+2024-02-12,Bretagne,53,58
+2024-02-19,Bretagne,53,81
+2024-02-26,Bretagne,53,69
+2024-03-04,Bretagne,53,60
+2024-03-11,Bretagne,53,56
+2024-03-18,Bretagne,53,40
+2024-03-25,Bretagne,53,44
+2024-04-01,Bretagne,53,60
+2024-04-08,Bretagne,53,60
+2024-04-15,Bretagne,53,35
+2024-04-22,Bretagne,53,33
+2024-04-29,Bretagne,53,40
+2024-05-06,Bretagne,53,35
+2024-05-13,Bretagne,53,28
+2024-05-20,Bretagne,53,15
+2024-05-27,Bretagne,53,38
+2024-06-03,Bretagne,53,5
+2024-06-10,Bretagne,53,7
+2024-06-17,Bretagne,53,26
+2024-06-24,Bretagne,53,23
+2024-07-01,Bretagne,53,24
+2024-07-08,Bretagne,53,18
+2024-07-15,Bretagne,53,28
+2024-07-22,Bretagne,53,6
+2024-07-29,Bretagne,53,23
+2024-08-05,Bretagne,53,15
+2024-08-12,Bretagne,53,20
+2024-08-19,Bretagne,53,19
+2024-08-26,Bretagne,53,53
+2024-09-02,Bretagne,53,36
+2024-09-09,Bretagne,53,29
+2024-09-16,Bretagne,53,44
+2024-09-23,Bretagne,53,50
+2024-09-30,Bretagne,53,37
+2024-10-07,Bretagne,53,47
+2024-10-14,Bretagne,53,54
+2024-10-21,Bretagne,53,67
+2024-10-28,Bretagne,53,44
+2024-11-04,Bretagne,53,75
+2024-11-11,Bretagne,53,66
+2024-11-18,Bretagne,53,70
+2024-11-25,Bretagne,53,64
+2024-12-02,Bretagne,53,95
+2024-12-09,Bretagne,53,65
+2024-12-16,Bretagne,53,75
+2024-12-23,Bretagne,53,75
+2024-12-30,Bretagne,53,87
+2025-01-06,Bretagne,53,70
+2025-01-13,Bretagne,53,73
+2025-01-20,Bretagne,53,85
+2025-01-27,Bretagne,53,63
+2025-02-03,Bretagne,53,72
+2025-02-10,Bretagne,53,66
+2025-02-17,Bretagne,53,71
+2025-02-24,Bretagne,53,64
+2025-03-03,Bretagne,53,63
+2025-03-10,Bretagne,53,65
+2025-03-17,Bretagne,53,62
+2025-03-24,Bretagne,53,68
+2025-03-31,Bretagne,53,48
+2025-04-07,Bretagne,53,47
+2025-04-14,Bretagne,53,41
+2025-04-21,Bretagne,53,35
+2025-04-28,Bretagne,53,12
+2025-05-05,Bretagne,53,33
+2025-05-12,Bretagne,53,39
+2025-05-19,Bretagne,53,35
+2025-05-26,Bretagne,53,38
+2025-06-02,Bretagne,53,10
+2025-06-09,Bretagne,53,26
+2025-06-16,Bretagne,53,4
+2025-06-23,Bretagne,53,25
+2025-06-30,Bretagne,53,36
+2025-07-07,Bretagne,53,6
+2025-07-14,Bretagne,53,31
+2025-07-21,Bretagne,53,19
+2025-07-28,Bretagne,53,36
+2025-08-04,Bretagne,53,8
+2025-08-11,Bretagne,53,17
+2025-08-18,Bretagne,53,40
+2025-08-25,Bretagne,53,21
+2025-09-01,Bretagne,53,40
+2025-09-08,Bretagne,53,24
+2025-09-15,Bretagne,53,45
+2025-09-22,Bretagne,53,47
+2025-09-29,Bretagne,53,36
+2025-10-06,Bretagne,53,34
+2025-10-13,Bretagne,53,64
+2025-10-20,Bretagne,53,63
+2023-10-23,Normandie,28,52
+2023-10-30,Normandie,28,62
+2023-11-06,Normandie,28,56
+2023-11-13,Normandie,28,73
+2023-11-20,Normandie,28,78
+2023-11-27,Normandie,28,77
+2023-12-04,Normandie,28,88
+2023-12-11,Normandie,28,66
+2023-12-18,Normandie,28,81
+2023-12-25,Normandie,28,72
+2024-01-01,Normandie,28,68
+2024-01-08,Normandie,28,83
+2024-01-15,Normandie,28,85
+2024-01-22,Normandie,28,84
+2024-01-29,Normandie,28,79
+2024-02-05,Normandie,28,68
+2024-02-12,Normandie,28,67
+2024-02-19,Normandie,28,65
+2024-02-26,Normandie,28,59
+2024-03-04,Normandie,28,70
+2024-03-11,Normandie,28,65
+2024-03-18,Normandie,28,56
+2024-03-25,Normandie,28,63
+2024-04-01,Normandie,28,51
+2024-04-08,Normandie,28,56
+2024-04-15,Normandie,28,33
+2024-04-22,Normandie,28,45
+2024-04-29,Normandie,28,30
+2024-05-06,Normandie,28,35
+2024-05-13,Normandie,28,38
+2024-05-20,Normandie,28,29
+2024-05-27,Normandie,28,22
+2024-06-03,Normandie,28,7
+2024-06-10,Normandie,28,22
+2024-06-17,Normandie,28,31
+2024-06-24,Normandie,28,27
+2024-07-01,Normandie,28,7
+2024-07-08,Normandie,28,32
+2024-07-15,Normandie,28,18
+2024-07-22,Normandie,28,17
+2024-07-29,Normandie,28,19
+2024-08-05,Normandie,28,18
+2024-08-12,Normandie,28,21
+2024-08-19,Normandie,28,23
+2024-08-26,Normandie,28,30
+2024-09-02,Normandie,28,28
+2024-09-09,Normandie,28,36
+2024-09-16,Normandie,28,45
+2024-09-23,Normandie,28,33
+2024-09-30,Normandie,28,49
+2024-10-07,Normandie,28,60
+2024-10-14,Normandie,28,61
+2024-10-21,Normandie,28,60
+2024-10-28,Normandie,28,76
+2024-11-04,Normandie,28,70
+2024-11-11,Normandie,28,60
+2024-11-18,Normandie,28,70
+2024-11-25,Normandie,28,83
+2024-12-02,Normandie,28,60
+2024-12-09,Normandie,28,95
+2024-12-16,Normandie,28,91
+2024-12-23,Normandie,28,65
+2024-12-30,Normandie,28,84
+2025-01-06,Normandie,28,86
+2025-01-13,Normandie,28,81
+2025-01-20,Normandie,28,95
+2025-01-27,Normandie,28,74
+2025-02-03,Normandie,28,84
+2025-02-10,Normandie,28,71
+2025-02-17,Normandie,28,75
+2025-02-24,Normandie,28,35
+2025-03-03,Normandie,28,61
+2025-03-10,Normandie,28,66
+2025-03-17,Normandie,28,67
+2025-03-24,Normandie,28,55
+2025-03-31,Normandie,28,32
+2025-04-07,Normandie,28,48
+2025-04-14,Normandie,28,49
+2025-04-21,Normandie,28,40
+2025-04-28,Normandie,28,55
+2025-05-05,Normandie,28,30
+2025-05-12,Normandie,28,26
+2025-05-19,Normandie,28,41
+2025-05-26,Normandie,28,16
+2025-06-02,Normandie,28,36
+2025-06-09,Normandie,28,36
+2025-06-16,Normandie,28,40
+2025-06-23,Normandie,28,24
+2025-06-30,Normandie,28,29
+2025-07-07,Normandie,28,11
+2025-07-14,Normandie,28,4
+2025-07-21,Normandie,28,12
+2025-07-28,Normandie,28,0
+2025-08-04,Normandie,28,32
+2025-08-11,Normandie,28,33
+2025-08-18,Normandie,28,19
+2025-08-25,Normandie,28,29
+2025-09-01,Normandie,28,40
+2025-09-08,Normandie,28,58
+2025-09-15,Normandie,28,54
+2025-09-22,Normandie,28,53
+2025-09-29,Normandie,28,50
+2025-10-06,Normandie,28,39
+2025-10-13,Normandie,28,41
+2025-10-20,Normandie,28,51
+2023-10-23,Centre-Val de Loire,24,66
+2023-10-30,Centre-Val de Loire,24,73
+2023-11-06,Centre-Val de Loire,24,64
+2023-11-13,Centre-Val de Loire,24,59
+2023-11-20,Centre-Val de Loire,24,74
+2023-11-27,Centre-Val de Loire,24,80
+2023-12-04,Centre-Val de Loire,24,91
+2023-12-11,Centre-Val de Loire,24,71
+2023-12-18,Centre-Val de Loire,24,70
+2023-12-25,Centre-Val de Loire,24,100
+2024-01-01,Centre-Val de Loire,24,87
+2024-01-08,Centre-Val de Loire,24,67
+2024-01-15,Centre-Val de Loire,24,71
+2024-01-22,Centre-Val de Loire,24,74
+2024-01-29,Centre-Val de Loire,24,71
+2024-02-05,Centre-Val de Loire,24,68
+2024-02-12,Centre-Val de Loire,24,74
+2024-02-19,Centre-Val de Loire,24,76
+2024-02-26,Centre-Val de Loire,24,63
+2024-03-04,Centre-Val de Loire,24,65
+2024-03-11,Centre-Val de Loire,24,62
+2024-03-18,Centre-Val de Loire,24,71
+2024-03-25,Centre-Val de Loire,24,42
+2024-04-01,Centre-Val de Loire,24,50
+2024-04-08,Centre-Val de Loire,24,50
+2024-04-15,Centre-Val de Loire,24,39
+2024-04-22,Centre-Val de Loire,24,53
+2024-04-29,Centre-Val de Loire,24,43
+2024-05-06,Centre-Val de Loire,24,46
+2024-05-13,Centre-Val de Loire,24,39
+2024-05-20,Centre-Val de Loire,24,21
+2024-05-27,Centre-Val de Loire,24,27
+2024-06-03,Centre-Val de Loire,24,37
+2024-06-10,Centre-Val de Loire,24,33
+2024-06-17,Centre-Val de Loire,24,11
+2024-06-24,Centre-Val de Loire,24,24
+2024-07-01,Centre-Val de Loire,24,42
+2024-07-08,Centre-Val de Loire,24,28
+2024-07-15,Centre-Val de Loire,24,17
+2024-07-22,Centre-Val de Loire,24,25
+2024-07-29,Centre-Val de Loire,24,25
+2024-08-05,Centre-Val de Loire,24,23
+2024-08-12,Centre-Val de Loire,24,35
+2024-08-19,Centre-Val de Loire,24,27
+2024-08-26,Centre-Val de Loire,24,32
+2024-09-02,Centre-Val de Loire,24,41
+2024-09-09,Centre-Val de Loire,24,25
+2024-09-16,Centre-Val de Loire,24,65
+2024-09-23,Centre-Val de Loire,24,52
+2024-09-30,Centre-Val de Loire,24,37
+2024-10-07,Centre-Val de Loire,24,50
+2024-10-14,Centre-Val de Loire,24,59
+2024-10-21,Centre-Val de Loire,24,67
+2024-10-28,Centre-Val de Loire,24,52
+2024-11-04,Centre-Val de Loire,24,69
+2024-11-11,Centre-Val de Loire,24,69
+2024-11-18,Centre-Val de Loire,24,75
+2024-11-25,Centre-Val de Loire,24,83
+2024-12-02,Centre-Val de Loire,24,65
+2024-12-09,Centre-Val de Loire,24,97
+2024-12-16,Centre-Val de Loire,24,79
+2024-12-23,Centre-Val de Loire,24,65
+2024-12-30,Centre-Val de Loire,24,95
+2025-01-06,Centre-Val de Loire,24,57
+2025-01-13,Centre-Val de Loire,24,76
+2025-01-20,Centre-Val de Loire,24,87
+2025-01-27,Centre-Val de Loire,24,67
+2025-02-03,Centre-Val de Loire,24,70
+2025-02-10,Centre-Val de Loire,24,68
+2025-02-17,Centre-Val de Loire,24,83
+2025-02-24,Centre-Val de Loire,24,65
+2025-03-03,Centre-Val de Loire,24,54
+2025-03-10,Centre-Val de Loire,24,62
+2025-03-17,Centre-Val de Loire,24,64
+2025-03-24,Centre-Val de Loire,24,42
+2025-03-31,Centre-Val de Loire,24,66
+2025-04-07,Centre-Val de Loire,24,59
+2025-04-14,Centre-Val de Loire,24,57
+2025-04-21,Centre-Val de Loire,24,29
+2025-04-28,Centre-Val de Loire,24,29
+2025-05-05,Centre-Val de Loire,24,32
+2025-05-12,Centre-Val de Loire,24,30
+2025-05-19,Centre-Val de Loire,24,30
+2025-05-26,Centre-Val de Loire,24,26
+2025-06-02,Centre-Val de Loire,24,29
+2025-06-09,Centre-Val de Loire,24,12
+2025-06-16,Centre-Val de Loire,24,28
+2025-06-23,Centre-Val de Loire,24,13
+2025-06-30,Centre-Val de Loire,24,7
+2025-07-07,Centre-Val de Loire,24,8
+2025-07-14,Centre-Val de Loire,24,15
+2025-07-21,Centre-Val de Loire,24,39
+2025-07-28,Centre-Val de Loire,24,27
+2025-08-04,Centre-Val de Loire,24,40
+2025-08-11,Centre-Val de Loire,24,28
+2025-08-18,Centre-Val de Loire,24,32
+2025-08-25,Centre-Val de Loire,24,35
+2025-09-01,Centre-Val de Loire,24,41
+2025-09-08,Centre-Val de Loire,24,51
+2025-09-15,Centre-Val de Loire,24,46
+2025-09-22,Centre-Val de Loire,24,23
+2025-09-29,Centre-Val de Loire,24,57
+2025-10-06,Centre-Val de Loire,24,30
+2025-10-13,Centre-Val de Loire,24,76
+2025-10-20,Centre-Val de Loire,24,52
+2023-10-23,Bourgogne-Franche-Comté,27,63
+2023-10-30,Bourgogne-Franche-Comté,27,58
+2023-11-06,Bourgogne-Franche-Comté,27,75
+2023-11-13,Bourgogne-Franche-Comté,27,79
+2023-11-20,Bourgogne-Franche-Comté,27,63
+2023-11-27,Bourgogne-Franche-Comté,27,87
+2023-12-04,Bourgogne-Franche-Comté,27,85
+2023-12-11,Bourgogne-Franche-Comté,27,74
+2023-12-18,Bourgogne-Franche-Comté,27,70
+2023-12-25,Bourgogne-Franche-Comté,27,76
+2024-01-01,Bourgogne-Franche-Comté,27,88
+2024-01-08,Bourgogne-Franche-Comté,27,77
+2024-01-15,Bourgogne-Franche-Comté,27,73
+2024-01-22,Bourgogne-Franche-Comté,27,86
+2024-01-29,Bourgogne-Franche-Comté,27,75
+2024-02-05,Bourgogne-Franche-Comté,27,79
+2024-02-12,Bourgogne-Franche-Comté,27,64
+2024-02-19,Bourgogne-Franche-Comté,27,80
+2024-02-26,Bourgogne-Franche-Comté,27,68
+2024-03-04,Bourgogne-Franche-Comté,27,68
+2024-03-11,Bourgogne-Franche-Comté,27,74
+2024-03-18,Bourgogne-Franche-Comté,27,62
+2024-03-25,Bourgogne-Franche-Comté,27,73
+2024-04-01,Bourgogne-Franche-Comté,27,60
+2024-04-08,Bourgogne-Franche-Comté,27,40
+2024-04-15,Bourgogne-Franche-Comté,27,48
+2024-04-22,Bourgogne-Franche-Comté,27,41
+2024-04-29,Bourgogne-Franche-Comté,27,33
+2024-05-06,Bourgogne-Franche-Comté,27,32
+2024-05-13,Bourgogne-Franche-Comté,27,37
+2024-05-20,Bourgogne-Franche-Comté,27,43
+2024-05-27,Bourgogne-Franche-Comté,27,30
+2024-06-03,Bourgogne-Franche-Comté,27,43
+2024-06-10,Bourgogne-Franche-Comté,27,2
+2024-06-17,Bourgogne-Franche-Comté,27,9
+2024-06-24,Bourgogne-Franche-Comté,27,19
+2024-07-01,Bourgogne-Franche-Comté,27,13
+2024-07-08,Bourgogne-Franche-Comté,27,36
+2024-07-15,Bourgogne-Franche-Comté,27,28
+2024-07-22,Bourgogne-Franche-Comté,27,6
+2024-07-29,Bourgogne-Franche-Comté,27,19
+2024-08-05,Bourgogne-Franche-Comté,27,24
+2024-08-12,Bourgogne-Franche-Comté,27,33
+2024-08-19,Bourgogne-Franche-Comté,27,33
+2024-08-26,Bourgogne-Franche-Comté,27,29
+2024-09-02,Bourgogne-Franche-Comté,27,31
+2024-09-09,Bourgogne-Franche-Comté,27,47
+2024-09-16,Bourgogne-Franche-Comté,27,42
+2024-09-23,Bourgogne-Franche-Comté,27,36
+2024-09-30,Bourgogne-Franche-Comté,27,47
+2024-10-07,Bourgogne-Franche-Comté,27,53
+2024-10-14,Bourgogne-Franche-Comté,27,80
+2024-10-21,Bourgogne-Franche-Comté,27,56
+2024-10-28,Bourgogne-Franche-Comté,27,58
+2024-11-04,Bourgogne-Franche-Comté,27,74
+2024-11-11,Bourgogne-Franche-Comté,27,64
+2024-11-18,Bourgogne-Franche-Comté,27,87
+2024-11-25,Bourgogne-Franche-Comté,27,77
+2024-12-02,Bourgogne-Franche-Comté,27,71
+2024-12-09,Bourgogne-Franche-Comté,27,102
+2024-12-16,Bourgogne-Franche-Comté,27,78
+2024-12-23,Bourgogne-Franche-Comté,27,68
+2024-12-30,Bourgogne-Franche-Comté,27,66
+2025-01-06,Bourgogne-Franche-Comté,27,62
+2025-01-13,Bourgogne-Franche-Comté,27,70
+2025-01-20,Bourgogne-Franche-Comté,27,65
+2025-01-27,Bourgogne-Franche-Comté,27,66
+2025-02-03,Bourgogne-Franche-Comté,27,87
+2025-02-10,Bourgogne-Franche-Comté,27,62
+2025-02-17,Bourgogne-Franche-Comté,27,71
+2025-02-24,Bourgogne-Franche-Comté,27,74
+2025-03-03,Bourgogne-Franche-Comté,27,57
+2025-03-10,Bourgogne-Franche-Comté,27,37
+2025-03-17,Bourgogne-Franche-Comté,27,74
+2025-03-24,Bourgogne-Franche-Comté,27,53
+2025-03-31,Bourgogne-Franche-Comté,27,54
+2025-04-07,Bourgogne-Franche-Comté,27,51
+2025-04-14,Bourgogne-Franche-Comté,27,42
+2025-04-21,Bourgogne-Franche-Comté,27,64
+2025-04-28,Bourgogne-Franche-Comté,27,40
+2025-05-05,Bourgogne-Franche-Comté,27,32
+2025-05-12,Bourgogne-Franche-Comté,27,19
+2025-05-19,Bourgogne-Franche-Comté,27,46
+2025-05-26,Bourgogne-Franche-Comté,27,19
+2025-06-02,Bourgogne-Franche-Comté,27,35
+2025-06-09,Bourgogne-Franche-Comté,27,8
+2025-06-16,Bourgogne-Franche-Comté,27,33
+2025-06-23,Bourgogne-Franche-Comté,27,12
+2025-06-30,Bourgogne-Franche-Comté,27,19
+2025-07-07,Bourgogne-Franche-Comté,27,45
+2025-07-14,Bourgogne-Franche-Comté,27,40
+2025-07-21,Bourgogne-Franche-Comté,27,16
+2025-07-28,Bourgogne-Franche-Comté,27,30
+2025-08-04,Bourgogne-Franche-Comté,27,35
+2025-08-11,Bourgogne-Franche-Comté,27,43
+2025-08-18,Bourgogne-Franche-Comté,27,42
+2025-08-25,Bourgogne-Franche-Comté,27,34
+2025-09-01,Bourgogne-Franche-Comté,27,28
+2025-09-08,Bourgogne-Franche-Comté,27,42
+2025-09-15,Bourgogne-Franche-Comté,27,60
+2025-09-22,Bourgogne-Franche-Comté,27,24
+2025-09-29,Bourgogne-Franche-Comté,27,55
+2025-10-06,Bourgogne-Franche-Comté,27,49
+2025-10-13,Bourgogne-Franche-Comté,27,50
+2025-10-20,Bourgogne-Franche-Comté,27,54
+2023-10-23,Provence-Alpes-Côte d'Azur,93,61
+2023-10-30,Provence-Alpes-Côte d'Azur,93,53
+2023-11-06,Provence-Alpes-Côte d'Azur,93,62
+2023-11-13,Provence-Alpes-Côte d'Azur,93,68
+2023-11-20,Provence-Alpes-Côte d'Azur,93,64
+2023-11-27,Provence-Alpes-Côte d'Azur,93,81
+2023-12-04,Provence-Alpes-Côte d'Azur,93,74
+2023-12-11,Provence-Alpes-Côte d'Azur,93,89
+2023-12-18,Provence-Alpes-Côte d'Azur,93,76
+2023-12-25,Provence-Alpes-Côte d'Azur,93,73
+2024-01-01,Provence-Alpes-Côte d'Azur,93,81
+2024-01-08,Provence-Alpes-Côte d'Azur,93,92
+2024-01-15,Provence-Alpes-Côte d'Azur,93,89
+2024-01-22,Provence-Alpes-Côte d'Azur,93,84
+2024-01-29,Provence-Alpes-Côte d'Azur,93,93
+2024-02-05,Provence-Alpes-Côte d'Azur,93,66
+2024-02-12,Provence-Alpes-Côte d'Azur,93,73
+2024-02-19,Provence-Alpes-Côte d'Azur,93,60
+2024-02-26,Provence-Alpes-Côte d'Azur,93,63
+2024-03-04,Provence-Alpes-Côte d'Azur,93,69
+2024-03-11,Provence-Alpes-Côte d'Azur,93,43
+2024-03-18,Provence-Alpes-Côte d'Azur,93,62
+2024-03-25,Provence-Alpes-Côte d'Azur,93,63
+2024-04-01,Provence-Alpes-Côte d'Azur,93,54
+2024-04-08,Provence-Alpes-Côte d'Azur,93,49
+2024-04-15,Provence-Alpes-Côte d'Azur,93,23
+2024-04-22,Provence-Alpes-Côte d'Azur,93,32
+2024-04-29,Provence-Alpes-Côte d'Azur,93,37
+2024-05-06,Provence-Alpes-Côte d'Azur,93,24
+2024-05-13,Provence-Alpes-Côte d'Azur,93,22
+2024-05-20,Provence-Alpes-Côte d'Azur,93,12
+2024-05-27,Provence-Alpes-Côte d'Azur,93,36
+2024-06-03,Provence-Alpes-Côte d'Azur,93,26
+2024-06-10,Provence-Alpes-Côte d'Azur,93,25
+2024-06-17,Provence-Alpes-Côte d'Azur,93,25
+2024-06-24,Provence-Alpes-Côte d'Azur,93,32
+2024-07-01,Provence-Alpes-Côte d'Azur,93,8
+2024-07-08,Provence-Alpes-Côte d'Azur,93,8
+2024-07-15,Provence-Alpes-Côte d'Azur,93,27
+2024-07-22,Provence-Alpes-Côte d'Azur,93,12
+2024-07-29,Provence-Alpes-Côte d'Azur,93,22
+2024-08-05,Provence-Alpes-Côte d'Azur,93,18
+2024-08-12,Provence-Alpes-Côte d'Azur,93,6
+2024-08-19,Provence-Alpes-Côte d'Azur,93,39
+2024-08-26,Provence-Alpes-Côte d'Azur,93,39
+2024-09-02,Provence-Alpes-Côte d'Azur,93,12
+2024-09-09,Provence-Alpes-Côte d'Azur,93,29
+2024-09-16,Provence-Alpes-Côte d'Azur,93,37
+2024-09-23,Provence-Alpes-Côte d'Azur,93,52
+2024-09-30,Provence-Alpes-Côte d'Azur,93,49
+2024-10-07,Provence-Alpes-Côte d'Azur,93,45
+2024-10-14,Provence-Alpes-Côte d'Azur,93,61
+2024-10-21,Provence-Alpes-Côte d'Azur,93,73
+2024-10-28,Provence-Alpes-Côte d'Azur,93,53
+2024-11-04,Provence-Alpes-Côte d'Azur,93,56
+2024-11-11,Provence-Alpes-Côte d'Azur,93,74
+2024-11-18,Provence-Alpes-Côte d'Azur,93,73
+2024-11-25,Provence-Alpes-Côte d'Azur,93,57
+2024-12-02,Provence-Alpes-Côte d'Azur,93,86
+2024-12-09,Provence-Alpes-Côte d'Azur,93,80
+2024-12-16,Provence-Alpes-Côte d'Azur,93,62
+2024-12-23,Provence-Alpes-Côte d'Azur,93,56
+2024-12-30,Provence-Alpes-Côte d'Azur,93,91
+2025-01-06,Provence-Alpes-Côte d'Azur,93,90
+2025-01-13,Provence-Alpes-Côte d'Azur,93,66
+2025-01-20,Provence-Alpes-Côte d'Azur,93,69
+2025-01-27,Provence-Alpes-Côte d'Azur,93,83
+2025-02-03,Provence-Alpes-Côte d'Azur,93,83
+2025-02-10,Provence-Alpes-Côte d'Azur,93,66
+2025-02-17,Provence-Alpes-Côte d'Azur,93,53
+2025-02-24,Provence-Alpes-Côte d'Azur,93,63
+2025-03-03,Provence-Alpes-Côte d'Azur,93,64
+2025-03-10,Provence-Alpes-Côte d'Azur,93,50
+2025-03-17,Provence-Alpes-Côte d'Azur,93,66
+2025-03-24,Provence-Alpes-Côte d'Azur,93,52
+2025-03-31,Provence-Alpes-Côte d'Azur,93,44
+2025-04-07,Provence-Alpes-Côte d'Azur,93,63
+2025-04-14,Provence-Alpes-Côte d'Azur,93,44
+2025-04-21,Provence-Alpes-Côte d'Azur,93,45
+2025-04-28,Provence-Alpes-Côte d'Azur,93,26
+2025-05-05,Provence-Alpes-Côte d'Azur,93,33
+2025-05-12,Provence-Alpes-Côte d'Azur,93,14
+2025-05-19,Provence-Alpes-Côte d'Azur,93,27
+2025-05-26,Provence-Alpes-Côte d'Azur,93,37
+2025-06-02,Provence-Alpes-Côte d'Azur,93,18
+2025-06-09,Provence-Alpes-Côte d'Azur,93,13
+2025-06-16,Provence-Alpes-Côte d'Azur,93,35
+2025-06-23,Provence-Alpes-Côte d'Azur,93,14
+2025-06-30,Provence-Alpes-Côte d'Azur,93,30
+2025-07-07,Provence-Alpes-Côte d'Azur,93,18
+2025-07-14,Provence-Alpes-Côte d'Azur,93,23
+2025-07-21,Provence-Alpes-Côte d'Azur,93,18
+2025-07-28,Provence-Alpes-Côte d'Azur,93,20
+2025-08-04,Provence-Alpes-Côte d'Azur,93,31
+2025-08-11,Provence-Alpes-Côte d'Azur,93,37
+2025-08-18,Provence-Alpes-Côte d'Azur,93,33
+2025-08-25,Provence-Alpes-Côte d'Azur,93,35
+2025-09-01,Provence-Alpes-Côte d'Azur,93,33
+2025-09-08,Provence-Alpes-Côte d'Azur,93,51
+2025-09-15,Provence-Alpes-Côte d'Azur,93,35
+2025-09-22,Provence-Alpes-Côte d'Azur,93,46
+2025-09-29,Provence-Alpes-Côte d'Azur,93,54
+2025-10-06,Provence-Alpes-Côte d'Azur,93,48
+2025-10-13,Provence-Alpes-Côte d'Azur,93,62
+2025-10-20,Provence-Alpes-Côte d'Azur,93,67
+2023-10-23,Corse,94,54
+2023-10-30,Corse,94,83
+2023-11-06,Corse,94,75
+2023-11-13,Corse,94,70
+2023-11-20,Corse,94,66
+2023-11-27,Corse,94,61
+2023-12-04,Corse,94,74
+2023-12-11,Corse,94,81
+2023-12-18,Corse,94,70
+2023-12-25,Corse,94,80
+2024-01-01,Corse,94,65
+2024-01-08,Corse,94,77
+2024-01-15,Corse,94,68
+2024-01-22,Corse,94,101
+2024-01-29,Corse,94,82
+2024-02-05,Corse,94,79
+2024-02-12,Corse,94,76
+2024-02-19,Corse,94,65
+2024-02-26,Corse,94,66
+2024-03-04,Corse,94,47
+2024-03-11,Corse,94,70
+2024-03-18,Corse,94,56
+2024-03-25,Corse,94,42
+2024-04-01,Corse,94,38
+2024-04-08,Corse,94,53
+2024-04-15,Corse,94,42
+2024-04-22,Corse,94,57
+2024-04-29,Corse,94,35
+2024-05-06,Corse,94,25
+2024-05-13,Corse,94,29
+2024-05-20,Corse,94,29
+2024-05-27,Corse,94,25
+2024-06-03,Corse,94,36
+2024-06-10,Corse,94,25
+2024-06-17,Corse,94,14
+2024-06-24,Corse,94,12
+2024-07-01,Corse,94,20
+2024-07-08,Corse,94,39
+2024-07-15,Corse,94,14
+2024-07-22,Corse,94,22
+2024-07-29,Corse,94,20
+2024-08-05,Corse,94,35
+2024-08-12,Corse,94,25
+2024-08-19,Corse,94,33
+2024-08-26,Corse,94,36
+2024-09-02,Corse,94,32
+2024-09-09,Corse,94,42
+2024-09-16,Corse,94,37
+2024-09-23,Corse,94,46
+2024-09-30,Corse,94,43
+2024-10-07,Corse,94,44
+2024-10-14,Corse,94,65
+2024-10-21,Corse,94,63
+2024-10-28,Corse,94,74
+2024-11-04,Corse,94,74
+2024-11-11,Corse,94,94
+2024-11-18,Corse,94,80
+2024-11-25,Corse,94,64
+2024-12-02,Corse,94,68
+2024-12-09,Corse,94,79
+2024-12-16,Corse,94,82
+2024-12-23,Corse,94,63
+2024-12-30,Corse,94,81
+2025-01-06,Corse,94,67
+2025-01-13,Corse,94,89
+2025-01-20,Corse,94,78
+2025-01-27,Corse,94,59
+2025-02-03,Corse,94,66
+2025-02-10,Corse,94,81
+2025-02-17,Corse,94,75
+2025-02-24,Corse,94,65
+2025-03-03,Corse,94,63
+2025-03-10,Corse,94,56
+2025-03-17,Corse,94,52
+2025-03-24,Corse,94,55
+2025-03-31,Corse,94,50
+2025-04-07,Corse,94,33
+2025-04-14,Corse,94,71
+2025-04-21,Corse,94,39
+2025-04-28,Corse,94,26
+2025-05-05,Corse,94,33
+2025-05-12,Corse,94,9
+2025-05-19,Corse,94,21
+2025-05-26,Corse,94,43
+2025-06-02,Corse,94,25
+2025-06-09,Corse,94,33
+2025-06-16,Corse,94,12
+2025-06-23,Corse,94,26
+2025-06-30,Corse,94,12
+2025-07-07,Corse,94,43
+2025-07-14,Corse,94,27
+2025-07-21,Corse,94,20
+2025-07-28,Corse,94,35
+2025-08-04,Corse,94,42
+2025-08-11,Corse,94,13
+2025-08-18,Corse,94,26
+2025-08-25,Corse,94,25
+2025-09-01,Corse,94,38
+2025-09-08,Corse,94,39
+2025-09-15,Corse,94,39
+2025-09-22,Corse,94,21
+2025-09-29,Corse,94,60
+2025-10-06,Corse,94,41
+2025-10-13,Corse,94,58
+2025-10-20,Corse,94,70
