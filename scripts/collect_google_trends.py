@@ -141,7 +141,7 @@ class GoogleTrendsCollector:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             filename = f"google_trends_{timestamp}.csv"
         
-        filepath = os.path.join('..', 'data', 'google_trends', filename)
+        filepath = os.path.join('data', 'google_trends', filename)
         df.to_csv(filepath, index=False)
         print(f"💾 Données sauvegardées: {filepath}")
         
