@@ -1,0 +1,78 @@
+# 🧠 === ENVIRONNEMENT PYTHON ===
+venv/
+.env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# 🧮 === NOTEBOOKS & CHECKPOINTS ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# 📦 === DONNÉES (à ne pas versionner si volumineuses) ===
+data/raw/
+data/temp/
+data/*.zip
+data/*.tar
+data/*.tar.gz
+data/*.json
+data/*.xlsx
+data/*.csv
+!data/sample_*.csv       # Exception : autorise les petits échantillons
+
+# 🤖 === MODÈLES / SORTIES IA ===
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# 📈 === RAPPORTS / SORTIES TEMPORAIRES ===
+outputs/
+reports/
+logs/
+tmp/
+*.log
+
+# 🧰 === CONFIGURATION ET ENV LOCAUX ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.code-workspace
+
+# 🧮 === DEPENDANCES ===
+*.lock
+poetry.lock
+Pipfile.lock
+
+# 🌍 === AUTRES ===
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+*.out
+*.err
+
+# 🔐 === CLÉS & INFOS SENSIBLES ===
+*.key
+*.pem
+*.crt
+*.env
+config.json
+secrets.json
+apikey.txt
+
+# ⚙️ === JUPYTER LAB / VS CODE ===
+.ipynb_checkpoints
+jupyter_lab_config.py
+.vscode/settings.json
