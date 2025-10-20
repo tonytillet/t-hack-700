@@ -41,9 +41,8 @@ class GrippeAlertApp:
             latest_file = sorted(alert_files)[-1]
             self.data = pd.read_csv(f'data/processed/{latest_file}')
             self.data['date'] = pd.to_datetime(self.data['date'])
-            st.success(f"✅ Données avec alertes chargées: {latest_file}")
         else:
-            st.error("❌ Aucune donnée avec alertes trouvée")
+            st.error("Aucune donnée avec alertes trouvée")
             return
         
         # Chargement des alertes
@@ -51,14 +50,12 @@ class GrippeAlertApp:
         if alert_files:
             latest_alert_file = sorted(alert_files)[-1]
             self.alerts = pd.read_csv(f'data/alerts/{latest_alert_file}')
-            st.success(f"✅ Alertes chargées: {latest_alert_file}")
         
         # Chargement des protocoles
         protocol_files = [f for f in os.listdir('data/alerts') if f.startswith('protocoles_')]
         if protocol_files:
             latest_protocol_file = sorted(protocol_files)[-1]
             self.protocols = pd.read_csv(f'data/alerts/{latest_protocol_file}')
-            st.success(f"✅ Protocoles chargés: {latest_protocol_file}")
     
     def calculate_kpis(self):
         """Calcule les KPIs avec alertes"""
@@ -184,29 +181,29 @@ class GrippeAlertApp:
 
 def main():
     """Fonction principale"""
-    # Header moderne avec gradient
+    # Header moderne avec design épuré
     st.markdown("""
     <div style="
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: #ffffff;
         padding: 2rem 1rem;
-        border-radius: 15px;
+        border-radius: 8px;
         margin-bottom: 2rem;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        border: 1px solid #e1e5e9;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     ">
         <h1 style="
-            color: white;
+            color: #2c3e50;
             text-align: center;
             margin: 0;
-            font-size: 2.5rem;
-            font-weight: 700;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        ">Système d'Alerte Grippe France</h1>
+            font-size: 2.2rem;
+            font-weight: 600;
+        ">Système d'alerte grippe France</h1>
         <p style="
-            color: rgba(255,255,255,0.9);
+            color: #6c757d;
             text-align: center;
             margin: 0.5rem 0 0 0;
-            font-size: 1.1rem;
-            font-weight: 300;
+            font-size: 1rem;
+            font-weight: 400;
         ">Prédiction précoce • Données temps réel • Actions automatiques</p>
     </div>
     """, unsafe_allow_html=True)
@@ -230,57 +227,58 @@ def main():
         """, unsafe_allow_html=True)
         return
     
-    # Section de statut avec design moderne
+    # Section de statut avec design épuré
     st.markdown("""
     <div style="
-        background: #f8f9fa;
+        background: #ffffff;
         padding: 1.5rem;
-        border-radius: 12px;
+        border-radius: 8px;
         margin: 1rem 0;
-        border: 1px solid #e9ecef;
+        border: 1px solid #e1e5e9;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     ">
         <h3 style="
-            color: #495057;
+            color: #2c3e50;
             margin: 0 0 1rem 0;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: 600;
-        ">État du Système</h3>
-        <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+        ">État du système</h3>
+        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
             <div style="
-                background: #d4edda;
-                color: #155724;
-                padding: 0.75rem 1rem;
-                border-radius: 8px;
-                border-left: 4px solid #28a745;
+                background: #f8f9fa;
+                color: #495057;
+                padding: 1rem;
+                border-radius: 6px;
+                border: 1px solid #e9ecef;
                 flex: 1;
                 min-width: 200px;
             ">
-                <strong>Données chargées</strong><br>
-                <small>Dataset avec alertes intégrées</small>
+                <strong style="color: #28a745;">Données chargées</strong><br>
+                <small style="color: #6c757d;">Dataset avec alertes intégrées</small>
             </div>
             <div style="
-                background: #d1ecf1;
-                color: #0c5460;
-                padding: 0.75rem 1rem;
-                border-radius: 8px;
-                border-left: 4px solid #17a2b8;
+                background: #f8f9fa;
+                color: #495057;
+                padding: 1rem;
+                border-radius: 6px;
+                border: 1px solid #e9ecef;
                 flex: 1;
                 min-width: 200px;
             ">
-                <strong>Alertes actives</strong><br>
-                <small>Surveillance en temps réel</small>
+                <strong style="color: #dc3545;">Alertes actives</strong><br>
+                <small style="color: #6c757d;">Surveillance en temps réel</small>
             </div>
             <div style="
-                background: #fff3cd;
-                color: #856404;
-                padding: 0.75rem 1rem;
-                border-radius: 8px;
-                border-left: 4px solid #ffc107;
+                background: #f8f9fa;
+                color: #495057;
+                padding: 1rem;
+                border-radius: 6px;
+                border: 1px solid #e9ecef;
                 flex: 1;
                 min-width: 200px;
             ">
-                <strong>Protocoles prêts</strong><br>
-                <small>Actions automatiques disponibles</small>
+                <strong style="color: #007bff;">Protocoles prêts</strong><br>
+                <small style="color: #6c757d;">Actions automatiques disponibles</small>
             </div>
         </div>
     </div>
@@ -289,22 +287,23 @@ def main():
     # Calcul des KPIs
     kpis = app.calculate_kpis()
     
-    # Section KPIs avec design moderne
+    # Section KPIs avec design épuré
     st.markdown("""
     <div style="
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: #ffffff;
         padding: 1.5rem;
-        border-radius: 15px;
+        border-radius: 8px;
         margin: 1rem 0;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border: 1px solid #e1e5e9;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     ">
         <h3 style="
             color: #2c3e50;
             margin: 0 0 1.5rem 0;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             font-weight: 600;
             text-align: center;
-        ">Indicateurs Clés en Temps Réel</h3>
+        ">Indicateurs clés en temps réel</h3>
     </div>
     """, unsafe_allow_html=True)
     
@@ -314,115 +313,120 @@ def main():
     with col1:
         st.markdown(f"""
         <div style="
-            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
-            color: white;
+            background: #ffffff;
+            color: #2c3e50;
             padding: 1.5rem 1rem;
-            border-radius: 12px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(255,107,107,0.3);
+            border: 1px solid #e1e5e9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem;">{kpis['urgences_actuelles']:.0f}</div>
-            <div style="font-size: 0.9rem; opacity: 0.9;">Urgences actuelles</div>
+            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #dc3545;">{kpis['urgences_actuelles']:.0f}</div>
+            <div style="font-size: 0.9rem; color: #6c757d;">Urgences actuelles</div>
         </div>
         """, unsafe_allow_html=True)
     
     with col2:
         st.markdown(f"""
         <div style="
-            background: linear-gradient(135deg, #4ecdc4, #44a08d);
-            color: white;
+            background: #ffffff;
+            color: #2c3e50;
             padding: 1.5rem 1rem;
-            border-radius: 12px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(78,205,196,0.3);
+            border: 1px solid #e1e5e9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem;">{kpis['vaccination_moyenne']:.1f}%</div>
-            <div style="font-size: 0.9rem; opacity: 0.9;">Vaccination moyenne</div>
+            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #28a745;">{kpis['vaccination_moyenne']:.1f}%</div>
+            <div style="font-size: 0.9rem; color: #6c757d;">Vaccination moyenne</div>
         </div>
         """, unsafe_allow_html=True)
     
     with col3:
         st.markdown(f"""
         <div style="
-            background: linear-gradient(135deg, #e74c3c, #c0392b);
-            color: white;
+            background: #ffffff;
+            color: #2c3e50;
             padding: 1.5rem 1rem;
-            border-radius: 12px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(231,76,60,0.3);
+            border: 1px solid #e1e5e9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem;">{kpis['alertes_critiques']}</div>
-            <div style="font-size: 0.9rem; opacity: 0.9;">Alertes critiques</div>
+            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #dc3545;">{kpis['alertes_critiques']}</div>
+            <div style="font-size: 0.9rem; color: #6c757d;">Alertes critiques</div>
         </div>
         """, unsafe_allow_html=True)
     
     with col4:
         st.markdown(f"""
         <div style="
-            background: linear-gradient(135deg, #f39c12, #e67e22);
-            color: white;
+            background: #ffffff;
+            color: #2c3e50;
             padding: 1.5rem 1rem;
-            border-radius: 12px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(243,156,18,0.3);
+            border: 1px solid #e1e5e9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem;">{kpis['alertes_elevees']}</div>
-            <div style="font-size: 0.9rem; opacity: 0.9;">Alertes élevées</div>
+            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #ffc107;">{kpis['alertes_elevees']}</div>
+            <div style="font-size: 0.9rem; color: #6c757d;">Alertes élevées</div>
         </div>
         """, unsafe_allow_html=True)
     
     with col5:
         st.markdown(f"""
         <div style="
-            background: linear-gradient(135deg, #27ae60, #2ecc71);
-            color: white;
+            background: #ffffff;
+            color: #2c3e50;
             padding: 1.5rem 1rem;
-            border-radius: 12px;
+            border-radius: 8px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(39,174,96,0.3);
+            border: 1px solid #e1e5e9;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem;">{kpis['economies_potentielles']:,.0f}€</div>
-            <div style="font-size: 0.9rem; opacity: 0.9;">Économies potentielles</div>
+            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #28a745;">{kpis['economies_potentielles']:,.0f}€</div>
+            <div style="font-size: 0.9rem; color: #6c757d;">Économies potentielles</div>
         </div>
         """, unsafe_allow_html=True)
     
-    # Section des onglets avec style moderne
+    # Section des onglets avec style épuré
     st.markdown("""
     <div style="
-        background: white;
+        background: #ffffff;
         padding: 1rem;
-        border-radius: 15px;
+        border-radius: 8px;
         margin: 2rem 0;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        border: 1px solid #e9ecef;
+        border: 1px solid #e1e5e9;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     ">
         <h3 style="
             color: #2c3e50;
             margin: 0 0 1rem 0;
-            font-size: 1.4rem;
+            font-size: 1.2rem;
             font-weight: 600;
             text-align: center;
-        ">Tableau de Bord Interactif</h3>
+        ">Tableau de bord interactif</h3>
         <p style="
             color: #6c757d;
             text-align: center;
             margin: 0;
-            font-size: 1rem;
+            font-size: 0.95rem;
         ">Explorez les données, visualisez les alertes et déclenchez les actions</p>
     </div>
     """, unsafe_allow_html=True)
     
     # Onglets
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "Carte des Alertes", 
-        "Tableau de Bord Alertes", 
-        "Protocoles d'Action", 
-        "Analyse Détaillée", 
+        "Carte des alertes", 
+        "Tableau de bord alertes", 
+        "Protocoles d'action", 
+        "Analyse détaillée", 
         "Configuration"
     ])
     
     with tab1:
-        st.header("Carte des Alertes en Temps Réel")
+        st.header("Carte des alertes en temps réel")
         
         # Carte interactive
         alert_map = app.create_alert_map()
@@ -431,15 +435,15 @@ def main():
         
         # Légende
         st.markdown("""
-        **Légende des Alertes:**
-        - **Rouge**: Score ≥ 80 (CRITIQUE) - Action immédiate requise
-        - **Orange**: Score 60-79 (ÉLEVÉ) - Préparation campagne
-        - **Jaune**: Score 40-59 (MODÉRÉ) - Surveillance renforcée
-        - **Vert**: Score < 40 (FAIBLE) - Surveillance normale
+        **Légende des alertes :**
+        - **Rouge** : Score ≥ 80 (critique) - Action immédiate requise
+        - **Orange** : Score 60-79 (élevé) - Préparation campagne
+        - **Jaune** : Score 40-59 (modéré) - Surveillance renforcée
+        - **Vert** : Score < 40 (faible) - Surveillance normale
         """)
     
     with tab2:
-        st.header("Tableau de Bord des Alertes")
+        st.header("Tableau de bord des alertes")
         
         # Tableau des alertes actives
         alert_dashboard = app.create_alert_dashboard()
@@ -453,7 +457,7 @@ def main():
             # Export CSV
             csv = alert_dashboard.to_csv(index=False)
             st.download_button(
-                label="Exporter Alertes CSV",
+                label="Exporter alertes CSV",
                 data=csv,
                 file_name=f"alertes_grippe_{datetime.now().strftime('%Y%m%d')}.csv",
                 mime="text/csv"
@@ -462,7 +466,7 @@ def main():
             st.info("Aucune alerte active actuellement")
     
     with tab3:
-        st.header("Protocoles d'Action Automatiques")
+        st.header("Protocoles d'action automatiques")
         
         # Tableau des protocoles
         protocol_dashboard = app.create_protocol_dashboard()
@@ -482,13 +486,13 @@ def main():
                         st.metric("Économies", f"{impact['economies_estimees']:,}€")
                         st.metric("ROI", f"{impact['roi_estime']}x")
                     
-                    st.subheader("Actions à Déclencher:")
+                    st.subheader("Actions à déclencher :")
                     actions = eval(protocol['actions'])
                     for i, action in enumerate(actions, 1):
                         st.write(f"{i}. {action}")
                     
                     # Bouton de déclenchement (simulation)
-                    if st.button(f"Déclencher Protocole - {protocol['region']}", key=f"protocol_{protocol['region']}"):
+                    if st.button(f"Déclencher protocole - {protocol['region']}", key=f"protocol_{protocol['region']}"):
                         st.success(f"Protocole déclenché pour {protocol['region']} !")
                         st.info("SMS/Email envoyés aux habitants")
                         st.info("Campagne de vaccination lancée")
@@ -497,11 +501,11 @@ def main():
             st.info("Aucun protocole actif actuellement")
     
     with tab4:
-        st.header("Analyse Détaillée par Région")
+        st.header("Analyse détaillée par région")
         
         # Sélection de la région
         regions = app.data['region'].unique()
-        selected_region = st.selectbox("Sélectionnez une région:", regions)
+        selected_region = st.selectbox("Sélectionnez une région :", regions)
         
         if selected_region:
             region_data = app.data[app.data['region'] == selected_region].copy()
@@ -557,9 +561,9 @@ def main():
             st.plotly_chart(fig, use_container_width=True)
     
     with tab5:
-        st.header("Configuration du Système")
+        st.header("Configuration du système")
         
-        st.subheader("Seuils d'Alerte")
+        st.subheader("Seuils d'alerte")
         
         col1, col2 = st.columns(2)
         
@@ -573,69 +577,76 @@ def main():
             st.metric("Température risque", "< 5°C")
             st.metric("Tendance hausse", "> 50%")
         
-        st.subheader("Sources de Données")
+        st.subheader("Sources de données")
         st.write("• Santé Publique France (urgences, sentinelles, vaccination)")
         st.write("• INSEE (population, démographie)")
         st.write("• Météo France (température, humidité)")
         st.write("• Données comportementales (Google Trends, Wikipedia)")
         
-        st.subheader("Mise à Jour")
-        if st.button("Actualiser les Données"):
+        st.subheader("Mise à jour")
+        if st.button("Actualiser les données"):
             st.info("Actualisation en cours...")
             st.success("Données actualisées !")
     
-    # Footer moderne
+    # Footer épuré
     st.markdown("""
     <div style="
-        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-        color: white;
-        padding: 2rem 1rem;
-        border-radius: 15px;
+        background: #f8f9fa;
+        color: #495057;
+        padding: 1.5rem 1rem;
+        border-radius: 8px;
         margin: 2rem 0 0 0;
         text-align: center;
-        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        border: 1px solid #e1e5e9;
     ">
         <h4 style="
             margin: 0 0 1rem 0;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: 600;
+            color: #2c3e50;
         ">Système d'Alerte Précoce Grippe France</h4>
         <div style="
             display: flex;
             justify-content: center;
-            gap: 2rem;
+            gap: 1.5rem;
             flex-wrap: wrap;
             margin: 1rem 0;
         ">
             <div style="
-                background: rgba(255,255,255,0.1);
-                padding: 0.75rem 1.5rem;
-                border-radius: 25px;
-                font-size: 0.9rem;
+                background: #ffffff;
+                color: #495057;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+                font-size: 0.85rem;
+                border: 1px solid #e1e5e9;
             ">
                 Prédiction 1-2 mois à l'avance
             </div>
             <div style="
-                background: rgba(255,255,255,0.1);
-                padding: 0.75rem 1.5rem;
-                border-radius: 25px;
-                font-size: 0.9rem;
+                background: #ffffff;
+                color: #495057;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+                font-size: 0.85rem;
+                border: 1px solid #e1e5e9;
             ">
                 Données temps réel
             </div>
             <div style="
-                background: rgba(255,255,255,0.1);
-                padding: 0.75rem 1.5rem;
-                border-radius: 25px;
-                font-size: 0.9rem;
+                background: #ffffff;
+                color: #495057;
+                padding: 0.5rem 1rem;
+                border-radius: 6px;
+                font-size: 0.85rem;
+                border: 1px solid #e1e5e9;
             ">
                 Protocoles automatiques
             </div>
         </div>
         <p style="
             margin: 1rem 0 0 0;
-            font-size: 0.9rem;
-            opacity: 0.8;
+            font-size: 0.85rem;
+            color: #6c757d;
         ">Réduction des coûts médicaux • Prévention efficace • Actions ciblées</p>
     </div>
     """, unsafe_allow_html=True)
