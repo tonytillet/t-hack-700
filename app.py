@@ -418,7 +418,7 @@ def main():
             title=f"ROI par département (+{boost_vaccination}% vaccination)",
             labels={'roi': 'ROI (%)', 'region': 'Département'}
         )
-        fig.update_xaxis(tickangle=45)
+        fig.update_layout(xaxis_tickangle=45)
         st.plotly_chart(fig, use_container_width=True)
     
     # Footer
