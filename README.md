@@ -14,17 +14,23 @@ Ce projet utilise l'intelligence artificielle (Random Forest) pour analyser les 
 - **Analyse détaillée** : Zoom sur chaque région
 - **Configuration** : Paramétrage des seuils d'alerte
 
-## 🚀 Installation rapide
+## 🚀 Installation ultra-simple
 
-**Pour un démarrage immédiat, consultez le [Guide de démarrage rapide](QUICKSTART.md)**
+### ⚡ Installation en 1 commande
 
-### Installation automatique
+**Tous les systèmes (recommandé) :**
+```bash
+git clone https://github.com/votre-username/t-hack-700.git
+cd t-hack-700
+python3 install.py
+python3 launch_app.py
+```
 
 **Linux/Mac :**
 ```bash
 git clone https://github.com/votre-username/t-hack-700.git
 cd t-hack-700
-./install.sh
+./install_simple.sh
 python3 launch_app.py
 ```
 
@@ -32,11 +38,11 @@ python3 launch_app.py
 ```cmd
 git clone https://github.com/votre-username/t-hack-700.git
 cd t-hack-700
-install.bat
+install_simple.bat
 python launch_app.py
 ```
 
-### Installation manuelle
+### 🔧 Installation manuelle (si nécessaire)
 
 1. **Cloner le projet**
 ```bash
@@ -62,6 +68,20 @@ python3 launch_app.py
 ```
 
 **L'application sera accessible sur :** `http://localhost:8501`
+
+### ❓ Problèmes courants
+
+**Python non trouvé :**
+- Installez Python depuis https://python.org
+- Cochez "Add Python to PATH" lors de l'installation
+
+**Erreur de dépendances :**
+- Utilisez `python3 install.py` qui installe tout automatiquement
+- Ou installez manuellement : `pip install streamlit pandas numpy scikit-learn plotly folium streamlit-folium`
+
+**Port déjà utilisé :**
+- L'application utilise le port 8501
+- Fermez les autres applications ou changez le port
 
 ## 📁 Structure du projet
 
