@@ -1,0 +1,14 @@
+region,region_code,population_totale,pct_65_plus,year,source
+Île-de-France,11,12278200,16.5,2023,INSEE_estimations_2023
+Auvergne-Rhône-Alpes,84,8080000,19.2,2023,INSEE_estimations_2023
+Nouvelle-Aquitaine,75,6000000,22.1,2023,INSEE_estimations_2023
+Occitanie,76,6000000,21.8,2023,INSEE_estimations_2023
+Hauts-de-France,32,6000000,19.5,2023,INSEE_estimations_2023
+Grand Est,44,5500000,20.3,2023,INSEE_estimations_2023
+Pays de la Loire,52,3800000,21.4,2023,INSEE_estimations_2023
+Bretagne,53,3300000,22.7,2023,INSEE_estimations_2023
+Normandie,28,3300000,21.9,2023,INSEE_estimations_2023
+Centre-Val de Loire,24,2600000,22.2,2023,INSEE_estimations_2023
+Bourgogne-Franche-Comté,27,2800000,22.5,2023,INSEE_estimations_2023
+Provence-Alpes-Côte d'Azur,93,5000000,23.1,2023,INSEE_estimations_2023
+Corse,94,340000,20.8,2023,INSEE_estimations_2023
