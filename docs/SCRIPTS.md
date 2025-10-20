@@ -255,9 +255,28 @@ subprocess.run(['python', 'scripts/train_model.py'])
 
 **Il suffit de créer un script orchestrateur qui les appelle dans l'ordre.**
 
-Les scripts que j'ai créés (01, 02, 03) sont **redondants** avec ce qui existe déjà.
+### ✅ Script orchestrateur créé : `run_full_pipeline.py`
 
-**Prochaine action recommandée** : Créer `run_full_pipeline.py` qui utilise les scripts existants.
+**Script qui exécute automatiquement les 3 étapes de la pipeline.**
+
+#### Utilisation
+```bash
+python run_full_pipeline.py
+```
+
+#### Ce qu'il fait
+1. ✅ Exécute `collect_all_data.py` (Collecte)
+2. ✅ Exécute `fuse_data.py` (Fusion + FLURISK)
+3. ✅ Exécute `train_model.py` (Entraînement)
+4. ✅ Affiche un résumé détaillé avec durées
+5. ✅ Gère les erreurs et arrête si une étape échoue
+
+#### Avantages
+- 🎯 Une seule commande pour tout
+- ⏱️ Suivi du temps d'exécution
+- 📊 Résumé détaillé à la fin
+- ❌ Gestion des erreurs
+- 🛑 Arrêt automatique en cas d'échec
 
 ---
 

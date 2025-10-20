@@ -2,6 +2,19 @@
 
 ## ⚡ Lancement rapide
 
+### Option 1 : Script orchestrateur (Recommandé) ⭐
+
+```bash
+python run_full_pipeline.py
+```
+
+Ce script exécute automatiquement les 3 étapes dans l'ordre :
+1. **Collecte** → `collect_all_data.py` (13 sources)
+2. **Fusion** → `fuse_data.py` (features + FLURISK)
+3. **Entraînement** → `train_model.py` (modèles J+7, J+14, J+21, J+28)
+
+### Option 2 : Étape par étape
+
 ```bash
 cd scripts
 
