@@ -1,0 +1,1366 @@
+date,region,google_trends_grippe,google_trends_symptomes,google_trends_vaccin
+2023-10-23,Auvergne-Rhône-Alpes,62.0,52.0,66.0
+2023-10-23,Bourgogne-Franche-Comté,68.0,51.0,52.0
+2023-10-23,Bretagne,60.0,52.0,51.0
+2023-10-23,Centre-Val de Loire,60.0,52.0,41.0
+2023-10-23,Corse,59.0,48.0,40.0
+2023-10-23,Grand Est,63.0,59.0,55.0
+2023-10-23,Hauts-de-France,67.0,45.0,51.0
+2023-10-23,Normandie,70.0,39.0,47.0
+2023-10-23,Nouvelle-Aquitaine,50.0,50.0,57.0
+2023-10-23,Occitanie,68.0,37.0,50.0
+2023-10-23,Pays de la Loire,52.0,44.0,53.0
+2023-10-23,Provence-Alpes-Côte d'Azur,60.0,52.0,52.0
+2023-10-23,Île-de-France,55.0,38.0,54.0
+2023-10-30,Auvergne-Rhône-Alpes,68.0,58.0,63.0
+2023-10-30,Bourgogne-Franche-Comté,79.0,46.0,42.0
+2023-10-30,Bretagne,58.0,63.0,56.0
+2023-10-30,Centre-Val de Loire,76.0,66.0,62.0
+2023-10-30,Corse,65.0,46.0,40.0
+2023-10-30,Grand Est,40.0,54.0,57.0
+2023-10-30,Hauts-de-France,72.0,42.0,54.0
+2023-10-30,Normandie,71.0,56.0,56.0
+2023-10-30,Nouvelle-Aquitaine,78.0,50.0,51.0
+2023-10-30,Occitanie,76.0,44.0,62.0
+2023-10-30,Pays de la Loire,70.0,62.0,42.0
+2023-10-30,Provence-Alpes-Côte d'Azur,88.0,55.0,52.0
+2023-10-30,Île-de-France,69.0,63.0,54.0
+2023-11-06,Auvergne-Rhône-Alpes,77.0,47.0,57.0
+2023-11-06,Bourgogne-Franche-Comté,79.0,62.0,52.0
+2023-11-06,Bretagne,76.0,50.0,44.0
+2023-11-06,Centre-Val de Loire,66.0,49.0,49.0
+2023-11-06,Corse,65.0,54.0,51.0
+2023-11-06,Grand Est,69.0,71.0,43.0
+2023-11-06,Hauts-de-France,76.0,54.0,63.0
+2023-11-06,Normandie,80.0,58.0,62.0
+2023-11-06,Nouvelle-Aquitaine,79.0,53.0,50.0
+2023-11-06,Occitanie,70.0,45.0,46.0
+2023-11-06,Pays de la Loire,62.0,51.0,55.0
+2023-11-06,Provence-Alpes-Côte d'Azur,84.0,59.0,70.0
+2023-11-06,Île-de-France,99.0,54.0,61.0
+2023-11-13,Auvergne-Rhône-Alpes,71.0,51.0,62.0
+2023-11-13,Bourgogne-Franche-Comté,69.0,46.0,55.0
+2023-11-13,Bretagne,76.0,57.0,45.0
+2023-11-13,Centre-Val de Loire,77.0,68.0,53.0
+2023-11-13,Corse,78.0,58.0,66.0
+2023-11-13,Grand Est,82.0,60.0,48.0
+2023-11-13,Hauts-de-France,79.0,54.0,48.0
+2023-11-13,Normandie,70.0,59.0,56.0
+2023-11-13,Nouvelle-Aquitaine,72.0,59.0,54.0
+2023-11-13,Occitanie,75.0,62.0,49.0
+2023-11-13,Pays de la Loire,98.0,55.0,39.0
+2023-11-13,Provence-Alpes-Côte d'Azur,76.0,63.0,53.0
+2023-11-13,Île-de-France,52.0,64.0,50.0
+2023-11-20,Auvergne-Rhône-Alpes,73.0,57.0,57.0
+2023-11-20,Bourgogne-Franche-Comté,82.0,52.0,63.0
+2023-11-20,Bretagne,64.0,53.0,44.0
+2023-11-20,Centre-Val de Loire,83.0,46.0,53.0
+2023-11-20,Corse,72.0,72.0,70.0
+2023-11-20,Grand Est,98.0,62.0,63.0
+2023-11-20,Hauts-de-France,75.0,85.0,57.0
+2023-11-20,Normandie,95.0,68.0,50.0
+2023-11-20,Nouvelle-Aquitaine,101.0,50.0,41.0
+2023-11-20,Occitanie,77.0,62.0,59.0
+2023-11-20,Pays de la Loire,80.0,62.0,72.0
+2023-11-20,Provence-Alpes-Côte d'Azur,89.0,59.0,44.0
+2023-11-20,Île-de-France,80.0,55.0,57.0
+2023-11-27,Auvergne-Rhône-Alpes,96.0,72.0,58.0
+2023-11-27,Bourgogne-Franche-Comté,87.0,66.0,40.0
+2023-11-27,Bretagne,80.0,68.0,53.0
+2023-11-27,Centre-Val de Loire,81.0,70.0,51.0
+2023-11-27,Corse,66.0,59.0,51.0
+2023-11-27,Grand Est,92.0,47.0,52.0
+2023-11-27,Hauts-de-France,89.0,70.0,52.0
+2023-11-27,Normandie,88.0,56.0,57.0
+2023-11-27,Nouvelle-Aquitaine,75.0,66.0,65.0
+2023-11-27,Occitanie,67.0,68.0,55.0
+2023-11-27,Pays de la Loire,77.0,76.0,53.0
+2023-11-27,Provence-Alpes-Côte d'Azur,79.0,62.0,52.0
+2023-11-27,Île-de-France,74.0,61.0,47.0
+2023-12-04,Auvergne-Rhône-Alpes,93.0,66.0,46.0
+2023-12-04,Bourgogne-Franche-Comté,86.0,71.0,63.0
+2023-12-04,Bretagne,60.0,65.0,46.0
+2023-12-04,Centre-Val de Loire,107.0,54.0,60.0
+2023-12-04,Corse,89.0,73.0,50.0
+2023-12-04,Grand Est,70.0,75.0,44.0
+2023-12-04,Hauts-de-France,80.0,56.0,49.0
+2023-12-04,Normandie,91.0,65.0,40.0
+2023-12-04,Nouvelle-Aquitaine,76.0,69.0,58.0
+2023-12-04,Occitanie,83.0,62.0,42.0
+2023-12-04,Pays de la Loire,94.0,47.0,56.0
+2023-12-04,Provence-Alpes-Côte d'Azur,74.0,75.0,45.0
+2023-12-04,Île-de-France,86.0,59.0,51.0
+2023-12-11,Auvergne-Rhône-Alpes,67.0,65.0,60.0
+2023-12-11,Bourgogne-Franche-Comté,99.0,70.0,49.0
+2023-12-11,Bretagne,98.0,64.0,67.0
+2023-12-11,Centre-Val de Loire,81.0,60.0,61.0
+2023-12-11,Corse,66.0,64.0,62.0
+2023-12-11,Grand Est,98.0,68.0,45.0
+2023-12-11,Hauts-de-France,100.0,71.0,47.0
+2023-12-11,Normandie,88.0,68.0,51.0
+2023-12-11,Nouvelle-Aquitaine,101.0,63.0,47.0
+2023-12-11,Occitanie,101.0,68.0,58.0
+2023-12-11,Pays de la Loire,61.0,74.0,43.0
+2023-12-11,Provence-Alpes-Côte d'Azur,118.0,70.0,48.0
+2023-12-11,Île-de-France,92.0,77.0,49.0
+2023-12-18,Auvergne-Rhône-Alpes,87.0,75.0,55.0
+2023-12-18,Bourgogne-Franche-Comté,69.0,67.0,56.0
+2023-12-18,Bretagne,69.0,76.0,49.0
+2023-12-18,Centre-Val de Loire,91.0,77.0,41.0
+2023-12-18,Corse,86.0,55.0,54.0
+2023-12-18,Grand Est,102.0,59.0,51.0
+2023-12-18,Hauts-de-France,97.0,63.0,58.0
+2023-12-18,Normandie,86.0,56.0,67.0
+2023-12-18,Nouvelle-Aquitaine,95.0,79.0,58.0
+2023-12-18,Occitanie,77.0,65.0,47.0
+2023-12-18,Pays de la Loire,91.0,78.0,44.0
+2023-12-18,Provence-Alpes-Côte d'Azur,96.0,75.0,47.0
+2023-12-18,Île-de-France,85.0,69.0,46.0
+2023-12-25,Auvergne-Rhône-Alpes,106.0,58.0,52.0
+2023-12-25,Bourgogne-Franche-Comté,93.0,71.0,63.0
+2023-12-25,Bretagne,87.0,65.0,56.0
+2023-12-25,Centre-Val de Loire,95.0,80.0,58.0
+2023-12-25,Corse,84.0,64.0,47.0
+2023-12-25,Grand Est,109.0,48.0,50.0
+2023-12-25,Hauts-de-France,88.0,75.0,58.0
+2023-12-25,Normandie,88.0,65.0,50.0
+2023-12-25,Nouvelle-Aquitaine,101.0,84.0,52.0
+2023-12-25,Occitanie,97.0,60.0,57.0
+2023-12-25,Pays de la Loire,85.0,72.0,60.0
+2023-12-25,Provence-Alpes-Côte d'Azur,97.0,64.0,46.0
+2023-12-25,Île-de-France,82.0,84.0,54.0
+2024-01-01,Auvergne-Rhône-Alpes,72.0,79.0,45.0
+2024-01-01,Bourgogne-Franche-Comté,79.0,65.0,55.0
+2024-01-01,Bretagne,80.0,62.0,54.0
+2024-01-01,Centre-Val de Loire,96.0,60.0,47.0
+2024-01-01,Corse,86.0,57.0,51.0
+2024-01-01,Grand Est,97.0,67.0,33.0
+2024-01-01,Hauts-de-France,102.0,71.0,42.0
+2024-01-01,Normandie,81.0,53.0,58.0
+2024-01-01,Nouvelle-Aquitaine,78.0,56.0,50.0
+2024-01-01,Occitanie,94.0,62.0,48.0
+2024-01-01,Pays de la Loire,91.0,63.0,50.0
+2024-01-01,Provence-Alpes-Côte d'Azur,84.0,58.0,72.0
+2024-01-01,Île-de-France,81.0,69.0,47.0
+2024-01-08,Auvergne-Rhône-Alpes,95.0,78.0,48.0
+2024-01-08,Bourgogne-Franche-Comté,96.0,72.0,38.0
+2024-01-08,Bretagne,81.0,65.0,53.0
+2024-01-08,Centre-Val de Loire,94.0,71.0,44.0
+2024-01-08,Corse,108.0,72.0,48.0
+2024-01-08,Grand Est,91.0,73.0,32.0
+2024-01-08,Hauts-de-France,66.0,63.0,51.0
+2024-01-08,Normandie,94.0,75.0,45.0
+2024-01-08,Nouvelle-Aquitaine,83.0,60.0,53.0
+2024-01-08,Occitanie,88.0,67.0,46.0
+2024-01-08,Pays de la Loire,106.0,71.0,48.0
+2024-01-08,Provence-Alpes-Côte d'Azur,101.0,80.0,45.0
+2024-01-08,Île-de-France,77.0,86.0,50.0
+2024-01-15,Auvergne-Rhône-Alpes,82.0,58.0,39.0
+2024-01-15,Bourgogne-Franche-Comté,96.0,61.0,21.0
+2024-01-15,Bretagne,95.0,71.0,58.0
+2024-01-15,Centre-Val de Loire,93.0,71.0,41.0
+2024-01-15,Corse,86.0,84.0,63.0
+2024-01-15,Grand Est,93.0,68.0,55.0
+2024-01-15,Hauts-de-France,93.0,65.0,44.0
+2024-01-15,Normandie,70.0,60.0,44.0
+2024-01-15,Nouvelle-Aquitaine,84.0,71.0,57.0
+2024-01-15,Occitanie,101.0,57.0,54.0
+2024-01-15,Pays de la Loire,90.0,75.0,39.0
+2024-01-15,Provence-Alpes-Côte d'Azur,90.0,75.0,37.0
+2024-01-15,Île-de-France,82.0,75.0,47.0
+2024-01-22,Auvergne-Rhône-Alpes,77.0,57.0,26.0
+2024-01-22,Bourgogne-Franche-Comté,83.0,68.0,49.0
+2024-01-22,Bretagne,87.0,77.0,33.0
+2024-01-22,Centre-Val de Loire,96.0,67.0,41.0
+2024-01-22,Corse,90.0,72.0,34.0
+2024-01-22,Grand Est,87.0,50.0,54.0
+2024-01-22,Hauts-de-France,71.0,61.0,48.0
+2024-01-22,Normandie,84.0,57.0,43.0
+2024-01-22,Nouvelle-Aquitaine,98.0,57.0,41.0
+2024-01-22,Occitanie,86.0,68.0,53.0
+2024-01-22,Pays de la Loire,83.0,51.0,39.0
+2024-01-22,Provence-Alpes-Côte d'Azur,78.0,58.0,46.0
+2024-01-22,Île-de-France,89.0,69.0,49.0
+2024-01-29,Auvergne-Rhône-Alpes,106.0,58.0,41.0
+2024-01-29,Bourgogne-Franche-Comté,97.0,62.0,40.0
+2024-01-29,Bretagne,77.0,64.0,33.0
+2024-01-29,Centre-Val de Loire,83.0,66.0,30.0
+2024-01-29,Corse,80.0,58.0,55.0
+2024-01-29,Grand Est,103.0,71.0,34.0
+2024-01-29,Hauts-de-France,80.0,65.0,39.0
+2024-01-29,Normandie,101.0,74.0,63.0
+2024-01-29,Nouvelle-Aquitaine,80.0,61.0,51.0
+2024-01-29,Occitanie,100.0,63.0,53.0
+2024-01-29,Pays de la Loire,87.0,71.0,42.0
+2024-01-29,Provence-Alpes-Côte d'Azur,75.0,80.0,49.0
+2024-01-29,Île-de-France,83.0,70.0,35.0
+2024-02-05,Auvergne-Rhône-Alpes,95.0,66.0,30.0
+2024-02-05,Bourgogne-Franche-Comté,94.0,60.0,41.0
+2024-02-05,Bretagne,75.0,74.0,40.0
+2024-02-05,Centre-Val de Loire,93.0,66.0,40.0
+2024-02-05,Corse,84.0,59.0,54.0
+2024-02-05,Grand Est,98.0,62.0,45.0
+2024-02-05,Hauts-de-France,78.0,63.0,40.0
+2024-02-05,Normandie,84.0,53.0,31.0
+2024-02-05,Nouvelle-Aquitaine,90.0,63.0,32.0
+2024-02-05,Occitanie,96.0,77.0,41.0
+2024-02-05,Pays de la Loire,90.0,63.0,42.0
+2024-02-05,Provence-Alpes-Côte d'Azur,76.0,50.0,52.0
+2024-02-05,Île-de-France,83.0,66.0,51.0
+2024-02-12,Auvergne-Rhône-Alpes,66.0,60.0,31.0
+2024-02-12,Bourgogne-Franche-Comté,88.0,58.0,31.0
+2024-02-12,Bretagne,82.0,59.0,42.0
+2024-02-12,Centre-Val de Loire,70.0,60.0,45.0
+2024-02-12,Corse,68.0,71.0,36.0
+2024-02-12,Grand Est,82.0,58.0,45.0
+2024-02-12,Hauts-de-France,98.0,64.0,42.0
+2024-02-12,Normandie,75.0,68.0,33.0
+2024-02-12,Nouvelle-Aquitaine,93.0,67.0,44.0
+2024-02-12,Occitanie,72.0,61.0,40.0
+2024-02-12,Pays de la Loire,81.0,64.0,19.0
+2024-02-12,Provence-Alpes-Côte d'Azur,73.0,58.0,32.0
+2024-02-12,Île-de-France,82.0,57.0,48.0
+2024-02-19,Auvergne-Rhône-Alpes,99.0,54.0,34.0
+2024-02-19,Bourgogne-Franche-Comté,86.0,61.0,34.0
+2024-02-19,Bretagne,85.0,56.0,59.0
+2024-02-19,Centre-Val de Loire,69.0,67.0,38.0
+2024-02-19,Corse,82.0,61.0,39.0
+2024-02-19,Grand Est,70.0,59.0,30.0
+2024-02-19,Hauts-de-France,72.0,45.0,21.0
+2024-02-19,Normandie,87.0,69.0,30.0
+2024-02-19,Nouvelle-Aquitaine,91.0,77.0,35.0
+2024-02-19,Occitanie,68.0,64.0,30.0
+2024-02-19,Pays de la Loire,78.0,59.0,42.0
+2024-02-19,Provence-Alpes-Côte d'Azur,72.0,61.0,45.0
+2024-02-19,Île-de-France,81.0,67.0,39.0
+2024-02-26,Auvergne-Rhône-Alpes,82.0,56.0,29.0
+2024-02-26,Bourgogne-Franche-Comté,81.0,58.0,30.0
+2024-02-26,Bretagne,77.0,51.0,48.0
+2024-02-26,Centre-Val de Loire,86.0,61.0,42.0
+2024-02-26,Corse,60.0,63.0,26.0
+2024-02-26,Grand Est,73.0,52.0,32.0
+2024-02-26,Hauts-de-France,63.0,54.0,24.0
+2024-02-26,Normandie,69.0,52.0,21.0
+2024-02-26,Nouvelle-Aquitaine,63.0,69.0,42.0
+2024-02-26,Occitanie,81.0,72.0,38.0
+2024-02-26,Pays de la Loire,64.0,57.0,34.0
+2024-02-26,Provence-Alpes-Côte d'Azur,62.0,61.0,28.0
+2024-02-26,Île-de-France,71.0,46.0,38.0
+2024-03-04,Auvergne-Rhône-Alpes,69.0,76.0,8.0
+2024-03-04,Bourgogne-Franche-Comté,58.0,48.0,32.0
+2024-03-04,Bretagne,58.0,49.0,26.0
+2024-03-04,Centre-Val de Loire,73.0,58.0,18.0
+2024-03-04,Corse,62.0,54.0,27.0
+2024-03-04,Grand Est,61.0,48.0,23.0
+2024-03-04,Hauts-de-France,84.0,50.0,34.0
+2024-03-04,Normandie,88.0,58.0,33.0
+2024-03-04,Nouvelle-Aquitaine,69.0,55.0,18.0
+2024-03-04,Occitanie,58.0,54.0,29.0
+2024-03-04,Pays de la Loire,61.0,40.0,13.0
+2024-03-04,Provence-Alpes-Côte d'Azur,58.0,54.0,36.0
+2024-03-04,Île-de-France,71.0,54.0,25.0
+2024-03-11,Auvergne-Rhône-Alpes,55.0,44.0,32.0
+2024-03-11,Bourgogne-Franche-Comté,74.0,54.0,31.0
+2024-03-11,Bretagne,63.0,38.0,21.0
+2024-03-11,Centre-Val de Loire,70.0,57.0,27.0
+2024-03-11,Corse,51.0,63.0,28.0
+2024-03-11,Grand Est,63.0,57.0,28.0
+2024-03-11,Hauts-de-France,68.0,55.0,20.0
+2024-03-11,Normandie,68.0,47.0,19.0
+2024-03-11,Nouvelle-Aquitaine,80.0,53.0,24.0
+2024-03-11,Occitanie,52.0,47.0,27.0
+2024-03-11,Pays de la Loire,60.0,53.0,17.0
+2024-03-11,Provence-Alpes-Côte d'Azur,55.0,50.0,35.0
+2024-03-11,Île-de-France,76.0,50.0,29.0
+2024-03-18,Auvergne-Rhône-Alpes,61.0,50.0,23.0
+2024-03-18,Bourgogne-Franche-Comté,63.0,46.0,13.0
+2024-03-18,Bretagne,58.0,47.0,16.0
+2024-03-18,Centre-Val de Loire,68.0,43.0,18.0
+2024-03-18,Corse,66.0,50.0,23.0
+2024-03-18,Grand Est,56.0,59.0,17.0
+2024-03-18,Hauts-de-France,49.0,53.0,23.0
+2024-03-18,Normandie,75.0,38.0,23.0
+2024-03-18,Nouvelle-Aquitaine,63.0,30.0,12.0
+2024-03-18,Occitanie,39.0,40.0,11.0
+2024-03-18,Pays de la Loire,55.0,47.0,24.0
+2024-03-18,Provence-Alpes-Côte d'Azur,66.0,43.0,20.0
+2024-03-18,Île-de-France,59.0,35.0,29.0
+2024-03-25,Auvergne-Rhône-Alpes,63.0,32.0,13.0
+2024-03-25,Bourgogne-Franche-Comté,70.0,43.0,13.0
+2024-03-25,Bretagne,28.0,44.0,30.0
+2024-03-25,Centre-Val de Loire,54.0,40.0,7.0
+2024-03-25,Corse,65.0,54.0,28.0
+2024-03-25,Grand Est,49.0,32.0,6.0
+2024-03-25,Hauts-de-France,58.0,45.0,30.0
+2024-03-25,Normandie,61.0,49.0,22.0
+2024-03-25,Nouvelle-Aquitaine,55.0,53.0,14.0
+2024-03-25,Occitanie,37.0,55.0,29.0
+2024-03-25,Pays de la Loire,50.0,40.0,7.0
+2024-03-25,Provence-Alpes-Côte d'Azur,38.0,48.0,8.0
+2024-03-25,Île-de-France,45.0,68.0,22.0
+2024-04-01,Auvergne-Rhône-Alpes,67.0,40.0,11.0
+2024-04-01,Bourgogne-Franche-Comté,42.0,44.0,13.0
+2024-04-01,Bretagne,50.0,31.0,12.0
+2024-04-01,Centre-Val de Loire,37.0,23.0,14.0
+2024-04-01,Corse,54.0,29.0,7.0
+2024-04-01,Grand Est,47.0,42.0,2.0
+2024-04-01,Hauts-de-France,67.0,49.0,23.0
+2024-04-01,Normandie,40.0,47.0,2.0
+2024-04-01,Nouvelle-Aquitaine,50.0,44.0,2.0
+2024-04-01,Occitanie,62.0,40.0,26.0
+2024-04-01,Pays de la Loire,48.0,39.0,15.0
+2024-04-01,Provence-Alpes-Côte d'Azur,43.0,40.0,12.0
+2024-04-01,Île-de-France,52.0,43.0,13.0
+2024-04-08,Auvergne-Rhône-Alpes,49.0,45.0,9.0
+2024-04-08,Bourgogne-Franche-Comté,33.0,40.0,13.0
+2024-04-08,Bretagne,35.0,41.0,0.0
+2024-04-08,Centre-Val de Loire,39.0,23.0,15.0
+2024-04-08,Corse,36.0,40.0,7.0
+2024-04-08,Grand Est,46.0,30.0,8.0
+2024-04-08,Hauts-de-France,39.0,40.0,17.0
+2024-04-08,Normandie,54.0,28.0,3.0
+2024-04-08,Nouvelle-Aquitaine,49.0,32.0,25.0
+2024-04-08,Occitanie,44.0,32.0,22.0
+2024-04-08,Pays de la Loire,52.0,30.0,11.0
+2024-04-08,Provence-Alpes-Côte d'Azur,42.0,40.0,18.0
+2024-04-08,Île-de-France,38.0,40.0,18.0
+2024-04-15,Auvergne-Rhône-Alpes,29.0,19.0,8.0
+2024-04-15,Bourgogne-Franche-Comté,47.0,24.0,8.0
+2024-04-15,Bretagne,54.0,29.0,22.0
+2024-04-15,Centre-Val de Loire,29.0,38.0,23.0
+2024-04-15,Corse,30.0,31.0,19.0
+2024-04-15,Grand Est,40.0,17.0,19.0
+2024-04-15,Hauts-de-France,40.0,40.0,3.0
+2024-04-15,Normandie,38.0,33.0,9.0
+2024-04-15,Nouvelle-Aquitaine,49.0,33.0,25.0
+2024-04-15,Occitanie,45.0,38.0,1.0
+2024-04-15,Pays de la Loire,52.0,21.0,17.0
+2024-04-15,Provence-Alpes-Côte d'Azur,37.0,48.0,6.0
+2024-04-15,Île-de-France,33.0,37.0,4.0
+2024-04-22,Auvergne-Rhône-Alpes,42.0,31.0,12.0
+2024-04-22,Bourgogne-Franche-Comté,39.0,18.0,11.0
+2024-04-22,Bretagne,42.0,7.0,19.0
+2024-04-22,Centre-Val de Loire,43.0,31.0,12.0
+2024-04-22,Corse,31.0,18.0,0.0
+2024-04-22,Grand Est,36.0,28.0,9.0
+2024-04-22,Hauts-de-France,45.0,15.0,0.0
+2024-04-22,Normandie,52.0,45.0,9.0
+2024-04-22,Nouvelle-Aquitaine,29.0,33.0,15.0
+2024-04-22,Occitanie,52.0,43.0,22.0
+2024-04-22,Pays de la Loire,37.0,34.0,0.0
+2024-04-22,Provence-Alpes-Côte d'Azur,28.0,33.0,22.0
+2024-04-22,Île-de-France,36.0,36.0,16.0
+2024-04-29,Auvergne-Rhône-Alpes,15.0,13.0,0.0
+2024-04-29,Bourgogne-Franche-Comté,35.0,26.0,1.0
+2024-04-29,Bretagne,23.0,30.0,8.0
+2024-04-29,Centre-Val de Loire,25.0,37.0,1.0
+2024-04-29,Corse,26.0,9.0,21.0
+2024-04-29,Grand Est,53.0,15.0,2.0
+2024-04-29,Hauts-de-France,30.0,25.0,18.0
+2024-04-29,Normandie,31.0,26.0,0.0
+2024-04-29,Nouvelle-Aquitaine,29.0,19.0,7.0
+2024-04-29,Occitanie,17.0,30.0,2.0
+2024-04-29,Pays de la Loire,38.0,21.0,9.0
+2024-04-29,Provence-Alpes-Côte d'Azur,32.0,23.0,8.0
+2024-04-29,Île-de-France,14.0,25.0,9.0
+2024-05-06,Auvergne-Rhône-Alpes,37.0,32.0,13.0
+2024-05-06,Bourgogne-Franche-Comté,37.0,26.0,3.0
+2024-05-06,Bretagne,34.0,14.0,10.0
+2024-05-06,Centre-Val de Loire,42.0,13.0,10.0
+2024-05-06,Corse,27.0,21.0,0.0
+2024-05-06,Grand Est,46.0,25.0,0.0
+2024-05-06,Hauts-de-France,16.0,30.0,7.0
+2024-05-06,Normandie,27.0,12.0,9.0
+2024-05-06,Nouvelle-Aquitaine,11.0,12.0,8.0
+2024-05-06,Occitanie,38.0,26.0,5.0
+2024-05-06,Pays de la Loire,30.0,24.0,11.0
+2024-05-06,Provence-Alpes-Côte d'Azur,33.0,30.0,18.0
+2024-05-06,Île-de-France,12.0,29.0,6.0
+2024-05-13,Auvergne-Rhône-Alpes,26.0,24.0,6.0
+2024-05-13,Bourgogne-Franche-Comté,12.0,29.0,0.0
+2024-05-13,Bretagne,18.0,12.0,14.0
+2024-05-13,Centre-Val de Loire,22.0,13.0,12.0
+2024-05-13,Corse,6.0,22.0,0.0
+2024-05-13,Grand Est,27.0,23.0,10.0
+2024-05-13,Hauts-de-France,26.0,27.0,5.0
+2024-05-13,Normandie,8.0,14.0,0.0
+2024-05-13,Nouvelle-Aquitaine,30.0,26.0,8.0
+2024-05-13,Occitanie,25.0,24.0,11.0
+2024-05-13,Pays de la Loire,16.0,24.0,20.0
+2024-05-13,Provence-Alpes-Côte d'Azur,1.0,22.0,6.0
+2024-05-13,Île-de-France,20.0,2.0,2.0
+2024-05-20,Auvergne-Rhône-Alpes,20.0,15.0,5.0
+2024-05-20,Bourgogne-Franche-Comté,24.0,0.0,14.0
+2024-05-20,Bretagne,16.0,21.0,14.0
+2024-05-20,Centre-Val de Loire,18.0,19.0,10.0
+2024-05-20,Corse,27.0,27.0,6.0
+2024-05-20,Grand Est,23.0,21.0,7.0
+2024-05-20,Hauts-de-France,11.0,14.0,16.0
+2024-05-20,Normandie,5.0,13.0,3.0
+2024-05-20,Nouvelle-Aquitaine,18.0,20.0,3.0
+2024-05-20,Occitanie,37.0,26.0,9.0
+2024-05-20,Pays de la Loire,14.0,26.0,12.0
+2024-05-20,Provence-Alpes-Côte d'Azur,27.0,18.0,15.0
+2024-05-20,Île-de-France,11.0,29.0,2.0
+2024-05-27,Auvergne-Rhône-Alpes,15.0,22.0,4.0
+2024-05-27,Bourgogne-Franche-Comté,6.0,24.0,13.0
+2024-05-27,Bretagne,10.0,17.0,26.0
+2024-05-27,Centre-Val de Loire,23.0,17.0,1.0
+2024-05-27,Corse,8.0,16.0,10.0
+2024-05-27,Grand Est,30.0,5.0,2.0
+2024-05-27,Hauts-de-France,8.0,6.0,0.0
+2024-05-27,Normandie,9.0,16.0,16.0
+2024-05-27,Nouvelle-Aquitaine,23.0,24.0,14.0
+2024-05-27,Occitanie,4.0,28.0,9.0
+2024-05-27,Pays de la Loire,8.0,12.0,9.0
+2024-05-27,Provence-Alpes-Côte d'Azur,27.0,0.0,9.0
+2024-05-27,Île-de-France,32.0,13.0,3.0
+2024-06-03,Auvergne-Rhône-Alpes,23.0,19.0,0.0
+2024-06-03,Bourgogne-Franche-Comté,16.0,10.0,8.0
+2024-06-03,Bretagne,6.0,12.0,21.0
+2024-06-03,Centre-Val de Loire,0.0,0.0,16.0
+2024-06-03,Corse,14.0,21.0,4.0
+2024-06-03,Grand Est,21.0,2.0,0.0
+2024-06-03,Hauts-de-France,0.0,9.0,17.0
+2024-06-03,Normandie,16.0,14.0,1.0
+2024-06-03,Nouvelle-Aquitaine,10.0,8.0,0.0
+2024-06-03,Occitanie,15.0,17.0,11.0
+2024-06-03,Pays de la Loire,20.0,4.0,0.0
+2024-06-03,Provence-Alpes-Côte d'Azur,7.0,0.0,3.0
+2024-06-03,Île-de-France,9.0,10.0,4.0
+2024-06-10,Auvergne-Rhône-Alpes,9.0,19.0,4.0
+2024-06-10,Bourgogne-Franche-Comté,17.0,10.0,6.0
+2024-06-10,Bretagne,11.0,15.0,9.0
+2024-06-10,Centre-Val de Loire,5.0,10.0,8.0
+2024-06-10,Corse,26.0,4.0,4.0
+2024-06-10,Grand Est,0.0,0.0,4.0
+2024-06-10,Hauts-de-France,12.0,20.0,0.0
+2024-06-10,Normandie,22.0,15.0,9.0
+2024-06-10,Nouvelle-Aquitaine,0.0,12.0,7.0
+2024-06-10,Occitanie,16.0,20.0,7.0
+2024-06-10,Pays de la Loire,12.0,21.0,3.0
+2024-06-10,Provence-Alpes-Côte d'Azur,28.0,0.0,13.0
+2024-06-10,Île-de-France,41.0,6.0,1.0
+2024-06-17,Auvergne-Rhône-Alpes,18.0,17.0,4.0
+2024-06-17,Bourgogne-Franche-Comté,0.0,12.0,17.0
+2024-06-17,Bretagne,8.0,15.0,0.0
+2024-06-17,Centre-Val de Loire,11.0,9.0,14.0
+2024-06-17,Corse,12.0,0.0,0.0
+2024-06-17,Grand Est,19.0,11.0,0.0
+2024-06-17,Hauts-de-France,0.0,1.0,10.0
+2024-06-17,Normandie,15.0,25.0,4.0
+2024-06-17,Nouvelle-Aquitaine,0.0,10.0,14.0
+2024-06-17,Occitanie,18.0,16.0,18.0
+2024-06-17,Pays de la Loire,17.0,19.0,3.0
+2024-06-17,Provence-Alpes-Côte d'Azur,16.0,2.0,13.0
+2024-06-17,Île-de-France,20.0,10.0,0.0
+2024-06-24,Auvergne-Rhône-Alpes,0.0,19.0,9.0
+2024-06-24,Bourgogne-Franche-Comté,23.0,11.0,5.0
+2024-06-24,Bretagne,1.0,1.0,5.0
+2024-06-24,Centre-Val de Loire,21.0,17.0,13.0
+2024-06-24,Corse,10.0,3.0,5.0
+2024-06-24,Grand Est,8.0,12.0,2.0
+2024-06-24,Hauts-de-France,9.0,18.0,0.0
+2024-06-24,Normandie,4.0,5.0,3.0
+2024-06-24,Nouvelle-Aquitaine,6.0,17.0,17.0
+2024-06-24,Occitanie,17.0,0.0,11.0
+2024-06-24,Pays de la Loire,28.0,16.0,19.0
+2024-06-24,Provence-Alpes-Côte d'Azur,5.0,15.0,7.0
+2024-06-24,Île-de-France,19.0,5.0,0.0
+2024-07-01,Auvergne-Rhône-Alpes,19.0,4.0,11.0
+2024-07-01,Bourgogne-Franche-Comté,3.0,13.0,0.0
+2024-07-01,Bretagne,7.0,10.0,0.0
+2024-07-01,Centre-Val de Loire,5.0,7.0,1.0
+2024-07-01,Corse,0.0,8.0,0.0
+2024-07-01,Grand Est,4.0,21.0,2.0
+2024-07-01,Hauts-de-France,14.0,9.0,1.0
+2024-07-01,Normandie,4.0,0.0,0.0
+2024-07-01,Nouvelle-Aquitaine,11.0,2.0,9.0
+2024-07-01,Occitanie,15.0,19.0,18.0
+2024-07-01,Pays de la Loire,2.0,21.0,1.0
+2024-07-01,Provence-Alpes-Côte d'Azur,9.0,9.0,19.0
+2024-07-01,Île-de-France,21.0,22.0,14.0
+2024-07-08,Auvergne-Rhône-Alpes,25.0,21.0,27.0
+2024-07-08,Bourgogne-Franche-Comté,0.0,0.0,18.0
+2024-07-08,Bretagne,0.0,19.0,8.0
+2024-07-08,Centre-Val de Loire,18.0,7.0,12.0
+2024-07-08,Corse,25.0,12.0,19.0
+2024-07-08,Grand Est,15.0,5.0,19.0
+2024-07-08,Hauts-de-France,3.0,10.0,28.0
+2024-07-08,Normandie,28.0,17.0,12.0
+2024-07-08,Nouvelle-Aquitaine,0.0,9.0,3.0
+2024-07-08,Occitanie,16.0,22.0,11.0
+2024-07-08,Pays de la Loire,0.0,8.0,15.0
+2024-07-08,Provence-Alpes-Côte d'Azur,9.0,3.0,15.0
+2024-07-08,Île-de-France,0.0,2.0,17.0
+2024-07-15,Auvergne-Rhône-Alpes,5.0,9.0,20.0
+2024-07-15,Bourgogne-Franche-Comté,8.0,8.0,10.0
+2024-07-15,Bretagne,0.0,0.0,10.0
+2024-07-15,Centre-Val de Loire,0.0,0.0,0.0
+2024-07-15,Corse,19.0,9.0,2.0
+2024-07-15,Grand Est,13.0,14.0,9.0
+2024-07-15,Hauts-de-France,0.0,8.0,5.0
+2024-07-15,Normandie,7.0,4.0,9.0
+2024-07-15,Nouvelle-Aquitaine,28.0,21.0,9.0
+2024-07-15,Occitanie,22.0,19.0,0.0
+2024-07-15,Pays de la Loire,23.0,4.0,0.0
+2024-07-15,Provence-Alpes-Côte d'Azur,12.0,11.0,8.0
+2024-07-15,Île-de-France,13.0,0.0,9.0
+2024-07-22,Auvergne-Rhône-Alpes,22.0,12.0,23.0
+2024-07-22,Bourgogne-Franche-Comté,13.0,17.0,15.0
+2024-07-22,Bretagne,7.0,16.0,5.0
+2024-07-22,Centre-Val de Loire,7.0,5.0,21.0
+2024-07-22,Corse,13.0,10.0,21.0
+2024-07-22,Grand Est,18.0,0.0,23.0
+2024-07-22,Hauts-de-France,42.0,12.0,17.0
+2024-07-22,Normandie,16.0,0.0,9.0
+2024-07-22,Nouvelle-Aquitaine,13.0,14.0,31.0
+2024-07-22,Occitanie,1.0,10.0,15.0
+2024-07-22,Pays de la Loire,26.0,9.0,11.0
+2024-07-22,Provence-Alpes-Côte d'Azur,14.0,24.0,9.0
+2024-07-22,Île-de-France,8.0,12.0,18.0
+2024-07-29,Auvergne-Rhône-Alpes,0.0,7.0,32.0
+2024-07-29,Bourgogne-Franche-Comté,20.0,0.0,19.0
+2024-07-29,Bretagne,0.0,23.0,12.0
+2024-07-29,Centre-Val de Loire,4.0,6.0,17.0
+2024-07-29,Corse,21.0,0.0,17.0
+2024-07-29,Grand Est,14.0,28.0,31.0
+2024-07-29,Hauts-de-France,14.0,14.0,20.0
+2024-07-29,Normandie,27.0,16.0,26.0
+2024-07-29,Nouvelle-Aquitaine,2.0,13.0,19.0
+2024-07-29,Occitanie,6.0,24.0,14.0
+2024-07-29,Pays de la Loire,25.0,13.0,3.0
+2024-07-29,Provence-Alpes-Côte d'Azur,8.0,8.0,15.0
+2024-07-29,Île-de-France,7.0,7.0,14.0
+2024-08-05,Auvergne-Rhône-Alpes,0.0,17.0,12.0
+2024-08-05,Bourgogne-Franche-Comté,28.0,14.0,21.0
+2024-08-05,Bretagne,35.0,25.0,28.0
+2024-08-05,Centre-Val de Loire,5.0,16.0,30.0
+2024-08-05,Corse,26.0,17.0,22.0
+2024-08-05,Grand Est,10.0,23.0,38.0
+2024-08-05,Hauts-de-France,0.0,9.0,25.0
+2024-08-05,Normandie,8.0,29.0,31.0
+2024-08-05,Nouvelle-Aquitaine,4.0,22.0,30.0
+2024-08-05,Occitanie,27.0,11.0,26.0
+2024-08-05,Pays de la Loire,17.0,18.0,17.0
+2024-08-05,Provence-Alpes-Côte d'Azur,8.0,23.0,3.0
+2024-08-05,Île-de-France,35.0,4.0,25.0
+2024-08-12,Auvergne-Rhône-Alpes,21.0,17.0,12.0
+2024-08-12,Bourgogne-Franche-Comté,0.0,30.0,22.0
+2024-08-12,Bretagne,22.0,16.0,17.0
+2024-08-12,Centre-Val de Loire,18.0,22.0,29.0
+2024-08-12,Corse,4.0,13.0,26.0
+2024-08-12,Grand Est,20.0,16.0,23.0
+2024-08-12,Hauts-de-France,23.0,13.0,37.0
+2024-08-12,Normandie,6.0,9.0,28.0
+2024-08-12,Nouvelle-Aquitaine,10.0,27.0,25.0
+2024-08-12,Occitanie,7.0,26.0,20.0
+2024-08-12,Pays de la Loire,17.0,21.0,23.0
+2024-08-12,Provence-Alpes-Côte d'Azur,12.0,17.0,24.0
+2024-08-12,Île-de-France,19.0,12.0,21.0
+2024-08-19,Auvergne-Rhône-Alpes,4.0,20.0,36.0
+2024-08-19,Bourgogne-Franche-Comté,28.0,20.0,36.0
+2024-08-19,Bretagne,31.0,29.0,30.0
+2024-08-19,Centre-Val de Loire,2.0,22.0,30.0
+2024-08-19,Corse,16.0,3.0,31.0
+2024-08-19,Grand Est,28.0,18.0,31.0
+2024-08-19,Hauts-de-France,30.0,12.0,32.0
+2024-08-19,Normandie,28.0,22.0,37.0
+2024-08-19,Nouvelle-Aquitaine,45.0,18.0,30.0
+2024-08-19,Occitanie,23.0,20.0,36.0
+2024-08-19,Pays de la Loire,20.0,24.0,15.0
+2024-08-19,Provence-Alpes-Côte d'Azur,25.0,8.0,26.0
+2024-08-19,Île-de-France,19.0,31.0,25.0
+2024-08-26,Auvergne-Rhône-Alpes,28.0,21.0,37.0
+2024-08-26,Bourgogne-Franche-Comté,34.0,32.0,29.0
+2024-08-26,Bretagne,14.0,21.0,28.0
+2024-08-26,Centre-Val de Loire,40.0,21.0,37.0
+2024-08-26,Corse,0.0,13.0,27.0
+2024-08-26,Grand Est,16.0,22.0,26.0
+2024-08-26,Hauts-de-France,22.0,17.0,27.0
+2024-08-26,Normandie,31.0,31.0,19.0
+2024-08-26,Nouvelle-Aquitaine,34.0,11.0,23.0
+2024-08-26,Occitanie,33.0,20.0,30.0
+2024-08-26,Pays de la Loire,30.0,28.0,31.0
+2024-08-26,Provence-Alpes-Côte d'Azur,26.0,33.0,37.0
+2024-08-26,Île-de-France,26.0,39.0,19.0
+2024-09-02,Auvergne-Rhône-Alpes,23.0,20.0,40.0
+2024-09-02,Bourgogne-Franche-Comté,25.0,38.0,29.0
+2024-09-02,Bretagne,28.0,30.0,26.0
+2024-09-02,Centre-Val de Loire,37.0,37.0,31.0
+2024-09-02,Corse,45.0,37.0,27.0
+2024-09-02,Grand Est,26.0,24.0,39.0
+2024-09-02,Hauts-de-France,25.0,12.0,39.0
+2024-09-02,Normandie,47.0,14.0,33.0
+2024-09-02,Nouvelle-Aquitaine,14.0,39.0,33.0
+2024-09-02,Occitanie,28.0,29.0,34.0
+2024-09-02,Pays de la Loire,15.0,27.0,31.0
+2024-09-02,Provence-Alpes-Côte d'Azur,27.0,41.0,34.0
+2024-09-02,Île-de-France,34.0,23.0,30.0
+2024-09-09,Auvergne-Rhône-Alpes,37.0,32.0,33.0
+2024-09-09,Bourgogne-Franche-Comté,29.0,37.0,35.0
+2024-09-09,Bretagne,34.0,31.0,43.0
+2024-09-09,Centre-Val de Loire,33.0,25.0,22.0
+2024-09-09,Corse,38.0,8.0,30.0
+2024-09-09,Grand Est,36.0,33.0,38.0
+2024-09-09,Hauts-de-France,37.0,25.0,32.0
+2024-09-09,Normandie,38.0,40.0,40.0
+2024-09-09,Nouvelle-Aquitaine,38.0,29.0,34.0
+2024-09-09,Occitanie,43.0,22.0,46.0
+2024-09-09,Pays de la Loire,37.0,22.0,36.0
+2024-09-09,Provence-Alpes-Côte d'Azur,46.0,39.0,38.0
+2024-09-09,Île-de-France,54.0,31.0,32.0
+2024-09-16,Auvergne-Rhône-Alpes,43.0,25.0,28.0
+2024-09-16,Bourgogne-Franche-Comté,41.0,40.0,42.0
+2024-09-16,Bretagne,20.0,36.0,34.0
+2024-09-16,Centre-Val de Loire,35.0,29.0,28.0
+2024-09-16,Corse,31.0,33.0,26.0
+2024-09-16,Grand Est,27.0,45.0,36.0
+2024-09-16,Hauts-de-France,55.0,41.0,47.0
+2024-09-16,Normandie,52.0,12.0,30.0
+2024-09-16,Nouvelle-Aquitaine,44.0,36.0,35.0
+2024-09-16,Occitanie,40.0,37.0,44.0
+2024-09-16,Pays de la Loire,20.0,36.0,35.0
+2024-09-16,Provence-Alpes-Côte d'Azur,46.0,40.0,35.0
+2024-09-16,Île-de-France,56.0,10.0,47.0
+2024-09-23,Auvergne-Rhône-Alpes,45.0,28.0,37.0
+2024-09-23,Bourgogne-Franche-Comté,46.0,39.0,41.0
+2024-09-23,Bretagne,34.0,18.0,47.0
+2024-09-23,Centre-Val de Loire,57.0,31.0,40.0
+2024-09-23,Corse,40.0,23.0,54.0
+2024-09-23,Grand Est,39.0,35.0,44.0
+2024-09-23,Hauts-de-France,52.0,48.0,54.0
+2024-09-23,Normandie,50.0,22.0,49.0
+2024-09-23,Nouvelle-Aquitaine,41.0,37.0,46.0
+2024-09-23,Occitanie,43.0,35.0,37.0
+2024-09-23,Pays de la Loire,58.0,39.0,33.0
+2024-09-23,Provence-Alpes-Côte d'Azur,40.0,36.0,49.0
+2024-09-23,Île-de-France,37.0,32.0,57.0
+2024-09-30,Auvergne-Rhône-Alpes,61.0,40.0,74.0
+2024-09-30,Bourgogne-Franche-Comté,56.0,46.0,32.0
+2024-09-30,Bretagne,50.0,46.0,45.0
+2024-09-30,Centre-Val de Loire,47.0,45.0,34.0
+2024-09-30,Corse,56.0,38.0,46.0
+2024-09-30,Grand Est,51.0,35.0,35.0
+2024-09-30,Hauts-de-France,57.0,34.0,53.0
+2024-09-30,Normandie,62.0,51.0,56.0
+2024-09-30,Nouvelle-Aquitaine,43.0,39.0,42.0
+2024-09-30,Occitanie,41.0,58.0,28.0
+2024-09-30,Pays de la Loire,59.0,35.0,46.0
+2024-09-30,Provence-Alpes-Côte d'Azur,52.0,40.0,42.0
+2024-09-30,Île-de-France,46.0,41.0,28.0
+2024-10-07,Auvergne-Rhône-Alpes,59.0,23.0,35.0
+2024-10-07,Bourgogne-Franche-Comté,58.0,41.0,52.0
+2024-10-07,Bretagne,67.0,55.0,32.0
+2024-10-07,Centre-Val de Loire,48.0,53.0,38.0
+2024-10-07,Corse,58.0,52.0,37.0
+2024-10-07,Grand Est,44.0,28.0,45.0
+2024-10-07,Hauts-de-France,50.0,53.0,48.0
+2024-10-07,Normandie,53.0,37.0,35.0
+2024-10-07,Nouvelle-Aquitaine,58.0,46.0,48.0
+2024-10-07,Occitanie,66.0,54.0,50.0
+2024-10-07,Pays de la Loire,67.0,39.0,53.0
+2024-10-07,Provence-Alpes-Côte d'Azur,51.0,52.0,38.0
+2024-10-07,Île-de-France,42.0,35.0,37.0
+2024-10-14,Auvergne-Rhône-Alpes,70.0,46.0,42.0
+2024-10-14,Bourgogne-Franche-Comté,57.0,45.0,50.0
+2024-10-14,Bretagne,64.0,37.0,50.0
+2024-10-14,Centre-Val de Loire,54.0,57.0,57.0
+2024-10-14,Corse,49.0,46.0,44.0
+2024-10-14,Grand Est,60.0,43.0,56.0
+2024-10-14,Hauts-de-France,48.0,32.0,51.0
+2024-10-14,Normandie,76.0,51.0,42.0
+2024-10-14,Nouvelle-Aquitaine,56.0,46.0,22.0
+2024-10-14,Occitanie,57.0,43.0,51.0
+2024-10-14,Pays de la Loire,55.0,42.0,48.0
+2024-10-14,Provence-Alpes-Côte d'Azur,54.0,28.0,57.0
+2024-10-14,Île-de-France,64.0,50.0,48.0
+2024-10-21,Auvergne-Rhône-Alpes,59.0,50.0,51.0
+2024-10-21,Bourgogne-Franche-Comté,66.0,52.0,50.0
+2024-10-21,Bretagne,63.0,57.0,38.0
+2024-10-21,Centre-Val de Loire,74.0,38.0,57.0
+2024-10-21,Corse,75.0,58.0,39.0
+2024-10-21,Grand Est,53.0,61.0,39.0
+2024-10-21,Hauts-de-France,56.0,49.0,57.0
+2024-10-21,Normandie,75.0,52.0,54.0
+2024-10-21,Nouvelle-Aquitaine,64.0,46.0,52.0
+2024-10-21,Occitanie,58.0,54.0,49.0
+2024-10-21,Pays de la Loire,57.0,49.0,57.0
+2024-10-21,Provence-Alpes-Côte d'Azur,49.0,56.0,47.0
+2024-10-21,Île-de-France,76.0,50.0,68.0
+2024-10-28,Auvergne-Rhône-Alpes,71.0,55.0,66.0
+2024-10-28,Bourgogne-Franche-Comté,75.0,57.0,43.0
+2024-10-28,Bretagne,72.0,58.0,55.0
+2024-10-28,Centre-Val de Loire,68.0,56.0,43.0
+2024-10-28,Corse,66.0,73.0,60.0
+2024-10-28,Grand Est,56.0,58.0,57.0
+2024-10-28,Hauts-de-France,73.0,56.0,50.0
+2024-10-28,Normandie,67.0,56.0,53.0
+2024-10-28,Nouvelle-Aquitaine,51.0,44.0,37.0
+2024-10-28,Occitanie,54.0,50.0,54.0
+2024-10-28,Pays de la Loire,74.0,62.0,51.0
+2024-10-28,Provence-Alpes-Côte d'Azur,77.0,47.0,44.0
+2024-10-28,Île-de-France,56.0,56.0,56.0
+2024-11-04,Auvergne-Rhône-Alpes,63.0,52.0,44.0
+2024-11-04,Bourgogne-Franche-Comté,72.0,51.0,57.0
+2024-11-04,Bretagne,71.0,52.0,47.0
+2024-11-04,Centre-Val de Loire,76.0,52.0,67.0
+2024-11-04,Corse,75.0,60.0,52.0
+2024-11-04,Grand Est,61.0,60.0,62.0
+2024-11-04,Hauts-de-France,79.0,51.0,60.0
+2024-11-04,Normandie,62.0,71.0,68.0
+2024-11-04,Nouvelle-Aquitaine,78.0,79.0,57.0
+2024-11-04,Occitanie,72.0,60.0,53.0
+2024-11-04,Pays de la Loire,79.0,63.0,50.0
+2024-11-04,Provence-Alpes-Côte d'Azur,95.0,62.0,63.0
+2024-11-04,Île-de-France,68.0,42.0,53.0
+2024-11-11,Auvergne-Rhône-Alpes,76.0,61.0,50.0
+2024-11-11,Bourgogne-Franche-Comté,76.0,57.0,43.0
+2024-11-11,Bretagne,86.0,55.0,48.0
+2024-11-11,Centre-Val de Loire,77.0,60.0,70.0
+2024-11-11,Corse,76.0,61.0,53.0
+2024-11-11,Grand Est,89.0,43.0,49.0
+2024-11-11,Hauts-de-France,77.0,53.0,47.0
+2024-11-11,Normandie,80.0,61.0,57.0
+2024-11-11,Nouvelle-Aquitaine,78.0,55.0,63.0
+2024-11-11,Occitanie,79.0,62.0,53.0
+2024-11-11,Pays de la Loire,89.0,57.0,61.0
+2024-11-11,Provence-Alpes-Côte d'Azur,80.0,69.0,54.0
+2024-11-11,Île-de-France,56.0,61.0,50.0
+2024-11-18,Auvergne-Rhône-Alpes,97.0,60.0,59.0
+2024-11-18,Bourgogne-Franche-Comté,63.0,61.0,56.0
+2024-11-18,Bretagne,84.0,44.0,45.0
+2024-11-18,Centre-Val de Loire,85.0,63.0,52.0
+2024-11-18,Corse,63.0,61.0,61.0
+2024-11-18,Grand Est,97.0,66.0,53.0
+2024-11-18,Hauts-de-France,89.0,64.0,60.0
+2024-11-18,Normandie,73.0,62.0,45.0
+2024-11-18,Nouvelle-Aquitaine,59.0,62.0,48.0
+2024-11-18,Occitanie,58.0,63.0,55.0
+2024-11-18,Pays de la Loire,98.0,60.0,40.0
+2024-11-18,Provence-Alpes-Côte d'Azur,71.0,64.0,56.0
+2024-11-18,Île-de-France,76.0,51.0,62.0
+2024-11-25,Auvergne-Rhône-Alpes,92.0,59.0,58.0
+2024-11-25,Bourgogne-Franche-Comté,101.0,58.0,56.0
+2024-11-25,Bretagne,78.0,62.0,61.0
+2024-11-25,Centre-Val de Loire,91.0,60.0,40.0
+2024-11-25,Corse,74.0,58.0,67.0
+2024-11-25,Grand Est,81.0,59.0,72.0
+2024-11-25,Hauts-de-France,80.0,53.0,64.0
+2024-11-25,Normandie,60.0,71.0,56.0
+2024-11-25,Nouvelle-Aquitaine,78.0,62.0,55.0
+2024-11-25,Occitanie,84.0,73.0,52.0
+2024-11-25,Pays de la Loire,94.0,66.0,49.0
+2024-11-25,Provence-Alpes-Côte d'Azur,94.0,65.0,50.0
+2024-11-25,Île-de-France,88.0,63.0,56.0
+2024-12-02,Auvergne-Rhône-Alpes,86.0,72.0,44.0
+2024-12-02,Bourgogne-Franche-Comté,96.0,74.0,46.0
+2024-12-02,Bretagne,72.0,60.0,41.0
+2024-12-02,Centre-Val de Loire,77.0,70.0,54.0
+2024-12-02,Corse,75.0,50.0,64.0
+2024-12-02,Grand Est,83.0,64.0,38.0
+2024-12-02,Hauts-de-France,83.0,55.0,64.0
+2024-12-02,Normandie,90.0,58.0,50.0
+2024-12-02,Nouvelle-Aquitaine,76.0,68.0,45.0
+2024-12-02,Occitanie,100.0,61.0,48.0
+2024-12-02,Pays de la Loire,88.0,68.0,43.0
+2024-12-02,Provence-Alpes-Côte d'Azur,75.0,52.0,51.0
+2024-12-02,Île-de-France,79.0,62.0,56.0
+2024-12-09,Auvergne-Rhône-Alpes,79.0,59.0,59.0
+2024-12-09,Bourgogne-Franche-Comté,100.0,67.0,45.0
+2024-12-09,Bretagne,92.0,64.0,67.0
+2024-12-09,Centre-Val de Loire,83.0,64.0,57.0
+2024-12-09,Corse,80.0,68.0,41.0
+2024-12-09,Grand Est,99.0,54.0,63.0
+2024-12-09,Hauts-de-France,74.0,75.0,49.0
+2024-12-09,Normandie,77.0,61.0,57.0
+2024-12-09,Nouvelle-Aquitaine,83.0,56.0,53.0
+2024-12-09,Occitanie,97.0,68.0,47.0
+2024-12-09,Pays de la Loire,91.0,59.0,52.0
+2024-12-09,Provence-Alpes-Côte d'Azur,80.0,67.0,55.0
+2024-12-09,Île-de-France,115.0,64.0,71.0
+2024-12-16,Auvergne-Rhône-Alpes,74.0,67.0,62.0
+2024-12-16,Bourgogne-Franche-Comté,95.0,70.0,51.0
+2024-12-16,Bretagne,81.0,67.0,57.0
+2024-12-16,Centre-Val de Loire,80.0,78.0,61.0
+2024-12-16,Corse,90.0,54.0,43.0
+2024-12-16,Grand Est,92.0,85.0,60.0
+2024-12-16,Hauts-de-France,88.0,71.0,59.0
+2024-12-16,Normandie,75.0,65.0,71.0
+2024-12-16,Nouvelle-Aquitaine,99.0,73.0,60.0
+2024-12-16,Occitanie,65.0,69.0,53.0
+2024-12-16,Pays de la Loire,96.0,57.0,65.0
+2024-12-16,Provence-Alpes-Côte d'Azur,99.0,71.0,59.0
+2024-12-16,Île-de-France,107.0,65.0,37.0
+2024-12-23,Auvergne-Rhône-Alpes,84.0,66.0,62.0
+2024-12-23,Bourgogne-Franche-Comté,89.0,63.0,67.0
+2024-12-23,Bretagne,91.0,56.0,52.0
+2024-12-23,Centre-Val de Loire,68.0,86.0,44.0
+2024-12-23,Corse,103.0,62.0,41.0
+2024-12-23,Grand Est,74.0,70.0,44.0
+2024-12-23,Hauts-de-France,94.0,63.0,47.0
+2024-12-23,Normandie,77.0,65.0,52.0
+2024-12-23,Nouvelle-Aquitaine,77.0,67.0,50.0
+2024-12-23,Occitanie,97.0,69.0,58.0
+2024-12-23,Pays de la Loire,79.0,60.0,41.0
+2024-12-23,Provence-Alpes-Côte d'Azur,71.0,77.0,52.0
+2024-12-23,Île-de-France,93.0,66.0,48.0
+2024-12-30,Auvergne-Rhône-Alpes,103.0,64.0,48.0
+2024-12-30,Bourgogne-Franche-Comté,105.0,87.0,68.0
+2024-12-30,Bretagne,89.0,78.0,39.0
+2024-12-30,Centre-Val de Loire,79.0,82.0,59.0
+2024-12-30,Corse,92.0,68.0,56.0
+2024-12-30,Grand Est,95.0,73.0,57.0
+2024-12-30,Hauts-de-France,90.0,76.0,58.0
+2024-12-30,Normandie,86.0,60.0,51.0
+2024-12-30,Nouvelle-Aquitaine,117.0,60.0,55.0
+2024-12-30,Occitanie,67.0,73.0,46.0
+2024-12-30,Pays de la Loire,91.0,80.0,61.0
+2024-12-30,Provence-Alpes-Côte d'Azur,89.0,72.0,47.0
+2024-12-30,Île-de-France,107.0,64.0,52.0
+2025-01-06,Auvergne-Rhône-Alpes,96.0,76.0,53.0
+2025-01-06,Bourgogne-Franche-Comté,90.0,62.0,67.0
+2025-01-06,Bretagne,82.0,65.0,47.0
+2025-01-06,Centre-Val de Loire,57.0,71.0,37.0
+2025-01-06,Corse,72.0,63.0,62.0
+2025-01-06,Grand Est,86.0,67.0,43.0
+2025-01-06,Hauts-de-France,97.0,65.0,48.0
+2025-01-06,Normandie,89.0,71.0,46.0
+2025-01-06,Nouvelle-Aquitaine,76.0,66.0,42.0
+2025-01-06,Occitanie,103.0,67.0,66.0
+2025-01-06,Pays de la Loire,78.0,75.0,44.0
+2025-01-06,Provence-Alpes-Côte d'Azur,93.0,57.0,68.0
+2025-01-06,Île-de-France,84.0,60.0,35.0
+2025-01-13,Auvergne-Rhône-Alpes,95.0,62.0,55.0
+2025-01-13,Bourgogne-Franche-Comté,73.0,59.0,45.0
+2025-01-13,Bretagne,96.0,68.0,45.0
+2025-01-13,Centre-Val de Loire,79.0,69.0,35.0
+2025-01-13,Corse,72.0,72.0,31.0
+2025-01-13,Grand Est,101.0,80.0,35.0
+2025-01-13,Hauts-de-France,102.0,77.0,53.0
+2025-01-13,Normandie,82.0,70.0,55.0
+2025-01-13,Nouvelle-Aquitaine,78.0,79.0,46.0
+2025-01-13,Occitanie,74.0,74.0,50.0
+2025-01-13,Pays de la Loire,97.0,64.0,44.0
+2025-01-13,Provence-Alpes-Côte d'Azur,103.0,72.0,53.0
+2025-01-13,Île-de-France,84.0,67.0,57.0
+2025-01-20,Auvergne-Rhône-Alpes,75.0,72.0,41.0
+2025-01-20,Bourgogne-Franche-Comté,95.0,70.0,38.0
+2025-01-20,Bretagne,87.0,57.0,49.0
+2025-01-20,Centre-Val de Loire,78.0,63.0,49.0
+2025-01-20,Corse,99.0,67.0,30.0
+2025-01-20,Grand Est,72.0,73.0,41.0
+2025-01-20,Hauts-de-France,92.0,62.0,45.0
+2025-01-20,Normandie,111.0,64.0,49.0
+2025-01-20,Nouvelle-Aquitaine,104.0,53.0,53.0
+2025-01-20,Occitanie,103.0,57.0,58.0
+2025-01-20,Pays de la Loire,90.0,51.0,42.0
+2025-01-20,Provence-Alpes-Côte d'Azur,78.0,69.0,41.0
+2025-01-20,Île-de-France,101.0,63.0,40.0
+2025-01-27,Auvergne-Rhône-Alpes,77.0,61.0,50.0
+2025-01-27,Bourgogne-Franche-Comté,77.0,62.0,41.0
+2025-01-27,Bretagne,74.0,62.0,38.0
+2025-01-27,Centre-Val de Loire,72.0,73.0,34.0
+2025-01-27,Corse,75.0,71.0,24.0
+2025-01-27,Grand Est,88.0,77.0,54.0
+2025-01-27,Hauts-de-France,78.0,60.0,39.0
+2025-01-27,Normandie,90.0,61.0,47.0
+2025-01-27,Nouvelle-Aquitaine,90.0,72.0,48.0
+2025-01-27,Occitanie,96.0,63.0,36.0
+2025-01-27,Pays de la Loire,79.0,58.0,43.0
+2025-01-27,Provence-Alpes-Côte d'Azur,89.0,67.0,40.0
+2025-01-27,Île-de-France,83.0,76.0,29.0
+2025-02-03,Auvergne-Rhône-Alpes,75.0,51.0,45.0
+2025-02-03,Bourgogne-Franche-Comté,92.0,65.0,38.0
+2025-02-03,Bretagne,96.0,69.0,28.0
+2025-02-03,Centre-Val de Loire,96.0,73.0,28.0
+2025-02-03,Corse,84.0,69.0,41.0
+2025-02-03,Grand Est,79.0,78.0,45.0
+2025-02-03,Hauts-de-France,82.0,63.0,39.0
+2025-02-03,Normandie,88.0,68.0,46.0
+2025-02-03,Nouvelle-Aquitaine,66.0,85.0,29.0
+2025-02-03,Occitanie,92.0,64.0,35.0
+2025-02-03,Pays de la Loire,63.0,64.0,50.0
+2025-02-03,Provence-Alpes-Côte d'Azur,87.0,66.0,49.0
+2025-02-03,Île-de-France,94.0,67.0,55.0
+2025-02-10,Auvergne-Rhône-Alpes,90.0,59.0,41.0
+2025-02-10,Bourgogne-Franche-Comté,92.0,66.0,47.0
+2025-02-10,Bretagne,80.0,61.0,28.0
+2025-02-10,Centre-Val de Loire,72.0,50.0,47.0
+2025-02-10,Corse,77.0,67.0,42.0
+2025-02-10,Grand Est,71.0,61.0,36.0
+2025-02-10,Hauts-de-France,81.0,57.0,35.0
+2025-02-10,Normandie,88.0,66.0,37.0
+2025-02-10,Nouvelle-Aquitaine,93.0,63.0,37.0
+2025-02-10,Occitanie,67.0,54.0,39.0
+2025-02-10,Pays de la Loire,84.0,89.0,38.0
+2025-02-10,Provence-Alpes-Côte d'Azur,48.0,72.0,32.0
+2025-02-10,Île-de-France,83.0,60.0,40.0
+2025-02-17,Auvergne-Rhône-Alpes,91.0,55.0,26.0
+2025-02-17,Bourgogne-Franche-Comté,91.0,68.0,21.0
+2025-02-17,Bretagne,68.0,59.0,39.0
+2025-02-17,Centre-Val de Loire,95.0,51.0,30.0
+2025-02-17,Corse,77.0,65.0,34.0
+2025-02-17,Grand Est,69.0,64.0,34.0
+2025-02-17,Hauts-de-France,64.0,73.0,34.0
+2025-02-17,Normandie,80.0,73.0,35.0
+2025-02-17,Nouvelle-Aquitaine,78.0,62.0,31.0
+2025-02-17,Occitanie,59.0,53.0,39.0
+2025-02-17,Pays de la Loire,66.0,70.0,33.0
+2025-02-17,Provence-Alpes-Côte d'Azur,65.0,61.0,33.0
+2025-02-17,Île-de-France,81.0,72.0,31.0
+2025-02-24,Auvergne-Rhône-Alpes,84.0,56.0,30.0
+2025-02-24,Bourgogne-Franche-Comté,90.0,57.0,35.0
+2025-02-24,Bretagne,69.0,54.0,23.0
+2025-02-24,Centre-Val de Loire,66.0,47.0,28.0
+2025-02-24,Corse,67.0,70.0,25.0
+2025-02-24,Grand Est,69.0,63.0,21.0
+2025-02-24,Hauts-de-France,74.0,76.0,31.0
+2025-02-24,Normandie,75.0,74.0,34.0
+2025-02-24,Nouvelle-Aquitaine,61.0,82.0,19.0
+2025-02-24,Occitanie,91.0,55.0,25.0
+2025-02-24,Pays de la Loire,63.0,66.0,32.0
+2025-02-24,Provence-Alpes-Côte d'Azur,89.0,51.0,32.0
+2025-02-24,Île-de-France,70.0,75.0,35.0
+2025-03-03,Auvergne-Rhône-Alpes,65.0,54.0,44.0
+2025-03-03,Bourgogne-Franche-Comté,66.0,38.0,31.0
+2025-03-03,Bretagne,62.0,55.0,23.0
+2025-03-03,Centre-Val de Loire,72.0,62.0,22.0
+2025-03-03,Corse,63.0,40.0,31.0
+2025-03-03,Grand Est,57.0,47.0,31.0
+2025-03-03,Hauts-de-France,73.0,46.0,28.0
+2025-03-03,Normandie,45.0,53.0,36.0
+2025-03-03,Nouvelle-Aquitaine,54.0,46.0,12.0
+2025-03-03,Occitanie,73.0,53.0,32.0
+2025-03-03,Pays de la Loire,74.0,57.0,21.0
+2025-03-03,Provence-Alpes-Côte d'Azur,63.0,48.0,27.0
+2025-03-03,Île-de-France,68.0,81.0,39.0
+2025-03-10,Auvergne-Rhône-Alpes,61.0,50.0,14.0
+2025-03-10,Bourgogne-Franche-Comté,56.0,58.0,10.0
+2025-03-10,Bretagne,47.0,40.0,16.0
+2025-03-10,Centre-Val de Loire,60.0,44.0,22.0
+2025-03-10,Corse,79.0,43.0,29.0
+2025-03-10,Grand Est,54.0,53.0,20.0
+2025-03-10,Hauts-de-France,62.0,60.0,35.0
+2025-03-10,Normandie,58.0,53.0,30.0
+2025-03-10,Nouvelle-Aquitaine,70.0,56.0,24.0
+2025-03-10,Occitanie,67.0,62.0,22.0
+2025-03-10,Pays de la Loire,58.0,49.0,33.0
+2025-03-10,Provence-Alpes-Côte d'Azur,55.0,50.0,12.0
+2025-03-10,Île-de-France,75.0,57.0,19.0
+2025-03-17,Auvergne-Rhône-Alpes,55.0,36.0,6.0
+2025-03-17,Bourgogne-Franche-Comté,64.0,42.0,16.0
+2025-03-17,Bretagne,49.0,44.0,31.0
+2025-03-17,Centre-Val de Loire,64.0,30.0,7.0
+2025-03-17,Corse,61.0,50.0,13.0
+2025-03-17,Grand Est,66.0,53.0,25.0
+2025-03-17,Hauts-de-France,42.0,44.0,15.0
+2025-03-17,Normandie,57.0,53.0,32.0
+2025-03-17,Nouvelle-Aquitaine,65.0,48.0,26.0
+2025-03-17,Occitanie,61.0,33.0,35.0
+2025-03-17,Pays de la Loire,52.0,46.0,26.0
+2025-03-17,Provence-Alpes-Côte d'Azur,52.0,49.0,23.0
+2025-03-17,Île-de-France,62.0,46.0,32.0
+2025-03-24,Auvergne-Rhône-Alpes,53.0,39.0,31.0
+2025-03-24,Bourgogne-Franche-Comté,68.0,47.0,21.0
+2025-03-24,Bretagne,45.0,41.0,22.0
+2025-03-24,Centre-Val de Loire,79.0,35.0,0.0
+2025-03-24,Corse,52.0,46.0,29.0
+2025-03-24,Grand Est,65.0,38.0,8.0
+2025-03-24,Hauts-de-France,58.0,42.0,31.0
+2025-03-24,Normandie,60.0,38.0,20.0
+2025-03-24,Nouvelle-Aquitaine,51.0,35.0,18.0
+2025-03-24,Occitanie,63.0,49.0,22.0
+2025-03-24,Pays de la Loire,41.0,31.0,13.0
+2025-03-24,Provence-Alpes-Côte d'Azur,61.0,48.0,24.0
+2025-03-24,Île-de-France,59.0,42.0,17.0
+2025-03-31,Auvergne-Rhône-Alpes,55.0,41.0,24.0
+2025-03-31,Bourgogne-Franche-Comté,54.0,37.0,5.0
+2025-03-31,Bretagne,47.0,58.0,1.0
+2025-03-31,Centre-Val de Loire,61.0,41.0,14.0
+2025-03-31,Corse,63.0,34.0,3.0
+2025-03-31,Grand Est,60.0,43.0,6.0
+2025-03-31,Hauts-de-France,54.0,50.0,12.0
+2025-03-31,Normandie,40.0,32.0,11.0
+2025-03-31,Nouvelle-Aquitaine,58.0,40.0,8.0
+2025-03-31,Occitanie,40.0,45.0,18.0
+2025-03-31,Pays de la Loire,61.0,40.0,17.0
+2025-03-31,Provence-Alpes-Côte d'Azur,51.0,38.0,19.0
+2025-03-31,Île-de-France,46.0,27.0,8.0
+2025-04-07,Auvergne-Rhône-Alpes,38.0,42.0,0.0
+2025-04-07,Bourgogne-Franche-Comté,41.0,34.0,7.0
+2025-04-07,Bretagne,43.0,42.0,25.0
+2025-04-07,Centre-Val de Loire,51.0,35.0,23.0
+2025-04-07,Corse,42.0,33.0,0.0
+2025-04-07,Grand Est,38.0,31.0,15.0
+2025-04-07,Hauts-de-France,48.0,32.0,9.0
+2025-04-07,Normandie,36.0,43.0,24.0
+2025-04-07,Nouvelle-Aquitaine,39.0,17.0,0.0
+2025-04-07,Occitanie,32.0,31.0,20.0
+2025-04-07,Pays de la Loire,55.0,49.0,14.0
+2025-04-07,Provence-Alpes-Côte d'Azur,38.0,25.0,22.0
+2025-04-07,Île-de-France,28.0,34.0,14.0
+2025-04-14,Auvergne-Rhône-Alpes,41.0,35.0,15.0
+2025-04-14,Bourgogne-Franche-Comté,34.0,15.0,0.0
+2025-04-14,Bretagne,46.0,27.0,2.0
+2025-04-14,Centre-Val de Loire,52.0,27.0,4.0
+2025-04-14,Corse,44.0,33.0,11.0
+2025-04-14,Grand Est,19.0,28.0,0.0
+2025-04-14,Hauts-de-France,41.0,30.0,15.0
+2025-04-14,Normandie,38.0,33.0,0.0
+2025-04-14,Nouvelle-Aquitaine,36.0,33.0,13.0
+2025-04-14,Occitanie,40.0,33.0,17.0
+2025-04-14,Pays de la Loire,43.0,35.0,1.0
+2025-04-14,Provence-Alpes-Côte d'Azur,58.0,40.0,0.0
+2025-04-14,Île-de-France,11.0,37.0,0.0
+2025-04-21,Auvergne-Rhône-Alpes,10.0,34.0,10.0
+2025-04-21,Bourgogne-Franche-Comté,30.0,41.0,12.0
+2025-04-21,Bretagne,19.0,37.0,9.0
+2025-04-21,Centre-Val de Loire,43.0,38.0,9.0
+2025-04-21,Corse,29.0,27.0,3.0
+2025-04-21,Grand Est,22.0,22.0,8.0
+2025-04-21,Hauts-de-France,36.0,28.0,20.0
+2025-04-21,Normandie,51.0,19.0,0.0
+2025-04-21,Nouvelle-Aquitaine,32.0,34.0,10.0
+2025-04-21,Occitanie,32.0,43.0,6.0
+2025-04-21,Pays de la Loire,26.0,28.0,9.0
+2025-04-21,Provence-Alpes-Côte d'Azur,22.0,32.0,7.0
+2025-04-21,Île-de-France,52.0,30.0,10.0
+2025-04-28,Auvergne-Rhône-Alpes,8.0,27.0,5.0
+2025-04-28,Bourgogne-Franche-Comté,24.0,21.0,0.0
+2025-04-28,Bretagne,45.0,32.0,14.0
+2025-04-28,Centre-Val de Loire,22.0,18.0,5.0
+2025-04-28,Corse,26.0,28.0,21.0
+2025-04-28,Grand Est,45.0,35.0,7.0
+2025-04-28,Hauts-de-France,36.0,26.0,27.0
+2025-04-28,Normandie,29.0,24.0,7.0
+2025-04-28,Nouvelle-Aquitaine,29.0,27.0,11.0
+2025-04-28,Occitanie,35.0,36.0,19.0
+2025-04-28,Pays de la Loire,17.0,19.0,4.0
+2025-04-28,Provence-Alpes-Côte d'Azur,40.0,40.0,10.0
+2025-04-28,Île-de-France,48.0,27.0,8.0
+2025-05-05,Auvergne-Rhône-Alpes,35.0,27.0,22.0
+2025-05-05,Bourgogne-Franche-Comté,32.0,18.0,8.0
+2025-05-05,Bretagne,36.0,21.0,15.0
+2025-05-05,Centre-Val de Loire,26.0,32.0,1.0
+2025-05-05,Corse,29.0,16.0,13.0
+2025-05-05,Grand Est,23.0,22.0,21.0
+2025-05-05,Hauts-de-France,34.0,27.0,0.0
+2025-05-05,Normandie,0.0,25.0,17.0
+2025-05-05,Nouvelle-Aquitaine,31.0,30.0,0.0
+2025-05-05,Occitanie,25.0,16.0,0.0
+2025-05-05,Pays de la Loire,14.0,29.0,15.0
+2025-05-05,Provence-Alpes-Côte d'Azur,35.0,18.0,2.0
+2025-05-05,Île-de-France,49.0,17.0,0.0
+2025-05-12,Auvergne-Rhône-Alpes,47.0,29.0,18.0
+2025-05-12,Bourgogne-Franche-Comté,10.0,2.0,0.0
+2025-05-12,Bretagne,20.0,20.0,8.0
+2025-05-12,Centre-Val de Loire,13.0,25.0,0.0
+2025-05-12,Corse,39.0,33.0,10.0
+2025-05-12,Grand Est,45.0,27.0,18.0
+2025-05-12,Hauts-de-France,33.0,17.0,18.0
+2025-05-12,Normandie,30.0,22.0,19.0
+2025-05-12,Nouvelle-Aquitaine,17.0,23.0,1.0
+2025-05-12,Occitanie,21.0,27.0,0.0
+2025-05-12,Pays de la Loire,21.0,31.0,3.0
+2025-05-12,Provence-Alpes-Côte d'Azur,26.0,11.0,5.0
+2025-05-12,Île-de-France,17.0,24.0,22.0
+2025-05-19,Auvergne-Rhône-Alpes,20.0,24.0,16.0
+2025-05-19,Bourgogne-Franche-Comté,7.0,25.0,14.0
+2025-05-19,Bretagne,23.0,19.0,0.0
+2025-05-19,Centre-Val de Loire,12.0,11.0,5.0
+2025-05-19,Corse,21.0,18.0,23.0
+2025-05-19,Grand Est,20.0,24.0,9.0
+2025-05-19,Hauts-de-France,24.0,14.0,0.0
+2025-05-19,Normandie,22.0,8.0,13.0
+2025-05-19,Nouvelle-Aquitaine,20.0,22.0,0.0
+2025-05-19,Occitanie,6.0,25.0,11.0
+2025-05-19,Pays de la Loire,19.0,27.0,9.0
+2025-05-19,Provence-Alpes-Côte d'Azur,28.0,23.0,6.0
+2025-05-19,Île-de-France,0.0,15.0,0.0
+2025-05-26,Auvergne-Rhône-Alpes,16.0,17.0,0.0
+2025-05-26,Bourgogne-Franche-Comté,20.0,28.0,2.0
+2025-05-26,Bretagne,4.0,16.0,4.0
+2025-05-26,Centre-Val de Loire,13.0,9.0,9.0
+2025-05-26,Corse,7.0,13.0,2.0
+2025-05-26,Grand Est,32.0,9.0,0.0
+2025-05-26,Hauts-de-France,16.0,14.0,0.0
+2025-05-26,Normandie,16.0,16.0,2.0
+2025-05-26,Nouvelle-Aquitaine,27.0,11.0,7.0
+2025-05-26,Occitanie,20.0,12.0,10.0
+2025-05-26,Pays de la Loire,23.0,15.0,0.0
+2025-05-26,Provence-Alpes-Côte d'Azur,9.0,8.0,0.0
+2025-05-26,Île-de-France,10.0,10.0,8.0
+2025-06-02,Auvergne-Rhône-Alpes,3.0,14.0,0.0
+2025-06-02,Bourgogne-Franche-Comté,17.0,1.0,21.0
+2025-06-02,Bretagne,10.0,29.0,15.0
+2025-06-02,Centre-Val de Loire,33.0,20.0,2.0
+2025-06-02,Corse,8.0,28.0,0.0
+2025-06-02,Grand Est,3.0,7.0,1.0
+2025-06-02,Hauts-de-France,14.0,16.0,0.0
+2025-06-02,Normandie,6.0,10.0,0.0
+2025-06-02,Nouvelle-Aquitaine,16.0,4.0,6.0
+2025-06-02,Occitanie,23.0,16.0,7.0
+2025-06-02,Pays de la Loire,27.0,13.0,1.0
+2025-06-02,Provence-Alpes-Côte d'Azur,27.0,18.0,0.0
+2025-06-02,Île-de-France,18.0,5.0,10.0
+2025-06-09,Auvergne-Rhône-Alpes,12.0,10.0,6.0
+2025-06-09,Bourgogne-Franche-Comté,15.0,8.0,8.0
+2025-06-09,Bretagne,10.0,0.0,2.0
+2025-06-09,Centre-Val de Loire,24.0,14.0,17.0
+2025-06-09,Corse,11.0,23.0,3.0
+2025-06-09,Grand Est,1.0,4.0,15.0
+2025-06-09,Hauts-de-France,5.0,15.0,5.0
+2025-06-09,Normandie,4.0,8.0,0.0
+2025-06-09,Nouvelle-Aquitaine,10.0,8.0,7.0
+2025-06-09,Occitanie,7.0,16.0,0.0
+2025-06-09,Pays de la Loire,10.0,11.0,12.0
+2025-06-09,Provence-Alpes-Côte d'Azur,14.0,21.0,3.0
+2025-06-09,Île-de-France,9.0,13.0,5.0
+2025-06-16,Auvergne-Rhône-Alpes,22.0,10.0,5.0
+2025-06-16,Bourgogne-Franche-Comté,6.0,4.0,11.0
+2025-06-16,Bretagne,24.0,5.0,8.0
+2025-06-16,Centre-Val de Loire,15.0,0.0,1.0
+2025-06-16,Corse,16.0,2.0,4.0
+2025-06-16,Grand Est,27.0,22.0,16.0
+2025-06-16,Hauts-de-France,0.0,16.0,0.0
+2025-06-16,Normandie,6.0,15.0,4.0
+2025-06-16,Nouvelle-Aquitaine,22.0,4.0,11.0
+2025-06-16,Occitanie,21.0,15.0,8.0
+2025-06-16,Pays de la Loire,0.0,10.0,5.0
+2025-06-16,Provence-Alpes-Côte d'Azur,15.0,0.0,11.0
+2025-06-16,Île-de-France,2.0,17.0,14.0
+2025-06-23,Auvergne-Rhône-Alpes,0.0,16.0,0.0
+2025-06-23,Bourgogne-Franche-Comté,0.0,0.0,8.0
+2025-06-23,Bretagne,10.0,0.0,14.0
+2025-06-23,Centre-Val de Loire,0.0,16.0,17.0
+2025-06-23,Corse,0.0,16.0,1.0
+2025-06-23,Grand Est,14.0,8.0,0.0
+2025-06-23,Hauts-de-France,0.0,13.0,7.0
+2025-06-23,Normandie,14.0,0.0,4.0
+2025-06-23,Nouvelle-Aquitaine,6.0,10.0,10.0
+2025-06-23,Occitanie,25.0,8.0,7.0
+2025-06-23,Pays de la Loire,3.0,7.0,9.0
+2025-06-23,Provence-Alpes-Côte d'Azur,11.0,12.0,27.0
+2025-06-23,Île-de-France,1.0,0.0,0.0
+2025-06-30,Auvergne-Rhône-Alpes,8.0,17.0,10.0
+2025-06-30,Bourgogne-Franche-Comté,12.0,5.0,14.0
+2025-06-30,Bretagne,15.0,3.0,12.0
+2025-06-30,Centre-Val de Loire,0.0,10.0,4.0
+2025-06-30,Corse,1.0,0.0,0.0
+2025-06-30,Grand Est,18.0,10.0,5.0
+2025-06-30,Hauts-de-France,0.0,0.0,5.0
+2025-06-30,Normandie,8.0,19.0,2.0
+2025-06-30,Nouvelle-Aquitaine,0.0,1.0,4.0
+2025-06-30,Occitanie,28.0,10.0,14.0
+2025-06-30,Pays de la Loire,11.0,8.0,20.0
+2025-06-30,Provence-Alpes-Côte d'Azur,3.0,22.0,0.0
+2025-06-30,Île-de-France,3.0,11.0,0.0
+2025-07-07,Auvergne-Rhône-Alpes,22.0,2.0,2.0
+2025-07-07,Bourgogne-Franche-Comté,10.0,0.0,21.0
+2025-07-07,Bretagne,22.0,0.0,21.0
+2025-07-07,Centre-Val de Loire,10.0,2.0,13.0
+2025-07-07,Corse,13.0,7.0,17.0
+2025-07-07,Grand Est,15.0,16.0,2.0
+2025-07-07,Hauts-de-France,17.0,1.0,22.0
+2025-07-07,Normandie,9.0,15.0,0.0
+2025-07-07,Nouvelle-Aquitaine,6.0,6.0,8.0
+2025-07-07,Occitanie,15.0,11.0,14.0
+2025-07-07,Pays de la Loire,13.0,10.0,17.0
+2025-07-07,Provence-Alpes-Côte d'Azur,0.0,2.0,21.0
+2025-07-07,Île-de-France,5.0,20.0,16.0
+2025-07-14,Auvergne-Rhône-Alpes,23.0,24.0,19.0
+2025-07-14,Bourgogne-Franche-Comté,18.0,14.0,0.0
+2025-07-14,Bretagne,26.0,3.0,17.0
+2025-07-14,Centre-Val de Loire,11.0,11.0,7.0
+2025-07-14,Corse,0.0,22.0,0.0
+2025-07-14,Grand Est,12.0,22.0,22.0
+2025-07-14,Hauts-de-France,11.0,21.0,17.0
+2025-07-14,Normandie,17.0,17.0,19.0
+2025-07-14,Nouvelle-Aquitaine,22.0,15.0,8.0
+2025-07-14,Occitanie,12.0,3.0,4.0
+2025-07-14,Pays de la Loire,31.0,0.0,15.0
+2025-07-14,Provence-Alpes-Côte d'Azur,1.0,9.0,13.0
+2025-07-14,Île-de-France,4.0,9.0,20.0
+2025-07-21,Auvergne-Rhône-Alpes,17.0,17.0,15.0
+2025-07-21,Bourgogne-Franche-Comté,23.0,22.0,15.0
+2025-07-21,Bretagne,23.0,29.0,20.0
+2025-07-21,Centre-Val de Loire,23.0,9.0,23.0
+2025-07-21,Corse,6.0,20.0,17.0
+2025-07-21,Grand Est,11.0,18.0,15.0
+2025-07-21,Hauts-de-France,0.0,11.0,10.0
+2025-07-21,Normandie,24.0,0.0,8.0
+2025-07-21,Nouvelle-Aquitaine,2.0,13.0,17.0
+2025-07-21,Occitanie,12.0,11.0,16.0
+2025-07-21,Pays de la Loire,12.0,3.0,13.0
+2025-07-21,Provence-Alpes-Côte d'Azur,0.0,3.0,4.0
+2025-07-21,Île-de-France,8.0,22.0,8.0
+2025-07-28,Auvergne-Rhône-Alpes,17.0,12.0,13.0
+2025-07-28,Bourgogne-Franche-Comté,9.0,20.0,27.0
+2025-07-28,Bretagne,16.0,13.0,33.0
+2025-07-28,Centre-Val de Loire,1.0,13.0,23.0
+2025-07-28,Corse,19.0,11.0,0.0
+2025-07-28,Grand Est,3.0,14.0,18.0
+2025-07-28,Hauts-de-France,31.0,8.0,21.0
+2025-07-28,Normandie,41.0,15.0,29.0
+2025-07-28,Nouvelle-Aquitaine,31.0,26.0,15.0
+2025-07-28,Occitanie,18.0,6.0,8.0
+2025-07-28,Pays de la Loire,3.0,18.0,23.0
+2025-07-28,Provence-Alpes-Côte d'Azur,9.0,15.0,19.0
+2025-07-28,Île-de-France,16.0,7.0,17.0
+2025-08-04,Auvergne-Rhône-Alpes,14.0,16.0,33.0
+2025-08-04,Bourgogne-Franche-Comté,28.0,19.0,18.0
+2025-08-04,Bretagne,7.0,15.0,20.0
+2025-08-04,Centre-Val de Loire,18.0,22.0,26.0
+2025-08-04,Corse,27.0,25.0,25.0
+2025-08-04,Grand Est,18.0,13.0,21.0
+2025-08-04,Hauts-de-France,11.0,18.0,30.0
+2025-08-04,Normandie,11.0,3.0,26.0
+2025-08-04,Nouvelle-Aquitaine,24.0,15.0,20.0
+2025-08-04,Occitanie,28.0,10.0,25.0
+2025-08-04,Pays de la Loire,15.0,4.0,28.0
+2025-08-04,Provence-Alpes-Côte d'Azur,6.0,12.0,24.0
+2025-08-04,Île-de-France,25.0,22.0,18.0
+2025-08-11,Auvergne-Rhône-Alpes,40.0,29.0,26.0
+2025-08-11,Bourgogne-Franche-Comté,23.0,20.0,35.0
+2025-08-11,Bretagne,28.0,16.0,30.0
+2025-08-11,Centre-Val de Loire,17.0,13.0,24.0
+2025-08-11,Corse,23.0,16.0,14.0
+2025-08-11,Grand Est,19.0,5.0,23.0
+2025-08-11,Hauts-de-France,23.0,33.0,14.0
+2025-08-11,Normandie,6.0,24.0,25.0
+2025-08-11,Nouvelle-Aquitaine,20.0,20.0,26.0
+2025-08-11,Occitanie,10.0,10.0,25.0
+2025-08-11,Pays de la Loire,0.0,24.0,22.0
+2025-08-11,Provence-Alpes-Côte d'Azur,0.0,22.0,14.0
+2025-08-11,Île-de-France,4.0,12.0,15.0
+2025-08-18,Auvergne-Rhône-Alpes,0.0,21.0,26.0
+2025-08-18,Bourgogne-Franche-Comté,8.0,14.0,11.0
+2025-08-18,Bretagne,16.0,20.0,39.0
+2025-08-18,Centre-Val de Loire,13.0,13.0,25.0
+2025-08-18,Corse,14.0,19.0,22.0
+2025-08-18,Grand Est,32.0,10.0,21.0
+2025-08-18,Hauts-de-France,25.0,31.0,26.0
+2025-08-18,Normandie,24.0,20.0,12.0
+2025-08-18,Nouvelle-Aquitaine,21.0,36.0,40.0
+2025-08-18,Occitanie,10.0,20.0,36.0
+2025-08-18,Pays de la Loire,34.0,12.0,25.0
+2025-08-18,Provence-Alpes-Côte d'Azur,18.0,9.0,30.0
+2025-08-18,Île-de-France,7.0,24.0,30.0
+2025-08-25,Auvergne-Rhône-Alpes,19.0,21.0,38.0
+2025-08-25,Bourgogne-Franche-Comté,29.0,29.0,31.0
+2025-08-25,Bretagne,25.0,22.0,42.0
+2025-08-25,Centre-Val de Loire,12.0,31.0,28.0
+2025-08-25,Corse,44.0,36.0,36.0
+2025-08-25,Grand Est,16.0,31.0,31.0
+2025-08-25,Hauts-de-France,15.0,21.0,29.0
+2025-08-25,Normandie,29.0,24.0,36.0
+2025-08-25,Nouvelle-Aquitaine,35.0,25.0,25.0
+2025-08-25,Occitanie,23.0,17.0,33.0
+2025-08-25,Pays de la Loire,34.0,25.0,23.0
+2025-08-25,Provence-Alpes-Côte d'Azur,34.0,33.0,21.0
+2025-08-25,Île-de-France,7.0,28.0,27.0
+2025-09-01,Auvergne-Rhône-Alpes,48.0,27.0,34.0
+2025-09-01,Bourgogne-Franche-Comté,38.0,42.0,41.0
+2025-09-01,Bretagne,27.0,31.0,39.0
+2025-09-01,Centre-Val de Loire,17.0,23.0,46.0
+2025-09-01,Corse,35.0,13.0,37.0
+2025-09-01,Grand Est,13.0,24.0,35.0
+2025-09-01,Hauts-de-France,16.0,29.0,35.0
+2025-09-01,Normandie,51.0,23.0,35.0
+2025-09-01,Nouvelle-Aquitaine,38.0,25.0,40.0
+2025-09-01,Occitanie,38.0,29.0,38.0
+2025-09-01,Pays de la Loire,29.0,24.0,18.0
+2025-09-01,Provence-Alpes-Côte d'Azur,29.0,24.0,26.0
+2025-09-01,Île-de-France,45.0,20.0,26.0
+2025-09-08,Auvergne-Rhône-Alpes,40.0,21.0,34.0
+2025-09-08,Bourgogne-Franche-Comté,20.0,26.0,24.0
+2025-09-08,Bretagne,29.0,33.0,44.0
+2025-09-08,Centre-Val de Loire,43.0,25.0,30.0
+2025-09-08,Corse,35.0,37.0,44.0
+2025-09-08,Grand Est,37.0,34.0,40.0
+2025-09-08,Hauts-de-France,28.0,27.0,34.0
+2025-09-08,Normandie,23.0,39.0,36.0
+2025-09-08,Nouvelle-Aquitaine,36.0,35.0,33.0
+2025-09-08,Occitanie,44.0,31.0,34.0
+2025-09-08,Pays de la Loire,56.0,34.0,28.0
+2025-09-08,Provence-Alpes-Côte d'Azur,31.0,32.0,41.0
+2025-09-08,Île-de-France,33.0,30.0,45.0
+2025-09-15,Auvergne-Rhône-Alpes,43.0,28.0,43.0
+2025-09-15,Bourgogne-Franche-Comté,42.0,30.0,36.0
+2025-09-15,Bretagne,54.0,25.0,39.0
+2025-09-15,Centre-Val de Loire,52.0,42.0,31.0
+2025-09-15,Corse,48.0,36.0,35.0
+2025-09-15,Grand Est,41.0,42.0,49.0
+2025-09-15,Hauts-de-France,35.0,34.0,49.0
+2025-09-15,Normandie,44.0,30.0,41.0
+2025-09-15,Nouvelle-Aquitaine,45.0,29.0,29.0
+2025-09-15,Occitanie,43.0,33.0,34.0
+2025-09-15,Pays de la Loire,40.0,35.0,48.0
+2025-09-15,Provence-Alpes-Côte d'Azur,53.0,26.0,32.0
+2025-09-15,Île-de-France,43.0,33.0,41.0
+2025-09-22,Auvergne-Rhône-Alpes,36.0,37.0,38.0
+2025-09-22,Bourgogne-Franche-Comté,35.0,35.0,39.0
+2025-09-22,Bretagne,38.0,32.0,51.0
+2025-09-22,Centre-Val de Loire,60.0,23.0,49.0
+2025-09-22,Corse,56.0,45.0,40.0
+2025-09-22,Grand Est,31.0,45.0,44.0
+2025-09-22,Hauts-de-France,38.0,25.0,35.0
+2025-09-22,Normandie,40.0,23.0,48.0
+2025-09-22,Nouvelle-Aquitaine,60.0,35.0,26.0
+2025-09-22,Occitanie,46.0,44.0,46.0
+2025-09-22,Pays de la Loire,61.0,34.0,34.0
+2025-09-22,Provence-Alpes-Côte d'Azur,51.0,39.0,30.0
+2025-09-22,Île-de-France,62.0,32.0,46.0
+2025-09-29,Auvergne-Rhône-Alpes,59.0,44.0,40.0
+2025-09-29,Bourgogne-Franche-Comté,60.0,59.0,35.0
+2025-09-29,Bretagne,45.0,40.0,34.0
+2025-09-29,Centre-Val de Loire,40.0,45.0,31.0
+2025-09-29,Corse,53.0,35.0,50.0
+2025-09-29,Grand Est,57.0,40.0,39.0
+2025-09-29,Hauts-de-France,41.0,42.0,50.0
+2025-09-29,Normandie,52.0,50.0,50.0
+2025-09-29,Nouvelle-Aquitaine,58.0,46.0,46.0
+2025-09-29,Occitanie,67.0,40.0,52.0
+2025-09-29,Pays de la Loire,43.0,40.0,38.0
+2025-09-29,Provence-Alpes-Côte d'Azur,52.0,40.0,45.0
+2025-09-29,Île-de-France,63.0,64.0,47.0
+2025-10-06,Auvergne-Rhône-Alpes,69.0,27.0,58.0
+2025-10-06,Bourgogne-Franche-Comté,58.0,35.0,45.0
+2025-10-06,Bretagne,55.0,19.0,57.0
+2025-10-06,Centre-Val de Loire,57.0,53.0,56.0
+2025-10-06,Corse,41.0,55.0,40.0
+2025-10-06,Grand Est,46.0,38.0,49.0
+2025-10-06,Hauts-de-France,50.0,50.0,37.0
+2025-10-06,Normandie,66.0,36.0,55.0
+2025-10-06,Nouvelle-Aquitaine,58.0,42.0,47.0
+2025-10-06,Occitanie,53.0,34.0,51.0
+2025-10-06,Pays de la Loire,67.0,51.0,38.0
+2025-10-06,Provence-Alpes-Côte d'Azur,68.0,45.0,41.0
+2025-10-06,Île-de-France,36.0,48.0,64.0
+2025-10-13,Auvergne-Rhône-Alpes,55.0,46.0,50.0
+2025-10-13,Bourgogne-Franche-Comté,51.0,34.0,50.0
+2025-10-13,Bretagne,76.0,44.0,62.0
+2025-10-13,Centre-Val de Loire,48.0,44.0,61.0
+2025-10-13,Corse,60.0,53.0,45.0
+2025-10-13,Grand Est,35.0,53.0,51.0
+2025-10-13,Hauts-de-France,68.0,52.0,58.0
+2025-10-13,Normandie,64.0,30.0,40.0
+2025-10-13,Nouvelle-Aquitaine,65.0,41.0,63.0
+2025-10-13,Occitanie,54.0,54.0,54.0
+2025-10-13,Pays de la Loire,60.0,55.0,45.0
+2025-10-13,Provence-Alpes-Côte d'Azur,65.0,47.0,36.0
+2025-10-13,Île-de-France,53.0,47.0,48.0
+2025-10-20,Auvergne-Rhône-Alpes,58.0,55.0,48.0
+2025-10-20,Bourgogne-Franche-Comté,73.0,49.0,48.0
+2025-10-20,Bretagne,41.0,52.0,55.0
+2025-10-20,Centre-Val de Loire,84.0,31.0,54.0
+2025-10-20,Corse,68.0,52.0,53.0
+2025-10-20,Grand Est,64.0,35.0,53.0
+2025-10-20,Hauts-de-France,71.0,47.0,40.0
+2025-10-20,Normandie,62.0,47.0,47.0
+2025-10-20,Nouvelle-Aquitaine,73.0,48.0,65.0
+2025-10-20,Occitanie,46.0,60.0,33.0
+2025-10-20,Pays de la Loire,52.0,40.0,44.0
+2025-10-20,Provence-Alpes-Côte d'Azur,62.0,41.0,49.0
+2025-10-20,Île-de-France,74.0,41.0,47.0
