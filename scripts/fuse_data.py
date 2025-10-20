@@ -14,8 +14,8 @@ warnings.filterwarnings('ignore')
 class DataFusion:
     def __init__(self):
         """Initialise le système de fusion de données"""
-        self.data_dir = 'data'
-        self.output_dir = 'data/processed'
+        self.data_dir = '../data'
+        self.output_dir = '../data/processed'
         
         # Mapping des régions pour uniformiser
         self.region_mapping = {
@@ -37,6 +37,13 @@ class DataFusion:
     def load_latest_files(self):
         """Charge les derniers fichiers de données collectées"""
         print("📂 Chargement des données collectées...")
+        
+        # Création des dossiers s'ils n'existent pas
+        os.makedirs(f'{self.data_dir}/google_trends', exist_ok=True)
+        os.makedirs(f'{self.data_dir}/wikipedia', exist_ok=True)
+        os.makedirs(f'{self.data_dir}/spf', exist_ok=True)
+        os.makedirs(f'{self.data_dir}/context', exist_ok=True)
+        os.makedirs(self.output_dir, exist_ok=True)
         
         data = {}
         
