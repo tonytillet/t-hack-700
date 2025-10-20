@@ -1,0 +1,40 @@
+year,region,region_code,taux_vaccination
+2023,Île-de-France,11,48.4
+2024,Île-de-France,11,40.4
+2025,Île-de-France,11,43.3
+2023,Auvergne-Rhône-Alpes,84,40.8
+2024,Auvergne-Rhône-Alpes,84,45.7
+2025,Auvergne-Rhône-Alpes,84,48.8
+2023,Nouvelle-Aquitaine,75,41.8
+2024,Nouvelle-Aquitaine,75,36.5
+2025,Nouvelle-Aquitaine,75,49.5
+2023,Occitanie,76,53.8
+2024,Occitanie,76,27.4
+2025,Occitanie,76,72.9
+2023,Hauts-de-France,32,40.6
+2024,Hauts-de-France,32,59.6
+2025,Hauts-de-France,32,67.2
+2023,Grand Est,44,49.4
+2024,Grand Est,44,47.1
+2025,Grand Est,44,42.5
+2023,Pays de la Loire,52,25.0
+2024,Pays de la Loire,52,66.9
+2025,Pays de la Loire,52,24.6
+2023,Bretagne,53,37.5
+2024,Bretagne,53,39.6
+2025,Bretagne,53,47.7
+2023,Normandie,28,50.8
+2024,Normandie,28,65.7
+2025,Normandie,28,64.3
+2023,Centre-Val de Loire,24,47.7
+2024,Centre-Val de Loire,24,55.3
+2025,Centre-Val de Loire,24,59.1
+2023,Bourgogne-Franche-Comté,27,66.0
+2024,Bourgogne-Franche-Comté,27,28.9
+2025,Bourgogne-Franche-Comté,27,27.3
+2023,Provence-Alpes-Côte d'Azur,93,50.6
+2024,Provence-Alpes-Côte d'Azur,93,61.6
+2025,Provence-Alpes-Côte d'Azur,93,51.2
+2023,Corse,94,54.1
+2024,Corse,94,36.2
+2025,Corse,94,38.7
