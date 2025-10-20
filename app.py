@@ -36,17 +36,29 @@ class GrippeDashboard:
         self.load_data()
     
     def load_data(self):
-        """Charge les données et modèles"""
-        # Chargement du dataset avec prédictions
-        dataset_files = [f for f in os.listdir('data/processed') if 'dataset_with_predictions' in f and f.endswith('.csv')]
-        if dataset_files:
-            latest_dataset = sorted(dataset_files)[-1]
+        """Charge les données et modèles améliorés"""
+        # Chargement du dataset amélioré avec features temporelles
+        enhanced_files = [f for f in os.listdir('data/processed') if f.startswith('dataset_grippe_enhanced_')]
+        if enhanced_files:
+            latest_dataset = sorted(enhanced_files)[-1]
             self.data = pd.read_csv(f'data/processed/{latest_dataset}')
             self.data['date'] = pd.to_datetime(self.data['date'])
-            st.success(f"✅ Données chargées: {latest_dataset}")
+            st.success(f"✅ Dataset amélioré chargé: {latest_dataset}")
+            st.info("🔄 Features temporelles inter-années (N-2, N-1, N) activées")
         else:
-            st.error("❌ Aucun dataset trouvé")
-            return
+            # Fallback sur le dataset original
+            dataset_files = [f for f in os.listdir('data/processed') if 'dataset_with_predictions' in f and f.endswith('.csv')]
+            if dataset_files:
+                latest_dataset = sorted(dataset_files)[-1]
+                self.data = pd.read_csv(f'data/processed/{latest_dataset}')
+                self.data['date'] = pd.to_datetime(self.data['date'])
+                st.success(f"✅ Données chargées: {latest_dataset}")
+            else:
+                st.error("❌ Aucun dataset trouvé")
+                return
+        
+        # Calcul du FLURISK amélioré
+        self.data = self.calculate_enhanced_flurisk(self.data)
         
         # Chargement de la configuration des modèles
         config_files = [f for f in os.listdir('models') if f.startswith('config_') and f.endswith('.json')]
@@ -59,16 +71,45 @@ class GrippeDashboard:
             st.error("❌ Aucune configuration de modèle trouvée")
             return
     
+    def calculate_enhanced_flurisk(self, df):
+        """Calcule l'index FLURISK amélioré avec features temporelles"""
+        df = df.copy()
+        
+        # FLURISK amélioré avec comparaison inter-années
+        if 'urgences_grippe_seasonal_anomaly' in df.columns:
+            # Utiliser les features temporelles si disponibles
+            df['flurisk'] = (
+                0.25 * (100 - df.get('taux_vaccination', 50)) +
+                0.25 * df.get('ias_syndrome_grippal', 0) +
+                0.2 * df.get('urgences_grippe_seasonal_anomaly', 0) +
+                0.15 * df.get('cas_sentinelles_seasonal_anomaly', 0) +
+                0.15 * df.get('population_65_plus_pct', 20)
+            )
+        else:
+            # Fallback sur le FLURISK original
+            df['flurisk'] = (
+                0.25 * (100 - df.get('taux_vaccination', 50)) +
+                0.25 * df.get('ias_syndrome_grippal', 0) +
+                0.2 * df.get('google_trends_grippe', 0) +
+                0.15 * df.get('wiki_grippe_views', 0) +
+                0.15 * df.get('population_65_plus_pct', 20)
+            )
+        return df
+    
     def calculate_kpis(self):
         """Calcule les KPIs principaux"""
         latest_week = self.data['date'].max()
         latest_data = self.data[self.data['date'] == latest_week]
         
+        # Vérification des colonnes disponibles
+        urgences_col = 'pred_urgences_grippe_j28' if 'pred_urgences_grippe_j28' in latest_data.columns else 'urgences_grippe'
+        vaccination_col = 'taux_vaccination' if 'taux_vaccination' in latest_data.columns else 'vaccination_rate'
+        
         kpis = {
-            'urgences_j28': latest_data['pred_urgences_grippe_j28'].sum(),
+            'urgences_j28': latest_data.get(urgences_col, pd.Series([0])).sum(),
             'depts_alerte': len(latest_data[latest_data['flurisk'] > 70]),
-            'vaccination_moy': latest_data['taux_vaccination'].mean(),
-            'gain_potentiel': latest_data['pred_urgences_grippe_j28'].sum() * 0.05
+            'vaccination_moy': latest_data.get(vaccination_col, pd.Series([50])).mean(),
+            'gain_potentiel': latest_data.get(urgences_col, pd.Series([0])).sum() * 0.05
         }
         
         return kpis
@@ -149,15 +190,24 @@ class GrippeDashboard:
             else:
                 return "🟢 OK"
         
+        # Vérification des colonnes disponibles
+        urgences_col = 'pred_urgences_grippe_j28' if 'pred_urgences_grippe_j28' in latest_data.columns else 'urgences_grippe'
+        vaccination_col = 'taux_vaccination' if 'taux_vaccination' in latest_data.columns else 'vaccination_rate'
+        
         latest_data['recommendation'] = latest_data.apply(
-            lambda row: get_recommendation(row['flurisk'], row['pred_urgences_grippe_j28'], row['taux_vaccination']),
+            lambda row: get_recommendation(
+                row['flurisk'], 
+                row.get(urgences_col, 0), 
+                row.get(vaccination_col, 50)
+            ),
             axis=1
         )
         
         # Tri par FLURISK décroissant
-        top10 = latest_data.nlargest(10, 'flurisk')[
-            ['region', 'flurisk', 'pred_urgences_grippe_j28', 'taux_vaccination', 'recommendation']
-        ].round(1)
+        display_cols = ['region', 'flurisk', urgences_col, vaccination_col, 'recommendation']
+        available_cols = [col for col in display_cols if col in latest_data.columns]
+        
+        top10 = latest_data.nlargest(10, 'flurisk')[available_cols].round(1)
         
         return top10
     

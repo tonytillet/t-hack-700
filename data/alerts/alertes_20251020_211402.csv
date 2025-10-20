@@ -1,0 +1,14 @@
+region,alert_score,level,action,timeline,urgences_actuelles,vaccination_rate,risk_factors,date_alert
+Auvergne-Rhône-Alpes,57.5,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,87.0,44.8,Densité élevée,2025-10-20 21:14
+Bourgogne-Franche-Comté,55.0,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,44.0,47.9,Population âgée,2025-10-20 21:14
+Bretagne,55.0,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,50.0,63.0,Population âgée,2025-10-20 21:14
+Centre-Val de Loire,55.0,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,38.0,50.4,Population âgée,2025-10-20 21:14
+Corse,65.0,🟠 ÉLEVÉ,Préparer campagne de vaccination renforcée,2-4 semaines,20.0,36.0,"Population âgée, Tendance à la hausse",2025-10-20 21:14
+Grand Est,62.5,🟠 ÉLEVÉ,Préparer campagne de vaccination renforcée,2-4 semaines,76.0,54.7,"Densité élevée, Population âgée",2025-10-20 21:14
+Hauts-de-France,57.5,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,51.0,55.1,Densité élevée,2025-10-20 21:14
+Normandie,60.0,🟠 ÉLEVÉ,Préparer campagne de vaccination renforcée,2-4 semaines,11.0,58.4,"Population âgée, Anomalie saisonnière",2025-10-20 21:14
+Nouvelle-Aquitaine,62.5,🟠 ÉLEVÉ,Préparer campagne de vaccination renforcée,2-4 semaines,40.0,44.6,"Densité élevée, Population âgée",2025-10-20 21:14
+Occitanie,62.5,🟠 ÉLEVÉ,Préparer campagne de vaccination renforcée,2-4 semaines,65.0,37.3,"Densité élevée, Population âgée",2025-10-20 21:14
+Pays de la Loire,55.0,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,41.0,54.3,Population âgée,2025-10-20 21:14
+Provence-Alpes-Côte d'Azur,55.0,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,39.0,41.0,Population âgée,2025-10-20 21:14
+Île-de-France,57.5,🟡 MODÉRÉ,Surveillance renforcée + communication préventive,1-2 mois,84.0,48.9,Densité élevée,2025-10-20 21:14
