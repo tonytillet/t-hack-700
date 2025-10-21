@@ -875,11 +875,15 @@ def main():
         if app.data is not None:
             latest_data = app.data.groupby('region').last().reset_index()
             
-            # Sélection des colonnes à afficher
-            display_columns = [
-                'region', 'alert_score', 'urgences_grippe', 'vaccination_2024', 
-                'pct_65_plus', 'population_totale'
-            ]
+            # Sélection des colonnes à afficher (vérifier les colonnes disponibles)
+            available_columns = latest_data.columns.tolist()
+            display_columns = ['region', 'alert_score', 'urgences_grippe', 'vaccination_2024', 'population_totale']
+            
+            # Ajouter des colonnes supplémentaires si elles existent
+            if 'pct_65_plus' in available_columns:
+                display_columns.append('pct_65_plus')
+            if 'ias_syndrome_grippal' in available_columns:
+                display_columns.append('ias_syndrome_grippal')
             
             # Renommage des colonnes pour l'affichage - VERSION ÉLÉGANTE
             column_mapping = {
@@ -887,9 +891,14 @@ def main():
                 'alert_score': 'Niveau de risque',
                 'urgences_grippe': 'Urgences grippe',
                 'vaccination_2024': 'Taux vaccination (%)',
-                'pct_65_plus': 'Population 65+ (%)',
                 'population_totale': 'Population totale'
             }
+            
+            # Ajouter les colonnes conditionnelles au mapping
+            if 'pct_65_plus' in display_columns:
+                column_mapping['pct_65_plus'] = 'Population 65+ (%)'
+            if 'ias_syndrome_grippal' in display_columns:
+                column_mapping['ias_syndrome_grippal'] = 'IAS Syndrome grippal'
             
             display_data = latest_data[display_columns].copy()
             display_data = display_data.rename(columns=column_mapping)
@@ -897,8 +906,13 @@ def main():
             # Formatage des données
             display_data['Niveau de risque'] = display_data['Niveau de risque'].round(1)
             display_data['Taux vaccination (%)'] = display_data['Taux vaccination (%)'].round(1)
-            display_data['Population 65+ (%)'] = display_data['Population 65+ (%)'].round(1)
             display_data['Population totale'] = display_data['Population totale'].apply(lambda x: f"{x:,}")
+            
+            # Formatage conditionnel des colonnes optionnelles
+            if 'Population 65+ (%)' in display_data.columns:
+                display_data['Population 65+ (%)'] = display_data['Population 65+ (%)'].round(1)
+            if 'IAS Syndrome grippal' in display_data.columns:
+                display_data['IAS Syndrome grippal'] = display_data['IAS Syndrome grippal'].round(2)
             
             # Tri par score d'alerte décroissant
             display_data = display_data.sort_values('Niveau de risque', ascending=False)
@@ -1070,8 +1084,16 @@ def main():
                 st.metric("Vaccination", f"{vaccination:.1f}%")
             
             with col4:
-                population_65 = region_data['pct_65_plus'].iloc[-1]
-                st.metric("Population 65+", f"{population_65:.1f}%")
+                # Vérifier si la colonne existe, sinon utiliser une valeur par défaut
+                if 'pct_65_plus' in region_data.columns:
+                    population_65 = region_data['pct_65_plus'].iloc[-1]
+                    st.metric("Population 65+", f"{population_65:.1f}%")
+                else:
+                    # Calculer approximativement basé sur la population totale
+                    population_totale = region_data['population_totale'].iloc[-1]
+                    # Estimation : 20% de la population française a 65+ ans
+                    population_65_est = 20.0
+                    st.metric("Population 65+ (est.)", f"{population_65_est:.1f}%")
             
             # Graphique d'évolution
             fig = go.Figure()
