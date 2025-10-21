@@ -16,19 +16,21 @@ class GrippeChatbot:
                 "duree": "7-10 jours en moyenne, jusqu'à 2 semaines pour la fatigue"
             },
             "vaccination": {
+                "pourquoi": "La vaccination est le moyen le plus efficace de se protéger contre la grippe et ses complications graves. Elle réduit significativement les risques d'hospitalisation et de décès, particulièrement chez les personnes vulnérables.",
                 "efficacite": "60-70% d'efficacité contre les formes graves",
                 "recommandations": "Personnes à risque, professionnels de santé, +65 ans",
                 "periode": "Octobre à mars, idéalement avant décembre",
                 "effets": "Réactions locales légères, rarement des effets systémiques"
             },
             "surveillance": {
+                "description": "LUMEN assure une surveillance épidémiologique complète en combinant plusieurs sources de données : passages aux urgences pour grippe, réseau de médecins sentinelles, signaux faibles du web (Google Trends, consultations Wikipedia), données météorologiques et démographiques. Cette approche multi-sources permet de détecter précocement les signaux d'épidémie et d'anticiper leur évolution géographique et temporelle.",
                 "indicateurs": "Urgences, sentinelles, Google Trends, Wikipedia",
                 "seuils": "Critique ≥80, Élevé 60-79, Modéré 40-59, Faible <40",
                 "frequence": "Mise à jour hebdomadaire, alertes en temps réel",
                 "sources": "Santé Publique France, INSEE, Open-Meteo, Google"
             },
             "lumen": {
-                "objectif": "Prédire les épidémies 1-2 mois à l'avance",
+                "objectif": "LUMEN est une plateforme de surveillance épidémiologique avancée qui vise à anticiper les épidémies de grippe 1-2 mois à l'avance. Son objectif principal est de permettre aux autorités sanitaires et aux professionnels de santé de mieux se préparer aux pics épidémiques, d'optimiser l'allocation des ressources médicales et d'améliorer les campagnes de prévention et de vaccination.",
                 "donnees": "Signaux faibles + données officielles + météo",
                 "ia": "Random Forest avec features temporelles inter-années",
                 "impact": "-40% pics d'urgences, +25% efficacité campagnes"
@@ -39,25 +41,35 @@ class GrippeChatbot:
         """Génère une réponse à la question de l'utilisateur"""
         question_lower = question.lower()
 
-        # Recherche par mots-clés
-        for category, info in self.knowledge_base.items():
-            if any(keyword in question_lower for keyword in [category, "grippe", "vaccin", "surveillance", "lumen"]):
-                if category == "grippe":
-                    if "symptome" in question_lower:
-                        return f"**Symptômes de la grippe :**\n{info['symptomes']}\n\n**Durée :** {info['duree']}"
-                    elif "transmission" in question_lower or "contagieux" in question_lower:
-                        return f"**Transmission de la grippe :**\n{info['transmission']}\n\n**Prévention :** {info['prevention']}"
-                    else:
-                        return f"**À propos de la grippe :**\n- **Symptômes :** {info['symptomes']}\n- **Transmission :** {info['transmission']}\n- **Prévention :** {info['prevention']}\n- **Durée :** {info['duree']}"
-
-                elif category == "vaccination":
-                    return f"**Vaccination contre la grippe :**\n- **Efficacité :** {info['efficacite']}\n- **Recommandations :** {info['recommandations']}\n- **Période :** {info['periode']}\n- **Effets secondaires :** {info['effets']}"
-
-                elif category == "surveillance":
-                    return f"**Surveillance grippale LUMEN :**\n- **Indicateurs :** {info['indicateurs']}\n- **Seuils d'alerte :** {info['seuils']}\n- **Fréquence :** {info['frequence']}\n- **Sources :** {info['sources']}"
-
-                elif category == "lumen":
-                    return f"**Plateforme LUMEN :**\n- **Objectif :** {info['objectif']}\n- **Données :** {info['donnees']}\n- **IA :** {info['ia']}\n- **Impact :** {info['impact']}"
+        # Recherche par mots-clés (ordre de priorité)
+        # Vérifier d'abord les mots-clés les plus spécifiques
+        if "vaccin" in question_lower:
+            info = self.knowledge_base["vaccination"]
+            return f"**Vaccination contre la grippe :**\n\n**Pourquoi se faire vacciner ?**\n{info['pourquoi']}\n\n- **Efficacité :** {info['efficacite']}\n- **Recommandations :** {info['recommandations']}\n- **Période :** {info['periode']}\n- **Effets secondaires :** {info['effets']}"
+        
+        elif "surveillance" in question_lower and "lumen" in question_lower:
+            info = self.knowledge_base["surveillance"]
+            return f"**Surveillance grippale LUMEN :**\n\n{info['description']}\n\n- **Indicateurs :** {info['indicateurs']}\n- **Seuils d'alerte :** {info['seuils']}\n- **Fréquence :** {info['frequence']}\n- **Sources :** {info['sources']}"
+        
+        elif "lumen" in question_lower and "objectif" in question_lower:
+            info = self.knowledge_base["lumen"]
+            return f"**Plateforme LUMEN :**\n\n**Objectif du site :**\n{info['objectif']}\n\n- **Données utilisées :** {info['donnees']}\n- **Technologie IA :** {info['ia']}\n- **Impact mesuré :** {info['impact']}"
+        
+        elif "lumen" in question_lower:
+            info = self.knowledge_base["lumen"]
+            return f"**Plateforme LUMEN :**\n\n**Objectif du site :**\n{info['objectif']}\n\n- **Données utilisées :** {info['donnees']}\n- **Technologie IA :** {info['ia']}\n- **Impact mesuré :** {info['impact']}"
+        
+        elif "symptome" in question_lower or "symptôme" in question_lower:
+            info = self.knowledge_base["grippe"]
+            return f"**Symptômes de la grippe :**\n{info['symptomes']}\n\n**Durée :** {info['duree']}"
+        
+        elif "transmission" in question_lower or "contagieux" in question_lower:
+            info = self.knowledge_base["grippe"]
+            return f"**Transmission de la grippe :**\n{info['transmission']}\n\n**Prévention :** {info['prevention']}"
+        
+        elif "grippe" in question_lower:
+            info = self.knowledge_base["grippe"]
+            return f"**À propos de la grippe :**\n- **Symptômes :** {info['symptomes']}\n- **Transmission :** {info['transmission']}\n- **Prévention :** {info['prevention']}\n- **Durée :** {info['duree']}"
 
         # Réponses par défaut
         if "bonjour" in question_lower or "salut" in question_lower:
