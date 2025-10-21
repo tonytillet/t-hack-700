@@ -2,6 +2,16 @@
 
 ## Sources officielles
 
+### Sentinelles -  SentiWeb
+
+- **URL** : [https://www.sentiweb.fr/france/fr/?page=table](https://www.sentiweb.fr/france/fr/?page=table)
+- **Données** : 
+    - Syndromes grippaux - National - hebdomadaire - Sentinelle;IQVIA;EMR
+    - Syndromes grippaux - Région - hebdomadaire - Sentinelle;IQVIA;EMR
+- **Description** : Données des syndromes grippaux collectées par les médecins sentinelles depuis 1985 à aujourd'hui.
+- **Fréquence** : Hebdomadaire
+- **Format** : JSON
+
 ### Santé Publique France
 - **Urgences** : Passages aux urgences pour syndrome grippal
 - **Sentinelles** : Réseau de médecins sentinelles
