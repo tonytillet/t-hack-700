@@ -8,7 +8,6 @@ from views.helpers.data_filters import apply_filters, regions_in_alert_count
 from views.components.sections import (
     render_context_section,
     render_economic_section,
-    render_derived_section,
 )
 from views.components.dashboard_kpis import render_kpis
 from views.components.dashboard_filters import render_filters
@@ -30,8 +29,6 @@ def render_dashboard(app):
     render_context_section(app)
 
     render_economic_section(app)
-
-    render_derived_section(app)
 
     st.subheader("Données comportementales")
     if app.data is not None and len(app.data) > 0:
