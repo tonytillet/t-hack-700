@@ -27,6 +27,7 @@ CMD sh -c "\
     python scripts/generate_demo_data.py && \
     streamlit run main.py \
         --server.port=8501 \
+        --server.address=0.0.0.0 \
         --server.headless=true \
 "
 
@@ -54,5 +55,6 @@ EXPOSE 8501
 CMD sh -c "\
     streamlit run main.py \
         --server.port=8501 \
+        --server.address=0.0.0.0 \
         --server.headless=true \
 "
