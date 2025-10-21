@@ -84,9 +84,11 @@ data/temp/
 *.tmp
 *.log
 
-# Modèles volumineux (optionnel)
-# models/*.pkl
-# models/*.joblib
+# Modèles générés (ne pas committer)
+models/*.pkl
+models/*.joblib
+models/*.json
+models/*.csv
 
 # Rapports générés
 *.html
@@ -96,6 +98,10 @@ reports/
 test_*.py
 *_test.py
 
+# Données générées
 data/**
 !data/.gitkeep
 !data/**/.gitkeep
+
+# Ne pas ignorer le backup des requirements
+!requirements.txt.backup
