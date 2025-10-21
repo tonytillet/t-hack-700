@@ -25,7 +25,7 @@ EXPOSE 8501
 
 CMD sh -c "\
     python scripts/generate_demo_data.py && \
-    streamlit run app_complete.py \
+    streamlit run main.py \
         --server.port=8501 \
         --server.headless=true \
 "
@@ -52,7 +52,7 @@ COPY --from=builder /app /app
 EXPOSE 8501
 
 CMD sh -c "\
-    streamlit run app_complete.py \
+    streamlit run main.py \
         --server.port=8501 \
         --server.headless=true \
 "

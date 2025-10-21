@@ -112,7 +112,7 @@ Créer un script pour lancer l'application au démarrage :
 #!/bin/bash
 cd /path/to/t-hack-700
 source venv/bin/activate
-python launch_app.py
+make dev
 ```
 
 **Windows :**
@@ -120,7 +120,7 @@ python launch_app.py
 @echo off
 cd C:\path\to\t-hack-700
 call venv\Scripts\activate
-python launch_app.py
+make dev
 ```
 
 ### Mise à jour automatique des données

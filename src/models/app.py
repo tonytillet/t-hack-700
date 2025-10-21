@@ -81,19 +81,11 @@ class GrippeAlertApp:
         }
 
     def calculate_potential_savings(self):
-        """Calcule les économies potentielles"""
-        if self.protocols is not None:
-            def _safe_economies(val):
-                try:
-                    if isinstance(val, str):
-                        d = json.loads(val)
-                        return d.get('economies_estimees', 0)
-                    if isinstance(val, dict):
-                        return val.get('economies_estimees', 0)
-                except Exception:
-                    return 0
-                return 0
-            return self.protocols['expected_impact'].apply(_safe_economies).sum()
+        """Calcule les économies potentielles basées sur les coûts et ROI des protocoles"""
+        if self.protocols is not None and len(self.protocols) > 0:
+            # Calcul : (coût estimé) * (ROI attendu) = économies générées
+            if 'estimated_cost' in self.protocols.columns and 'expected_roi' in self.protocols.columns:
+                return (self.protocols['estimated_cost'] * self.protocols['expected_roi']).sum()
         return 0
 
     def create_alert_map(self):

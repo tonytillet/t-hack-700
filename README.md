@@ -12,26 +12,21 @@ Ce projet utilise l'intelligence artificielle (Random Forest) pour analyser les 
 -   **Tableau de bord** : Suivi des alertes en temps réel
 -   **Protocoles automatiques** : Actions recommandées avec coûts et ROI
 -   **Analyse détaillée** : Zoom sur chaque région
--   **Configuration** : Paramétrage des seuils d'alerte
+-   **Assistant intelligent** : Chatbot pour répondre à vos questions
 
 ## 🚀 Installation
 
-### 📦 Avec Docker (recommandé)
-
-Mode développement :
+### 📦 Avec Docker
 
 ```bash
-make dev    # Lancer en développement (hot-reload)
-make start  # Lancer en production
+make dev    # Mode développement (hot-reload)
+make start  # Mode production
+make stop   # Arrêter les conteneurs
 ```
 
 **L'application sera accessible sur :** http://localhost:8501
 
-Pour stopper le server -> `CTRL+C`
-
-### 📝 Installation manuelle (sans Docker)
-
-Pour installer sans Docker, consultez le [guide d'installation manuel](docs/INSTALL-MANUAL.md).
+**Arrêter :** `CTRL+C` puis `make stop`
 
 ## 📚 Documentation
 

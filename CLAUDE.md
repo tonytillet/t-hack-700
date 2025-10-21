@@ -12,61 +12,61 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Quick Start Commands
 
-### First-time Installation
+### With Docker
 ```bash
-# Create virtual environment
-python3 -m venv venv
-
-# Install using automated script (recommended)
-venv/bin/python install.py
-
-# Launch application
-venv/bin/python launch_app.py
+make dev    # Development mode (hot-reload)
+make start  # Production mode
+make stop   # Stop containers
+make logs   # View logs
 ```
 
-**Note:** On macOS with Homebrew, you may need to use explicit Python path:
-```bash
-/opt/homebrew/bin/python3.13 -m venv venv
-```
-
-### Daily Usage
-```bash
-# Activate venv and launch
-source venv/bin/activate  # Linux/Mac
-python launch_app.py
-```
+**Application:** http://localhost:8501
 
 ### Data Generation
 
-**Primary method (demo data):**
+Data is automatically generated when starting the Docker containers.
+
+**Manual data generation** (if needed):
 ```bash
-venv/bin/python scripts/generate_demo_data.py
+# Inside Docker container
+docker compose run python python scripts/generate_demo_data.py
 ```
 
-**Full pipeline (if using real data collection):**
+**Full pipeline** (advanced):
 ```bash
-# 1. Collect data from sources (SPF, INSEE, météo, Google Trends, Wikipedia)
-venv/bin/python scripts/collect_real_data_fixed.py
-
-# 2. Merge all data sources into unified dataset
-venv/bin/python scripts/fuse_data.py
-
-# 3. Generate alerts and action protocols
-venv/bin/python scripts/create_alert_system.py
+docker compose run python python scripts/collect_data.py
+docker compose run python python scripts/fuse_data.py
+docker compose run python python scripts/create_alert_system.py
 ```
 
 ## Architecture
 
 ### Application Entry Point
-- **Main app:** `app_complete.py` (launched via `launch_app.py`)
+- **Main entry:** `main.py` (launches `src/views/main_app.py`)
+- **Docker:** `streamlit run main.py`
 - **Port:** 8501 (Streamlit default)
-- **Interface:** 5 tabs - Carte, Tableau de bord, Protocoles, Analyse, Configuration
+- **Interface:** 5 pages - Map, Dashboard, Protocols, Analysis, Assistant
+
+### Application Architecture
+
+**MVC Structure:**
+```
+src/
+├── config/           # Configuration (settings.py)
+├── models/           # Business logic (app.py, chatbot.py)
+├── utils/            # Utilities (helpers.py)
+└── views/            # Streamlit UI
+    ├── components/   # Reusable UI components
+    ├── helpers/      # View helpers (data_filters.py)
+    ├── pages/        # Page modules (map, dashboard, protocols, analysis, assistant)
+    └── main_app.py   # Main Streamlit application
+```
 
 ### Data Pipeline Flow
 
 **Standard workflow (demo data - recommended):**
 ```
-generate_demo_data.py → app_complete.py
+generate_demo_data.py → main.py
        ↓
   dataset_with_alerts_*.csv
   alertes_*.csv
@@ -75,8 +75,8 @@ generate_demo_data.py → app_complete.py
 
 **Advanced workflow (real data collection):**
 ```
-collect_real_data_fixed.py → fuse_data.py → create_alert_system.py → app_complete.py
-      (raw data)           (merged data)      (alerts + protocols)    (visualization)
+collect_data.py → fuse_data.py → create_alert_system.py → main.py
+  (raw data)    (merged data)    (alerts + protocols)   (visualization)
 ```
 
 #### Demo Data Generation (`scripts/generate_demo_data.py`)
@@ -91,7 +91,7 @@ collect_real_data_fixed.py → fuse_data.py → create_alert_system.py → app_c
 - Simulates seasonal flu patterns (winter peaks)
 - Includes predictions for J+7, J+14, J+21, J+28
 
-#### Real Data Collection (`scripts/collect_real_data_fixed.py`)
+#### Real Data Collection (`scripts/collect_data.py`)
 **Alternative for production use with real data sources.**
 
 - Collects/simulates data from multiple sources
@@ -109,18 +109,33 @@ collect_real_data_fixed.py → fuse_data.py → create_alert_system.py → app_c
 - Generates action protocols with estimated costs and ROI
 - **Output:** alertes_*.csv, protocoles_*.csv, dataset_with_alerts_*.csv
 
-### Main Application (`app_complete.py`)
+### Main Application Architecture
 
-**Key classes:**
-- `GrippeAlertApp`: Main application controller
+**Entry point:** `main.py` adds `src/` to Python path and launches `src/views/main_app.py`
+
+**Key modules:**
+- `src/models/app.py`: Main application logic (`GrippeAlertApp` class)
   - Loads latest data from `data/processed/` and `data/alerts/`
-  - Creates interactive map with Folium
-  - Calculates KPIs and displays dashboards
+  - Provides data access methods
   - Manages alert configuration
 
-- `GrippeChatbot`: Rule-based chatbot assistant
+- `src/models/chatbot.py`: Rule-based chatbot assistant (`GrippeChatbot` class)
   - Knowledge base about flu, vaccination, surveillance, and LUMEN platform
   - Provides contextual responses to user questions
+
+- `src/views/main_app.py`: Streamlit application entry
+  - Orchestrates page navigation
+  - Manages session state
+
+- `src/views/pages/`: Page modules
+  - `map_page.py`: Interactive map with Folium
+  - `dashboard_page.py`: KPIs and charts
+  - `protocols_page.py`: Action recommendations
+  - `analysis_page.py`: Regional analysis
+  - `assistant_page.py`: Chatbot interface
+
+- `src/views/components/`: Reusable UI components
+  - Dashboard indicators, filters, alerts table, etc.
 
 **Data loading pattern:**
 ```python

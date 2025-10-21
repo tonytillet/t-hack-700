@@ -79,11 +79,11 @@ from src.utils.helpers import format_number
 
 ## 🔄 Migration depuis l'ancien code
 
-L'ancien `app_complete.py` a été décomposé en plusieurs modules :
+L'ancien fichier monolithique a été décomposé en plusieurs modules :
 - **Modèle** → `src/models/app.py`
 - **Chatbot** → `src/models/chatbot.py`
 - **Helpers** → `src/utils/helpers.py`
 - **Configuration** → `src/config/settings.py`
 - **Vue principale** → `src/views/main_app.py`
 
-Le point d'entrée est maintenant `main.py` au lieu de `app_complete.py`.
+Le point d'entrée est `main.py` qui configure le path Python et lance `src/views/main_app.py`.

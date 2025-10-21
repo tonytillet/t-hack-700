@@ -35,7 +35,7 @@ data/
 ```
 1. COLLECTE              2. FUSION              3. ALERTES              4. VISUALISATION
    ↓                         ↓                      ↓                       ↓
-generate_demo_data.py → dataset_with_alerts → alertes + protocoles → app_complete.py
+generate_demo_data.py → dataset_with_alerts → alertes + protocoles → main.py
    ↓                         ↓                      ↓                       ↓
 data/[sources]/          data/processed/       data/alerts/            Interface web
 ```
@@ -125,10 +125,10 @@ Pour utiliser de vraies données au lieu des données de démonstration :
 
 #### Étape 1 : Collecte
 
-**Script :** `scripts/collect_real_data_fixed.py`
+**Script :** `scripts/collect_data.py`
 
 ```bash
-venv/bin/python scripts/collect_real_data_fixed.py
+venv/bin/python scripts/collect_data.py
 ```
 
 **Actions :**
@@ -190,7 +190,7 @@ data/processed/dataset_with_alerts_YYYYMMDD_HHMMSS.csv
 
 ### Chargement des données
 
-**Fichier :** `app_complete.py`
+**Fichier :** `src/models/app.py` (chargé via `main.py`)
 
 ```python
 # L'application charge toujours le fichier le plus récent
@@ -281,7 +281,7 @@ alert_score = min(100, max(0,
 venv/bin/python scripts/generate_demo_data.py
 
 # Relancer l'application (elle chargera automatiquement les nouvelles données)
-venv/bin/python launch_app.py
+make dev
 ```
 
 ### Automatique (avec cron)
