@@ -153,11 +153,16 @@ def main():
     if not create_directories():
         return False
     
-    # Création des données de démonstration
-    if not create_demo_data():
-        print("⚠️  Les données de démonstration n'ont pas pu être créées")
+    # Générer des données de démonstration
+    print("📊 Génération des données de démonstration...")
+    try:
+        from scripts.generate_demo_data import create_demo_data
+        create_demo_data()
+        print("✅ Données de démonstration générées")
+    except Exception as e:
+        print(f"⚠️  Erreur lors de la génération des données: {e}")
+        print("💡 Vous pouvez générer les données manuellement avec: python3 scripts/generate_demo_data.py")
     
-    print()
     print("🎉 Installation terminée avec succès !")
     print()
     print("🚀 Pour lancer l'application :")
