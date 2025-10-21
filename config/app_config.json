@@ -1,0 +1,52 @@
+{
+  "app": {
+    "name": "LUMEN - Système d'Alerte Grippe",
+    "version": "2.0.0",
+    "description": "Plateforme de surveillance épidémiologique prédictive"
+  },
+  "data": {
+    "paths": {
+      "processed": "data/processed",
+      "alerts": "data/alerts",
+      "spf": "data/spf",
+      "insee": "data/insee",
+      "meteo": "data/meteo",
+      "google_trends": "data/google_trends",
+      "wikipedia": "data/wikipedia"
+    },
+    "update_frequency": "weekly",
+    "retention_days": 365
+  },
+  "alerts": {
+    "thresholds": {
+      "critical": 80,
+      "elevated": 60,
+      "moderate": 40,
+      "low": 20
+    },
+    "notification_channels": [
+      "email",
+      "sms",
+      "dashboard"
+    ],
+    "auto_actions": true
+  },
+  "ui": {
+    "theme": "light",
+    "language": "fr",
+    "map_style": "CartoDB positron",
+    "default_zoom": 6,
+    "sidebar_expanded": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/lumen.log",
+    "max_size": "10MB",
+    "backup_count": 5
+  },
+  "security": {
+    "api_keys_required": false,
+    "session_timeout": 3600,
+    "allowed_ips": []
+  }
+}

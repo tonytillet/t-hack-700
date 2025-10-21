@@ -39,7 +39,7 @@
 - `models/flu_predictor_*.joblib` - Prédicteurs avancés
 
 ### Scripts
-- `scripts/collect_real_data_fixed.py` - Collecte données réelles
+- `scripts/collect_data.py` - Collecte données réelles
 - `scripts/create_alert_system.py` - Système d'alertes
 - `scripts/fuse_data.py` - Fusion des données
 

@@ -17,7 +17,7 @@ def launch_streamlit():
     # Commande pour lancer Streamlit
     cmd = [
         sys.executable, '-m', 'streamlit', 'run', 
-        'app_complete.py',
+        'main.py',
         '--server.port', '8501',
         '--server.headless', 'true',
         '--browser.gatherUsageStats', 'false'

@@ -40,7 +40,7 @@ mkdir -p data/spf data/insee data/meteo data/wikipedia data/google_trends data/p
 
 # Collecte des données
 echo "📊 Collecte des données..."
-python3 scripts/collect_real_data_fixed.py
+python3 scripts/collect_data.py
 
 if [ $? -ne 0 ]; then
     echo "⚠️  Erreur lors de la collecte des données, mais on continue..."
