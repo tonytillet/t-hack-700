@@ -23,7 +23,7 @@ Ce projet utilise l'intelligence artificielle (Random Forest) pour analyser les 
 git clone https://github.com/votre-username/t-hack-700.git
 cd t-hack-700
 python3 install.py
-python3 launch_app.py
+streamlit run main.py
 ```
 
 **Linux/Mac :**
@@ -31,7 +31,7 @@ python3 launch_app.py
 git clone https://github.com/votre-username/t-hack-700.git
 cd t-hack-700
 ./install_simple.sh
-python3 launch_app.py
+streamlit run main.py
 ```
 
 **Windows :**
@@ -39,7 +39,7 @@ python3 launch_app.py
 git clone https://github.com/votre-username/t-hack-700.git
 cd t-hack-700
 install_simple.bat
-python launch_app.py
+python main.py
 ```
 
 ### 🔧 Installation manuelle (si nécessaire)
@@ -57,14 +57,14 @@ pip install -r requirements.txt
 
 3. **Collecter les données**
 ```bash
-python3 scripts/collect_real_data_fixed.py
+python3 scripts/collect_data.py
 python3 scripts/fuse_data.py
 python3 scripts/create_alert_system.py
 ```
 
 4. **Lancer l'application**
 ```bash
-python3 launch_app.py
+streamlit run main.py
 ```
 
 **L'application sera accessible sur :** `http://localhost:8501`
@@ -87,21 +87,30 @@ python3 launch_app.py
 
 ```
 t-hack-700/
-├── app_complete.py              # Application Streamlit principale
-├── launch_app.py               # Script de lancement
+├── main.py                      # Point d'entrée principal (Streamlit)
+├── src/                         # Code source (architecture modulaire)
+│   ├── models/
+│   │   ├── app.py              # GrippeAlertApp (logique métier)
+│   │   └── chatbot.py          # GrippeChatbot (assistant IA)
+│   ├── views/
+│   │   └── main_app.py         # Vue Streamlit (interface)
+│   ├── utils/
+│   │   └── helpers.py          # Fonctions utilitaires
+│   └── config/
+│       └── settings.py         # Configuration centralisée
 ├── requirements.txt            # Dépendances Python
 ├── README.md                   # Documentation
 ├── data/                       # Données collectées
-│   ├── spf/                   # Santé Publique France
-│   ├── insee/                 # INSEE (démographie)
-│   ├── meteo/                 # Données météo
-│   ├── wikipedia/             # Données Wikipedia
-│   ├── google_trends/         # Google Trends
-│   ├── processed/             # Données traitées
-│   └── alerts/                # Alertes générées
+│   ├── spf/                    # Santé Publique France
+│   ├── insee/                  # INSEE (démographie)
+│   ├── meteo/                  # Données météo
+│   ├── wikipedia/              # Données Wikipedia
+│   ├── google_trends/          # Google Trends
+│   ├── processed/              # Données traitées
+│   └── alerts/                 # Alertes générées
 ├── models/                     # Modèles ML sauvegardés
 ├── scripts/                    # Scripts de collecte et traitement
-│   ├── collect_real_data_fixed.py
+│   ├── collect_data.py
 │   ├── fuse_data.py
 │   ├── create_alert_system.py
 │   └── ...
@@ -215,7 +224,7 @@ ls data/processed/
 **Données manquantes :**
 ```bash
 # Relancez la collecte
-python3 scripts/collect_real_data_fixed.py
+python3 scripts/collect_data.py
 python3 scripts/fuse_data.py
 ```
 

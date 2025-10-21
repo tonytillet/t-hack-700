@@ -151,7 +151,17 @@ class DataFusion:
         if 'sentinelles' in data:
             df = data['sentinelles'].copy()
             df['date'] = pd.to_datetime(df['date'])
-            prepared['sentinelles'] = df[['date', 'region', 'cas_sentinelles']]
+            # Normaliser le nom de colonne vers 'cas_sentinelles'
+            if 'cas_sentinelles' in df.columns:
+                prepared['sentinelles'] = df[['date', 'region', 'cas_sentinelles']]
+            elif 'incidence' in df.columns:
+                df = df.rename(columns={'incidence': 'cas_sentinelles'})
+                prepared['sentinelles'] = df[['date', 'region', 'cas_sentinelles']]
+            elif 'ias_syndrome_grippal' in df.columns:
+                df = df.rename(columns={'ias_syndrome_grippal': 'cas_sentinelles'})
+                prepared['sentinelles'] = df[['date', 'region', 'cas_sentinelles']]
+            else:
+                print("  ⚠️ Colonne 'sentinelles' introuvable (attendu: cas_sentinelles/incidence). Étape ignorée.")
         
         # IAS
         if 'ias' in data:

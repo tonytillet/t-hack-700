@@ -49,7 +49,7 @@ if not exist "models" mkdir models
 
 REM Collecte des données
 echo 📊 Collecte des données...
-python scripts\collect_real_data_fixed.py
+python scripts\collect_data.py
 if %errorlevel% neq 0 (
     echo ⚠️  Erreur lors de la collecte des données, mais on continue...
 )
