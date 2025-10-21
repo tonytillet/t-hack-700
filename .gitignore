@@ -95,3 +95,7 @@ reports/
 # Fichiers de test
 test_*.py
 *_test.py
+
+data/**
+!data/.gitkeep
+!data/**/.gitkeep
