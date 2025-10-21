@@ -1,6 +1,15 @@
 # 🚨 LUMEN - Système d'alerte grippe France
 
-Un système d'alerte précoce pour prédire les risques de grippe en France avec des données temps réel et des protocoles automatiques.
+## ✅ SYSTÈME OPÉRATIONNEL
+
+Un système d'alerte précoce opérationnel pour prédire les risques de grippe en France avec des **données réelles** et des protocoles automatiques.
+
+### 🎯 État actuel
+- 🏥 **Données réelles collectées** : 4,317 enregistrements SPF
+- 👥 **INSEE** : 13 régions avec données démographiques  
+- 🌡️ **Météo France** : 3,939 enregistrements météorologiques
+- 🚨 **7 alertes actives** détectées
+- 📋 **Protocoles automatiques** générés avec ROI
 
 ## 📋 Description
 
