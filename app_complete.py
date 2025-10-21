@@ -115,12 +115,28 @@ class GrippeAlertApp:
             'Corse': [42.0396, 9.0129]
         }
         
-        # Créer la carte avec un style moderne
+        # Créer la carte avec un style moderne et une ergonomie améliorée
         m = folium.Map(
             location=[46.2276, 2.2137],
             zoom_start=6,
             tiles='CartoDB positron',  # Style plus moderne
-            attr='CartoDB'
+            attr='CartoDB',
+            # Améliorations ergonomiques
+            zoom_control=True,
+            scroll_wheel_zoom=True,
+            double_click_zoom=True,
+            box_zoom=True,
+            dragging=True,
+            keyboard=True,
+            # Contrôles de zoom plus accessibles
+            zoom_control_position='topleft',
+            # Limites de zoom pour éviter de perdre la France
+            min_zoom=5,
+            max_zoom=10,
+            # Style de la carte
+            prefer_canvas=True,
+            # Amélioration des performances
+            no_wrap=False
         )
         
         # Données les plus récentes par région
@@ -153,82 +169,177 @@ class GrippeAlertApp:
                     color = '#22c55e'  # Vert faible
                     fill_opacity = 0.5
                 
-                # Popup moderne avec plus d'informations
+                # Popup moderne avec informations claires et parlantes
+                # Déterminer le niveau de risque en français
+                if score >= 80:
+                    niveau_risque = "CRITIQUE"
+                    action_requise = "Action immédiate"
+                elif score >= 60:
+                    niveau_risque = "ÉLEVÉ"
+                    action_requise = "Se préparer"
+                elif score >= 40:
+                    niveau_risque = "MODÉRÉ"
+                    action_requise = "Surveiller"
+                else:
+                    niveau_risque = "FAIBLE"
+                    action_requise = "Tout va bien"
+                
                 popup_text = f"""
-                <div style="font-family: Arial, sans-serif; width: 250px;">
-                    <h3 style="margin: 0 0 10px 0; color: #1f2937; font-size: 16px;">{region}</h3>
-                    <div style="background: #f8fafc; padding: 10px; border-radius: 6px; margin: 5px 0;">
-                        <div style="display: flex; justify-content: space-between; margin: 3px 0;">
-                            <span style="color: #6b7280;">Score d'alerte:</span>
-                            <span style="font-weight: 600; color: {color};">{score:.1f}</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; margin: 3px 0;">
-                            <span style="color: #6b7280;">Urgences grippe:</span>
-                            <span style="font-weight: 600;">{urgences:.0f}</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; margin: 3px 0;">
-                            <span style="color: #6b7280;">Vaccination:</span>
-                            <span style="font-weight: 600;">{vaccination:.1f}%</span>
-                        </div>
-                        <div style="display: flex; justify-content: space-between; margin: 3px 0;">
-                            <span style="color: #6b7280;">Population:</span>
-                            <span style="font-weight: 600;">{population:,.0f}</span>
+                <div style="font-family: Arial, sans-serif; width: 280px;">
+                    <h3 style="margin: 0 0 15px 0; color: #1f2937; font-size: 18px; text-align: center;">{region}</h3>
+                    
+                    <div style="background: #f8fafc; padding: 15px; border-radius: 8px; margin: 10px 0; border-left: 4px solid {color};">
+                        <div style="text-align: center; margin-bottom: 12px;">
+                            <div style="font-size: 14px; color: #6b7280; margin-bottom: 4px;">NIVEAU DE RISQUE</div>
+                            <div style="font-size: 24px; font-weight: 700; color: {color}; margin-bottom: 4px;">{score:.0f}/100</div>
+                            <div style="font-size: 12px; color: {color}; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px;">{niveau_risque}</div>
                         </div>
                     </div>
-                    <div style="margin-top: 8px; font-size: 12px; color: #6b7280;">
+                    
+                    <div style="background: #ffffff; padding: 12px; border-radius: 6px; margin: 8px 0; border: 1px solid #e5e7eb;">
+                        <div style="display: flex; justify-content: space-between; margin: 6px 0; padding: 4px 0;">
+                            <span style="color: #374151; font-weight: 500;">Malades aux urgences cette semaine:</span>
+                            <span style="font-weight: 700; color: #dc2626;">{urgences:.0f} personnes</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin: 6px 0; padding: 4px 0;">
+                            <span style="color: #374151; font-weight: 500;">Personnes vaccinées:</span>
+                            <span style="font-weight: 700; color: #059669;">{vaccination:.0f}%</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin: 6px 0; padding: 4px 0;">
+                            <span style="color: #374151; font-weight: 500;">Nombre d'habitants:</span>
+                            <span style="font-weight: 700; color: #1f2937;">{population:,.0f}</span>
+                        </div>
+                    </div>
+                    
+                    <div style="background: #fef3c7; padding: 10px; border-radius: 6px; margin: 8px 0; text-align: center;">
+                        <div style="font-size: 12px; color: #92400e; font-weight: 600; margin-bottom: 2px;">ACTION RECOMMANDÉE</div>
+                        <div style="font-size: 14px; color: #92400e; font-weight: 700;">{action_requise}</div>
+                    </div>
+                    
+                    <div style="margin-top: 10px; font-size: 11px; color: #9ca3af; text-align: center;">
                         Dernière mise à jour: {row.get('date', 'N/A')}
                     </div>
                 </div>
                 """
                 
-                # Marqueur circulaire avec style moderne
+                # Marqueur circulaire avec style moderne et interactions améliorées
                 folium.CircleMarker(
                     location=[lat, lon],
                     radius=radius,
-                    popup=folium.Popup(popup_text, max_width=300),
+                    popup=folium.Popup(
+                        popup_text, 
+                        max_width=300,
+                        min_width=280,
+                        max_height=400,
+                        show=False,  # Ne pas afficher automatiquement
+                        sticky=False  # Le popup se ferme quand on clique ailleurs
+                    ),
                     color='white',
                     weight=3,
                     fillColor=color,
                     fillOpacity=fill_opacity,
-                    tooltip=f"{region} - Score: {score:.1f}"
+                    # Tooltip amélioré avec plus d'informations
+                    tooltip=f"""
+                    <div style="font-family: Arial, sans-serif; font-size: 14px;">
+                        <strong style="color: {color};">{region}</strong><br>
+                        <span style="color: #6b7280;">Niveau: {niveau_risque}</span><br>
+                        <span style="color: #6b7280;">Score: {score:.0f}/100</span><br>
+                        <span style="color: #6b7280; font-size: 12px;">Cliquez pour plus de détails</span>
+                    </div>
+                    """,
+                    # Amélioration de l'interaction
+                    interactive=True,
+                    bubbling_mouse_events=False
                 ).add_to(m)
         
-        # Ajouter une légende moderne
+        # Ajouter une légende moderne et des contrôles
         legend_html = f'''
         <div style="
             position: fixed; 
-            bottom: 50px; 
-            left: 50px; 
-            width: 200px; 
-            height: 120px; 
+            bottom: 20px; 
+            left: 20px; 
+            width: 220px; 
             background: white; 
-            border: 2px solid #e5e7eb; 
-            border-radius: 8px; 
-            padding: 10px; 
+            border: 1px solid #e5e7eb; 
+            border-radius: 12px; 
+            padding: 15px; 
             font-size: 12px; 
             z-index: 9999;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            font-family: Arial, sans-serif;
         ">
-            <h4 style="margin: 0 0 8px 0; color: #1f2937;">Niveaux d'alerte</h4>
-            <div style="display: flex; align-items: center; margin: 3px 0;">
-                <div style="width: 12px; height: 12px; background: #dc2626; border-radius: 50%; margin-right: 8px;"></div>
-                <span>Critique (≥80)</span>
+            <h4 style="margin: 0 0 12px 0; color: #1f2937; font-size: 14px; font-weight: 600;">Niveaux de risque</h4>
+            <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
+                <div style="width: 14px; height: 14px; background: #dc2626; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #374151; font-weight: 500;">Critique (80-100)</span>
             </div>
-            <div style="display: flex; align-items: center; margin: 3px 0;">
-                <div style="width: 12px; height: 12px; background: #f59e0b; border-radius: 50%; margin-right: 8px;"></div>
-                <span>Élevé (60-79)</span>
+            <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
+                <div style="width: 14px; height: 14px; background: #f59e0b; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #374151; font-weight: 500;">Élevé (60-79)</span>
             </div>
-            <div style="display: flex; align-items: center; margin: 3px 0;">
-                <div style="width: 12px; height: 12px; background: #eab308; border-radius: 50%; margin-right: 8px;"></div>
-                <span>Modéré (40-59)</span>
+            <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
+                <div style="width: 14px; height: 14px; background: #eab308; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #374151; font-weight: 500;">Modéré (40-59)</span>
             </div>
-            <div style="display: flex; align-items: center; margin: 3px 0;">
-                <div style="width: 12px; height: 12px; background: #22c55e; border-radius: 50%; margin-right: 8px;"></div>
-                <span>Faible (<40)</span>
+            <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
+                <div style="width: 14px; height: 14px; background: #22c55e; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #374151; font-weight: 500;">Faible (0-39)</span>
+            </div>
+            <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb; font-size: 11px; color: #6b7280;">
+                💡 <strong>Conseil :</strong> Survolez ou cliquez sur une région pour plus de détails
             </div>
         </div>
         '''
         m.get_root().html.add_child(folium.Element(legend_html))
+        
+        # Ajouter des contrôles de navigation
+        from folium.plugins import Fullscreen, MeasureControl, Draw
+        
+        # Bouton plein écran
+        Fullscreen(
+            position='topright',
+            title='Plein écran',
+            title_cancel='Quitter le plein écran',
+            force_separate_button=True
+        ).add_to(m)
+        
+        # Outil de mesure
+        MeasureControl(
+            position='topright',
+            primary_length_unit='kilometers',
+            primary_area_unit='sqkilometers',
+            active_color='#3b82f6',
+            completed_color='#22c55e'
+        ).add_to(m)
+        
+        # Bouton de recentrage sur la France
+        recenter_html = '''
+        <div style="
+            position: fixed; 
+            top: 20px; 
+            right: 20px; 
+            z-index: 9999;
+        ">
+            <button onclick="map.setView([46.2276, 2.2137], 6);" 
+                    style="
+                        background: #3b82f6; 
+                        color: white; 
+                        border: none; 
+                        border-radius: 8px; 
+                        padding: 10px 15px; 
+                        font-size: 12px; 
+                        font-weight: 600; 
+                        cursor: pointer; 
+                        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                        transition: all 0.2s ease;
+                    "
+                    onmouseover="this.style.background='#2563eb'"
+                    onmouseout="this.style.background='#3b82f6'">
+                🎯 Recentrer sur la France
+            </button>
+        </div>
+        '''
+        m.get_root().html.add_child(folium.Element(recenter_html))
         
         return m
     
@@ -238,7 +349,40 @@ class GrippeAlertApp:
             return None
         
         # Filtrage des alertes actives
-        active_alerts = self.alerts[self.alerts['level'].str.contains('CRITIQUE|ÉLEVÉ')]
+        active_alerts = self.alerts[self.alerts['level'].str.contains('CRITIQUE|ÉLEVÉ')].copy()
+        
+        if len(active_alerts) == 0:
+            return None
+        
+        # Ajouter les colonnes manquantes avec des valeurs par défaut
+        if 'alert_score' not in active_alerts.columns:
+            active_alerts['alert_score'] = active_alerts.get('score', 0)
+        
+        if 'action' not in active_alerts.columns:
+            active_alerts['action'] = active_alerts['level'].apply(
+                lambda x: "Action immédiate" if "CRITIQUE" in x else "Préparer campagne"
+            )
+        
+        if 'timeline' not in active_alerts.columns:
+            active_alerts['timeline'] = "1-2 semaines"
+        
+        if 'urgences_actuelles' not in active_alerts.columns:
+            # Essayer de récupérer depuis les données principales
+            if self.data is not None:
+                latest_data = self.data.groupby('region').last().reset_index()
+                urgences_map = dict(zip(latest_data['region'], latest_data.get('urgences_grippe', 0)))
+                active_alerts['urgences_actuelles'] = active_alerts['region'].map(urgences_map).fillna(0)
+            else:
+                active_alerts['urgences_actuelles'] = 0
+        
+        if 'vaccination_rate' not in active_alerts.columns:
+            # Essayer de récupérer depuis les données principales
+            if self.data is not None:
+                latest_data = self.data.groupby('region').last().reset_index()
+                vacc_map = dict(zip(latest_data['region'], latest_data.get('vaccination_2024', 0)))
+                active_alerts['vaccination_rate'] = active_alerts['region'].map(vacc_map).fillna(0)
+            else:
+                active_alerts['vaccination_rate'] = 0
         
         return active_alerts
     
@@ -558,148 +702,208 @@ def main():
         if alert_map:
             st_folium(alert_map, width=700, height=500)
         
-        # Légende moderne avec badges
-        st.markdown("""
-        <div style="
-            background: #ffffff;
-            padding: 1.5rem;
-            border-radius: 12px;
-            margin: 1rem 0;
-            border: 1px solid #e1e5e9;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        ">
-            <h4 style="margin: 0 0 1rem 0; color: #2c3e50;">Légende des niveaux d'alerte</h4>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
-                <div style="
-                    background: #fee2e2;
-                    border: 2px solid #dc2626;
-                    padding: 1rem;
-                    border-radius: 8px;
-                    text-align: center;
-                ">
-                    <div style="
-                        background: #dc2626;
-                        color: white;
-                        padding: 0.25rem 0.75rem;
-                        border-radius: 20px;
-                        font-size: 0.8rem;
-                        font-weight: 600;
-                        display: inline-block;
-                        margin-bottom: 0.5rem;
-                    ">CRITIQUE</div>
-                    <div style="font-weight: 600; color: #dc2626;">Score ≥ 80</div>
-                    <div style="font-size: 0.9rem; color: #6b7280;">Action immédiate requise</div>
-                </div>
-                
-                <div style="
-                    background: #fef3c7;
-                    border: 2px solid #f59e0b;
-                    padding: 1rem;
-                    border-radius: 8px;
-                    text-align: center;
-                ">
-                    <div style="
-                        background: #f59e0b;
-                        color: white;
-                        padding: 0.25rem 0.75rem;
-                        border-radius: 20px;
-                        font-size: 0.8rem;
-                        font-weight: 600;
-                        display: inline-block;
-                        margin-bottom: 0.5rem;
-                    ">ÉLEVÉ</div>
-                    <div style="font-weight: 600; color: #f59e0b;">Score 60-79</div>
-                    <div style="font-size: 0.9rem; color: #6b7280;">Préparation campagne</div>
-                </div>
-                
-                <div style="
-                    background: #fefce8;
-                    border: 2px solid #eab308;
-                    padding: 1rem;
-                    border-radius: 8px;
-                    text-align: center;
-                ">
-                    <div style="
-                        background: #eab308;
-                        color: white;
-                        padding: 0.25rem 0.75rem;
-                        border-radius: 20px;
-                        font-size: 0.8rem;
-                        font-weight: 600;
-                        display: inline-block;
-                        margin-bottom: 0.5rem;
-                    ">MODÉRÉ</div>
-                    <div style="font-weight: 600; color: #eab308;">Score 40-59</div>
-                    <div style="font-size: 0.9rem; color: #6b7280;">Surveillance renforcée</div>
-                </div>
-                
-                <div style="
-                    background: #f0fdf4;
-                    border: 2px solid #22c55e;
-                    padding: 1rem;
-                    border-radius: 8px;
-                    text-align: center;
-                ">
-                    <div style="
-                        background: #22c55e;
-                        color: white;
-                        padding: 0.25rem 0.75rem;
-                        border-radius: 20px;
-                        font-size: 0.8rem;
-                        font-weight: 600;
-                        display: inline-block;
-                        margin-bottom: 0.5rem;
-                    ">FAIBLE</div>
-                    <div style="font-weight: 600; color: #22c55e;">Score < 40</div>
-                    <div style="font-size: 0.9rem; color: #6b7280;">Surveillance normale</div>
-                </div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+        # Légende élégante et professionnelle
+        st.markdown("### Niveaux de risque")
         
-        # Section d'explication des données
-        st.markdown("### 📊 Comprendre les données")
-        
-        col1, col2 = st.columns(2)
+        col1, col2, col3, col4 = st.columns(4)
         
         with col1:
             st.markdown("""
             <div style="
-                background: #f8fafc;
+                background: #fef2f2;
+                border-left: 4px solid #dc2626;
                 padding: 1.5rem;
-                border-radius: 12px;
-                border-left: 4px solid #3b82f6;
+                border-radius: 0 8px 8px 0;
+                margin: 0.5rem 0;
             ">
-                <h4 style="margin: 0 0 1rem 0; color: #1e40af;">Données de santé publique</h4>
-                <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
-                    <li><strong>Urgences grippe</strong> : Passages aux urgences pour syndrome grippal (OSCOUR)</li>
-                    <li><strong>Réseau Sentinelles</strong> : Cas hebdomadaires de grippe par région</li>
-                    <li><strong>Vaccination</strong> : Taux de couverture vaccinale par région</li>
-                    <li><strong>IAS</strong> : Indicateur d'activité syndromique</li>
-                </ul>
+                <div style="
+                    color: #dc2626;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                ">Critique</div>
+                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">80-100</div>
+                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
+                    Risque très élevé<br>
+                    <span style="color: #dc2626;">Action immédiate requise</span>
+                </div>
             </div>
             """, unsafe_allow_html=True)
         
         with col2:
             st.markdown("""
             <div style="
+                background: #fffbeb;
+                border-left: 4px solid #f59e0b;
+                padding: 1.5rem;
+                border-radius: 0 8px 8px 0;
+                margin: 0.5rem 0;
+            ">
+                <div style="
+                    color: #f59e0b;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                ">Élevé</div>
+                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">60-79</div>
+                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
+                    Risque élevé<br>
+                    <span style="color: #f59e0b;">Préparation nécessaire</span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        with col3:
+            st.markdown("""
+            <div style="
+                background: #fefce8;
+                border-left: 4px solid #eab308;
+                padding: 1.5rem;
+                border-radius: 0 8px 8px 0;
+                margin: 0.5rem 0;
+            ">
+                <div style="
+                    color: #eab308;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                ">Modéré</div>
+                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">40-59</div>
+                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
+                    Risque modéré<br>
+                    <span style="color: #eab308;">Surveillance renforcée</span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        with col4:
+            st.markdown("""
+            <div style="
                 background: #f0fdf4;
+                border-left: 4px solid #22c55e;
+                padding: 1.5rem;
+                border-radius: 0 8px 8px 0;
+                margin: 0.5rem 0;
+            ">
+                <div style="
+                    color: #22c55e;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    margin-bottom: 0.5rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                ">Faible</div>
+                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">0-39</div>
+                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
+                    Risque faible<br>
+                    <span style="color: #22c55e;">Situation normale</span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        # Section d'explication des données - VERSION ÉLÉGANTE
+        st.markdown("### Comprendre les données")
+        
+        # Explication du score d'alerte en premier
+        st.markdown("""
+        <div style="
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+            border-left: 4px solid #3b82f6;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        ">
+            <h4 style="margin: 0 0 1rem 0; color: #1e40af; font-size: 1.1rem; font-weight: 600;">Score d'alerte grippe</h4>
+            <p style="margin: 0; color: #374151; font-size: 1rem; line-height: 1.6;">
+                Un indicateur de 0 à 100 qui évalue le niveau de risque de grippe dans chaque région, 
+                basé sur l'analyse de multiples facteurs épidémiologiques et comportementaux.
+            </p>
+            <div style="margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                <div style="padding: 0.75rem; background: #f0fdf4; border-radius: 6px; border-left: 3px solid #22c55e;">
+                    <strong style="color: #166534;">0-39</strong><br>
+                    <span style="color: #6b7280; font-size: 0.9rem;">Risque faible</span>
+                </div>
+                <div style="padding: 0.75rem; background: #fefce8; border-radius: 6px; border-left: 3px solid #eab308;">
+                    <strong style="color: #a16207;">40-59</strong><br>
+                    <span style="color: #6b7280; font-size: 0.9rem;">Risque modéré</span>
+                </div>
+                <div style="padding: 0.75rem; background: #fffbeb; border-radius: 6px; border-left: 3px solid #f59e0b;">
+                    <strong style="color: #d97706;">60-79</strong><br>
+                    <span style="color: #6b7280; font-size: 0.9rem;">Risque élevé</span>
+                </div>
+                <div style="padding: 0.75rem; background: #fef2f2; border-radius: 6px; border-left: 3px solid #dc2626;">
+                    <strong style="color: #dc2626;">80-100</strong><br>
+                    <span style="color: #6b7280; font-size: 0.9rem;">Risque critique</span>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown("""
+            <div style="
+                background: #ffffff;
                 padding: 1.5rem;
                 border-radius: 12px;
-                border-left: 4px solid #22c55e;
+                border-left: 4px solid #dc2626;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
             ">
-                <h4 style="margin: 0 0 1rem 0; color: #166534;">Signaux comportementaux</h4>
-                <ul style="margin: 0; padding-left: 1.5rem; color: #374151;">
-                    <li><strong>Google Trends</strong> : Recherches "grippe", "symptômes", "vaccin"</li>
-                    <li><strong>Wikipedia</strong> : Consultations des pages "Grippe" et "Vaccination"</li>
-                    <li><strong>Facteurs démographiques</strong> : Population, âge, densité</li>
-                    <li><strong>Météo</strong> : Température, humidité par région</li>
-                </ul>
+                <h4 style="margin: 0 0 1rem 0; color: #1f2937; font-weight: 600;">Données médicales</h4>
+                <div style="color: #374151; line-height: 1.8;">
+                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #fef2f2; border-radius: 6px;">
+                        <strong style="color: #dc2626; display: block; margin-bottom: 0.25rem;">Urgences grippe</strong>
+                        <span style="color: #6b7280; font-size: 0.9rem;">Nombre de passages aux urgences pour syndrome grippal</span>
+                    </div>
+                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #fef2f2; border-radius: 6px;">
+                        <strong style="color: #dc2626; display: block; margin-bottom: 0.25rem;">Taux de vaccination</strong>
+                        <span style="color: #6b7280; font-size: 0.9rem;">Pourcentage de couverture vaccinale par région</span>
+                    </div>
+                    <div style="margin-bottom: 0; padding: 0.75rem; background: #fef2f2; border-radius: 6px;">
+                        <strong style="color: #dc2626; display: block; margin-bottom: 0.25rem;">Population 65+</strong>
+                        <span style="color: #6b7280; font-size: 0.9rem;">Pourcentage de personnes âgées (population à risque)</span>
+                    </div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+        
+        with col2:
+            st.markdown("""
+            <div style="
+                background: #ffffff;
+                padding: 1.5rem;
+                border-radius: 12px;
+                border-left: 4px solid #3b82f6;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            ">
+                <h4 style="margin: 0 0 1rem 0; color: #1f2937; font-weight: 600;">Signaux comportementaux</h4>
+                <div style="color: #374151; line-height: 1.8;">
+                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #f0f9ff; border-radius: 6px;">
+                        <strong style="color: #1e40af; display: block; margin-bottom: 0.25rem;">Recherches Google</strong>
+                        <span style="color: #6b7280; font-size: 0.9rem;">Volume de recherches liées à la grippe sur internet</span>
+                    </div>
+                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #f0f9ff; border-radius: 6px;">
+                        <strong style="color: #1e40af; display: block; margin-bottom: 0.25rem;">Consultations Wikipedia</strong>
+                        <span style="color: #6b7280; font-size: 0.9rem;">Nombre de consultations des pages médicales</span>
+                    </div>
+                    <div style="margin-bottom: 0; padding: 0.75rem; background: #f0f9ff; border-radius: 6px;">
+                        <strong style="color: #1e40af; display: block; margin-bottom: 0.25rem;">Conditions météo</strong>
+                        <span style="color: #6b7280; font-size: 0.9rem;">Température et humidité (facteurs de propagation)</span>
+                    </div>
+                </div>
             </div>
             """, unsafe_allow_html=True)
         
         # Tableau de données détaillé
-        st.markdown("### 📋 Données détaillées par région")
+        st.markdown("### Données détaillées par région")
         
         if app.data is not None:
             latest_data = app.data.groupby('region').last().reset_index()
@@ -710,12 +914,12 @@ def main():
                 'pct_65_plus', 'population_totale'
             ]
             
-            # Renommage des colonnes pour l'affichage
+            # Renommage des colonnes pour l'affichage - VERSION ÉLÉGANTE
             column_mapping = {
                 'region': 'Région',
-                'alert_score': 'Score d\'alerte',
+                'alert_score': 'Niveau de risque',
                 'urgences_grippe': 'Urgences grippe',
-                'vaccination_2024': 'Vaccination (%)',
+                'vaccination_2024': 'Taux vaccination (%)',
                 'pct_65_plus': 'Population 65+ (%)',
                 'population_totale': 'Population totale'
             }
@@ -724,38 +928,42 @@ def main():
             display_data = display_data.rename(columns=column_mapping)
             
             # Formatage des données
-            display_data['Score d\'alerte'] = display_data['Score d\'alerte'].round(1)
-            display_data['Vaccination (%)'] = display_data['Vaccination (%)'].round(1)
+            display_data['Niveau de risque'] = display_data['Niveau de risque'].round(1)
+            display_data['Taux vaccination (%)'] = display_data['Taux vaccination (%)'].round(1)
             display_data['Population 65+ (%)'] = display_data['Population 65+ (%)'].round(1)
             display_data['Population totale'] = display_data['Population totale'].apply(lambda x: f"{x:,}")
             
             # Tri par score d'alerte décroissant
-            display_data = display_data.sort_values('Score d\'alerte', ascending=False)
+            display_data = display_data.sort_values('Niveau de risque', ascending=False)
             
             st.dataframe(
                 display_data,
                 use_container_width=True,
                 hide_index=True,
                 column_config={
-                    "Score d'alerte": st.column_config.NumberColumn(
-                        "Score d'alerte",
-                        help="Score de risque de 0 à 100",
+                    "Niveau de risque": st.column_config.NumberColumn(
+                        "Niveau de risque",
+                        help="Score de 0 à 100 : 0-39=Faible, 40-59=Modéré, 60-79=Élevé, 80-100=Critique",
                         format="%.1f"
                     ),
                     "Urgences grippe": st.column_config.NumberColumn(
                         "Urgences grippe",
-                        help="Nombre de passages aux urgences",
+                        help="Nombre de passages aux urgences pour syndrome grippal cette semaine",
                         format="%d"
                     ),
-                    "Vaccination (%)": st.column_config.NumberColumn(
-                        "Vaccination (%)",
-                        help="Taux de couverture vaccinale",
+                    "Taux vaccination (%)": st.column_config.NumberColumn(
+                        "Taux vaccination (%)",
+                        help="Pourcentage de couverture vaccinale contre la grippe",
                         format="%.1f%%"
                     ),
                     "Population 65+ (%)": st.column_config.NumberColumn(
                         "Population 65+ (%)",
-                        help="Pourcentage de population de 65 ans et plus",
+                        help="Pourcentage de personnes de 65 ans et plus (population à risque)",
                         format="%.1f%%"
+                    ),
+                    "Population totale": st.column_config.TextColumn(
+                        "Population totale",
+                        help="Nombre total d'habitants dans cette région"
                     )
                 }
             )
@@ -766,22 +974,70 @@ def main():
         # Tableau des alertes actives
         alert_dashboard = app.create_alert_dashboard()
         if alert_dashboard is not None and len(alert_dashboard) > 0:
-            st.dataframe(
-                alert_dashboard[['region', 'level', 'alert_score', 'action', 'timeline', 'urgences_actuelles', 'vaccination_rate']],
-                use_container_width=True,
-                hide_index=True
-            )
+            # Renommer les colonnes pour plus de clarté
+            display_columns = ['region', 'level', 'alert_score', 'action', 'timeline', 'urgences_actuelles', 'vaccination_rate']
+            available_columns = [col for col in display_columns if col in alert_dashboard.columns]
             
-            # Export CSV
-            csv = alert_dashboard.to_csv(index=False)
-            st.download_button(
-                label="Exporter alertes CSV",
-                data=csv,
-                file_name=f"alertes_grippe_{datetime.now().strftime('%Y%m%d')}.csv",
-                mime="text/csv"
-            )
+            if available_columns:
+                # Créer un DataFrame avec les colonnes disponibles
+                display_data = alert_dashboard[available_columns].copy()
+                
+                # Renommer les colonnes pour l'affichage
+                column_mapping = {
+                    'region': 'Région',
+                    'level': 'Niveau',
+                    'alert_score': 'Score',
+                    'action': 'Action recommandée',
+                    'timeline': 'Délai',
+                    'urgences_actuelles': 'Urgences actuelles',
+                    'vaccination_rate': 'Taux vaccination (%)'
+                }
+                
+                display_data = display_data.rename(columns=column_mapping)
+                
+                # Formatage des données
+                if 'Score' in display_data.columns:
+                    display_data['Score'] = display_data['Score'].round(1)
+                if 'Urgences actuelles' in display_data.columns:
+                    display_data['Urgences actuelles'] = display_data['Urgences actuelles'].round(0).astype(int)
+                if 'Taux vaccination (%)' in display_data.columns:
+                    display_data['Taux vaccination (%)'] = display_data['Taux vaccination (%)'].round(1)
+                
+                st.dataframe(
+                    display_data,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "Score": st.column_config.NumberColumn(
+                            "Score",
+                            help="Score de risque de 0 à 100",
+                            format="%.1f"
+                        ),
+                        "Urgences actuelles": st.column_config.NumberColumn(
+                            "Urgences actuelles",
+                            help="Nombre de passages aux urgences cette semaine",
+                            format="%d"
+                        ),
+                        "Taux vaccination (%)": st.column_config.NumberColumn(
+                            "Taux vaccination (%)",
+                            help="Pourcentage de personnes vaccinées",
+                            format="%.1f%%"
+                        )
+                    }
+                )
+                
+                # Export CSV
+                csv = display_data.to_csv(index=False)
+                st.download_button(
+                    label="Exporter alertes CSV",
+                    data=csv,
+                    file_name=f"alertes_{pd.Timestamp.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                    mime="text/csv"
+                )
+            else:
+                st.warning("Aucune donnée d'alerte disponible")
         else:
-            st.info("Aucune alerte active actuellement")
+            st.info("✅ Aucune alerte active pour le moment")
     
     with tab3:
         st.header("Protocoles d'action automatiques")
