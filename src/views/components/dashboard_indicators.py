@@ -2,6 +2,21 @@
 import streamlit as st
 import pandas as pd
 
+# src/indicators/__init__.py
+from indicators.rt import compute_rt_avg_from_data
+from indicators.sc import compute_sc_avg_from_data
+from indicators.severity import compute_severity_avg
+from indicators.lumen_score import compute_lumen_score_avg
+
+
+__all__ = [
+    "compute_rt_avg_from_data",
+    "compute_sc_avg_from_data",
+    "compute_severity_avg",
+    "compute_lumen_score_avg",
+]
+
+
 def _metric_card(title: str, value: str, subtitle: str, color: str, icon: str):
     st.markdown(
         f"""
@@ -26,47 +41,22 @@ def render_advanced_indicators(app):
     latest = app.data.groupby('region').last().reset_index()
     colA, colB, colC, colD = st.columns(4)
 
-    # SC (violet)
-    sc_values = []
-    for _, row in latest.iterrows():
-        r0 = max(0.8, min(2.0, row.get('urgences_grippe', 1) / max(row.get('urgences_grippe', 1), 1)))
-        v = (row.get('vaccination_2024', 50) or 50) / 100
-        d_norm = min(1.0, (row.get('population_totale', 100000) or 100000) / 10000000)
-        sc_values.append(r0 * (1 - v) * d_norm)
-    avg_sc = sum(sc_values) / len(sc_values) if sc_values else 0
+    # ── SC (violet)
+    avg_sc = compute_rt_avg_from_data(app.data)
     with colA:
         _metric_card("Seuil critique (SC)", f"{avg_sc:.2f}", "SC = R0 × (1-V) × D_norm", "#7c3aed", "🧭")
 
-    # R0 (bleu)
-    r0_values = []
-    for _, row in latest.iterrows():
-        r0_values.append(max(0.8, min(2.0, row.get('urgences_grippe', 1) / max(row.get('urgences_grippe', 1), 1))))
-    avg_r0 = sum(r0_values) / len(r0_values) if r0_values else 1.0
+    # ── R0 (bleu)
+    avg_r0 = compute_sc_avg_from_data(app.data)
     with colB:
         _metric_card("Transmissibilité (R0)", f"{avg_r0:.2f}", "Force de propagation moyenne", "#2563eb", "🔗")
 
-    # Gravité (orange)
-    gravite_vals = []
-    for _, row in latest.iterrows():
-        urg = row.get('urgences_grippe', 0) or 0
-        cas = row.get('cas_sentinelles', 0) or 0
-        gravite_vals.append((urg / max(cas, 1)) * 100)
-    avg_grav = sum(gravite_vals) / len(gravite_vals) if gravite_vals else 0
+    # ── Gravité (orange)
+    avg_grav = compute_severity_avg(latest)
     with colC:
         _metric_card("Taux de gravité", f"{avg_grav:.1f}%", "Hospitalisations / Cas × 100", "#f97316", "⚠️")
 
-    # LUMEN-Score (vert)
-    lumen_vals = []
-    for _, row in latest.iterrows():
-        trends = row.get('google_trends_grippe', 0) or 0
-        wiki = row.get('wiki_grippe_views', 0) or 0
-        iae = (trends + wiki) / 100
-        r0_norm = min(1.0, max(0.0, (avg_r0 - 0.8) / 1.2))
-        v = (row.get('vaccination_2024', 50) or 50) / 100
-        d_norm = min(1.0, (row.get('population_totale', 100000) or 100000) / 10000000)
-        climat_norm = 0.5
-        ls = (0.30 * iae + 0.25 * r0_norm + 0.20 * (1 - v) + 0.15 * d_norm + 0.10 * climat_norm) * 100
-        lumen_vals.append(ls)
-    avg_ls = sum(lumen_vals) / len(lumen_vals) if lumen_vals else 0
+    # ── LUMEN-Score (vert)
+    avg_ls = compute_lumen_score_avg(latest)
     with colD:
         _metric_card("LUMEN-Score", f"{avg_ls:.1f}/100", "Score composite de priorisation", "#16a34a", "📊")
