@@ -25,12 +25,78 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+class GrippeChatbot:
+    def __init__(self):
+        self.knowledge_base = {
+            "grippe": {
+                "symptomes": "Fièvre, toux, maux de tête, courbatures, fatigue",
+                "transmission": "Gouttelettes respiratoires, contact direct, surfaces contaminées",
+                "prevention": "Vaccination, lavage des mains, port du masque, aération",
+                "duree": "7-10 jours en moyenne, jusqu'à 2 semaines pour la fatigue"
+            },
+            "vaccination": {
+                "efficacite": "60-70% d'efficacité contre les formes graves",
+                "recommandations": "Personnes à risque, professionnels de santé, +65 ans",
+                "periode": "Octobre à mars, idéalement avant décembre",
+                "effets": "Réactions locales légères, rarement des effets systémiques"
+            },
+            "surveillance": {
+                "indicateurs": "Urgences, sentinelles, Google Trends, Wikipedia",
+                "seuils": "Critique ≥80, Élevé 60-79, Modéré 40-59, Faible <40",
+                "frequence": "Mise à jour hebdomadaire, alertes en temps réel",
+                "sources": "Santé Publique France, INSEE, Open-Meteo, Google"
+            },
+            "lumen": {
+                "objectif": "Prédire les épidémies 1-2 mois à l'avance",
+                "donnees": "Signaux faibles + données officielles + météo",
+                "ia": "Random Forest avec features temporelles inter-années",
+                "impact": "-40% pics d'urgences, +25% efficacité campagnes"
+            }
+        }
+    
+    def get_response(self, question):
+        question_lower = question.lower()
+        
+        # Recherche par mots-clés
+        for category, info in self.knowledge_base.items():
+            if any(keyword in question_lower for keyword in [category, "grippe", "vaccin", "surveillance", "lumen"]):
+                if category == "grippe":
+                    if "symptome" in question_lower:
+                        return f"**Symptômes de la grippe :**\n{info['symptomes']}\n\n**Durée :** {info['duree']}"
+                    elif "transmission" in question_lower or "contagieux" in question_lower:
+                        return f"**Transmission de la grippe :**\n{info['transmission']}\n\n**Prévention :** {info['prevention']}"
+                    else:
+                        return f"**À propos de la grippe :**\n- **Symptômes :** {info['symptomes']}\n- **Transmission :** {info['transmission']}\n- **Prévention :** {info['prevention']}\n- **Durée :** {info['duree']}"
+                
+                elif category == "vaccination":
+                    return f"**Vaccination contre la grippe :**\n- **Efficacité :** {info['efficacite']}\n- **Recommandations :** {info['recommandations']}\n- **Période :** {info['periode']}\n- **Effets secondaires :** {info['effets']}"
+                
+                elif category == "surveillance":
+                    return f"**Surveillance grippale LUMEN :**\n- **Indicateurs :** {info['indicateurs']}\n- **Seuils d'alerte :** {info['seuils']}\n- **Fréquence :** {info['frequence']}\n- **Sources :** {info['sources']}"
+                
+                elif category == "lumen":
+                    return f"**Plateforme LUMEN :**\n- **Objectif :** {info['objectif']}\n- **Données :** {info['donnees']}\n- **IA :** {info['ia']}\n- **Impact :** {info['impact']}"
+        
+        # Réponses par défaut
+        if "bonjour" in question_lower or "salut" in question_lower:
+            return "Bonjour ! Je suis l'assistant IA de LUMEN. Je peux vous aider avec des questions sur la grippe, la vaccination, la surveillance épidémiologique et la plateforme LUMEN. Que souhaitez-vous savoir ?"
+        
+        elif "aide" in question_lower or "help" in question_lower:
+            return "**Comment puis-je vous aider ?**\n\nJe peux répondre à vos questions sur :\n- Les symptômes et la transmission de la grippe\n- La vaccination contre la grippe\n- Le système de surveillance LUMEN\n- Les indicateurs d'alerte et les seuils\n- Le fonctionnement de la plateforme\n\nPosez-moi votre question !"
+        
+        elif "merci" in question_lower:
+            return "De rien ! N'hésitez pas si vous avez d'autres questions sur la surveillance grippale ou LUMEN."
+        
+        else:
+            return "Je ne suis pas sûr de comprendre votre question. Je peux vous aider avec des informations sur la grippe, la vaccination, la surveillance épidémiologique et la plateforme LUMEN. Pouvez-vous reformuler votre question ?"
+
 class GrippeAlertApp:
     def __init__(self):
         """Initialise l'application"""
         self.data = None
         self.alerts = None
         self.protocols = None
+        self.chatbot = GrippeChatbot()
         self.load_data()
     
     def load_data(self):
@@ -155,18 +221,18 @@ class GrippeAlertApp:
                 # Taille du marqueur basée sur la population
                 radius = max(8, min(25, 8 + (population / 1000000) * 2))
                 
-                # Couleur et opacité basées sur le score
+                # Couleur et opacité basées sur le score - Couleurs gouvernementales
                 if score >= 80:
-                    color = '#dc2626'  # Rouge critique
+                    color = '#ce0500'  # Rouge critique gouvernemental
                     fill_opacity = 0.8
                 elif score >= 60:
-                    color = '#f59e0b'  # Orange élevé
+                    color = '#b34000'  # Orange élevé gouvernemental
                     fill_opacity = 0.7
                 elif score >= 40:
-                    color = '#eab308'  # Jaune modéré
+                    color = '#6a6a6a'  # Gris modéré gouvernemental
                     fill_opacity = 0.6
                 else:
-                    color = '#22c55e'  # Vert faible
+                    color = '#18753c'  # Vert faible gouvernemental
                     fill_opacity = 0.5
                 
                 # Popup moderne avec informations claires et parlantes
@@ -270,23 +336,26 @@ class GrippeAlertApp:
         ">
             <h4 style="margin: 0 0 12px 0; color: #1f2937; font-size: 14px; font-weight: 600;">Niveaux de risque</h4>
             <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
-                <div style="width: 14px; height: 14px; background: #dc2626; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
-                <span style="color: #374151; font-weight: 500;">Critique (80-100)</span>
+                <div style="width: 14px; height: 14px; background: #ce0500; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #161616; font-weight: 500;">Critique (80-100)</span>
             </div>
             <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
-                <div style="width: 14px; height: 14px; background: #f59e0b; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
-                <span style="color: #374151; font-weight: 500;">Élevé (60-79)</span>
+                <div style="width: 14px; height: 14px; background: #b34000; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #161616; font-weight: 500;">Élevé (60-79)</span>
             </div>
             <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
-                <div style="width: 14px; height: 14px; background: #eab308; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
-                <span style="color: #374151; font-weight: 500;">Modéré (40-59)</span>
+                <div style="width: 14px; height: 14px; background: #6a6a6a; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #161616; font-weight: 500;">Modéré (40-59)</span>
             </div>
             <div style="display: flex; align-items: center; margin: 6px 0; padding: 4px 0;">
-                <div style="width: 14px; height: 14px; background: #22c55e; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
-                <span style="color: #374151; font-weight: 500;">Faible (0-39)</span>
+                <div style="width: 14px; height: 14px; background: #18753c; border-radius: 50%; margin-right: 10px; border: 2px solid white; box-shadow: 0 1px 3px rgba(0,0,0,0.2);"></div>
+                <span style="color: #161616; font-weight: 500;">Faible (0-39)</span>
             </div>
-            <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb; font-size: 11px; color: #6b7280;">
-                💡 <strong>Conseil :</strong> Survolez ou cliquez sur une région pour plus de détails
+            <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid #e5e7eb; font-size: 11px; color: #6b7280; display: flex; align-items: center;">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px;">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                </svg>
+                <strong>Conseil :</strong> Survolez ou cliquez sur une région pour plus de détails
             </div>
         </div>
         '''
@@ -312,30 +381,34 @@ class GrippeAlertApp:
             completed_color='#22c55e'
         ).add_to(m)
         
-        # Bouton de recentrage sur la France
+        # Bouton de recentrage sur la France - positionné correctement
         recenter_html = '''
         <div style="
-            position: fixed; 
-            top: 20px; 
-            right: 20px; 
-            z-index: 9999;
+            position: absolute; 
+            top: 10px; 
+            right: 10px; 
+            z-index: 1000;
         ">
             <button onclick="map.setView([46.2276, 2.2137], 6);" 
                     style="
                         background: #3b82f6; 
                         color: white; 
                         border: none; 
-                        border-radius: 8px; 
-                        padding: 10px 15px; 
-                        font-size: 12px; 
+                        border-radius: 6px; 
+                        padding: 8px 12px; 
+                        font-size: 11px; 
                         font-weight: 600; 
                         cursor: pointer; 
-                        box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+                        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
                         transition: all 0.2s ease;
+                        font-family: Arial, sans-serif;
                     "
-                    onmouseover="this.style.background='#2563eb'"
-                    onmouseout="this.style.background='#3b82f6'">
-                🎯 Recentrer sur la France
+                    onmouseover="this.style.background='#2563eb'; this.style.transform='translateY(-1px)'"
+                    onmouseout="this.style.background='#3b82f6'; this.style.transform='translateY(0)'">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 6px; vertical-align: middle;">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+                Recentrer
             </button>
         </div>
         '''
@@ -395,32 +468,41 @@ class GrippeAlertApp:
 
 def main():
     """Fonction principale"""
-    # Header moderne avec design épuré
-    st.markdown("""
-    <div style="
-        background: #ffffff;
-        padding: 2rem 1rem;
-        border-radius: 8px;
-        margin-bottom: 2rem;
-        border: 1px solid #e1e5e9;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    ">
-        <h1 style="
-            color: #2c3e50;
-            text-align: center;
-            margin: 0;
-            font-size: 2.2rem;
-            font-weight: 600;
-        ">Système d'alerte grippe France</h1>
-        <p style="
-            color: #6c757d;
-            text-align: center;
-            margin: 0.5rem 0 0 0;
-            font-size: 1rem;
-            font-weight: 400;
-        ">Prédiction précoce • Données temps réel • Actions automatiques</p>
+    # Charger et encoder le logo en base64
+    import base64
+    try:
+        with open("assets/logo_msp.png", "rb") as f:
+            logo_base64 = base64.b64encode(f.read()).decode()
+    except FileNotFoundError:
+        logo_base64 = ""
+    
+    # Header principal - Version Streamlit native
+    st.markdown(f"""
+    <div style="display: flex; align-items: center; margin-bottom: 2rem; padding: 1rem; background: #ffffff; border-radius: 8px; border: 1px solid #e1e5e9; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <div style="margin-right: 1.5rem;">
+            <img src="data:image/png;base64,{logo_base64}" alt="Logo Ministère" style="height: 80px; width: auto;">
+        </div>
+        <div>
+            <h1 style="
+                color: #000091;
+                margin: 0;
+                font-size: 2.8rem;
+                font-weight: 700;
+                letter-spacing: -1px;
+            ">LUMEN</h1>
+            <p style="
+                color: #6a6a6a;
+                margin: 0.25rem 0 0 0;
+                font-size: 1rem;
+                font-weight: 400;
+            ">Plateforme nationale de surveillance grippale</p>
+        </div>
     </div>
     """, unsafe_allow_html=True)
+    
+    # Message principal
+    st.info("**Anticipez les épidémies de grippe 1 à 2 mois à l'avance** - Protéger la santé publique et optimiser les ressources médicales")
+    
     
     # Initialisation de l'application
     app = GrippeAlertApp()
@@ -442,230 +524,281 @@ def main():
         return
     
     # Section de statut avec design épuré
+    # Section de contexte et valeur ajoutée
+    
+    
+    # Navigation responsive avec boutons
+    if 'current_tab' not in st.session_state:
+        st.session_state.current_tab = 0
+    
+    # Boutons de navigation responsive
     st.markdown("""
-    <div style="
-        background: #ffffff;
-        padding: 1.5rem;
+    <style>
+    .nav-buttons {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 2rem;
+        flex-wrap: wrap;
+    }
+    
+    .nav-button {
+        flex: 1;
+        min-width: 150px;
+        padding: 12px 20px;
+        background-color: #000091;
+        border: 2px solid #000091;
         border-radius: 8px;
-        margin: 1rem 0;
-        border: 1px solid #e1e5e9;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    ">
-        <h3 style="
-            color: #2c3e50;
-            margin: 0 0 1rem 0;
-            font-size: 1.1rem;
-            font-weight: 600;
-        ">État du système</h3>
-        <div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
-            <div style="
-                background: #f8f9fa;
-                color: #495057;
-                padding: 1rem;
-                border-radius: 6px;
-                border: 1px solid #e9ecef;
-                flex: 1;
-                min-width: 200px;
-            ">
-                <strong style="color: #28a745;">Données chargées</strong><br>
-                <small style="color: #6c757d;">Dataset avec alertes intégrées</small>
-            </div>
-            <div style="
-                background: #f8f9fa;
-                color: #495057;
-                padding: 1rem;
-                border-radius: 6px;
-                border: 1px solid #e9ecef;
-                flex: 1;
-                min-width: 200px;
-            ">
-                <strong style="color: #dc3545;">Alertes actives</strong><br>
-                <small style="color: #6c757d;">Surveillance en temps réel</small>
-            </div>
-            <div style="
-                background: #f8f9fa;
-                color: #495057;
-                padding: 1rem;
-                border-radius: 6px;
-                border: 1px solid #e9ecef;
-                flex: 1;
-                min-width: 200px;
-            ">
-                <strong style="color: #007bff;">Protocoles prêts</strong><br>
-                <small style="color: #6c757d;">Actions automatiques disponibles</small>
-            </div>
-        </div>
-    </div>
+        color: #ffffff;
+        font-weight: 500;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 14px;
+    }
+    
+    .nav-button:hover {
+        background-color: #1a1a9e;
+        border-color: #1a1a9e;
+        color: #ffffff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 145, 0.3);
+    }
+    
+    .nav-button.active {
+        background-color: #ffffff;
+        border-color: #000091;
+        color: #000091;
+        box-shadow: 0 4px 12px rgba(0, 0, 145, 0.2);
+    }
+    
+    .nav-button.active:hover {
+        background-color: #f6f6f6;
+        color: #000091;
+        transform: translateY(-2px);
+    }
+    
+    @media (max-width: 768px) {
+        .nav-buttons {
+            flex-direction: column;
+            gap: 6px;
+        }
+        
+        .nav-button {
+            width: 100%;
+            min-width: unset;
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .nav-button {
+            padding: 10px 16px;
+            font-size: 13px;
+        }
+    }
+    </style>
     """, unsafe_allow_html=True)
     
-    # Calcul des KPIs
-    kpis = app.calculate_kpis()
+    # Boutons de navigation
+    tabs = ["Carte des alertes", "Tableau de bord alertes", "Protocoles d'action", "Analyse détaillée", "Configuration"]
     
-    # Section KPIs avec design épuré
-    st.markdown("""
-    <div style="
-        background: #ffffff;
-        padding: 1.5rem;
-        border-radius: 8px;
-        margin: 1rem 0;
-        border: 1px solid #e1e5e9;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    ">
-        <h3 style="
-            color: #2c3e50;
-            margin: 0 0 1.5rem 0;
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-        ">Indicateurs clés en temps réel</h3>
-    </div>
-    """, unsafe_allow_html=True)
+    st.markdown('<div class="nav-buttons">', unsafe_allow_html=True)
     
-    # KPIs avec design personnalisé
-    col1, col2, col3, col4, col5 = st.columns(5)
+    cols = st.columns(len(tabs))
+    for i, (col, tab_name) in enumerate(zip(cols, tabs)):
+        with col:
+            if st.button(tab_name, key=f"nav_{i}", use_container_width=True):
+                st.session_state.current_tab = i
+                st.rerun()
     
-    with col1:
-        st.markdown(f"""
-        <div style="
-            background: #ffffff;
-            color: #2c3e50;
-            padding: 1.5rem 1rem;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e1e5e9;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #dc3545;">{kpis['urgences_actuelles']:.0f}</div>
-            <div style="font-size: 0.9rem; color: #6c757d;">Urgences actuelles</div>
-        </div>
-        """, unsafe_allow_html=True)
+    st.markdown('</div>', unsafe_allow_html=True)
     
-    with col2:
-        st.markdown(f"""
-        <div style="
-            background: #ffffff;
-            color: #2c3e50;
-            padding: 1.5rem 1rem;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e1e5e9;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #28a745;">{kpis['vaccination_moyenne']:.1f}%</div>
-            <div style="font-size: 0.9rem; color: #6c757d;">Vaccination moyenne</div>
-        </div>
-        """, unsafe_allow_html=True)
+    # Affichage du contenu selon l'onglet sélectionné
+    if st.session_state.current_tab == 0:
+        st.markdown("### Carte des alertes")
+    elif st.session_state.current_tab == 1:
+        st.markdown("### Tableau de bord alertes")
+    elif st.session_state.current_tab == 2:
+        st.markdown("### Protocoles d'action")
+    elif st.session_state.current_tab == 3:
+        st.markdown("### Analyse détaillée")
+    elif st.session_state.current_tab == 4:
+        st.markdown("### Assistant IA")
+    elif st.session_state.current_tab == 5:
+        st.markdown("### Configuration")
     
-    with col3:
-        st.markdown(f"""
-        <div style="
-            background: #ffffff;
-            color: #2c3e50;
-            padding: 1.5rem 1rem;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e1e5e9;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #dc3545;">{kpis['alertes_critiques']}</div>
-            <div style="font-size: 0.9rem; color: #6c757d;">Alertes critiques</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with col4:
-        st.markdown(f"""
-        <div style="
-            background: #ffffff;
-            color: #2c3e50;
-            padding: 1.5rem 1rem;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e1e5e9;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #ffc107;">{kpis['alertes_elevees']}</div>
-            <div style="font-size: 0.9rem; color: #6c757d;">Alertes élevées</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    with col5:
-        st.markdown(f"""
-        <div style="
-            background: #ffffff;
-            color: #2c3e50;
-            padding: 1.5rem 1rem;
-            border-radius: 8px;
-            text-align: center;
-            border: 1px solid #e1e5e9;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        ">
-            <div style="font-size: 1.8rem; font-weight: 700; margin-bottom: 0.25rem; color: #28a745;">{kpis['economies_potentielles']:,.0f}€</div>
-            <div style="font-size: 0.9rem; color: #6c757d;">Économies potentielles</div>
-        </div>
-        """, unsafe_allow_html=True)
-    
-    # Section des onglets avec style épuré
-    st.markdown("""
-    <div style="
-        background: #ffffff;
-        padding: 1rem;
-        border-radius: 8px;
-        margin: 2rem 0;
-        border: 1px solid #e1e5e9;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    ">
-        <h3 style="
-            color: #2c3e50;
-            margin: 0 0 1rem 0;
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-        ">Tableau de bord interactif</h3>
-        <p style="
-            color: #6c757d;
-            text-align: center;
-            margin: 0;
-            font-size: 0.95rem;
-        ">Explorez les données, visualisez les alertes et déclenchez les actions</p>
-    </div>
-    """, unsafe_allow_html=True)
-    
-    # Onglets
-    tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "Carte des alertes", 
-        "Tableau de bord alertes", 
-        "Protocoles d'action", 
-        "Analyse détaillée", 
-        "Configuration"
-    ])
-    
-    with tab1:
-        # Header avec métriques clés
-        st.markdown("""
-        <div style="
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 1.5rem;
-            border-radius: 12px;
-            margin-bottom: 2rem;
-            color: white;
-        ">
-            <h2 style="margin: 0 0 1rem 0; font-size: 1.8rem; font-weight: 600;">Carte des alertes en temps réel</h2>
-            <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
-                <div style="background: rgba(255,255,255,0.2); padding: 0.75rem 1.5rem; border-radius: 8px;">
-                    <strong>Surveillance active</strong><br>
-                    <span style="font-size: 1.2rem;">13 régions</span>
-                </div>
-                <div style="background: rgba(255,255,255,0.2); padding: 0.75rem 1.5rem; border-radius: 8px;">
-                    <strong>Dernière mise à jour</strong><br>
-                    <span style="font-size: 1.2rem;">Il y a 2 min</span>
-                </div>
-                <div style="background: rgba(255,255,255,0.2); padding: 0.75rem 1.5rem; border-radius: 8px;">
-                    <strong>Précision du modèle</strong><br>
-                    <span style="font-size: 1.2rem;">87.3%</span>
-                </div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
+    # Contenu selon l'onglet sélectionné
+    if st.session_state.current_tab == 0:
+        # Calculer les indicateurs
+        if app.data is not None:
+            latest_data = app.data.groupby('region').last().reset_index()
+            
+            # Indicateurs clés avec design NCIS
+            col1, col2, col3, col4 = st.columns(4)
+            
+            with col1:
+                # Seuil critique (SC)
+                sc_values = []
+                for _, row in latest_data.iterrows():
+                    r0 = max(0.8, min(2.0, row.get('urgences_grippe', 1) / max(row.get('urgences_grippe', 1), 1)))
+                    v = row.get('vaccination_2024', 50) / 100  # Utiliser vaccination_2024 au lieu de taux_vaccination
+                    d_norm = min(1.0, row.get('population_totale', 100000) / 10000000)
+                    sc = r0 * (1 - v) * d_norm
+                    sc_values.append(sc)
+                
+                avg_sc = sum(sc_values) / len(sc_values) if sc_values else 0
+                st.metric(
+                    label="Seuil critique",
+                    value=f"{avg_sc:.2f}",
+                    help="SC = R0 × (1-V) × D_norm. Seuil d'alerte si > 0.6"
+                )
+            
+            with col2:
+                # Taux de transmissibilité (R0)
+                r0_values = []
+                for _, row in latest_data.iterrows():
+                    r0 = max(0.8, min(2.0, row.get('urgences_grippe', 1) / max(row.get('urgences_grippe', 1), 1)))
+                    r0_values.append(r0)
+                
+                avg_r0 = sum(r0_values) / len(r0_values) if r0_values else 1.0
+                st.metric(
+                    label="Transmissibilité (R0)",
+                    value=f"{avg_r0:.2f}",
+                    help="R0 = Cas_secondaires / Cas_initiaux. Épidémie si > 1"
+                )
+            
+            with col3:
+                # Taux de gravité
+                gravite_values = []
+                for _, row in latest_data.iterrows():
+                    urgences = row.get('urgences_grippe', 0)
+                    total_cas = row.get('cas_sentinelles', 1)
+                    gravite = (urgences / max(total_cas, 1)) * 100
+                    gravite_values.append(gravite)
+                
+                avg_gravite = sum(gravite_values) / len(gravite_values) if gravite_values else 0
+                st.metric(
+                    label="Taux de gravité (%)",
+                    value=f"{avg_gravite:.1f}%",
+                    help="G = (Hospitalisations / Cas_totaux) × 100"
+                )
+            
+            with col4:
+                # LUMEN-Score
+                lumen_scores = []
+                for _, row in latest_data.iterrows():
+                    # IAE (Indice d'accélération épidémique)
+                    trends = row.get('google_trends_grippe', 0)
+                    wiki = row.get('wiki_grippe_views', 0)
+                    iae = (trends + wiki) / 100  # Normalisation simple
+                    
+                    # R0 normalisé
+                    r0_norm = min(1.0, max(0.0, (avg_r0 - 0.8) / 1.2))
+                    
+                    # Taux de vaccination
+                    v = row.get('vaccination_2024', 50) / 100
+                    
+                    # Densité normalisée
+                    d_norm = min(1.0, row.get('population_totale', 100000) / 10000000)
+                    
+                    # Climat normalisé (simulation)
+                    climat_norm = 0.5  # Valeur par défaut
+                    
+                    # LUMEN-Score
+                    ls = (0.30 * iae + 0.25 * r0_norm + 0.20 * (1-v) + 0.15 * d_norm + 0.10 * climat_norm) * 100
+                    lumen_scores.append(ls)
+                
+                avg_ls = sum(lumen_scores) / len(lumen_scores) if lumen_scores else 0
+                st.metric(
+                    label="LUMEN-Score",
+                    value=f"{avg_ls:.1f}/100",
+                    help="Score composite 0-100 pour priorisation"
+                )
+            
+            # Indicateurs économiques
+            st.subheader("Indicateurs économiques")
+            col1, col2, col3, col4 = st.columns(4)
+            
+            with col1:
+                # Coût non-vaccination
+                total_pop = latest_data['population_totale'].sum()
+                taux_vacc = latest_data['vaccination_2024'].mean() / 100
+                cas_evitables = total_pop * (1 - taux_vacc) * 0.1  # 10% taux d'attaque
+                cout_cas = 150  # € par cas
+                cout_nv = cas_evitables * cout_cas / 1000000  # en millions
+                st.metric(
+                    label="Coût non-vaccination",
+                    value=f"{cout_nv:.1f}M€",
+                    help="Coût évitable si pas de vaccination"
+                )
+            
+            with col2:
+                # Coût Sécurité sociale
+                cout_ss = cout_nv * 0.75  # 75% remboursé
+                st.metric(
+                    label="Coût Assurance Maladie",
+                    value=f"{cout_ss:.1f}M€",
+                    help="Part remboursée par l'Assurance Maladie"
+                )
+            
+            with col3:
+                # Coût prévention
+                nb_vacciner = total_pop * 0.1  # 10% à vacciner
+                cout_vaccin = 15  # € par vaccination
+                cout_com = 500000  # € communication
+                cout_prev = (nb_vacciner * cout_vaccin + cout_com) / 1000000
+                st.metric(
+                    label="Coût prévention",
+                    value=f"{cout_prev:.1f}M€",
+                    help="Coût campagne de vaccination"
+                )
+            
+            with col4:
+                # ROI prévention
+                roi = ((cout_ss - cout_prev) / cout_prev) * 100 if cout_prev > 0 else 0
+                st.metric(
+                    label="ROI prévention",
+                    value=f"{roi:.0f}%",
+                    help="Retour sur investissement de la prévention"
+                )
+            
+            # Seuils d'action
+            st.subheader("Seuils d'action automatiques")
+            col1, col2, col3 = st.columns(3)
+            
+            with col1:
+                if avg_sc > 0.6 and avg_r0 > 1:
+                    st.error("VACCINATION D'URGENCE")
+                    st.write("SC > 0.6 et R0 > 1")
+                elif avg_sc > 0.4:
+                    st.warning("CAMPAGNE DE SENSIBILISATION")
+                    st.write("0.4 < SC ≤ 0.6")
+                else:
+                    st.success("SURVEILLANCE")
+                    st.write("SC ≤ 0.4")
+            
+            with col2:
+                if avg_ls >= 70:
+                    st.error("ALERTE ROUGE")
+                    st.write("LUMEN-Score ≥ 70")
+                elif avg_ls >= 50:
+                    st.warning("ALERTE ORANGE")
+                    st.write("50 ≤ LUMEN-Score < 70")
+                else:
+                    st.success("SITUATION NORMALE")
+                    st.write("LUMEN-Score < 50")
+            
+            with col3:
+                if roi > 100:
+                    st.success("CAMPAGNE RENTABLE")
+                    st.write(f"ROI: {roi:.0f}%")
+                elif roi > 0:
+                    st.warning("CAMPAGNE MARGINALE")
+                    st.write(f"ROI: {roi:.0f}%")
+                else:
+                    st.error("CAMPAGNE NON RENTABLE")
+                    st.write(f"ROI: {roi:.0f}%")
+        
+        st.markdown("---")
         
         # Filtres et contrôles
         col1, col2, col3, col4 = st.columns(4)
@@ -695,212 +828,46 @@ def main():
             st.markdown("<br>", unsafe_allow_html=True)
             auto_refresh = st.checkbox("Actualisation automatique", value=True, help="Mise à jour toutes les 5 minutes")
         
+        # Application des filtres
+        filtered_data = app.data.copy() if app.data is not None else None
+        
+        if filtered_data is not None:
+            # Filtre par niveau d'alerte
+            if niveau_alerte != "Tous":
+                if niveau_alerte == "Critique":
+                    filtered_data = filtered_data[filtered_data.get('alert_score', 0) >= 80]
+                elif niveau_alerte == "Élevé":
+                    filtered_data = filtered_data[(filtered_data.get('alert_score', 0) >= 60) & (filtered_data.get('alert_score', 0) < 80)]
+                elif niveau_alerte == "Modéré":
+                    filtered_data = filtered_data[(filtered_data.get('alert_score', 0) >= 40) & (filtered_data.get('alert_score', 0) < 60)]
+                elif niveau_alerte == "Faible":
+                    filtered_data = filtered_data[filtered_data.get('alert_score', 0) < 40]
+            
+            # Filtre par période
+            if periode != "Toutes":
+                if periode == "7 derniers jours":
+                    cutoff_date = pd.Timestamp.now() - pd.Timedelta(days=7)
+                elif periode == "30 derniers jours":
+                    cutoff_date = pd.Timestamp.now() - pd.Timedelta(days=30)
+                elif periode == "3 derniers mois":
+                    cutoff_date = pd.Timestamp.now() - pd.Timedelta(days=90)
+                
+                filtered_data = filtered_data[filtered_data['date'] >= cutoff_date]
+            
+            # Sauvegarder les données filtrées temporairement
+            original_data = app.data
+            app.data = filtered_data
+            
+            # Afficher le nombre de résultats filtrés
+            st.info(f"{len(filtered_data)} régions affichées (filtres appliqués)")
+        
         # Carte interactive avec style amélioré
-        st.markdown("### 🗺️ Visualisation géographique")
+        st.markdown("### Visualisation géographique")
         
         alert_map = app.create_alert_map()
         if alert_map:
-            st_folium(alert_map, width=700, height=500)
+            st_folium(alert_map, width=None, height=500)
         
-        # Légende élégante et professionnelle
-        st.markdown("### Niveaux de risque")
-        
-        col1, col2, col3, col4 = st.columns(4)
-        
-        with col1:
-            st.markdown("""
-            <div style="
-                background: #fef2f2;
-                border-left: 4px solid #dc2626;
-                padding: 1.5rem;
-                border-radius: 0 8px 8px 0;
-                margin: 0.5rem 0;
-            ">
-                <div style="
-                    color: #dc2626;
-                    font-size: 0.9rem;
-                    font-weight: 600;
-                    margin-bottom: 0.5rem;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5px;
-                ">Critique</div>
-                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">80-100</div>
-                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
-                    Risque très élevé<br>
-                    <span style="color: #dc2626;">Action immédiate requise</span>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        with col2:
-            st.markdown("""
-            <div style="
-                background: #fffbeb;
-                border-left: 4px solid #f59e0b;
-                padding: 1.5rem;
-                border-radius: 0 8px 8px 0;
-                margin: 0.5rem 0;
-            ">
-                <div style="
-                    color: #f59e0b;
-                    font-size: 0.9rem;
-                    font-weight: 600;
-                    margin-bottom: 0.5rem;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5px;
-                ">Élevé</div>
-                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">60-79</div>
-                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
-                    Risque élevé<br>
-                    <span style="color: #f59e0b;">Préparation nécessaire</span>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        with col3:
-            st.markdown("""
-            <div style="
-                background: #fefce8;
-                border-left: 4px solid #eab308;
-                padding: 1.5rem;
-                border-radius: 0 8px 8px 0;
-                margin: 0.5rem 0;
-            ">
-                <div style="
-                    color: #eab308;
-                    font-size: 0.9rem;
-                    font-weight: 600;
-                    margin-bottom: 0.5rem;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5px;
-                ">Modéré</div>
-                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">40-59</div>
-                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
-                    Risque modéré<br>
-                    <span style="color: #eab308;">Surveillance renforcée</span>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        with col4:
-            st.markdown("""
-            <div style="
-                background: #f0fdf4;
-                border-left: 4px solid #22c55e;
-                padding: 1.5rem;
-                border-radius: 0 8px 8px 0;
-                margin: 0.5rem 0;
-            ">
-                <div style="
-                    color: #22c55e;
-                    font-size: 0.9rem;
-                    font-weight: 600;
-                    margin-bottom: 0.5rem;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5px;
-                ">Faible</div>
-                <div style="font-weight: 700; color: #1f2937; font-size: 1.1rem; margin-bottom: 0.3rem;">0-39</div>
-                <div style="font-size: 0.9rem; color: #6b7280; line-height: 1.4;">
-                    Risque faible<br>
-                    <span style="color: #22c55e;">Situation normale</span>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        # Section d'explication des données - VERSION ÉLÉGANTE
-        st.markdown("### Comprendre les données")
-        
-        # Explication du score d'alerte en premier
-        st.markdown("""
-        <div style="
-            background: #f8fafc;
-            padding: 2rem;
-            border-radius: 12px;
-            margin: 1.5rem 0;
-            border-left: 4px solid #3b82f6;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        ">
-            <h4 style="margin: 0 0 1rem 0; color: #1e40af; font-size: 1.1rem; font-weight: 600;">Score d'alerte grippe</h4>
-            <p style="margin: 0; color: #374151; font-size: 1rem; line-height: 1.6;">
-                Un indicateur de 0 à 100 qui évalue le niveau de risque de grippe dans chaque région, 
-                basé sur l'analyse de multiples facteurs épidémiologiques et comportementaux.
-            </p>
-            <div style="margin-top: 1rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
-                <div style="padding: 0.75rem; background: #f0fdf4; border-radius: 6px; border-left: 3px solid #22c55e;">
-                    <strong style="color: #166534;">0-39</strong><br>
-                    <span style="color: #6b7280; font-size: 0.9rem;">Risque faible</span>
-                </div>
-                <div style="padding: 0.75rem; background: #fefce8; border-radius: 6px; border-left: 3px solid #eab308;">
-                    <strong style="color: #a16207;">40-59</strong><br>
-                    <span style="color: #6b7280; font-size: 0.9rem;">Risque modéré</span>
-                </div>
-                <div style="padding: 0.75rem; background: #fffbeb; border-radius: 6px; border-left: 3px solid #f59e0b;">
-                    <strong style="color: #d97706;">60-79</strong><br>
-                    <span style="color: #6b7280; font-size: 0.9rem;">Risque élevé</span>
-                </div>
-                <div style="padding: 0.75rem; background: #fef2f2; border-radius: 6px; border-left: 3px solid #dc2626;">
-                    <strong style="color: #dc2626;">80-100</strong><br>
-                    <span style="color: #6b7280; font-size: 0.9rem;">Risque critique</span>
-                </div>
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-        
-        col1, col2 = st.columns(2)
-        
-        with col1:
-            st.markdown("""
-            <div style="
-                background: #ffffff;
-                padding: 1.5rem;
-                border-radius: 12px;
-                border-left: 4px solid #dc2626;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            ">
-                <h4 style="margin: 0 0 1rem 0; color: #1f2937; font-weight: 600;">Données médicales</h4>
-                <div style="color: #374151; line-height: 1.8;">
-                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #fef2f2; border-radius: 6px;">
-                        <strong style="color: #dc2626; display: block; margin-bottom: 0.25rem;">Urgences grippe</strong>
-                        <span style="color: #6b7280; font-size: 0.9rem;">Nombre de passages aux urgences pour syndrome grippal</span>
-                    </div>
-                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #fef2f2; border-radius: 6px;">
-                        <strong style="color: #dc2626; display: block; margin-bottom: 0.25rem;">Taux de vaccination</strong>
-                        <span style="color: #6b7280; font-size: 0.9rem;">Pourcentage de couverture vaccinale par région</span>
-                    </div>
-                    <div style="margin-bottom: 0; padding: 0.75rem; background: #fef2f2; border-radius: 6px;">
-                        <strong style="color: #dc2626; display: block; margin-bottom: 0.25rem;">Population 65+</strong>
-                        <span style="color: #6b7280; font-size: 0.9rem;">Pourcentage de personnes âgées (population à risque)</span>
-                    </div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        
-        with col2:
-            st.markdown("""
-            <div style="
-                background: #ffffff;
-                padding: 1.5rem;
-                border-radius: 12px;
-                border-left: 4px solid #3b82f6;
-                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            ">
-                <h4 style="margin: 0 0 1rem 0; color: #1f2937; font-weight: 600;">Signaux comportementaux</h4>
-                <div style="color: #374151; line-height: 1.8;">
-                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #f0f9ff; border-radius: 6px;">
-                        <strong style="color: #1e40af; display: block; margin-bottom: 0.25rem;">Recherches Google</strong>
-                        <span style="color: #6b7280; font-size: 0.9rem;">Volume de recherches liées à la grippe sur internet</span>
-                    </div>
-                    <div style="margin-bottom: 1.2rem; padding: 0.75rem; background: #f0f9ff; border-radius: 6px;">
-                        <strong style="color: #1e40af; display: block; margin-bottom: 0.25rem;">Consultations Wikipedia</strong>
-                        <span style="color: #6b7280; font-size: 0.9rem;">Nombre de consultations des pages médicales</span>
-                    </div>
-                    <div style="margin-bottom: 0; padding: 0.75rem; background: #f0f9ff; border-radius: 6px;">
-                        <strong style="color: #1e40af; display: block; margin-bottom: 0.25rem;">Conditions météo</strong>
-                        <span style="color: #6b7280; font-size: 0.9rem;">Température et humidité (facteurs de propagation)</span>
-                    </div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
         
         # Tableau de données détaillé
         st.markdown("### Données détaillées par région")
@@ -968,7 +935,8 @@ def main():
                 }
             )
     
-    with tab2:
+    elif st.session_state.current_tab == 1:
+        st.markdown('<div id="priorites"></div>', unsafe_allow_html=True)
         st.header("Tableau de bord des alertes")
         
         # Tableau des alertes actives
@@ -1039,7 +1007,7 @@ def main():
         else:
             st.info("✅ Aucune alerte active pour le moment")
     
-    with tab3:
+    elif st.session_state.current_tab == 2:
         st.header("Protocoles d'action automatiques")
         
         # Tableau des protocoles
@@ -1074,7 +1042,8 @@ def main():
         else:
             st.info("Aucun protocole actif actuellement")
     
-    with tab4:
+    elif st.session_state.current_tab == 3:
+        st.markdown('<div id="simulation"></div>', unsafe_allow_html=True)
         st.header("Analyse détaillée par région")
         
         # Sélection de la région
@@ -1134,7 +1103,7 @@ def main():
             
             st.plotly_chart(fig, use_container_width=True)
     
-    with tab5:
+    elif st.session_state.current_tab == 4:
         st.header("Configuration du système")
         
         st.subheader("Seuils d'alerte")
@@ -1162,68 +1131,178 @@ def main():
             st.info("Actualisation en cours...")
             st.success("Données actualisées !")
     
-    # Footer épuré
-    st.markdown("""
-    <div style="
-        background: #f8f9fa;
-        color: #495057;
-        padding: 1.5rem 1rem;
-        border-radius: 8px;
-        margin: 2rem 0 0 0;
-        text-align: center;
-        border: 1px solid #e1e5e9;
-    ">
-        <h4 style="
-            margin: 0 0 1rem 0;
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: #2c3e50;
-        ">Système d'Alerte Précoce Grippe France</h4>
-        <div style="
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-            margin: 1rem 0;
-        ">
+    # Chatbot professionnel sans icônes
+    if "chat_open" not in st.session_state:
+        st.session_state.chat_open = False
+    
+    if "chat_history" not in st.session_state:
+        st.session_state.chat_history = []
+    
+    # Bouton d'assistance professionnel
+    st.markdown("---")
+    col1, col2, col3 = st.columns([2, 1, 1])
+    with col3:
+        if st.button("Assistance", help="Ouvrir l'assistance LUMEN", key="chat_toggle", type="secondary", use_container_width=True):
+            st.session_state.chat_open = not st.session_state.chat_open
+            st.rerun()
+    st.markdown("---")
+    
+    # Fenêtre d'assistance (si ouverte)
+    if st.session_state.chat_open:
+        st.markdown("### Assistance LUMEN")
+        
+        # Zone de messages
+        if st.session_state.chat_history:
+            for message in st.session_state.chat_history:
+                if message["role"] == "user":
+                    st.markdown(f"""
+                    <div style="
+                        background: #f8f9fa;
+                        padding: 12px;
+                        border-radius: 6px;
+                        margin: 8px 0;
+                        border-left: 3px solid #000091;
+                    ">
+                        <strong>Vous :</strong> {message['content']}
+                    </div>
+                    """, unsafe_allow_html=True)
+                else:
+                    st.markdown(f"""
+                    <div style="
+                        background: #ffffff;
+                        padding: 12px;
+                        border-radius: 6px;
+                        margin: 8px 0;
+                        border: 1px solid #e1e5e9;
+                    ">
+                        <strong>Assistant LUMEN :</strong> {message['content']}
+                    </div>
+                    """, unsafe_allow_html=True)
+        else:
+            # Message de bienvenue
+            st.markdown("""
             <div style="
-                background: #ffffff;
-                color: #495057;
-                padding: 0.5rem 1rem;
+                background: #f8f9fa;
+                padding: 12px;
                 border-radius: 6px;
-                font-size: 0.85rem;
-                border: 1px solid #e1e5e9;
+                margin: 8px 0;
+                border-left: 3px solid #000091;
             ">
-                Prédiction 1-2 mois à l'avance
+                <strong>Assistant LUMEN :</strong> Bonjour ! Je peux vous aider avec des questions sur la grippe, la vaccination, la surveillance épidémiologique et la plateforme LUMEN. Que souhaitez-vous savoir ?
             </div>
-            <div style="
-                background: #ffffff;
-                color: #495057;
-                padding: 0.5rem 1rem;
-                border-radius: 6px;
-                font-size: 0.85rem;
-                border: 1px solid #e1e5e9;
-            ">
-                Données temps réel
+            """, unsafe_allow_html=True)
+        
+        # Zone de saisie
+        with st.form("chat_form", clear_on_submit=True):
+            user_input = st.text_input("Votre question", placeholder="Tapez votre question ici...", key="user_input")
+            submit_button = st.form_submit_button("Envoyer", use_container_width=True)
+        
+        if submit_button and user_input:
+            # Ajouter la question de l'utilisateur à l'historique
+            st.session_state.chat_history.append({"role": "user", "content": user_input})
+            
+            # Obtenir la réponse du chatbot
+            response = app.chatbot.get_response(user_input)
+            
+            # Ajouter la réponse à l'historique
+            st.session_state.chat_history.append({"role": "assistant", "content": response})
+            
+            # Rafraîchir la page pour afficher la nouvelle conversation
+            st.rerun()
+        
+        # Questions fréquentes
+        st.markdown("**Questions fréquentes :**")
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            if st.button("Symptômes grippe", use_container_width=True):
+                st.session_state.chat_history.append({"role": "user", "content": "Quels sont les symptômes de la grippe ?"})
+                response = app.chatbot.get_response("Quels sont les symptômes de la grippe ?")
+                st.session_state.chat_history.append({"role": "assistant", "content": response})
+                st.rerun()
+            
+            if st.button("Fonctionnement LUMEN", use_container_width=True):
+                st.session_state.chat_history.append({"role": "user", "content": "Comment fonctionne LUMEN ?"})
+                response = app.chatbot.get_response("Comment fonctionne LUMEN ?")
+                st.session_state.chat_history.append({"role": "assistant", "content": response})
+                st.rerun()
+        
+        with col2:
+            if st.button("Vaccination", use_container_width=True):
+                st.session_state.chat_history.append({"role": "user", "content": "Quand se faire vacciner ?"})
+                response = app.chatbot.get_response("Quand se faire vacciner ?")
+                st.session_state.chat_history.append({"role": "assistant", "content": response})
+                st.rerun()
+            
+            if st.button("Seuils d'alerte", use_container_width=True):
+                st.session_state.chat_history.append({"role": "user", "content": "Quels sont les seuils d'alerte ?"})
+                response = app.chatbot.get_response("Quels sont les seuils d'alerte ?")
+                st.session_state.chat_history.append({"role": "assistant", "content": response})
+                st.rerun()
+        
+        # Contrôles
+        col_close, col_clear = st.columns(2)
+        with col_close:
+            if st.button("Fermer", use_container_width=True):
+                st.session_state.chat_open = False
+                st.rerun()
+        with col_clear:
+            if st.button("Effacer", type="secondary", use_container_width=True):
+                st.session_state.chat_history = []
+                st.rerun()
+    
+    # Footer gouvernemental avec composants Streamlit
+    st.markdown("---")
+    
+    # Container principal du footer
+    with st.container():
+        # Logo et titre centré
+        col1, col2, col3 = st.columns([1, 2, 1])
+        
+        with col2:
+            st.markdown("""
+            <div style="text-align: center; padding: 1rem 0;">
+                <img src="data:image/png;base64,{logo_base64}" alt="Logo Ministère" style="height: 50px; width: auto; filter: brightness(0) invert(1); margin-bottom: 1rem;">
+                <h3 style="color: #000091; margin: 0.5rem 0; font-size: 1.3rem; font-weight: 700;">LUMEN</h3>
+                <p style="color: #6a6a6a; margin: 0; font-size: 1rem;">Ministère de la Santé et de la Prévention</p>
             </div>
-            <div style="
-                background: #ffffff;
-                color: #495057;
-                padding: 0.5rem 1rem;
-                border-radius: 6px;
-                font-size: 0.85rem;
-                border: 1px solid #e1e5e9;
-            ">
-                Protocoles automatiques
-            </div>
+            """, unsafe_allow_html=True)
+        
+        # Navigation gouvernementale officielle
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            st.markdown("**Ministère de la Santé et de la Prévention**")
+            st.markdown("[Gouvernement.fr](https://www.gouvernement.fr)")
+            st.markdown("[Santé Publique France](https://www.santepubliquefrance.fr)")
+            st.markdown("[Service Public](https://www.service-public.fr)")
+            st.markdown("[Data.gouv.fr](https://www.data.gouv.fr)")
+        
+        with col2:
+            st.markdown("**Ressources officielles**")
+            st.markdown("[Info.gouv.fr](https://www.info.gouv.fr)")
+            st.markdown("[Legifrance.gouv.fr](https://www.legifrance.gouv.fr)")
+            st.markdown("[France.fr](https://www.france.fr)")
+            st.markdown("[Elysee.fr](https://www.elysee.fr)")
+        
+        with col3:
+            st.markdown("**Légal et transparence**")
+            st.markdown("[Mentions légales](https://www.gouvernement.fr/mentions-legales)")
+            st.markdown("[Politique de confidentialité](https://www.gouvernement.fr/politique-de-confidentialite)")
+            st.markdown("[Accessibilité](https://www.gouvernement.fr/accessibilite)")
+            st.markdown("[Contact](https://www.gouvernement.fr/contact)")
+        
+        # Copyright
+        st.markdown("""
+        <div style="text-align: center; padding: 1rem 0; border-top: 1px solid #e1e5e9; margin-top: 2rem;">
+            <p style="color: #6a6a6a; margin: 0; font-size: 0.85rem;">
+                © 2024 Ministère de la Santé et de la Prévention. Tous droits réservés.
+            </p>
+            <p style="color: #6a6a6a; margin: 0.5rem 0 0 0; font-size: 0.85rem;">
+                Plateforme LUMEN - Système d'alerte précoce grippe
+            </p>
         </div>
-        <p style="
-            margin: 1rem 0 0 0;
-            font-size: 0.85rem;
-            color: #6c757d;
-        ">Réduction des coûts médicaux • Prévention efficace • Actions ciblées</p>
-    </div>
-    """, unsafe_allow_html=True)
+        """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
