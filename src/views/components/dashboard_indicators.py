@@ -5,14 +5,14 @@ import pandas as pd
 # src/indicators/__init__.py
 from indicators.rt import compute_rt_avg_from_data
 from indicators.sc import compute_sc_avg_from_data
-from indicators.severity import compute_severity_avg
+from indicators.severity import compute_severity_avg_from_data
 from indicators.lumen_score import compute_lumen_score_avg
 
 
 __all__ = [
     "compute_rt_avg_from_data",
     "compute_sc_avg_from_data",
-    "compute_severity_avg",
+    "compute_severity_avg_from_data",
     "compute_lumen_score_avg",
 ]
 
@@ -52,7 +52,7 @@ def render_advanced_indicators(app):
         _metric_card("Transmissibilité (R0)", f"{avg_r0:.2f}", "Force de propagation moyenne", "#2563eb", "🔗")
 
     # ── Gravité (orange)
-    avg_grav = compute_severity_avg(latest)
+    avg_grav = compute_severity_avg_from_data(app.data)
     with colC:
         _metric_card("Taux de gravité", f"{avg_grav:.1f}%", "Hospitalisations / Cas × 100", "#f97316", "⚠️")
 
