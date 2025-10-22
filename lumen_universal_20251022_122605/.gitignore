@@ -1,0 +1,48 @@
+# Données volumineuses
+data/raw/
+data/cleaned/
+data/frozen/
+data/logs/
+data/processed/*.parquet
+data/processed/*.csv
+
+# Modèles ML
+models/*.joblib
+models/*.pkl
+models/*.csv
+models/*.json
+
+# Artefacts ML
+ml/artefacts/
+explicabilite/
+evidence/
+
+# Logs et monitoring
+monitoring/logs/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.log
+__pycache__/
+*.pyc
+*.pyo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Fichiers de déploiement
+lumen_deploy_*/
+
+# Dashboards générés (seront recréés automatiquement)
+dashboard_risk_heatmap.html
+dashboard_real_vs_predicted.html
+dashboard_active_alerts.html

@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  lumen:
+    build: .
+    container_name: lumen-app
+    ports:
+      - "8080:8080"
+    environment:
+      - LUMEN_PORT=8080
+    volumes:
+      # Montage des données (optionnel)
+      - ./data:/app/data:ro
+      - ./models:/app/models:ro
+      # Montage des logs (optionnel)
+      - lumen-logs:/app/logs
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - lumen-network
+
+volumes:
+  lumen-logs:
+
+networks:
+  lumen-network:
+    driver: bridge
