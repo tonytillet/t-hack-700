@@ -1,0 +1,21 @@
+file,error_type,error_message,timestamp,data_type
+cleaned_20251021_214719_INSEE_20251021_211545_resource.csv,SchemaError,"Colonnes manquantes: ['code_region', 'nom_region', 'population', 'densite']",2025-10-21T21:52:21.311190,insee
+cleaned_20251021_214719_METEO_20251021_211612_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:21.315463,meteo
+cleaned_20251021_214719_data.gouv.fr_20251021_205634_resource.csv,ProcessingError,No columns to parse from file,2025-10-21T21:52:22.842921,
+cleaned_20251021_214632_METEO_20251021_211710_resource.csv,SchemaError,"Colonnes manquantes: ['temperature', 'humidite']",2025-10-21T21:52:23.060457,meteo
+cleaned_20251021_214102_data.gouv.fr_20251021_205955_resource.csv,SchemaError,"(""Could not convert '76' with type str: tried to convert to int64"", 'Conversion failed for column region_residence with type object')",2025-10-21T21:52:24.849109,generic
+cleaned_20251021_214725_METEO_20251021_211824_resource.csv,SchemaError,Erreurs de validation: Colonne temperature contient des valeurs > 60,2025-10-21T21:52:25.061345,meteo
+cleaned_20251021_214142_METEO_20251021_211614_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:25.063850,meteo
+cleaned_20251021_214125_METEO_20251021_211751_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:25.635481,meteo
+cleaned_20251021_214719_data.gouv.fr_20251021_205800_resource.csv,SchemaError,Colonnes manquantes: ['region'],2025-10-21T21:52:25.850746,sante
+cleaned_20251021_214851_METEO_20251021_211925_resource.csv,SchemaError,Erreurs de validation: Colonne temperature contient des valeurs > 60,2025-10-21T21:52:26.564740,meteo
+cleaned_20251021_214815_data.gouv.fr_20251021_210355_resource.csv,SchemaError,"(""Could not convert '27' with type str: tried to convert to int64"", 'Conversion failed for column dep with type object')",2025-10-21T21:52:26.844374,generic
+cleaned_20251021_213509_METEO_20251021_211620_resource.csv,SchemaError,Erreurs de validation: Colonne temperature contient des valeurs > 60,2025-10-21T21:52:27.067272,meteo
+cleaned_20251021_214825_METEO_20251021_212005_resource.csv,SchemaError,"Colonnes manquantes: ['temperature', 'humidite']",2025-10-21T21:52:27.286047,meteo
+cleaned_20251021_214121_METEO_20251021_211846_resource.csv,SchemaError,"Colonnes manquantes: ['temperature', 'humidite']",2025-10-21T21:52:27.496993,meteo
+cleaned_20251021_213515_data.gouv.fr_20251021_205641_resource.csv,ProcessingError,No columns to parse from file,2025-10-21T21:52:27.501603,
+cleaned_20251021_213521_METEO_20251021_211616_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:27.739162,meteo
+cleaned_20251021_213521_METEO_20251021_211611_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:27.740513,meteo
+cleaned_20251021_214145_METEO_20251021_211903_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:28.297217,meteo
+cleaned_20251021_214621_data.gouv.fr_20251021_205843_resource.csv,SchemaError,"(""Could not convert '76' with type str: tried to convert to int64"", 'Conversion failed for column region_residence with type object')",2025-10-21T21:52:29.803197,generic
+cleaned_20251021_214123_METEO_20251021_212037_resource.csv,SchemaError,"Colonnes manquantes: ['date', 'temperature', 'humidite']",2025-10-21T21:52:30.915020,meteo

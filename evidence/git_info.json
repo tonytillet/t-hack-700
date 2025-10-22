@@ -1,0 +1,11 @@
+{
+  "current_sha": "f2e62e631c3b1cdc2478e8b9fae21526310b5a79",
+  "current_branch": "feeature/data-clean",
+  "recent_commits": [
+    "f2e62e6 chore: remove obsolete data collection scripts including build_dataset.py, ckan_incremental_fetch.py, collect_complete_indicators.py, collect_real_data.py, and run_pipeline.py to streamline the project and focus on essential functionalities",
+    "c84ba59 chore: remove obsolete files and scripts, including app_clean.py, CLAUDE.md, and various configuration and documentation files, to streamline the project structure and focus on core functionalities",
+    "895282e Merge pull request #21 from tonytillet/feature/data-cleaner",
+    "03d0eb0 chore: remove deprecated data collection scripts for CKAN, real government data, and general data collection; streamline data handling processes",
+    "1f5de9a Merge pull request #20 from tonytillet/develop"
+  ]
+}

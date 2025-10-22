@@ -89,6 +89,8 @@ models/*.pkl
 models/*.joblib
 models/*.json
 models/*.csv
+ml/artefacts/*.joblib
+ml/artefacts/*.pkl
 
 # Rapports générés
 *.html

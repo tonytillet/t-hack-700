@@ -1,0 +1,130 @@
+{
+  "timestamp": "2025-10-21T23:45:01.640903",
+  "model_type": "EnhancedRandomForestRegressor",
+  "target": "passages_urgences_grippe",
+  "features_count": 51,
+  "dataset_size": 14501,
+  "baseline_mae": 11889.422108820081,
+  "model_mae": 1993.778361818419,
+  "model_r2": 0.9786688625988962,
+  "improvement_vs_baseline": 83.23065373934912,
+  "cv_folds": [
+    {
+      "fold": 1,
+      "mae": 3979.035353739257,
+      "r2": 0.933356354101417,
+      "train_size": 2421,
+      "test_size": 2416
+    },
+    {
+      "fold": 2,
+      "mae": 2640.2875570965675,
+      "r2": 0.9834881669838763,
+      "train_size": 4837,
+      "test_size": 2416
+    },
+    {
+      "fold": 3,
+      "mae": 609.8773943877818,
+      "r2": 0.997711276240792,
+      "train_size": 7253,
+      "test_size": 2416
+    },
+    {
+      "fold": 4,
+      "mae": 1918.0375411074303,
+      "r2": 0.982272106171201,
+      "train_size": 9669,
+      "test_size": 2416
+    },
+    {
+      "fold": 5,
+      "mae": 821.6539627610558,
+      "r2": 0.9965164094971949,
+      "train_size": 12085,
+      "test_size": 2416
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "passages_urgences_grippe_log",
+      "importance": 0.17541187175370873
+    },
+    {
+      "feature": "hospitalisations_grippe_log",
+      "importance": 0.13855300713676955
+    },
+    {
+      "feature": "flurisk_score",
+      "importance": 0.08582271706461901
+    },
+    {
+      "feature": "passages_per_100k",
+      "importance": 0.0836368369922928
+    },
+    {
+      "feature": "taux_incidence",
+      "importance": 0.08341828162253678
+    },
+    {
+      "feature": "passages_per_100k_log",
+      "importance": 0.07386617828809662
+    },
+    {
+      "feature": "passages_ma_7",
+      "importance": 0.052250757393508526
+    },
+    {
+      "feature": "hospitalisations_per_100k_log",
+      "importance": 0.047867678682780405
+    },
+    {
+      "feature": "hospitalisations_per_100k",
+      "importance": 0.047774724288751784
+    },
+    {
+      "feature": "incidence_ma_7",
+      "importance": 0.030300295625056223
+    },
+    {
+      "feature": "flurisk_ma_7",
+      "importance": 0.02778537577631333
+    },
+    {
+      "feature": "passages_ma_14",
+      "importance": 0.02455250598231186
+    },
+    {
+      "feature": "passages_volatility_14",
+      "importance": 0.014489020551638471
+    },
+    {
+      "feature": "google_trends_grippe_log",
+      "importance": 0.013809244691220256
+    },
+    {
+      "feature": "saison",
+      "importance": 0.013348345260241326
+    },
+    {
+      "feature": "google_trends_grippe",
+      "importance": 0.012460832968888818
+    },
+    {
+      "feature": "passages_ma_21",
+      "importance": 0.009987364073797618
+    },
+    {
+      "feature": "passages_delta_7",
+      "importance": 0.007499343701392241
+    },
+    {
+      "feature": "flurisk_ma_14",
+      "importance": 0.006592712492740844
+    },
+    {
+      "feature": "wikipedia_views_grippe_log",
+      "importance": 0.0064750451281700636
+    }
+  ]
+}

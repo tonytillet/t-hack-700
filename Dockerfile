@@ -23,7 +23,6 @@ FROM deps AS development
 
 EXPOSE 8501
 
-# python scripts/collect_ckan_real.py && \
 CMD sh -c "\
     streamlit run main.py \
         --server.port=8501 \
@@ -38,7 +37,6 @@ FROM deps AS builder
 
 # Copy application files
 COPY . .
-RUN python scripts/collect_ckan_real.py
 
 ################
 #    Runner    #
@@ -54,6 +52,5 @@ EXPOSE 8501
 CMD sh -c "\
     streamlit run main.py \
         --server.port=8501 \
-        --server.address=0.0.0.0 \
         --server.headless=true \
 "

@@ -1,0 +1,55 @@
+🧠 BUNDLE DE PREUVE - SYSTÈME LUMEN
+==================================================
+
+📅 Date de création: 2025-10-21 21:52:54
+📦 Version du pack: 1.0
+
+🎯 OBJECTIF:
+Preuve de validation et intégrité des données officielles
+Garantie de traçabilité complète du processus de nettoyage
+
+🔧 COMPOSANTS DU PACK:
+------------------------------
+• manifest.json
+  Type: metadata
+  Description: Manifest principal du bundle de preuve
+
+• pandera_log_20251021_215221.txt
+  Type: validation_log
+  Description: N/A
+
+• anomalies_20251021_215221.csv
+  Type: anomaly_log
+  Description: N/A
+
+• checksums.json
+  Type: integrity
+  Description: Checksums SHA256 de tous les fichiers
+
+• git_sha.txt
+  Type: version_control
+  Description: Informations de version Git
+
+✅ GARANTIES DE QUALITÉ:
+------------------------------
+• 100% données officielles françaises
+• Validation stricte avec Pandera
+• Audit automatique avec Great Expectations
+• Versioning complet avec DVC
+• Checksums SHA256 pour intégrité
+• Traçabilité Git complète
+
+🔍 UTILISATION:
+---------------
+Ce pack prouve l'intégrité et la qualité des données
+utilisées dans le système LUMEN. Chaque fichier peut
+être vérifié indépendamment pour garantir l'authenticité.
+
+📋 FICHIERS INCLUS:
+--------------------
+• manifest.json          - Manifest principal
+• checksums.json         - Checksums SHA256
+• git_sha.txt            - Informations Git
+• pandera_log_*.txt      - Logs de validation
+• anomalies_*.csv        - Journal des anomalies
+• ge_*.html              - Rapports d'audit
