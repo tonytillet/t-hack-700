@@ -23,6 +23,21 @@ echo "📁 Copie des fichiers essentiels..."
 # Copier les fichiers HTML
 cp *.html "$DEPLOY_DIR/" 2>/dev/null || true
 
+# Vérifier que tous les dashboards sont présents
+echo "🔍 Vérification des dashboards dans le déploiement..."
+cd "$DEPLOY_DIR"
+if [ -f "check_files.sh" ]; then
+    chmod +x check_files.sh
+    ./check_files.sh
+fi
+
+# Si des dashboards sont manquants, les générer
+if [ -f "fix_missing_dashboards.sh" ]; then
+    chmod +x fix_missing_dashboards.sh
+    ./fix_missing_dashboards.sh
+fi
+cd ..
+
 # Copier les scripts
 cp *.sh "$DEPLOY_DIR/" 2>/dev/null || true
 cp *.py "$DEPLOY_DIR/" 2>/dev/null || true

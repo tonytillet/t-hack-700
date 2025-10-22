@@ -21,14 +21,14 @@ fi
 echo "📦 Vérification des dépendances..."
 pip install -r requirements.txt > /dev/null 2>&1
 
-# Générer tous les dashboards si nécessaire
-echo "🎨 Vérification et génération des dashboards..."
-if [ -f "generate_all_dashboards.py" ]; then
-    python3 generate_all_dashboards.py
-elif [ -f "generate_dashboards.sh" ]; then
-    ./generate_dashboards.sh
-elif [ -f "dashboard_integration.py" ]; then
-    python3 dashboard_integration.py
+# Vérifier et réparer les dashboards manquants
+echo "🔍 Vérification des dashboards..."
+./check_files.sh
+
+# Si des dashboards sont manquants, les réparer
+if [ -f "fix_missing_dashboards.sh" ]; then
+    echo "🔧 Réparation automatique des dashboards manquants..."
+    ./fix_missing_dashboards.sh
 fi
 
 # Vérifier si les fichiers essentiels existent

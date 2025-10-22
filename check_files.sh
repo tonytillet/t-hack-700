@@ -12,6 +12,7 @@ ESSENTIAL_FILES=(
     "dashboard_final_integration.html"
     "bulletin_lumen.html"
     "dashboard_pedagogique.html"
+    "dashboard_simplifie.html"
     "dashboard_risk_heatmap.html"
     "dashboard_real_vs_predicted.html"
     "dashboard_active_alerts.html"
