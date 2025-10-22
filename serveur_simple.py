@@ -11,15 +11,15 @@ from pathlib import Path
 
 class LUMENHandler(http.server.SimpleHTTPRequestHandler):
     def do_GET(self):
-        # Redirection vers le dashboard principal
+        # Redirection vers le menu principal
         if self.path == '/':
-            self.path = '/dashboard_final_integration.html'
+            self.path = '/index.html'
         
         # Servir le fichier
         return super().do_GET()
 
 def main():
-    PORT = 8080
+    PORT = 8082
     
     print("🌐 LUMEN - SERVEUR UNIFIÉ")
     print("=" * 40)
@@ -28,6 +28,8 @@ def main():
     print(f"🗺️ Carte: http://localhost:{PORT}/dashboard_risk_heatmap.html")
     print(f"📈 Prédictions: http://localhost:{PORT}/dashboard_real_vs_predicted.html")
     print(f"🚨 Alertes: http://localhost:{PORT}/dashboard_active_alerts.html")
+    print(f"🔔 Bulletin: http://localhost:{PORT}/bulletin_lumen.html")
+    print(f"📚 Pédagogique: http://localhost:{PORT}/dashboard_pedagogique.html")
     print("=" * 40)
     
     # Vérifier les fichiers
