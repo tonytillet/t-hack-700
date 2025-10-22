@@ -35,7 +35,7 @@ pkill -f python3 2>/dev/null || true
 sleep 2
 
 # Trouver un port libre
-PORT=8080
+PORT=8081
 while lsof -Pi :$PORT -sTCP:LISTEN -t >/dev/null 2>&1; do
     PORT=$((PORT + 1))
 done
@@ -43,7 +43,7 @@ done
 echo "🚀 Lancement sur le port $PORT..."
 
 # Modifier temporairement le port dans le fichier
-sed -i.bak "s/PORT = [0-9]*/PORT = $PORT/" serveur_simple.py
+sed -i.tmp "s/PORT = [0-9]*/PORT = $PORT/" serveur_simple.py
 
 # Lancer le serveur
 python3 serveur_simple.py &
@@ -84,3 +84,6 @@ else
     echo "💡 Vérifiez que le port $PORT est libre"
     exit 1
 fi
+
+# Nettoyer le fichier temporaire
+rm -f serveur_simple.py.tmp
