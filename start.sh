@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# 🚀 LUMEN Enhanced - Script de Lancement Automatique
+# 🚀 LUMEN - Script de Lancement Automatique
 
-echo "🧠 LUMEN Enhanced - Démarrage du Système"
-echo "========================================"
+echo "🧠 LUMEN - Démarrage du Système"
+echo "================================"
 
 # Vérifier si Python est installé
 if ! command -v python3 &> /dev/null; then
@@ -21,18 +21,36 @@ fi
 echo "📦 Vérification des dépendances..."
 pip install -r requirements.txt > /dev/null 2>&1
 
+# Générer tous les dashboards si nécessaire
+echo "🎨 Vérification et génération des dashboards..."
+if [ -f "generate_all_dashboards.py" ]; then
+    python3 generate_all_dashboards.py
+elif [ -f "generate_dashboards.sh" ]; then
+    ./generate_dashboards.sh
+elif [ -f "dashboard_integration.py" ]; then
+    python3 dashboard_integration.py
+fi
+
 # Vérifier si les fichiers essentiels existent
 if [ ! -f "serveur_simple.py" ]; then
     echo "❌ Fichier serveur_simple.py manquant"
     exit 1
 fi
 
-# Arrêter les processus Python existants
-echo "🛑 Arrêt des processus existants..."
-pkill -f python3 2>/dev/null || true
+# Vérifier s'il y a déjà un serveur LUMEN en cours
+if pgrep -f "serveur_simple.py\|serveur_temp.py" > /dev/null; then
+    echo "⚠️  Un serveur LUMEN est déjà en cours d'exécution"
+    echo "🛑 Arrêt du serveur existant..."
+    pkill -f "serveur_simple.py\|serveur_temp.py"
+    sleep 3
+fi
 
-# Attendre un peu
-sleep 2
+# Vérifier à nouveau
+if pgrep -f "serveur_simple.py\|serveur_temp.py" > /dev/null; then
+    echo "❌ Impossible d'arrêter le serveur existant"
+    echo "💡 Utilisez 'pkill -f python3' manuellement"
+    exit 1
+fi
 
 # Trouver un port libre
 PORT=8081
@@ -42,14 +60,24 @@ done
 
 echo "🚀 Lancement sur le port $PORT..."
 
-# Modifier temporairement le port dans le fichier
-sed -i.tmp "s/PORT = [0-9]*/PORT = $PORT/" serveur_simple.py
+# Créer une copie temporaire du serveur avec le bon port
+cp serveur_simple.py serveur_temp.py
+sed -i.tmp "s/PORT = [0-9]*/PORT = $PORT/" serveur_temp.py
 
-# Lancer le serveur
-python3 serveur_simple.py &
+# Lancer le serveur temporaire
+echo "🚀 Lancement du serveur LUMEN..."
+python3 serveur_temp.py &
+SERVER_PID=$!
 
 # Attendre que le serveur démarre
 sleep 3
+
+# Vérifier que le serveur est bien lancé
+if ! kill -0 $SERVER_PID 2>/dev/null; then
+    echo "❌ Le serveur n'a pas pu démarrer"
+    rm -f serveur_temp.py serveur_temp.py.tmp
+    exit 1
+fi
 
 # Vérifier que le serveur fonctionne
 if curl -s http://localhost:$PORT/ > /dev/null; then
@@ -77,13 +105,25 @@ if curl -s http://localhost:$PORT/ > /dev/null; then
         xdg-open http://localhost:$PORT/
     fi
     
+    # Fonction de nettoyage à l'arrêt
+    cleanup() {
+        echo ""
+        echo "🛑 Arrêt du serveur LUMEN..."
+        pkill -f "serveur_temp.py" 2>/dev/null || true
+        sleep 1
+        rm -f serveur_temp.py serveur_temp.py.tmp
+        echo "✅ Serveur arrêté et fichiers temporaires supprimés"
+        exit 0
+    }
+    
+    # Capturer Ctrl+C
+    trap cleanup SIGINT SIGTERM
+    
     # Attendre que l'utilisateur arrête le serveur
     wait
 else
     echo "❌ Erreur lors du lancement du serveur"
     echo "💡 Vérifiez que le port $PORT est libre"
+    rm -f serveur_temp.py serveur_temp.py.tmp
     exit 1
 fi
-
-# Nettoyer le fichier temporaire
-rm -f serveur_simple.py.tmp
