@@ -397,6 +397,96 @@ class LUMENDashboardIntegration:
         
         return integrity_report
     
+    def create_index_html(self):
+        """Crée le fichier index.html (menu principal)"""
+        html_content = """<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEN - Menu Principal</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; padding: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        h1 { color: white; text-align: center; margin-bottom: 40px; font-size: 3em; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .dashboard-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .dashboard-card { background: white; border-radius: 15px; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); transition: transform 0.3s; cursor: pointer; }
+        .dashboard-card:hover { transform: translateY(-5px); }
+        .dashboard-card h2 { color: #667eea; margin-bottom: 15px; }
+        .dashboard-card .icon { font-size: 3em; margin-bottom: 15px; }
+        .btn { display: inline-block; background: #667eea; color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 LUMEN - Système d'Alerte Grippe</h1>
+        <div class="dashboard-grid">
+            <div class="dashboard-card" onclick="window.location.href='dashboard_risk_heatmap.html'">
+                <div class="icon">🗺️</div>
+                <h2>Carte des Risques</h2>
+                <a href="dashboard_risk_heatmap.html" class="btn">Accéder →</a>
+            </div>
+            <div class="dashboard-card" onclick="window.location.href='dashboard_real_vs_predicted.html'">
+                <div class="icon">📈</div>
+                <h2>Prédictions</h2>
+                <a href="dashboard_real_vs_predicted.html" class="btn">Accéder →</a>
+            </div>
+            <div class="dashboard-card" onclick="window.location.href='dashboard_active_alerts.html'">
+                <div class="icon">🚨</div>
+                <h2>Alertes Actives</h2>
+                <a href="dashboard_active_alerts.html" class="btn">Accéder →</a>
+            </div>
+            <div class="dashboard-card" onclick="window.location.href='bulletin_lumen.html'">
+                <div class="icon">🔔</div>
+                <h2>Bulletin Public</h2>
+                <a href="bulletin_lumen.html" class="btn">Accéder →</a>
+            </div>
+            <div class="dashboard-card" onclick="window.location.href='dashboard_pedagogique.html'">
+                <div class="icon">📚</div>
+                <h2>Vue Pédagogique</h2>
+                <a href="dashboard_pedagogique.html" class="btn">Accéder →</a>
+            </div>
+            <div class="dashboard-card" onclick="window.location.href='dashboard_simplifie.html'">
+                <div class="icon">📊</div>
+                <h2>Dashboard Simplifié</h2>
+                <a href="dashboard_simplifie.html" class="btn">Accéder →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>"""
+        with open("index.html", "w", encoding="utf-8") as f:
+            f.write(html_content)
+        with open("dashboard_final_integration.html", "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print("✅ Menu principal sauvegardé: index.html & dashboard_final_integration.html")
+    
+    def create_bulletin_lumen(self):
+        """Crée le bulletin public"""
+        total_alertes = len(self.df[self.df['alerte_niveau'].isin(['ROUGE', 'ORANGE'])])
+        risque_moyen = self.df['flurisk_score'].mean()
+        html_content = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>Bulletin LUMEN</title><style>body{{font-family:Arial;background:#f5f7fa;padding:20px}}.container{{max-width:800px;margin:0 auto;background:white;padding:40px;border-radius:15px}}h1{{color:#667eea;text-align:center}}.stat{{font-size:2em;color:#667eea;font-weight:bold}}</style></head><body><div class="container"><h1>🔔 Bulletin LUMEN</h1><p><strong>Date:</strong> {datetime.now().strftime('%d/%m/%Y %H:%M')}</p><p><strong>Alertes actives:</strong> <span class="stat">{total_alertes}</span></p><p><strong>Risque moyen:</strong> <span class="stat">{risque_moyen:.0f}%</span></p><p><a href="index.html">← Retour</a></p></div></body></html>"""
+        with open("bulletin_lumen.html", "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print("✅ Bulletin public sauvegardé: bulletin_lumen.html")
+    
+    def create_dashboard_pedagogique(self):
+        """Crée le dashboard pédagogique"""
+        html_content = """<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>LUMEN Pédagogique</title><style>body{font-family:Arial;background:#f5f7fa;padding:20px}.container{max-width:1000px;margin:0 auto;background:white;padding:40px;border-radius:15px}h1{color:#667eea;text-align:center}h2{color:#764ba2;margin-top:30px}</style></head><body><div class="container"><h1>📚 LUMEN - Dashboard Pédagogique</h1><h2>🎯 Qu'est-ce que LUMEN ?</h2><p>LUMEN est un système d'alerte précoce utilisant l'IA pour prédire les risques de grippe en France.</p><h2>🤖 Comment ça fonctionne ?</h2><p>Le système analyse des données de Santé Publique France, Météo France et INSEE pour générer des prédictions.</p><p><a href="index.html">← Retour</a></p></div></body></html>"""
+        with open("dashboard_pedagogique.html", "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print("✅ Dashboard pédagogique sauvegardé: dashboard_pedagogique.html")
+    
+    def create_dashboard_simplifie(self):
+        """Crée le dashboard simplifié"""
+        total_alertes = len(self.df[self.df['alerte_niveau'].isin(['ROUGE', 'ORANGE'])])
+        risque_moyen = self.df['flurisk_score'].mean()
+        html_content = f"""<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>LUMEN Simplifié</title><style>body{{font-family:Arial;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;padding:20px}}.container{{max-width:800px;margin:0 auto}}.stat-card{{background:white;border-radius:15px;padding:30px;margin:20px 0;text-align:center}}.stat-value{{font-size:3em;color:#667eea;font-weight:bold}}</style></head><body><div class="container"><h1 style="color:white;text-align:center">📊 LUMEN - Vue Simplifiée</h1><div class="stat-card"><div class="stat-value">{total_alertes}</div><p>Alertes Actives</p></div><div class="stat-card"><div class="stat-value">{risque_moyen:.0f}%</div><p>Risque Moyen</p></div><p style="text-align:center"><a href="index.html" style="color:white">← Retour</a></p></div></body></html>"""
+        with open("dashboard_simplifie.html", "w", encoding="utf-8") as f:
+            f.write(html_content)
+        print("✅ Dashboard simplifié sauvegardé: dashboard_simplifie.html")
+    
     def run_full_integration(self):
         """Exécute l'intégration complète du dashboard"""
         print("🎯 LUMEN - INTÉGRATION DASHBOARD AVANCÉE")
@@ -419,12 +509,22 @@ class LUMENDashboardIntegration:
             active_alerts = self.create_active_alerts_panel()
             integrity_report = self.create_integrity_report_link()
             
+            # Créer les dashboards supplémentaires
+            self.create_index_html()
+            self.create_bulletin_lumen()
+            self.create_dashboard_pedagogique()
+            self.create_dashboard_simplifie()
+            
             # 4. Résumé
             print("\n🎉 INTÉGRATION DASHBOARD TERMINÉE")
             print("=" * 40)
             print(f"🗺️ Carte des zones à risque: dashboard_risk_heatmap.html")
             print(f"📈 Graphique réel vs prédit: dashboard_real_vs_predicted.html")
             print(f"🚨 Panneau des alertes: dashboard_active_alerts.html")
+            print(f"🏠 Menu principal: index.html")
+            print(f"🔔 Bulletin public: bulletin_lumen.html")
+            print(f"📚 Dashboard pédagogique: dashboard_pedagogique.html")
+            print(f"📊 Dashboard simplifié: dashboard_simplifie.html")
             print(f"📋 Rapport d'intégrité: {integrity_report['timestamp']}")
             print(f"📊 Alertes actives: {len(active_alerts)}")
             print(f"⏰ Fin: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
