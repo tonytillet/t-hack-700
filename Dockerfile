@@ -1,56 +1,61 @@
-##############
-#    Base    #
-##############
+# 🐳 Dockerfile pour LUMEN - Système de Surveillance Épidémiologique
 
-FROM python:3.11-slim AS base
+FROM python:3.9-slim
+
+# Métadonnées
+LABEL maintainer="LUMEN Team"
+LABEL description="Système de surveillance épidémiologique intelligente"
+LABEL version="1.0"
+
+# Variables d'environnement
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+ENV LUMEN_PORT=8080
+
+# Créer le répertoire de travail
 WORKDIR /app
 
-##############
-#    Deps    #
-##############
+# Installer les dépendances système
+RUN apt-get update && apt-get install -y \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
 
-FROM base AS deps
-
-# Install dependencies
+# Copier les fichiers de dépendances
 COPY requirements.txt .
+
+# Installer les dépendances Python
 RUN pip install --no-cache-dir -r requirements.txt
 
-#####################
-#    Development    #
-#####################
+# Copier les fichiers essentiels
+COPY serveur_simple.py .
+COPY start.sh .
+COPY check_files.sh .
+COPY fix_missing_dashboards.sh .
+COPY generate_all_dashboards.py .
+COPY dashboard_integration.py .
 
-FROM deps AS development
+# Copier les dashboards HTML
+COPY *.html .
 
-EXPOSE 8501
+# Copier les dossiers de données (sans les gros fichiers)
+COPY data/ data/
+COPY models/ models/
+COPY ml/ ml/
+COPY monitoring/ monitoring/
 
-CMD sh -c "\
-    streamlit run main.py \
-        --server.port=8501 \
-        --server.headless=true \
-"
+# Rendre les scripts exécutables
+RUN chmod +x *.sh
 
-#################
-#    Builder    #
-#################
+# Script de démarrage
+COPY docker-entrypoint.sh .
+RUN chmod +x docker-entrypoint.sh
 
-FROM deps AS builder
+# Créer un utilisateur non-root
+RUN useradd -m -u 1000 lumen && chown -R lumen:lumen /app
+USER lumen
 
-# Copy application files
-COPY . .
+# Exposer le port
+EXPOSE 8080
 
-################
-#    Runner    #
-################
-
-FROM deps AS runner
-
-# Copy built app
-COPY --from=builder /app /app
-
-EXPOSE 8501
-
-CMD sh -c "\
-    streamlit run main.py \
-        --server.port=8501 \
-        --server.headless=true \
-"
+# Point d'entrée
+ENTRYPOINT ["./docker-entrypoint.sh"]

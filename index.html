@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEN - Menu Principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            padding: 2rem;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .dashboard-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+        }
+        
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-color: #1e3c72;
+        }
+        
+        .dashboard-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .dashboard-title {
+            font-size: 1.3rem;
+            color: #1e3c72;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+        
+        .dashboard-description {
+            color: #666;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .dashboard-link {
+            display: inline-block;
+            background: #1e3c72;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .dashboard-link:hover {
+            background: #2a5298;
+            transform: scale(1.05);
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- En-tête principal -->
+        <div class="header">
+            <h1><i class="fas fa-brain"></i> LUMEN</h1>
+            <div class="subtitle">Système de surveillance épidémiologique intelligente</div>
+        </div>
+        
+        <!-- Contenu principal -->
+        <div class="main-content">
+            <div class="dashboard-grid">
+                <!-- Dashboard principal -->
+                <div class="dashboard-card">
+                    <div class="dashboard-icon"><i class="fas fa-chart-bar"></i></div>
+                    <div class="dashboard-title">Dashboard principal</div>
+                    <div class="dashboard-description">Vue d'ensemble complète du système LUMEN</div>
+                    <a href="dashboard_final_integration.html" class="dashboard-link">Accéder</a>
+                </div>
+                
+                <!-- Bulletin public -->
+                <div class="dashboard-card">
+                    <div class="dashboard-icon"><i class="fas fa-bell"></i></div>
+                    <div class="dashboard-title">Bulletin public</div>
+                    <div class="dashboard-description">Résumé automatique pour le grand public</div>
+                    <a href="bulletin_lumen.html" class="dashboard-link">Consulter</a>
+                </div>
+                
+                <!-- Dashboard pédagogique -->
+                <div class="dashboard-card">
+                    <div class="dashboard-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="dashboard-title">Vue pédagogique</div>
+                    <div class="dashboard-description">Indicateurs simplifiés et expliqués</div>
+                    <a href="dashboard_pedagogique.html" class="dashboard-link">Découvrir</a>
+                </div>
+                
+                <!-- Carte des risques -->
+                <div class="dashboard-card">
+                    <div class="dashboard-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <div class="dashboard-title">Carte des risques</div>
+                    <div class="dashboard-description">Visualisation géographique des zones à risque</div>
+                    <a href="dashboard_risk_heatmap.html" class="dashboard-link">Explorer</a>
+                </div>
+                
+                <!-- Prédictions -->
+                <div class="dashboard-card">
+                    <div class="dashboard-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="dashboard-title">Prédictions</div>
+                    <div class="dashboard-description">Comparaison prédictions vs réalité</div>
+                    <a href="dashboard_real_vs_predicted.html" class="dashboard-link">Analyser</a>
+                </div>
+                
+                <!-- Alertes -->
+                <div class="dashboard-card">
+                    <div class="dashboard-icon"><i class="fas fa-exclamation-triangle"></i></div>
+                    <div class="dashboard-title">Alertes actives</div>
+                    <div class="dashboard-description">Surveillance en temps réel</div>
+                    <a href="dashboard_active_alerts.html" class="dashboard-link">Surveiller</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Pied de page -->
+        <div class="footer">
+            <div><i class="fas fa-brain"></i> LUMEN • Système de surveillance épidémiologique intelligente</div>
+            <div style="margin-top: 0.5rem;">
+                Mise à jour automatique • Données officielles françaises • Prédictions en temps réel
+            </div>
+        </div>
+    </div>
+</body>
+</html>

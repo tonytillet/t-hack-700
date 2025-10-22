@@ -1,131 +1,149 @@
-# Makefile pour automatisation du pipeline de validation
-# Système LUMEN - Pipeline de données officielles
+# 🚀 LUMEN - Makefile pour Développement et Production
 
-.PHONY: help clean-validate validate-strict audit-ge version-dvc evidence-pack full-pipeline
+.PHONY: help dev build start stop restart logs status clean deploy docker local
 
 # Variables
-PYTHON = python3
-DATA_DIR = data
-LOGS_DIR = data/logs
-EVIDENCE_DIR = evidence
+DOCKER_IMAGE = lumen-app
+DOCKER_CONTAINER = lumen-app
+PORT = 8080
 
-# Aide
-help:
-	@echo "🔧 PIPELINE DE VALIDATION LUMEN"
+# Aide par défaut
+help: ## Afficher l'aide
+	@echo "🚀 LUMEN - Commandes Disponibles"
 	@echo "================================"
 	@echo ""
-	@echo "📋 Commandes disponibles:"
-	@echo "  clean-validate    - Nettoyage contrôlé avec Dataprep + Pandera"
-	@echo "  validate-strict   - Validation stricte avec schémas Pandera"
-	@echo "  audit-ge          - Audit automatique avec Great Expectations"
-	@echo "  version-dvc       - Versioning avec DVC"
-	@echo "  evidence-pack     - Création du bundle de preuve"
-	@echo "  full-pipeline     - Exécution complète du pipeline"
-	@echo "  clean             - Nettoyage des fichiers temporaires"
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-15s\033[0m %s\n", $$1, $$2}'
 	@echo ""
+	@echo "🎯 Commandes principales :"
+	@echo "  make dev      - Démarrage rapide (Docker ou Local)"
+	@echo "  make docker   - Démarrage en mode Docker"
+	@echo "  make local    - Démarrage en mode Local"
+	@echo "  make deploy   - Créer le package de déploiement"
 
-# Nettoyage contrôlé
-clean-validate:
-	@echo "🧹 NETTOYAGE CONTRÔLÉ"
+# Démarrage rapide (détection automatique)
+dev: ## Démarrage rapide avec détection automatique Docker/Local
+	@echo "🚀 LUMEN - Démarrage Rapide"
+	@echo "============================"
+	@if docker info >/dev/null 2>&1; then \
+		echo "🐳 Docker détecté - Démarrage en mode Docker"; \
+		$(MAKE) docker; \
+	else \
+		echo "💻 Docker non disponible - Démarrage en mode Local"; \
+		$(MAKE) local; \
+	fi
+
+# Mode Docker
+docker: ## Démarrage en mode Docker
+	@echo "🐳 LUMEN - Mode Docker"
+	@echo "======================"
+	@if ! docker info >/dev/null 2>&1; then \
+		echo "❌ Docker n'est pas démarré"; \
+		echo "💡 Démarrez Docker Desktop ou le service Docker"; \
+		exit 1; \
+	fi
+	@echo "🔨 Construction de l'image..."
+	@./docker-manage.sh build
+	@echo "🚀 Démarrage du conteneur..."
+	@./docker-manage.sh start
+	@echo ""
+	@echo "✅ LUMEN Docker démarré !"
+	@echo "🌐 Accès : http://localhost:$(PORT)/"
+	@echo "🛑 Arrêt : make stop"
+
+# Mode Local
+local: ## Démarrage en mode Local
+	@echo "💻 LUMEN - Mode Local"
 	@echo "====================="
-	$(PYTHON) clean_data_controlled.py
+	@echo "🔧 Réparation des dashboards manquants..."
+	@./fix_missing_dashboards.sh
+	@echo "🚀 Démarrage du serveur local..."
+	@./start.sh
+	@echo ""
+	@echo "✅ LUMEN Local démarré !"
+	@echo "🌐 Accès : http://localhost:8081/ (ou port détecté)"
+	@echo "🛑 Arrêt : make stop"
+
+# Construction de l'image Docker
+build: ## Construire l'image Docker
+	@echo "🔨 Construction de l'image Docker..."
+	@./docker-manage.sh build
+
+# Démarrage du conteneur Docker
+start: ## Démarrer le conteneur Docker
+	@echo "🚀 Démarrage du conteneur Docker..."
+	@./docker-manage.sh start
+
+# Arrêt du conteneur Docker
+stop: ## Arrêter le conteneur Docker
+	@echo "🛑 Arrêt du conteneur Docker..."
+	@./docker-manage.sh stop
+	@echo "🛑 Arrêt des processus Python locaux..."
+	@pkill -f python3 2>/dev/null || true
+
+# Redémarrage du conteneur Docker
+restart: ## Redémarrer le conteneur Docker
+	@echo "🔄 Redémarrage du conteneur Docker..."
+	@./docker-manage.sh restart
+
+# Logs du conteneur Docker
+logs: ## Afficher les logs du conteneur Docker
+	@echo "📋 Logs du conteneur Docker..."
+	@./docker-manage.sh logs
+
+# Statut du conteneur Docker
+status: ## Afficher le statut du conteneur Docker
+	@echo "📊 Statut du conteneur Docker..."
+	@./docker-manage.sh status
+
+# Nettoyage complet
+clean: ## Nettoyer les conteneurs et images Docker
+	@echo "🧹 Nettoyage Docker..."
+	@./docker-manage.sh clean
+	@echo "🧹 Nettoyage des processus Python..."
+	@pkill -f python3 2>/dev/null || true
 	@echo "✅ Nettoyage terminé"
 
-# Validation stricte
-validate-strict:
-	@echo "🔍 VALIDATION STRICTE"
-	@echo "====================="
-	$(PYTHON) validate_data_strict.py
-	@echo "✅ Validation terminée"
+# Déploiement Docker
+deploy-docker: ## Créer le package de déploiement Docker
+	@echo "🐳 Création du package Docker..."
+	@./deploy_docker.sh
 
-# Audit automatique
-audit-ge:
-	@echo "📊 AUDIT AUTOMATIQUE"
-	@echo "===================="
-	$(PYTHON) setup_great_expectations.py
-	@echo "✅ Audit configuré"
+# Déploiement universel
+deploy: ## Créer le package de déploiement universel
+	@echo "🚀 Création du package universel..."
+	@./deploy_universal.sh
 
-# Versioning DVC
-version-dvc:
-	@echo "🔄 VERSIONING DVC"
-	@echo "================="
-	$(PYTHON) setup_dvc.py
-	@echo "✅ Versioning configuré"
+# Vérification des fichiers
+check: ## Vérifier les fichiers essentiels
+	@echo "🔍 Vérification des fichiers..."
+	@./check_files.sh
 
-# Bundle de preuve
-evidence-pack:
-	@echo "🧠 BUNDLE DE PREUVE"
-	@echo "==================="
-	$(PYTHON) create_evidence_pack.py
-	@echo "✅ Bundle de preuve créé"
+# Réparation des dashboards
+fix: ## Réparer les dashboards manquants
+	@echo "🔧 Réparation des dashboards..."
+	@./fix_missing_dashboards.sh
 
-# Pipeline complet
-full-pipeline: clean-validate validate-strict audit-ge version-dvc evidence-pack
-	@echo "🎉 PIPELINE COMPLET TERMINÉ"
-	@echo "==========================="
-	@echo "✅ Toutes les étapes exécutées avec succès"
-	@echo "📁 Résultats dans: $(DATA_DIR)/"
-	@echo "📦 Bundle de preuve: $(EVIDENCE_DIR)/"
-
-# Nettoyage
-clean:
-	@echo "🧹 NETTOYAGE"
-	@echo "============"
-	rm -rf __pycache__/
-	rm -rf .pytest_cache/
-	rm -rf *.pyc
-	rm -rf .DS_Store
-	@echo "✅ Nettoyage terminé"
-
-# Vérification de l'état
-status:
-	@echo "📊 ÉTAT DU PIPELINE"
-	@echo "==================="
-	@echo "📁 Données brutes: $(shell find $(DATA_DIR)/raw -name "*.csv" 2>/dev/null | wc -l) fichiers"
-	@echo "🧹 Données nettoyées: $(shell find $(DATA_DIR)/cleaned -name "*.csv" 2>/dev/null | wc -l) fichiers"
-	@echo "✅ Données validées: $(shell find $(DATA_DIR)/validated -name "*.parquet" 2>/dev/null | wc -l) fichiers"
-	@echo "🧊 Données gelées: $(shell find $(DATA_DIR)/frozen -name "*.csv" 2>/dev/null | wc -l) fichiers"
-	@echo "📋 Logs: $(shell find $(LOGS_DIR) -name "*.txt" -o -name "*.json" 2>/dev/null | wc -l) fichiers"
-	@echo "📦 Bundle de preuve: $(shell find $(EVIDENCE_DIR) -name "*.json" 2>/dev/null | wc -l) fichiers"
+# Test de l'accès web
+test: ## Tester l'accès web
+	@echo "🌐 Test de l'accès web..."
+	@curl -s http://localhost:$(PORT)/ > /dev/null && echo "✅ LUMEN accessible sur http://localhost:$(PORT)/" || echo "❌ LUMEN non accessible"
 
 # Installation des dépendances
-install-deps:
-	@echo "📦 INSTALLATION DES DÉPENDANCES"
-	@echo "==============================="
-	pip3 install dataprep pandera great-expectations dvc
-	@echo "✅ Dépendances installées"
+deps: ## Installer les dépendances Python
+	@echo "📦 Installation des dépendances..."
+	@pip install -r requirements.txt
 
-# Test de l'intégrité
-test-integrity:
-	@echo "🔍 TEST D'INTÉGRITÉ"
-	@echo "=================="
-	@if [ -d "$(EVIDENCE_DIR)" ]; then \
-		echo "📦 Bundle de preuve trouvé"; \
-		ls -la $(EVIDENCE_DIR)/; \
-	else \
-		echo "❌ Bundle de preuve non trouvé"; \
-	fi
-	@if [ -d "$(DATA_DIR)/validated" ]; then \
-		echo "✅ Données validées trouvées"; \
-		ls -la $(DATA_DIR)/validated/; \
-	else \
-		echo "❌ Données validées non trouvées"; \
-	fi
+# Nettoyage du projet
+cleanup: ## Nettoyage agressif du projet
+	@echo "🧹 Nettoyage du projet..."
+	@./aggressive_cleanup.sh
 
-# Rapport de qualité
-quality-report:
-	@echo "📊 RAPPORT DE QUALITÉ"
-	@echo "===================="
-	@echo "📅 Date: $(shell date)"
-	@echo "🔧 Pipeline: LUMEN Data Validation"
-	@echo "📁 Données traitées: $(shell find $(DATA_DIR) -name "*.csv" -o -name "*.parquet" 2>/dev/null | wc -l) fichiers"
-	@echo "📋 Logs générés: $(shell find $(LOGS_DIR) -name "*.txt" -o -name "*.json" 2>/dev/null | wc -l) fichiers"
-	@echo "🧠 Bundle de preuve: $(shell find $(EVIDENCE_DIR) -name "*.json" 2>/dev/null | wc -l) composants"
-	@echo ""
-	@echo "✅ GARANTIES:"
-	@echo "• 100% données officielles françaises"
-	@echo "• Validation stricte avec Pandera"
-	@echo "• Audit automatique avec Great Expectations"
-	@echo "• Versioning complet avec DVC"
-	@echo "• Checksums SHA256 pour intégrité"
-	@echo "• Traçabilité Git complète"
+# Informations sur le projet
+info: ## Afficher les informations du projet
+	@echo "📊 LUMEN - Informations du Projet"
+	@echo "================================="
+	@echo "🐳 Docker disponible : $$(docker info >/dev/null 2>&1 && echo 'Oui' || echo 'Non')"
+	@echo "🐍 Python disponible : $$(python3 --version 2>/dev/null || echo 'Non installé')"
+	@echo "📁 Taille du projet : $$(du -sh . | cut -f1)"
+	@echo "🌐 Ports utilisés :"
+	@lsof -i :8080 -i :8081 -i :8082 -i :8083 -i :8084 -i :8085 2>/dev/null || echo "   Aucun port utilisé"

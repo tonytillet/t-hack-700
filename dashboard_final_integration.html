@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMEN - Dashboard principal</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        /* Navigation Styles */
+        .lumen-nav {
+            background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            margin-bottom: 2rem;
+        }
+        
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+        }
+        
+        .nav-brand .nav-logo {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-brand .nav-logo:hover {
+            transform: scale(1.05);
+            text-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+        
+        .nav-menu {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+        }
+        
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.2rem;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .nav-item:hover {
+            background: rgba(255,255,255,0.1);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .nav-item.active {
+            background: rgba(255,255,255,0.2);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .nav-icon {
+            font-size: 1.2rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .nav-item:hover .nav-icon {
+            transform: scale(1.2) rotate(5deg);
+        }
+        
+        .nav-text {
+            font-size: 0.9rem;
+            white-space: nowrap;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.8rem 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 15px rgba(102,126,234,0.3);
+        }
+        
+        .back-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102,126,234,0.4);
+            color: white;
+            text-decoration: none;
+        }
+        
+        .quick-actions {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        
+        .quick-action {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.6rem 1.2rem;
+            background: white;
+            color: #1e3c72;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            border: 2px solid #e9ecef;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .quick-action:hover {
+            background: #1e3c72;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(30,60,114,0.3);
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .nav-container {
+                padding: 1rem;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-menu {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .nav-item {
+                padding: 0.6rem 1rem;
+            }
+            
+            .quick-actions {
+                justify-content: center;
+            }
+        }
+        
+        .main-header {
+            background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+            padding: 2rem;
+            color: white;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .tabs {
+            display: flex;
+            background: white;
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 0;
+        }
+        
+        .tab {
+            flex: 1;
+            padding: 1rem 2rem;
+            background: #f8f9fa;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .tab:hover {
+            background: #e9ecef;
+        }
+        
+        .tab.active {
+            background: white;
+            color: #1e3c72;
+            border-bottom: 3px solid #1e3c72;
+        }
+        
+        .tab-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            min-height: 600px;
+        }
+        
+        .tab-panel {
+            display: none;
+        }
+        
+        .tab-panel.active {
+            display: block;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .metric-value {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .metric-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+        
+        .chart-container {
+            margin: 2rem 0;
+            background: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .alerts-panel {
+            background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+            border-left: 4px solid #dc2626;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+        
+        .alert-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        
+        .alert-metric {
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+        }
+        
+        .alert-metric.red {
+            background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);
+        }
+        
+        .alert-metric.orange {
+            background: linear-gradient(135deg, #ea580c 0%, #f97316 100%);
+        }
+        
+        .alert-item {
+            background: white;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #dc2626;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .alert-item.orange {
+            border-left-color: #ea580c;
+        }
+        
+        .integrity-report {
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            border-left: 4px solid #2196f3;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+        }
+        
+        .footer {
+            text-align: center;
+            color: #666;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+        
+        h1, h2, h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+        }
+        
+        h2 {
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 0.5rem;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="lumen-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="/" class="nav-logo">
+                    <i class="fas fa-brain"></i> LUMEN
+                </a>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="/" class="nav-item">
+                    <i class="fas fa-home nav-icon"></i>
+                    <span class="nav-text">Accueil</span>
+                </a>
+                
+                <a href="/bulletin_lumen.html" class="nav-item">
+                    <i class="fas fa-bell nav-icon"></i>
+                    <span class="nav-text">Bulletin</span>
+                </a>
+                
+                <a href="/dashboard_pedagogique.html" class="nav-item">
+                    <i class="fas fa-graduation-cap nav-icon"></i>
+                    <span class="nav-text">Pédagogique</span>
+                </a>
+                
+                <a href="/dashboard_risk_heatmap.html" class="nav-item">
+                    <i class="fas fa-map-marked-alt nav-icon"></i>
+                    <span class="nav-text">Carte</span>
+                </a>
+                
+                <a href="/dashboard_real_vs_predicted.html" class="nav-item">
+                    <i class="fas fa-chart-line nav-icon"></i>
+                    <span class="nav-text">Prédictions</span>
+                </a>
+                
+                <a href="/dashboard_active_alerts.html" class="nav-item">
+                    <i class="fas fa-exclamation-triangle nav-icon"></i>
+                    <span class="nav-text">Alertes</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="main-header">
+            <h1><i class="fas fa-brain"></i> LUMEN - Dashboard principal</h1>
+            <h3>Système d'alerte grippe - Surveillance épidémiologique prédictive</h3>
+            <p><i class="fas fa-robot"></i> Modèle ML | <i class="fas fa-sync-alt"></i> Auto-retrain | <i class="fas fa-monitor-heart-rate"></i> Monitoring | <i class="fas fa-plug"></i> Intégration directe</p>
+        </div>
+        
+        <!-- Quick Actions -->
+        <div class="quick-actions">
+            <a href="/bulletin_lumen.html" class="quick-action">
+                <i class="fas fa-bell quick-action-icon"></i>
+                <span>Bulletin public</span>
+            </a>
+            
+            <a href="/dashboard_pedagogique.html" class="quick-action">
+                <i class="fas fa-graduation-cap quick-action-icon"></i>
+                <span>Vue pédagogique</span>
+            </a>
+            
+            <a href="/dashboard_risk_heatmap.html" class="quick-action">
+                <i class="fas fa-map-marked-alt quick-action-icon"></i>
+                <span>Carte des risques</span>
+            </a>
+            
+            <a href="/dashboard_real_vs_predicted.html" class="quick-action">
+                <i class="fas fa-chart-line quick-action-icon"></i>
+                <span>Prédictions</span>
+            </a>
+            
+            <a href="/dashboard_active_alerts.html" class="quick-action">
+                <i class="fas fa-exclamation-triangle quick-action-icon"></i>
+                <span>Alertes actives</span>
+            </a>
+        </div>
+        
+        <!-- Onglets -->
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('dashboard')">
+                <i class="fas fa-home"></i> Dashboard
+            </button>
+            <button class="tab" onclick="showTab('risk_map')">
+                <i class="fas fa-map-marked-alt"></i> Carte Zones
+            </button>
+            <button class="tab" onclick="showTab('predictions')">
+                <i class="fas fa-chart-line"></i> Prédictions
+            </button>
+            <button class="tab" onclick="showTab('alerts')">
+                <i class="fas fa-exclamation-triangle"></i> Alertes
+            </button>
+            <button class="tab" onclick="showTab('monitoring')">
+                <i class="fas fa-chart-bar"></i> Monitoring
+            </button>
+        </div>
+        
+        <!-- Contenu des onglets -->
+        <div class="tab-content">
+            <!-- Onglet Dashboard Principal -->
+            <div id="dashboard" class="tab-panel active">
+                <h2><i class="fas fa-home"></i> Dashboard Principal LUMEN</h2>
+                
+                <div class="metrics-grid">
+                    <div class="metric-card" style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%);">
+                        <div class="metric-value">6</div>
+                        <div class="metric-label"><i class="fas fa-exclamation-triangle"></i> Alertes Actives<br><small>Zones critiques</small></div>
+                    </div>
+                    <div class="metric-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="metric-value">97.1%</div>
+                        <div class="metric-label"><i class="fas fa-chart-bar"></i> R² Score<br><small>Performance modèle</small></div>
+                    </div>
+                    <div class="metric-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="metric-value">1000</div>
+                        <div class="metric-label"><i class="fas fa-chart-line"></i> Échantillons<br><small>Données analysées</small></div>
+                    </div>
+                    <div class="metric-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="metric-value">21</div>
+                        <div class="metric-label">🔧 Features<br><small>Variables temporelles</small></div>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h3><i class="fas fa-bullseye"></i> Vue d'Ensemble du Système LUMEN</h3>
+                    <p>Le système LUMEN intègre maintenant :</p>
+                    <ul style="margin: 1rem 0; padding-left: 2rem;">
+                        <li><strong><i class="fas fa-map-marked-alt"></i> Carte des zones à risque</strong> avec intensité grippe prédite</li>
+                        <li><strong><i class="fas fa-chart-line"></i> Graphiques réel vs prédit</strong> pour validation des prédictions</li>
+                        <li><strong><i class="fas fa-exclamation-triangle"></i> Panneau des alertes actives</strong> en temps réel</li>
+                        <li><strong><i class="fas fa-chart-bar"></i> Monitoring automatique</strong> avec auto-retrain</li>
+                        <li><strong><i class="fas fa-clipboard-list"></i> Rapport d'intégrité</strong> avec bundle GE + DVC</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Onglet Carte des Zones à Risque -->
+            <div id="risk_map" class="tab-panel">
+                <h2><i class="fas fa-map-marked-alt"></i> Carte des Zones à Risque</h2>
+                <p><strong>Couleur = Intensité Grippe Prédite</strong></p>
+                
+                <div class="chart-container">
+                    <h3>🔥 Zones à Risque par Région</h3>
+                    <iframe src="dashboard_risk_heatmap.html"></iframe>
+                </div>
+                
+                <div class="chart-container">
+                    <h3><i class="fas fa-chart-bar"></i> Légende des Niveaux de Risque</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+                        <div style="background: #dc2626; color: white; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong><i class="fas fa-circle" style="color: #e74c3c;"></i> ROUGE</strong><br>Risque Critique<br>Score > 80
+                        </div>
+                        <div style="background: #ea580c; color: white; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong><i class="fas fa-circle" style="color: #f39c12;"></i> ORANGE</strong><br>Risque Élevé<br>Score 60-80
+                        </div>
+                        <div style="background: #ca8a04; color: white; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong><i class="fas fa-circle" style="color: #f39c12;"></i> JAUNE</strong><br>Risque Modéré<br>Score 40-60
+                        </div>
+                        <div style="background: #16a34a; color: white; padding: 1rem; border-radius: 8px; text-align: center;">
+                            <strong><i class="fas fa-circle" style="color: #2ecc71;"></i> VERT</strong><br>Risque Faible<br>Score < 40
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Onglet Prédictions -->
+            <div id="predictions" class="tab-panel">
+                <h2><i class="fas fa-chart-line"></i> Prédictions vs Réalité</h2>
+                <p><strong>Courbes Réelle vs Prédite</strong></p>
+                
+                <div class="chart-container">
+                    <h3><i class="fas fa-chart-bar"></i> Comparaison Prédictions vs Données Réelles</h3>
+                    <iframe src="dashboard_real_vs_predicted.html"></iframe>
+                </div>
+                
+                <div class="chart-container">
+                    <h3><i class="fas fa-bullseye"></i> Interprétation des Prédictions</h3>
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px;">
+                        <p><strong>Ligne Bleue :</strong> Données réelles observées</p>
+                        <p><strong>Ligne Rouge :</strong> Prédictions du modèle LUMEN</p>
+                        <p><strong>Écart :</strong> Mesure de la précision du modèle</p>
+                        <p><strong>Objectif :</strong> Minimiser l'écart entre les deux courbes</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Onglet Alertes -->
+            <div id="alerts" class="tab-panel">
+                <h2><i class="fas fa-exclamation-triangle"></i> Alertes Actives</h2>
+                
+                <div class="alerts-panel">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Panneau des Alertes Actives LUMEN</h3>
+                    <p><strong>Dernière mise à jour:</strong> <span id="alert-timestamp"></span></p>
+                    
+                    <div class="alert-summary">
+                        <div class="alert-metric red">
+                            <span class="metric-value">6</span>
+                            <span class="metric-label">Alertes Rouges</span>
+                        </div>
+                        <div class="alert-metric orange">
+                            <span class="metric-value">0</span>
+                            <span class="metric-label">Alertes Orange</span>
+                        </div>
+                    </div>
+                    
+                    <div class="alert-details">
+                        <div class="alert-item red">
+                            <h4><i class="fas fa-building"></i> Grand Est</h4>
+                            <p><strong>Niveau:</strong> ROUGE</p>
+                            <p><strong>Score FLURISK:</strong> 85.2</p>
+                            <p><strong>Prédiction:</strong> 0.997</p>
+                            <p><strong>Actions:</strong> Renforcer surveillance, activer protocoles</p>
+                        </div>
+                        
+                        <div class="alert-item red">
+                            <h4><i class="fas fa-building"></i> Île-de-France</h4>
+                            <p><strong>Niveau:</strong> ROUGE</p>
+                            <p><strong>Score FLURISK:</strong> 84.8</p>
+                            <p><strong>Prédiction:</strong> 0.997</p>
+                            <p><strong>Actions:</strong> Renforcer surveillance, activer protocoles</p>
+                        </div>
+                        
+                        <div class="alert-item red">
+                            <h4><i class="fas fa-building"></i> Auvergne-Rhône-Alpes</h4>
+                            <p><strong>Niveau:</strong> ROUGE</p>
+                            <p><strong>Score FLURISK:</strong> 84.5</p>
+                            <p><strong>Prédiction:</strong> 0.997</p>
+                            <p><strong>Actions:</strong> Renforcer surveillance, activer protocoles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Onglet Monitoring -->
+            <div id="monitoring" class="tab-panel">
+                <h2><i class="fas fa-chart-bar"></i> Monitoring & Intégrité</h2>
+                
+                <div class="metrics-grid">
+                    <div class="metric-card" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div class="metric-value">97.1%</div>
+                        <div class="metric-label"><i class="fas fa-chart-bar"></i> R² Score<br><small>Performance actuelle</small></div>
+                    </div>
+                    <div class="metric-card" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div class="metric-value">5.08</div>
+                        <div class="metric-label"><i class="fas fa-chart-line"></i> MAE<br><small>Erreur moyenne</small></div>
+                    </div>
+                    <div class="metric-card" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div class="metric-value">1000</div>
+                        <div class="metric-label"><i class="fas fa-chart-bar"></i> Records<br><small>Données analysées</small></div>
+                    </div>
+                    <div class="metric-card" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div class="metric-value">98%</div>
+                        <div class="metric-label"><i class="fas fa-check-circle"></i> Qualité<br><small>Score d'intégrité</small></div>
+                    </div>
+                </div>
+                
+                <div class="integrity-report">
+                    <h3><i class="fas fa-clipboard-list"></i> Rapport d'Intégrité LUMEN</h3>
+                    <p><strong>Dernière vérification:</strong> <span id="integrity-timestamp"></span></p>
+                    
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin: 1rem 0;">
+                        <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                            <h4><i class="fas fa-chart-bar"></i> Intégrité des Données</h4>
+                            <p><strong>Total records:</strong> 1,000</p>
+                            <p><strong>Valeurs manquantes:</strong> 0</p>
+                            <p><strong>Score qualité:</strong> 98%</p>
+                        </div>
+                        
+                        <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                            <h4><i class="fas fa-robot"></i> Intégrité du Modèle</h4>
+                            <p><strong>R² Score:</strong> 97.1%</p>
+                            <p><strong>MAE:</strong> 5.08</p>
+                            <p><strong>Dernier entraînement:</strong> 22/10/2025</p>
+                        </div>
+                        
+                        <div style="background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                            <h4><i class="fas fa-sync-alt"></i> Statut Monitoring</h4>
+                            <p><strong>Dernière vérification:</strong> OK</p>
+                            <p><strong>Alertes actives:</strong> 6</p>
+                            <p><strong>Santé système:</strong> OK</p>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 1rem; padding: 1rem; background: #e3f2fd; border-radius: 8px;">
+                        <h4><i class="fas fa-link"></i> Liens d'Intégrité</h4>
+                        <p><strong>Bundle Great Expectations:</strong> <a href="monitoring/logs/" target="_blank">Rapport GE</a></p>
+                        <p><strong>Versioning DVC:</strong> <a href="monitoring/logs/" target="_blank">Rapport DVC</a></p>
+                        <p><strong>Rapport complet:</strong> <a href="monitoring/logs/integrity_report_20251022_003107.json" target="_blank">JSON détaillé</a></p>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h3><i class="fas fa-sync-alt"></i> Monitoring Automatique</h3>
+                    <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 8px;">
+                        <p><strong><i class="fas fa-sync-alt"></i> Auto-Retrain:</strong> Chaque dimanche à 2h00</p>
+                        <p><strong><i class="fas fa-chart-bar"></i> Monitoring quotidien:</strong> Chaque jour à 6h00</p>
+                        <p><strong><i class="fas fa-envelope"></i> Alertes email:</strong> En cas de chute de performance > 5%</p>
+                        <p><strong>🧹 Nettoyage logs:</strong> 1er de chaque mois</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p><i class="fas fa-brain"></i> <strong>LUMEN - Dashboard Final Intégré</strong></p>
+            <p>Système d'alerte grippe prédictif | Auto-Retrain | Monitoring | Intégration Directe</p>
+            <p>Performance: 97.1% R² | Alertes: 6 actives | Dernière mise à jour: <span id="footer-timestamp"></span></p>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour changer d'onglet
+        function showTab(tabName) {
+            // Masquer tous les onglets
+            document.querySelectorAll('.tab-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            
+            // Désactiver tous les boutons
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Activer l'onglet sélectionné
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            // Timestamps
+            const now = new Date().toLocaleString('fr-FR');
+            document.getElementById('alert-timestamp').textContent = now;
+            document.getElementById('integrity-timestamp').textContent = now;
+            document.getElementById('footer-timestamp').textContent = now;
+        });
+    </script>
+</body>
+</html>

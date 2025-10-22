@@ -1,7 +1,0 @@
-services:
-  python:
-    build:
-      context: .
-      target: development
-    volumes:
-      - .:/app

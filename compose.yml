@@ -1,7 +1,0 @@
-services:
-  python:
-    build:
-      context: .
-      target: runner
-    ports:
-      - "8501:8501"

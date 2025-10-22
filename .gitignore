@@ -1,111 +1,48 @@
-# Python
+# Données volumineuses
+data/raw/
+data/cleaned/
+data/frozen/
+data/logs/
+data/processed/*.parquet
+data/processed/*.csv
+
+# Modèles ML
+models/*.joblib
+models/*.pkl
+models/*.csv
+models/*.json
+
+# Artefacts ML
+ml/artefacts/
+explicabilite/
+evidence/
+
+# Logs et monitoring
+monitoring/logs/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.log
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+*.pyc
+*.pyo
 
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# IDE
+# Fichiers système
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# Environnements virtuels
+venv/
+env/
+.venv/
 
-# Streamlit
-.streamlit/
+# Fichiers de déploiement
+lumen_deploy_*/
 
-# Données temporaires
-data/temp/
-*.tmp
-*.log
-
-# Modèles générés (ne pas committer)
-models/*.pkl
-models/*.joblib
-models/*.json
-models/*.csv
-ml/artefacts/*.joblib
-ml/artefacts/*.pkl
-
-# Rapports générés
-*.html
-reports/
-
-# Fichiers de test
-test_*.py
-*_test.py
-
-# Données générées
-data/**
-!data/.gitkeep
-!data/**/.gitkeep
-
-# Ne pas ignorer le backup des requirements
-!requirements.txt.backup
-explicabilite/
-data/
+# Dashboards générés (seront recréés automatiquement)
+dashboard_risk_heatmap.html
+dashboard_real_vs_predicted.html
+dashboard_active_alerts.html

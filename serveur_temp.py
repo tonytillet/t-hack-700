@@ -19,7 +19,7 @@ class LUMENHandler(http.server.SimpleHTTPRequestHandler):
         return super().do_GET()
 
 def main():
-    PORT = 8084
+    PORT = 8085
     
     print("🌐 LUMEN - SERVEUR UNIFIÉ")
     print("=" * 40)
