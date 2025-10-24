@@ -1,0 +1,418 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2022-09-15T17:32:56.298000+00:00",
+      "deleted": null,
+      "description": "## Accompagnement numérique sur-mesure \n\nPour répondre aux enjeux d’outillage numérique des petites collectivités, l’Incubateur des Territoires a développé une offre d’accompagnement numérique sur-mesure dédiée et adaptée à leurs besoins, calqué sur le modèle d’intervention traditionnelle de l’ANCT. \n\nLe dispositif s’adresse aux communes de moins de 3500 habitants et EPCI de moins de 15000 habitants et consiste en un diagnostic, approfondi et personnalisé, des collectivités pour évaluer leurs besoins spécifiques en matière d’outillage numérique et identifier les potentielles solutions à déployer. Ce diagnostic, établi par un expert du numérique dédié au territoire pendant deux mois, fait ensuite l’objet de préconisations. \n\nOutre l’identification de solutions numériques pérennes, développées en open source et déployables à moindre coût, l’accompagnement vise également à sensibiliser et former agents et élus aux enjeux du numérique (ouverture des données, logiciel libre, cybersécurité…) et aux méthodes « centrées-usagers » éprouvées par l’Incubateur. ",
+      "description_short": null,
+      "extras": {},
+      "featured": true,
+      "frequency": "punctual",
+      "frequency_date": "2022-09-15T00:00:00+00:00",
+      "harvest": null,
+      "id": "632345a8222a5932cb860571",
+      "internal": {
+        "created_at_internal": "2022-09-15T17:32:56.298000+00:00",
+        "last_modified_internal": "2025-05-30T02:01:06.247000+00:00"
+      },
+      "last_modified": "2025-05-30T02:01:06.247000+00:00",
+      "last_update": "2025-05-30T02:01:06+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1410,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3415
+      },
+      "organization": {
+        "acronym": "ANCT",
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "public-service"
+          }
+        ],
+        "class": "Organization",
+        "id": "5901f4dfc751df412e7bb92d",
+        "logo": "https://static.data.gouv.fr/avatars/a2/924a65e62449339e4c0e73e79bd5ef-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/a2/924a65e62449339e4c0e73e79bd5ef-100.jpg",
+        "name": "Agence nationale de la cohésion des territoires",
+        "page": "https://www.data.gouv.fr/organizations/agence-nationale-de-la-cohesion-des-territoires/",
+        "slug": "agence-nationale-de-la-cohesion-des-territoires",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/agence-nationale-de-la-cohesion-des-territoires/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/tableau-de-suivi-ansm/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2022-11-02T15:59:44.985000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "35361d269ec8c719921a9377d36795cc632fa3d2",
+            "analysis:content-length": 2379,
+            "analysis:last-modified-at": "2025-05-30T02:01:06+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-04-25T02:01:18.395000",
+            "check:headers:content-length": 2379,
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": null,
+          "id": "b7599c65-b12c-4399-b5ca-2a35e6a32862",
+          "internal": {
+            "created_at_internal": "2022-11-02T15:59:44.985000+00:00",
+            "last_modified_internal": "2025-05-30T02:01:05.814000+00:00"
+          },
+          "last_modified": "2025-05-30T02:01:06+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b7599c65-b12c-4399-b5ca-2a35e6a32862",
+          "metrics": {
+            "views": 439
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "Métadonnées au format Data Package",
+          "type": "documentation",
+          "url": "https://fichiers.donnees.incubateur.anct.gouv.fr//data-packages/ansm/datapackage.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "6938e949d4fe278edba2a3307eb80e1a284bf244"
+          },
+          "created_at": "2022-10-05T17:20:24.834000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "ece6008d51a7e1aa6ebb199410a9b4ddfa055b41",
+            "analysis:content-length": 43025,
+            "analysis:last-modified-at": "2025-05-30T02:01:06+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-05-30T02:01:23.503187+00:00",
+            "check:headers:content-length": 43025,
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 16814,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": null,
+          "id": "b15c3b3e-c96b-4964-a398-1dd4dbb69cce",
+          "internal": {
+            "created_at_internal": "2022-10-05T17:20:24.834000+00:00",
+            "last_modified_internal": "2025-05-30T02:01:06.218000+00:00"
+          },
+          "last_modified": "2025-05-30T02:01:06+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b15c3b3e-c96b-4964-a398-1dd4dbb69cce",
+          "metrics": {
+            "views": 520
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "Tableau de suivi ANSM au format JSON",
+          "type": "main",
+          "url": "https://fichiers.donnees.incubateur.anct.gouv.fr//data-packages/ansm/ansm.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "64a4e3a3d07e9dc11cf7500a38c0961aa2757dc2"
+          },
+          "created_at": "2022-09-15T17:34:03.386000+00:00",
+          "description": "Suivi des ANSM lancés par l'Incubateur des Territoires de l'ANCT.",
+          "extras": {
+            "analysis:checksum": "d8d18f6e2539f04e59d1bc63480a3f81c6f5590c",
+            "analysis:content-length": 17877,
+            "analysis:last-modified-at": "2025-05-30T02:01:06+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "check:available": true,
+            "check:date": "2025-05-30T02:01:23.504627+00:00",
+            "check:headers:content-length": 17877,
+            "check:headers:content-type": "application/octet-stream",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 6604,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": null,
+          "id": "434a201f-bd8e-41f5-b968-c2eb47d4aa32",
+          "internal": {
+            "created_at_internal": "2022-09-15T17:34:03.386000+00:00",
+            "last_modified_internal": "2025-05-30T02:01:05.995000+00:00"
+          },
+          "last_modified": "2025-05-30T02:01:06+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/434a201f-bd8e-41f5-b968-c2eb47d4aa32",
+          "metrics": {
+            "views": 589
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "Tableau de suivi ANSM au format CSV",
+          "type": "main",
+          "url": "https://fichiers.donnees.incubateur.anct.gouv.fr//data-packages/ansm/ansm.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "tableau-de-suivi-ansm",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:commune",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [],
+      "temporal_coverage": null,
+      "title": "Tableau de suivi ANSM",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/tableau-de-suivi-ansm/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2020-03-04T16:14:40.070000+00:00",
+      "deleted": null,
+      "description": "L'agence nationale de sécurité des médicaments et de produits de santé (ANSM), qui s'est substituée en 2012 à l'agence française de sécurité sanitaire et des produits de santé, a pour missions d'évaluer leurs bénéfices et leurs risques et de garantir leur sécurité en continu. Sur sa mission d’autorisation d’essais cliniques et de mise sur le marché des médicaments, l’ANSM doit consolider son influence scientifique en Europe, ce qui suppose aussi de réduire le nombre des comités de protection des personnes. Sur sa mission de vigilance, l'ANSM gagnerait à renforcer l'exigence de sécurité sanitaire pour les dispositifs médicaux, et les moyens consacrés aux produits cosmétiques devraient être étoffés. La relation entre les administrations de tutelle et l’agence devrait s’inscrire dans un cadre contractuel renouvelé. Le transfert du financement à l’assurance maladie, décidé pour 2020, devrait faciliter cette évolution. Enfin, pour maintenir la confiance des citoyens, l'ANSM doit poursuivre son effort de transparence et renforcer ses contrôles en interne.\n\nLa Cour formule huit recommandations à cet effet.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "5e5fc5e0634f415fabbc3e58",
+      "internal": {
+        "created_at_internal": "2020-03-04T16:14:40.070000+00:00",
+        "last_modified_internal": "2020-03-04T16:15:04.291000+00:00"
+      },
+      "last_modified": "2020-03-04T16:15:04.291000+00:00",
+      "last_update": "2020-03-04T14:36:42+00:00",
+      "license": "odc-odbl",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 517,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3306
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "53698dada3a729239d20331d",
+        "logo": "https://static.data.gouv.fr/avatars/ac/83f761a23f4263be8b3401b01625e8-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/ac/83f761a23f4263be8b3401b01625e8-100.png",
+        "name": "Cour des comptes",
+        "page": "https://www.data.gouv.fr/organizations/cour-des-comptes/",
+        "slug": "cour-des-comptes",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/cour-des-comptes/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/lagence-nationale-de-securite-des-medicaments-et-des-produits-de-sante-ansm/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.5555555555555556,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2020-03-04T16:15:04.231000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "364e54d2383ad3672f34d189aa05dce11b669719",
+            "analysis:content-length": 12718,
+            "analysis:last-modified-at": "2020-03-04T14:36:42+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:count-availability": 273,
+            "check:date": "2025-03-22T18:52:05.935318+00:00",
+            "check:headers:content-length": 12718,
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://www.ccomptes.fr/system/files/2020-03/20191218-donnees-ANSM.zip"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv/utf8",
+          "harvest": null,
+          "id": "468478e7-9172-4c0f-988f-414a675abdff",
+          "internal": {
+            "created_at_internal": "2020-03-04T16:15:04.231000+00:00",
+            "last_modified_internal": "2020-03-04T16:15:04.231000+00:00"
+          },
+          "last_modified": "2020-03-04T14:36:42+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/468478e7-9172-4c0f-988f-414a675abdff",
+          "metrics": {
+            "views": 578
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "L’agence nationale de sécurité des médicaments et des produits de santé (ANSM)",
+          "type": "main",
+          "url": "https://www.ccomptes.fr/system/files/2020-03/20191218-donnees-ANSM.zip"
+        }
+      ],
+      "schema": null,
+      "slug": "lagence-nationale-de-securite-des-medicaments-et-des-produits-de-sante-ansm",
+      "spatial": {
+        "geom": null,
+        "granularity": "country",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "ansm",
+        "medicaments",
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "L’agence nationale de sécurité des médicaments et des produits de santé (ANSM)",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/lagence-nationale-de-securite-des-medicaments-et-des-produits-de-sante-ansm/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 2
+}

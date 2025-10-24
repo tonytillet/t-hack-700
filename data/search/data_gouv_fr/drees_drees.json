@@ -1,0 +1,1227 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2020-12-23T15:35:19.928000+00:00",
+      "deleted": null,
+      "description": "Dans le contexte actuel de crise sanitaire, la Direction de la recherche, des études, de l’évaluation et des statistiques (DREES) publie désormais (décembre 2020) chaque mois [un tableau de suivi des prestations de solidarité](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/publications/etudes-et-resultats/article/plus-de-2-millions-d-allocataires-du-rsa-fin-octobre-2020-mise-en-place-d-un).\n\n6 indicateurs sont suivis dans ce nouveau tableau de bord :\n\nMinima sociaux d'insertion\n\n- Le revenu de solidarité active (RSA)\n- L’allocation de solidarité spécifique (ASS)\n- L’allocation aux adultes handicapés (AAH)\n\nAutres prestations sociales\n\n- La prime d’activité\n- Les aides au logement\n- La Garantie jeunes\n\nLes données sont initialement [publiées ici au format xlsx](http://www.data.drees.sante.gouv.fr/ReportFolders/reportFolders.aspx?IF_ActivePath=P,335,4766).\n\nLes voici ci-dessous en format CSV remis au carré.\nDonnées départementales et France entière, pour 6 prestations.\nDernier mois disponible : octobre 2020 - maj. de décembre 2020",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "monthly",
+      "frequency_date": "2021-01-23T15:35:15+00:00",
+      "harvest": null,
+      "id": "5fe355a7180bc779cc22ef70",
+      "internal": {
+        "created_at_internal": "2020-12-23T15:35:19.928000+00:00",
+        "last_modified_internal": "2021-12-15T09:47:16.426000+00:00"
+      },
+      "last_modified": "2021-12-15T09:47:16.426000+00:00",
+      "last_update": "2021-12-15T09:47:16.335000+00:00",
+      "license": "notspecified",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 653,
+        "reuses": 1,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3528
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "5f91c3631f53144262c929da",
+        "logo": "https://static.data.gouv.fr/avatars/e3/3130f7d8084c408ce0bb126312cd03-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/e3/3130f7d8084c408ce0bb126312cd03-100.png",
+        "name": "icem7",
+        "page": "https://www.data.gouv.fr/organizations/icem7/",
+        "slug": "icem7",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/icem7/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": false
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "7a735db74b8efbc37029af5347a181f46b11c6f3"
+          },
+          "created_at": "2020-12-24T09:51:08.037000+00:00",
+          "description": "La prime d’activité est un complément de revenus d’activité s’adressant aux travailleurs aux revenus modestes, salariés ou non-salariés.Toute personne majeure non étudiante percevant des revenus issus d’une activité professionnelle peut bénéficier de la prime d’activité sous conditions de ressources. La prime d’activité, sous les mêmes conditions que le RSA, peut être temporairement majorée.\n",
+          "extras": {
+            "analysis:checksum": "7a735db74b8efbc37029af5347a181f46b11c6f3",
+            "analysis:content-length": 127923,
+            "analysis:last-modified-at": "2021-12-15T08:44:29+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2023-08-29 17:26:12.018175+02",
+            "analysis:parsing:parsing_table": "5d74b44be4bac018e1d32037efbd72c7",
+            "check:available": true,
+            "check:date": "2023-08-28T16:02:10.155512+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 127923,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "9752d87a-6fd8-4f56-b54a-adcfc26cbb16",
+          "internal": {
+            "created_at_internal": "2020-12-24T09:51:08.037000+00:00",
+            "last_modified_internal": "2021-12-15T09:45:00.471000+00:00"
+          },
+          "last_modified": "2021-12-15T09:45:00.471000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/9752d87a-6fd8-4f56-b54a-adcfc26cbb16",
+          "metrics": {
+            "views": 86
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/9752d87a-6fd8-4f56-b54a-adcfc26cbb16",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "La prime d'activité",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/20211215-094429/tbl-pac.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "5465ee2a617907cb524eaad456c2c90ebbd71efb"
+          },
+          "created_at": "2020-12-24T09:51:07.991000+00:00",
+          "description": "La Garantie jeunes est un dispositif s’adressant aux jeunes de 16 à 25 ans qui ne sont ni en emploi, ni en études, ni en formation (NEET) et qui se trouvent en situation de précarité. Il leur offre, pendant douze mois, un accompagnement intensif assuré par une mission locale ainsi qu’une allocation. Le dispositif peut être prolongé pour une durée maximum de six mois. Les \"stocks\" correspondent au nombre de jeunes présents dans le dispositif à la fin du mois du mois considéré. Les \"entrées initiales\" correspondent au nombre de jeunes qui entrent pour la première fois dans le dispositif au cours du mois considéré.\n",
+          "extras": {
+            "analysis:checksum": "5465ee2a617907cb524eaad456c2c90ebbd71efb",
+            "analysis:content-length": 115839,
+            "analysis:last-modified-at": "2021-12-15T08:45:27+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2023-08-30 20:57:22.918697+02",
+            "analysis:parsing:parsing_table": "310b9c596279f2cfc46ea01e59ed2cbb",
+            "check:available": true,
+            "check:date": "2023-08-28T21:43:04.696775+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 115839,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "46491730-4911-47be-97dd-76f06693028a",
+          "internal": {
+            "created_at_internal": "2020-12-24T09:51:07.991000+00:00",
+            "last_modified_internal": "2021-12-15T09:45:49.885000+00:00"
+          },
+          "last_modified": "2021-12-15T09:45:49.885000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/46491730-4911-47be-97dd-76f06693028a",
+          "metrics": {
+            "views": 75
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/46491730-4911-47be-97dd-76f06693028a",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "La Garantie jeunes",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/20211215-094526/tbl-gjs.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "b649fa7c708fd81f2e50f48d2b9f473a0e42b473"
+          },
+          "created_at": "2020-12-24T09:51:07.922000+00:00",
+          "description": "Le revenu de solidarité active (RSA) s’adresse à toute personne âgée d’au moins 25 ans ou assumant la charge d’au moins un enfant né ou à naître. Le RSA est une allocation différentielle qui complète les ressources du foyer pour qu’elles atteignent le seuil d’un revenu garanti, ou montant forfaitaire, dont le barème varie selon la composition familiale. Le RSA, sous condition, peut être majoré (RSA majoré). Cette majoration est accordée temporairement, sans condition d’âge, à un parent isolé assumant la charge d’un ou plusieurs enfants ou à une femme enceinte isolée.",
+          "extras": {
+            "analysis:checksum": "b649fa7c708fd81f2e50f48d2b9f473a0e42b473",
+            "analysis:content-length": 126115,
+            "analysis:last-modified-at": "2021-12-15T08:42:44+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2023-08-30 04:56:51.41993+02",
+            "analysis:parsing:parsing_table": "250e2b7abf34b9aa19cc5f17c857c164",
+            "check:available": true,
+            "check:date": "2023-08-28T17:20:58.461654+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 126115,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "094a4fb4-78b4-4981-9130-675bf6771452",
+          "internal": {
+            "created_at_internal": "2020-12-24T09:51:07.922000+00:00",
+            "last_modified_internal": "2021-12-15T09:44:07.291000+00:00"
+          },
+          "last_modified": "2021-12-15T09:44:07.291000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/094a4fb4-78b4-4981-9130-675bf6771452",
+          "metrics": {
+            "views": 315
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/094a4fb4-78b4-4981-9130-675bf6771452",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "RSA",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/20211215-094243/tbl-rsa.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "adb0b56527acc6905d0513cc393c3051d3835aeb"
+          },
+          "created_at": "2020-12-24T09:51:07.465000+00:00",
+          "description": "L’allocation de solidarité spécifique (ASS) est une allocation pour les demandeurs d’emploi ayant épuisé leurs droits à l’assurance chômage et qui justifient d’au moins cinq années d’activité salariée au cours des dix dernières années précédant la rupture de leur contrat de travail. Les allocataires de l'ASS sont les allocataires indemnisés au titre du dernier jour de chaque mois considéré.",
+          "extras": {
+            "analysis:checksum": "adb0b56527acc6905d0513cc393c3051d3835aeb",
+            "analysis:content-length": 119997,
+            "analysis:last-modified-at": "2021-12-15T08:46:04+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2023-08-30 17:18:57.280894+02",
+            "analysis:parsing:parsing_table": "e13dbe4c3e7694503351d7511bdf23b3",
+            "check:available": true,
+            "check:date": "2023-08-28T19:36:22.688850+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 119997,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "c07c6931-6185-4ed6-a081-a985cda221ae",
+          "internal": {
+            "created_at_internal": "2020-12-24T09:51:07.465000+00:00",
+            "last_modified_internal": "2021-12-15T09:46:21.042000+00:00"
+          },
+          "last_modified": "2021-12-15T09:46:21.042000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c07c6931-6185-4ed6-a081-a985cda221ae",
+          "metrics": {
+            "views": 80
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/c07c6931-6185-4ed6-a081-a985cda221ae",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "L’allocation de solidarité spécifique (ASS)",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/20211215-094603/tbl-ass.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "6c278967d42031ff96b4b33bb42fc8ae48bfb8e2"
+          },
+          "created_at": "2020-12-24T09:51:06.873000+00:00",
+          "description": "Les aides au logement ont pour vocation de soutenir les personnes et familles modestes dans leur effort financier consacré au logement principal. Versées sous condition de ressources, elles concernent les locataires, les résidents en foyer et les accédants à la propriété. Ces prestations sont constituées de l’aide personnalisée au logement (APL), de l’allocation de logement familiale (ALF) et de l’allocation de logement sociale (ALS). Elles ne sont pas cumulables.\n",
+          "extras": {
+            "analysis:checksum": "6c278967d42031ff96b4b33bb42fc8ae48bfb8e2",
+            "analysis:content-length": 129051,
+            "analysis:last-modified-at": "2021-12-15T08:46:44+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2023-08-30 16:52:21.299232+02",
+            "analysis:parsing:parsing_table": "c42ec187ced29226c5dc1d011afc44b0",
+            "check:available": true,
+            "check:date": "2023-08-28T19:17:34.504211+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 129051,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "489bae94-2c7d-4aaf-bfbc-de13e8df8bdd",
+          "internal": {
+            "created_at_internal": "2020-12-24T09:51:06.873000+00:00",
+            "last_modified_internal": "2021-12-15T09:46:57.003000+00:00"
+          },
+          "last_modified": "2021-12-15T09:46:57.003000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/489bae94-2c7d-4aaf-bfbc-de13e8df8bdd",
+          "metrics": {
+            "views": 78
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/489bae94-2c7d-4aaf-bfbc-de13e8df8bdd",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "Les aides au logement",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/20211215-094644/tbl-alg.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "c517ab04aca6395138bda25c55d99e7be9797b6e"
+          },
+          "created_at": "2020-12-24T09:51:06.773000+00:00",
+          "description": "L’allocation aux adultes handicapés (AAH) s’adresse aux personnes handicapées aux revenus modestes ne pouvant prétendre ni à une pension de retraite, ni à avantage invalidité, ni à une rente d’accident du travail d’un montant au moins égal à l’AAH.\n",
+          "extras": {
+            "analysis:checksum": "c517ab04aca6395138bda25c55d99e7be9797b6e",
+            "analysis:content-length": 125087,
+            "analysis:last-modified-at": "2021-12-15T08:47:16+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2023-08-30 23:15:51.668968+02",
+            "analysis:parsing:parsing_table": "70981811826af6fa95ee457fdc8d5ecf",
+            "check:available": true,
+            "check:date": "2023-08-28T23:07:45.439992+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 125087,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "94a97b8e-1783-4f39-a38c-3ca8893bddf6",
+          "internal": {
+            "created_at_internal": "2020-12-24T09:51:06.773000+00:00",
+            "last_modified_internal": "2021-12-15T09:47:16.335000+00:00"
+          },
+          "last_modified": "2021-12-15T09:47:16.335000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/94a97b8e-1783-4f39-a38c-3ca8893bddf6",
+          "metrics": {
+            "views": 74
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/94a97b8e-1783-4f39-a38c-3ca8893bddf6",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "tbl-aah.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/20211215-094716/tbl-aah.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:departement",
+        "zones": []
+      },
+      "tags": [
+        "aah",
+        "prestations-solidarite",
+        "rsa"
+      ],
+      "temporal_coverage": {
+        "end": "2020-10-01",
+        "start": "2017-01-01"
+      },
+      "title": "Suivi mensuel des prestations de solidarité pendant la crise sanitaire - source DREES",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/suivi-mensuel-des-prestations-de-solidarite-pendant-la-crise-sanitaire-source-drees/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2121ec104bcb7e2608b",
+          "name": "DREES/OSOL/BHD",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2121ec104bcb7e2608c",
+          "name": "DREES/OSOL/BHD",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2021-12-03T08:47:27+00:00",
+      "deleted": null,
+      "description": "Le modèle \"EP24 - Projections de personnes âgées dépendantes\" est issu d’un travail commun entre la DREES et l’Insee. Il a été mobilisé pour les projections rendues publiques en 2019 ([Larbi et Roy, 2019](https://www.insee.fr/fr/statistiques/4196949)).\n\nCes projections ont été révisées le 6 mars 2024.\n\nLes données disponibles ici sont des projections du nombre de personnes âgées de plus de 60 ans entre 2015 et 2050 avec des répartitions par sexe, tranche d’âge et niveau de perte d’autonomie, le tout à la maille départementale. La définition de la dépendance retenue se base sur le GIR estimé à partir des enquêtes CARE. Cela conduit à des effectifs en perte d'autonomie plus élevés que ceux des bénéficiaires actuels de l'APA.\n\n**Description des colonnes des jeux de données :**  \n\n\n**Nom de la colonne**  \n| **Description**  \n  \n---|---  \ndep  \n| Département. \"ENS\" désigne la France entière.  \n  \nSEXE  \n| Sexe. 1 : hommes, 2 : femmes  \n  \nmoins_75  \n| Tranche d'âge : si TRUE alors 60-74 ans, si FALSE alors 75 ans et plus  \n  \nPOPULATION| Nombre total d'individus  \n  \nvolume_pop_dependante| Nombre de personnes dépendantes (en GIR estimé 1 à 4)   \n  \nvolume_pop_dependante_lourde| Nombre de personnes sévèrement dépendantes (en GIR estimé 1 à 2)   \nEV60a| Espérance de vie à 60 ans  \n  \nEVSI60a| Espérance de vie sans incapacité à 60 ans  \n  \n  \n  \n\n\nLes projections sont disponibles selon plusieurs scénarios relatifs à l'évolution de l'espérance de vie, et plusieurs hypothèses sur l'évolution de la dépendance. Il y a un fichier par croisement scénario x hypothèse. \n\nLes scénarios d'évolution de l'espérance de vie correspondent à ceux des projections Omphale de l'INSEE. \"edv_basse\" correspond au scénario d'espérance de vie basse, \"edv_haute\" au scénario d'espérance de vie haute et \"central\" à un scénario central (https://www.insee.fr/fr/information/3683517).\n\nLes hypothèses d'évolution de la dépendance sont définies ainsi : \n\n**Hypothèse**  \n| **Définition**  \n  \n---|---  \n« optimiste »  \n| les gains d'espérance de vie à 60 ans en autonomie sont supérieurs (de 10 %) aux gains d'espérance de vie à 60 ans; le temps passé en dépendance modérée recule.  \n« intermédiaire »| Les gains d’espérance de vie à 60 ans correspondent en totalité à des gains d’années de vie en autonomie.  \n« stable »| La part des années en dépendance modérée dans l’espérance de vie à 60 ans reste constante ; les gains d’espérance de vie correspondent ainsi pour une partie à de la vie pleinement autonome et pour une autre à des années en dépendance modérée, au prorata de la part observée aujourd’hui.  \n« pessimiste »| Le taux de dépendance par âge des seniors est constant, les gains d'espérance de vie à 60 ans sans dépendance modérée sont faibles.  \nCes données sont utilisées en entrée du modèle Livia pour calculer la répartition des seniors dans différents type de lieux de vie (ménage, habitat intermédiaire et Ehpad), dont le code est disponible ici : _(lien à venir)_",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/nombre-de-seniors-dependants-de-2015-a-2050/",
+        "domain": "data.drees.solidarites-sante.gouv.fr",
+        "issued_at": "2021-12-03T08:47:27+00:00",
+        "last_update": "2025-10-24T00:05:50.689000+00:00",
+        "modified_at": "2021-12-03T08:47:27+00:00",
+        "remote_id": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/nombre-de-seniors-dependants-de-2015-a-2050/",
+        "remote_url": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/nombre-de-seniors-dependants-de-2015-a-2050/",
+        "source_id": "620b7a508fcaacfd6a3af237",
+        "uri": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/nombre-de-seniors-dependants-de-2015-a-2050/"
+      },
+      "id": "62263313d650d1f5383e0c50",
+      "internal": {
+        "created_at_internal": "2022-03-07T17:30:11.678000+00:00",
+        "last_modified_internal": "2025-04-28T09:23:06.197000+00:00"
+      },
+      "last_modified": "2021-12-03T08:47:27+00:00",
+      "last_update": "2024-02-29T15:50:38+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 4751,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 5486
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/nombre-de-seniors-dependants-de-2015-a-2050-modele-ep24-drees-insee/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.688000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "d984bf62e2b60e0bc12531297e96125425298772",
+            "analysis:content-length": 962614,
+            "analysis:last-modified-at": "2024-02-29T15:50:17+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-07T18:35:56.841192+00:00",
+            "analysis:parsing:parquet_size": 365401,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/0e82b865651a071df2e5c07dae2ae01a.parquet",
+            "analysis:parsing:parsing_table": "0e82b865651a071df2e5c07dae2ae01a",
+            "analysis:parsing:started_at": "2025-05-07T18:35:53.447772+00:00",
+            "check:available": true,
+            "check:date": "2025-05-07T18:35:50.627715+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_intermediaire_csv"
+          },
+          "id": "f3963816-a75b-4f8a-892d-5ca564ce223d",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.688000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:17+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f3963816-a75b-4f8a-892d-5ca564ce223d",
+          "metrics": {
+            "views": 547
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/f3963816-a75b-4f8a-892d-5ca564ce223d",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_central_hyp_intermediaire.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_intermediaire_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "452198006f8472aab078ecefb6720e1f332aec42",
+            "analysis:content-length": 963407,
+            "analysis:last-modified-at": "2024-02-29T15:50:38+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-07T10:38:03.655422+00:00",
+            "analysis:parsing:parquet_size": 365019,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/85dde5bf5d5d5fa210c9d8cded1ab02c.parquet",
+            "analysis:parsing:parsing_table": "85dde5bf5d5d5fa210c9d8cded1ab02c",
+            "analysis:parsing:started_at": "2025-05-07T10:37:48.936160+00:00",
+            "check:available": true,
+            "check:date": "2025-05-07T10:12:40.304390+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_pessimiste_csv"
+          },
+          "id": "6d6bd552-da9f-46e7-9f9a-17020f534050",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:38+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/6d6bd552-da9f-46e7-9f9a-17020f534050",
+          "metrics": {
+            "views": 452
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/6d6bd552-da9f-46e7-9f9a-17020f534050",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_edv_basse_hyp_pessimiste.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_pessimiste_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "7f8b99ba9600e9e9698a088dae413793537d7138",
+            "analysis:content-length": 963512,
+            "analysis:last-modified-at": "2024-02-29T15:50:23+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-07T22:05:17.003359+00:00",
+            "analysis:parsing:parquet_size": 365988,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/06d3feb66e09845fe1f61dee6a3c14c8.parquet",
+            "analysis:parsing:parsing_table": "06d3feb66e09845fe1f61dee6a3c14c8",
+            "analysis:parsing:started_at": "2025-05-07T22:05:10.398060+00:00",
+            "check:available": true,
+            "check:date": "2025-05-07T22:05:06.880074+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_pessimiste_csv"
+          },
+          "id": "71a1561a-f768-43f3-9b91-46f314d4bba4",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:23+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/71a1561a-f768-43f3-9b91-46f314d4bba4",
+          "metrics": {
+            "views": 466
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/71a1561a-f768-43f3-9b91-46f314d4bba4",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_central_hyp_pessimiste.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_pessimiste_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "ac8dd615ec12e8b66dd201bca7dbfe2e4da347db",
+            "analysis:content-length": 961842,
+            "analysis:last-modified-at": "2024-02-29T15:49:53+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-08T05:56:00.814020+00:00",
+            "analysis:parsing:parquet_size": 364325,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/388e109a60dfd3bf1d384b5c0647417c.parquet",
+            "analysis:parsing:parsing_table": "388e109a60dfd3bf1d384b5c0647417c",
+            "analysis:parsing:started_at": "2025-05-08T05:55:56.516812+00:00",
+            "check:available": true,
+            "check:date": "2025-05-08T05:55:53.839084+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_optimiste_csv"
+          },
+          "id": "661471a5-e64b-40f7-ae83-853c55673f97",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:49:53+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/661471a5-e64b-40f7-ae83-853c55673f97",
+          "metrics": {
+            "views": 474
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/661471a5-e64b-40f7-ae83-853c55673f97",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_edv_haute_hyp_optimiste.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_optimiste_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "5b262085e8ad219264e16632955cadab1b04cf7e",
+            "analysis:content-length": 962133,
+            "analysis:last-modified-at": "2024-02-29T15:49:58+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-07T04:52:30.910873+00:00",
+            "analysis:parsing:parquet_size": 365653,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/90964840515386cd75fce1364120f62d.parquet",
+            "analysis:parsing:parsing_table": "90964840515386cd75fce1364120f62d",
+            "analysis:parsing:started_at": "2025-05-07T04:52:26.944603+00:00",
+            "check:available": true,
+            "check:date": "2025-05-07T04:52:23.844965+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_intermediaire_csv"
+          },
+          "id": "ac64f340-a512-471a-8cc8-b71d2229f77e",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:49:58+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/ac64f340-a512-471a-8cc8-b71d2229f77e",
+          "metrics": {
+            "views": 429
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/ac64f340-a512-471a-8cc8-b71d2229f77e",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_edv_haute_hyp_intermediaire.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_intermediaire_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "6e5627c1105248164b38ebfd4d55b76c6e90b18a",
+            "analysis:content-length": 962365,
+            "analysis:last-modified-at": "2024-02-29T15:50:14+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-07T04:42:40.724670+00:00",
+            "analysis:parsing:parquet_size": 364424,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/9a16e1e6168b7edcd70d2701fef21b4d.parquet",
+            "analysis:parsing:parsing_table": "9a16e1e6168b7edcd70d2701fef21b4d",
+            "analysis:parsing:started_at": "2025-05-07T04:42:36.796626+00:00",
+            "check:available": true,
+            "check:date": "2025-05-07T04:41:49.964013+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_optimiste_csv"
+          },
+          "id": "9f7edbad-9199-4bba-a7bf-a34b4c0fb0bf",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:14+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/9f7edbad-9199-4bba-a7bf-a34b4c0fb0bf",
+          "metrics": {
+            "views": 477
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/9f7edbad-9199-4bba-a7bf-a34b4c0fb0bf",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_central_hyp_optimiste.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_optimiste_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "c20a0ec79763e5c1b3a1d3b672fdb0bc4c2cf6b5",
+            "analysis:content-length": 962896,
+            "analysis:last-modified-at": "2024-02-29T15:50:29+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-07-16T03:07:03.522077+00:00",
+            "analysis:parsing:parquet_size": 365494,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/df2128fa-46ca-4fe9-baf6-59c613ddd27e.parquet",
+            "analysis:parsing:parsing_table": "f004b8ce2a0b6ef02c3d4a3dd2dc6b0f",
+            "analysis:parsing:started_at": "2025-07-16T03:07:03.025213+00:00",
+            "check:available": true,
+            "check:date": "2025-07-16T03:06:59.739871+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_intermediaire_csv"
+          },
+          "id": "df2128fa-46ca-4fe9-baf6-59c613ddd27e",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:29+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/df2128fa-46ca-4fe9-baf6-59c613ddd27e",
+          "metrics": {
+            "views": 393
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/df2128fa-46ca-4fe9-baf6-59c613ddd27e",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_edv_basse_hyp_intermediaire.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_intermediaire_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "813e24c0929339024a34871c072f97370a96ab75",
+            "analysis:content-length": 962644,
+            "analysis:last-modified-at": "2024-02-29T15:50:27+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-08T00:25:35.312983+00:00",
+            "analysis:parsing:parquet_size": 364889,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/6399192b8d518100a47067b5bc70b5d6.parquet",
+            "analysis:parsing:parsing_table": "6399192b8d518100a47067b5bc70b5d6",
+            "analysis:parsing:started_at": "2025-05-08T00:25:30.121308+00:00",
+            "check:available": true,
+            "check:date": "2025-05-08T00:21:05.000305+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_optimiste_csv"
+          },
+          "id": "ecc1503a-6eb9-4cab-90a7-d2e86eef9002",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:27+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/ecc1503a-6eb9-4cab-90a7-d2e86eef9002",
+          "metrics": {
+            "views": 382
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/ecc1503a-6eb9-4cab-90a7-d2e86eef9002",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_edv_basse_hyp_optimiste.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_optimiste_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2022-03-07T17:30:11.689000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "1425ef40ed9919ffac6b1e319a18f193723275cd",
+            "analysis:content-length": 963741,
+            "analysis:last-modified-at": "2024-02-29T15:50:11+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-05-07T15:30:25.641835+00:00",
+            "analysis:parsing:parquet_size": 367121,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/7acd6e7436476cc58ad53deee895aa46.parquet",
+            "analysis:parsing:parsing_table": "7acd6e7436476cc58ad53deee895aa46",
+            "analysis:parsing:started_at": "2025-05-07T15:30:13.079639+00:00",
+            "check:available": true,
+            "check:date": "2025-05-07T15:30:10.224180+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_pessimiste_csv"
+          },
+          "id": "10919c88-f509-4d7b-8c19-28232455dd05",
+          "internal": {
+            "created_at_internal": "2022-03-07T17:30:11.689000+00:00",
+            "last_modified_internal": "2021-12-03T08:47:27+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:11+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/10919c88-f509-4d7b-8c19-28232455dd05",
+          "metrics": {
+            "views": 362
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/10919c88-f509-4d7b-8c19-28232455dd05",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ep24_sc_edv_haute_hyp_pessimiste.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_pessimiste_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2021-12-03T08:47:27+00:00",
+          "description": "Nombre de seniors dépendants de 2015 à 2050 - modèle EP24 (DREES-INSEE) (csv)",
+          "extras": {
+            "analysis:checksum": "2c432e056b4fdb53db93be1efd54293f05102ed1",
+            "analysis:content-length": 109,
+            "analysis:last-modified-at": "2021-12-03T08:47:27+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-05T10:29:28.600492+00:00",
+            "analysis:parsing:parsing_table": "7c7926564ae1dba71279d7cc1d89b451",
+            "analysis:parsing:started_at": "2025-05-05T10:29:28.226503+00:00",
+            "check:available": true,
+            "check:date": "2025-05-05T10:20:20.536382+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2021-12-03T08:47:27+00:00",
+            "modified_at": "2021-12-03T08:47:27+00:00",
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/exports/csv?use_labels=true"
+          },
+          "id": "492ec325-d089-4d4b-acf7-1eb2e870e817",
+          "internal": {
+            "created_at_internal": "2024-01-09T16:46:33.226000+00:00",
+            "last_modified_internal": "2024-01-09T16:46:33.226000+00:00"
+          },
+          "last_modified": "2021-12-03T08:47:27+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/492ec325-d089-4d4b-acf7-1eb2e870e817",
+          "metrics": {
+            "views": 381
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/492ec325-d089-4d4b-acf7-1eb2e870e817",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "nombre-de-seniors-dependants-de-2015-a-2050.csv",
+          "type": "main",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2021-12-03T08:47:27+00:00",
+          "description": "Nombre de seniors dépendants de 2015 à 2050 - modèle EP24 (DREES-INSEE) (json)",
+          "extras": {
+            "analysis:checksum": "97d170e1550eee4afc0af065b78cda302a97674c",
+            "analysis:content-length": 2,
+            "analysis:last-modified-at": "2021-12-03T08:47:27+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-05-05T16:32:07.785665+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2021-12-03T08:47:27+00:00",
+            "modified_at": "2021-12-03T08:47:27+00:00",
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/exports/json"
+          },
+          "id": "946ac267-89cd-4f32-b2c2-13a9f8ebfd5f",
+          "internal": {
+            "created_at_internal": "2024-01-09T16:46:33.227000+00:00",
+            "last_modified_internal": "2024-01-09T16:46:33.227000+00:00"
+          },
+          "last_modified": "2021-12-03T08:47:27+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/946ac267-89cd-4f32-b2c2-13a9f8ebfd5f",
+          "metrics": {
+            "views": 242
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "nombre-de-seniors-dependants-de-2015-a-2050.json",
+          "type": "main",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-03-07T00:06:24.894000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "98f101c7ab528b1b05d58e28c3221d42d212bc05",
+            "analysis:content-length": 963021,
+            "analysis:last-modified-at": "2024-02-29T15:50:03+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-04-29T01:15:09.936669+00:00",
+            "analysis:parsing:parquet_size": 367356,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/2a8e269199c30bc7717fd4341c68fdf0.parquet",
+            "analysis:parsing:parsing_table": "2a8e269199c30bc7717fd4341c68fdf0",
+            "analysis:parsing:started_at": "2025-04-29T01:15:06.017334+00:00",
+            "check:available": true,
+            "check:date": "2025-04-29T01:15:02.902931+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_stable_csv"
+          },
+          "id": "7ee86a0b-7443-4fc6-bf51-137d46c68ba3",
+          "internal": {
+            "created_at_internal": "2024-03-07T00:06:24.894000+00:00",
+            "last_modified_internal": "2024-03-07T00:06:24.894000+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:03+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/7ee86a0b-7443-4fc6-bf51-137d46c68ba3",
+          "metrics": {
+            "views": 136
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/7ee86a0b-7443-4fc6-bf51-137d46c68ba3",
+          "schema": null,
+          "title": "ep24_sc_edv_haute_hyp_stable.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_haute_hyp_stable_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-03-07T00:06:24.895000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "d25e0bc5a305fbbefdcf82bff7971155cb13aaad",
+            "analysis:content-length": 963207,
+            "analysis:last-modified-at": "2024-02-29T15:50:21+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-04-30T01:13:43.558043+00:00",
+            "analysis:parsing:parquet_size": 366734,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/797361d237ca00fb32d551c080744345.parquet",
+            "analysis:parsing:parsing_table": "797361d237ca00fb32d551c080744345",
+            "analysis:parsing:started_at": "2025-04-30T01:13:40.387522+00:00",
+            "check:available": true,
+            "check:date": "2025-04-30T01:13:37.648831+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_stable_csv"
+          },
+          "id": "6f01a6f6-7646-4e83-89f7-dea1d3d4732a",
+          "internal": {
+            "created_at_internal": "2024-03-07T00:06:24.895000+00:00",
+            "last_modified_internal": "2024-03-07T00:06:24.895000+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:21+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/6f01a6f6-7646-4e83-89f7-dea1d3d4732a",
+          "metrics": {
+            "views": 101
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/6f01a6f6-7646-4e83-89f7-dea1d3d4732a",
+          "schema": null,
+          "title": "ep24_sc_central_hyp_stable.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_central_hyp_stable_csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-03-07T00:06:24.897000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "7e3cc9a826efa584440e4a62aa2fdb1e60213300",
+            "analysis:content-length": 963171,
+            "analysis:last-modified-at": "2024-02-29T15:50:32+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-04-30T03:04:51.705711+00:00",
+            "analysis:parsing:parquet_size": 365805,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/7722a281540d4dfbf8949c005c2138d0.parquet",
+            "analysis:parsing:parsing_table": "7722a281540d4dfbf8949c005c2138d0",
+            "analysis:parsing:started_at": "2025-04-30T03:04:48.680187+00:00",
+            "check:available": true,
+            "check:date": "2025-04-30T03:04:45.921326+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_stable_csv"
+          },
+          "id": "c35a9333-b233-4a55-8e10-5f2c21e35dde",
+          "internal": {
+            "created_at_internal": "2024-03-07T00:06:24.897000+00:00",
+            "last_modified_internal": "2024-03-07T00:06:24.897000+00:00"
+          },
+          "last_modified": "2024-02-29T15:50:32+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c35a9333-b233-4a55-8e10-5f2c21e35dde",
+          "metrics": {
+            "views": 103
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/c35a9333-b233-4a55-8e10-5f2c21e35dde",
+          "schema": null,
+          "title": "ep24_sc_edv_basse_hyp_stable.csv",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/nombre-de-seniors-dependants-de-2015-a-2050/attachments/ep24_sc_edv_basse_hyp_stable_csv"
+        }
+      ],
+      "schema": null,
+      "slug": "nombre-de-seniors-dependants-de-2015-a-2050-modele-ep24-drees-insee",
+      "spatial": null,
+      "tags": [
+        "demographie-des-personnes-agees",
+        "departement",
+        "grand-age-et-autonomie",
+        "perte-dautonomie"
+      ],
+      "temporal_coverage": null,
+      "title": "Nombre de seniors dépendants de 2015 à 2050 - modèle EP24 (DREES-INSEE)",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/nombre-de-seniors-dependants-de-2015-a-2050-modele-ep24-drees-insee/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 2
+}

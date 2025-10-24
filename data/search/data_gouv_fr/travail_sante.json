@@ -1,0 +1,1243 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c4501ec104bcb7e26167",
+          "name": "Urssaf Caisse nationale",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c45b1ec104bcb7e2616c",
+          "name": "Urssaf Caisse nationale",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-06-16T09:44:51+00:00",
+      "deleted": null,
+      "description": "Ce jeu de données permet d'obtenir la liste des Services de Santé au Travail (SST) qui doit être utilisée dans le cadre de la Déclaration Préalable à l'Embauche (DPAE).",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.opendatacommons.org/licenses/odbl/1.0/"
+          ],
+          "rights": [
+            "https://www.opendatacommons.org/licenses/odbl/1.0/"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://open.urssaf.fr/explore/dataset/sst_dpae/",
+        "domain": "open.urssaf.fr",
+        "issued_at": "2025-06-16T09:44:51+00:00",
+        "last_update": "2025-10-24T00:01:46.477000+00:00",
+        "modified_at": "2025-06-16T09:44:51+00:00",
+        "remote_id": "https://open.urssaf.fr/explore/dataset/sst_dpae/",
+        "remote_url": "https://open.urssaf.fr/explore/dataset/sst_dpae/",
+        "source_id": "5ea0096f12a5a097cc9eee51",
+        "uri": "https://open.urssaf.fr/explore/dataset/sst_dpae/"
+      },
+      "id": "6350916d91fa3047e790f68e",
+      "internal": {
+        "created_at_internal": "2022-10-20T02:08:13.505000+00:00",
+        "last_modified_internal": "2022-10-19T12:19:06+00:00"
+      },
+      "last_modified": "2025-06-16T09:44:51+00:00",
+      "last_update": "2025-06-16T09:44:51+00:00",
+      "license": "odc-odbl",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1561,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 8230
+      },
+      "organization": {
+        "acronym": "URSSAF",
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "5e9d6eaf7137453528ac7e9b",
+        "logo": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/0c/473d172ebd40fc8ef13eb18a26b25b-100.jpg",
+        "name": "Unions de Recouvrement des cotisations de Sécurité Sociale et d'Allocations Familiales",
+        "page": "https://www.data.gouv.fr/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/",
+        "slug": "unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/unions-de-recouvrement-des-cotisations-de-securite-sociale-et-dallocations-familiales/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/liste-des-services-de-sante-au-travail-sst/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": false,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.4444444444444444,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-06-16T09:44:51+00:00",
+          "description": "Liste des services de santé au travail (SST) (csv)",
+          "extras": {
+            "analysis:checksum": "ae90bcbf6449c9be20d5c44401ad552f8ab55cdd",
+            "analysis:content-length": 32829,
+            "analysis:last-modified-at": "2025-06-16T09:44:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-06-23T01:01:01.619223+00:00",
+            "analysis:parsing:parquet_size": 24330,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/8de90526-3ecd-475e-8944-f43329e3ed28.parquet",
+            "analysis:parsing:parsing_table": "4b0dc81efd56711c0fa214d7ea2d986d",
+            "analysis:parsing:started_at": "2025-06-23T01:00:59.526866+00:00",
+            "check:available": true,
+            "check:date": "2025-06-14T12:32:45.929566+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.opendatacommons.org/licenses/odbl/1.0/"
+              ],
+              "rights": [
+                "https://www.opendatacommons.org/licenses/odbl/1.0/"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2025-06-16T09:44:51+00:00",
+            "modified_at": "2025-06-16T09:44:51+00:00",
+            "uri": "https://open.urssaf.fr/api/explore/v2.1/catalog/datasets/sst_dpae/exports/csv?use_labels=true"
+          },
+          "id": "8de90526-3ecd-475e-8944-f43329e3ed28",
+          "internal": {
+            "created_at_internal": "2022-10-20T02:08:13.514000+00:00",
+            "last_modified_internal": "2022-10-19T12:19:06+00:00"
+          },
+          "last_modified": "2025-06-16T09:44:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/8de90526-3ecd-475e-8944-f43329e3ed28",
+          "metrics": {
+            "views": 908
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/8de90526-3ecd-475e-8944-f43329e3ed28",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "sst_dpae.csv",
+          "type": "main",
+          "url": "https://open.urssaf.fr/api/explore/v2.1/catalog/datasets/sst_dpae/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-06-16T09:44:51+00:00",
+          "description": "Liste des services de santé au travail (SST) (json)",
+          "extras": {
+            "analysis:checksum": "64337cfafd2238c02b62628501727721b84686e6",
+            "analysis:content-length": 83853,
+            "analysis:last-modified-at": "2025-06-16T09:44:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-06-13T18:08:55.570130+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.opendatacommons.org/licenses/odbl/1.0/"
+              ],
+              "rights": [
+                "https://www.opendatacommons.org/licenses/odbl/1.0/"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2025-06-16T09:44:51+00:00",
+            "modified_at": "2025-06-16T09:44:51+00:00",
+            "uri": "https://open.urssaf.fr/api/explore/v2.1/catalog/datasets/sst_dpae/exports/json"
+          },
+          "id": "17062876-42b5-4746-ab5e-0903a53731c8",
+          "internal": {
+            "created_at_internal": "2022-10-20T02:08:13.514000+00:00",
+            "last_modified_internal": "2022-10-19T12:19:06+00:00"
+          },
+          "last_modified": "2025-06-16T09:44:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/17062876-42b5-4746-ab5e-0903a53731c8",
+          "metrics": {
+            "views": 576
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "sst_dpae.json",
+          "type": "main",
+          "url": "https://open.urssaf.fr/api/explore/v2.1/catalog/datasets/sst_dpae/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "liste-des-services-de-sante-au-travail-sst",
+      "spatial": null,
+      "tags": [
+        "dpae",
+        "due",
+        "embauche",
+        "embauches",
+        "medecine-du-travail",
+        "mt",
+        "sante",
+        "service-de-sante-au-travail",
+        "sst"
+      ],
+      "temporal_coverage": null,
+      "title": "Liste des services de santé au travail (SST)",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/liste-des-services-de-sante-au-travail-sst/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c204f5e65ba3abe26085",
+          "name": "CDC",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c204f5e65ba3abe26086",
+          "name": "CDC",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-09-01T00:00:00+00:00",
+      "deleted": null,
+      "description": "Les formacodes sont des éléments descriptifs de la formation permettant de préciser le domaine de la formation, et ainsi d'indiquer des éléments descriptifs quant à son contenu. Ils permettant ainsi à l’employeur de déterminer si les formations en santé et sécurité au travail suivies sont suffisantes pour occuper le poste de travail ou si elles doivent être complétées afin de répondre à l’obligation de formation en matière de prévention des risques professionnels.\n\nLe référentiel Formacode est géré par Centre Info. La Caisse des dépôts identifie les codes pour les formations en santé et sécurité au travail. \n\n![](data:image/png;base64,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)",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "semiannual",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://opendata.caissedesdepots.fr/explore/dataset/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/",
+        "domain": "opendata.caissedesdepots.fr",
+        "issued_at": "2025-09-01T00:00:00+00:00",
+        "last_update": "2025-10-24T00:02:09.965000+00:00",
+        "modified_at": "2025-08-06T14:50:05+00:00",
+        "remote_id": "https://opendata.caissedesdepots.fr/explore/dataset/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/",
+        "remote_url": "https://opendata.caissedesdepots.fr/explore/dataset/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/",
+        "source_id": "5fa985cc221828792d64fc3b",
+        "uri": "https://opendata.caissedesdepots.fr/explore/dataset/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/"
+      },
+      "id": "689550269b508a29bd32063e",
+      "internal": {
+        "created_at_internal": "2025-08-08T01:17:26.287000+00:00",
+        "last_modified_internal": "2025-08-08T01:17:26.287000+00:00"
+      },
+      "last_modified": "2025-08-06T14:50:05+00:00",
+      "last_update": "2025-08-06T14:50:05+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 24,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 717
+      },
+      "organization": {
+        "acronym": "CDC",
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "public-service"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa985066333fad0e735c985",
+        "logo": "https://static.data.gouv.fr/avatars/a6/b5cd73ae814b78924314d3beae6902-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/a6/b5cd73ae814b78924314d3beae6902-100.jpg",
+        "name": "Caisse des Dépôts",
+        "page": "https://www.data.gouv.fr/organizations/caisse-des-depots-1/",
+        "slug": "caisse-des-depots-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/caisse-des-depots-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/liste-des-formacodes-sante-et-securite-au-travail/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": false,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-09-01T00:00:00+00:00",
+          "description": "Liste des Formacodes santé et sécurité au travail (csv)",
+          "extras": {
+            "analysis:checksum": "9466c4daa8d24e031e259207503191b0e183435a",
+            "analysis:content-length": 1555,
+            "analysis:last-modified-at": "2025-08-06T14:50:05+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-08-09T16:14:20.858623+00:00",
+            "analysis:parsing:parsing_table": "dd4fd1f3ed9929095b70ca2c9fd77d6d",
+            "analysis:parsing:started_at": "2025-08-09T16:14:20.720027+00:00",
+            "check:available": true,
+            "check:date": "2025-08-09T04:13:31.210347+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2025-09-01T00:00:00+00:00",
+            "modified_at": "2025-08-06T14:50:05+00:00",
+            "uri": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/exports/csv?use_labels=true"
+          },
+          "id": "5c78cbbb-d4e7-427a-b9d0-39ea33a7c2f5",
+          "internal": {
+            "created_at_internal": "2025-08-08T01:17:26.292000+00:00",
+            "last_modified_internal": "2025-08-08T01:17:26.292000+00:00"
+          },
+          "last_modified": "2025-08-06T14:50:05+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/5c78cbbb-d4e7-427a-b9d0-39ea33a7c2f5",
+          "metrics": {
+            "views": 20
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/5c78cbbb-d4e7-427a-b9d0-39ea33a7c2f5",
+          "schema": null,
+          "title": "codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention.csv",
+          "type": "main",
+          "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-09-01T00:00:00+00:00",
+          "description": "Liste des Formacodes santé et sécurité au travail (json)",
+          "extras": {
+            "analysis:checksum": "5ed376bb16599abf6d194bb93865c3c952063981",
+            "analysis:content-length": 4116,
+            "analysis:last-modified-at": "2025-08-06T14:50:05+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-08-09T04:13:31.276443+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2025-09-01T00:00:00+00:00",
+            "modified_at": "2025-08-06T14:50:05+00:00",
+            "uri": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/exports/json"
+          },
+          "id": "c87205bd-0fe0-4ec4-b0f2-2daf8bfff9d0",
+          "internal": {
+            "created_at_internal": "2025-08-08T01:17:26.293000+00:00",
+            "last_modified_internal": "2025-08-08T01:17:26.293000+00:00"
+          },
+          "last_modified": "2025-08-06T14:50:05+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c87205bd-0fe0-4ec4-b0f2-2daf8bfff9d0",
+          "metrics": {
+            "views": 4
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention.json",
+          "type": "main",
+          "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-des-domaines-de-formations-formacode-sst-passeport-de-prevention/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "liste-des-formacodes-sante-et-securite-au-travail",
+      "spatial": null,
+      "tags": [
+        "formacode",
+        "formation",
+        "formation-professionnelle",
+        "passeport-de-prevention",
+        "politiques-sociales",
+        "sst"
+      ],
+      "temporal_coverage": {
+        "end": "2025-12-31",
+        "start": "2024-12-31"
+      },
+      "title": "Liste des Formacodes santé et sécurité au travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/liste-des-formacodes-sante-et-securite-au-travail/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2111ec104bcb7e26089",
+          "name": "DREES/OSOL/BCL",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2111ec104bcb7e2608a",
+          "name": "DREES/OSOL/BCL",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-06-23T12:54:53.135000+00:00",
+      "deleted": null,
+      "description": "Sont ici mises à disposition des statistiques descriptives sur les conditions de travail des professionnelles du social et de santé. Elles sont élaborées à partir des données issues de l’enquête TraCov2 de la DARES. Des statistiques détaillées par profession sont diffusées pour les aides à domicile, les infirmières et les aides-soignantes. Elles ne sont pas disponibles pour les autres professions, le nombre d'individus interrogées n'étant pas suffisant.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/",
+        "domain": "data.drees.solidarites-sante.gouv.fr",
+        "issued_at": "2025-06-23T12:54:53.135000+00:00",
+        "last_update": "2025-10-24T00:05:38.280000+00:00",
+        "modified_at": "2025-06-23T12:54:53.135000+00:00",
+        "remote_id": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/",
+        "remote_url": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/",
+        "source_id": "620b7a508fcaacfd6a3af237",
+        "uri": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/"
+      },
+      "id": "685b35cfd1e39b3c0b6eb9c6",
+      "internal": {
+        "created_at_internal": "2025-06-24T23:33:35.139000+00:00",
+        "last_modified_internal": "2025-06-24T23:33:35.139000+00:00"
+      },
+      "last_modified": "2025-06-23T12:54:53.135000+00:00",
+      "last_update": "2025-06-23T12:52:30+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 24,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 277
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/les-conditions-de-travail-des-professionnelles-du-social-et-de-sante/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.4444444444444444,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-06-24T23:33:35.141000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "60407e8c0e195b76628e9716bcddef49f687dd8f",
+            "analysis:content-length": 55154,
+            "analysis:last-modified-at": "2025-06-23T12:52:30+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "analysis:parsing:finished_at": "2025-07-15T13:21:27.889894+00:00",
+            "analysis:parsing:parsing_table": "577be5354f754bdfebdeeebc55193ec5",
+            "analysis:parsing:started_at": "2025-07-15T13:21:27.271190+00:00",
+            "check:available": true,
+            "check:date": "2025-06-27T04:13:33.292067+00:00",
+            "check:headers:content-length": 55154,
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/conditions_travail_tracov/attachments/conditions_travail_tracov_xlsx"
+          },
+          "id": "7c47c68f-1b48-491d-b4fb-68c2fb72774b",
+          "internal": {
+            "created_at_internal": "2025-06-24T23:33:35.141000+00:00",
+            "last_modified_internal": "2025-06-24T23:33:35.141000+00:00"
+          },
+          "last_modified": "2025-06-23T12:52:30+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/7c47c68f-1b48-491d-b4fb-68c2fb72774b",
+          "metrics": {
+            "views": 24
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/7c47c68f-1b48-491d-b4fb-68c2fb72774b",
+          "schema": null,
+          "title": "Conditions_travail_Tracov.xlsx",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/conditions_travail_tracov/attachments/conditions_travail_tracov_xlsx"
+        }
+      ],
+      "schema": null,
+      "slug": "les-conditions-de-travail-des-professionnelles-du-social-et-de-sante",
+      "spatial": null,
+      "tags": [
+        "conditions-de-travail",
+        "professionnel-de-sante",
+        "professionnel-du-social",
+        "systeme-de-protection-sociale"
+      ],
+      "temporal_coverage": null,
+      "title": "Les conditions de travail des professionnelles du social et de santé",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/les-conditions-de-travail-des-professionnelles-du-social-et-de-sante/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c204f5e65ba3abe26085",
+          "name": "CDC",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c204f5e65ba3abe26086",
+          "name": "CDC",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-08-07T00:00:00+00:00",
+      "deleted": null,
+      "description": "Les compétences transférables correspondent aux compétences ou connaissances développées ou acquises par les travailleurs lors de la formation, et qui pourront être mobilisées ou utilisées pour un futur poste de travail exposant à des risques professionnels similaires que ceux pour lesquels le travailleur a été formé.\n\nElles indiquent des éléments descriptifs quant au contenu de la formation permettant ainsi à l’employeur de déterminer si les formations suivies sont suffisantes pour occuper le poste de travail ou si elles doivent être complétées afin de répondre à l’obligation de formation en matière de prévention des risques professionnels.\n\nLes compétences transférables en santé et sécurité au travail sont accessibles dans une liste établie à partir du Répertoire Opérationnel des Métiers et des Emplois (ROME) qui est un référentiel conçu et géré par France Travail. La Caisse des dépôts identifie les codes pour les formations en santé et sécurité au travail. \n\nCette liste a pour objectif de recenser les compétences transférables relatives à la santé et sécurité au travail qui peuvent être indiquées lors de la déclaration des formations par les organismes de formation et les employeurs, afin de les aider dans leur processus de déclaration.\n\n![](data:image/png;base64,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)",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://opendata.caissedesdepots.fr/explore/dataset/codes-competences-transferables-rome-sst-passeport-de-prevention/",
+        "domain": "opendata.caissedesdepots.fr",
+        "issued_at": "2025-08-07T00:00:00+00:00",
+        "last_update": "2025-10-24T00:02:03.654000+00:00",
+        "modified_at": "2025-08-06T14:38:23+00:00",
+        "remote_id": "https://opendata.caissedesdepots.fr/explore/dataset/codes-competences-transferables-rome-sst-passeport-de-prevention/",
+        "remote_url": "https://opendata.caissedesdepots.fr/explore/dataset/codes-competences-transferables-rome-sst-passeport-de-prevention/",
+        "source_id": "5fa985cc221828792d64fc3b",
+        "uri": "https://opendata.caissedesdepots.fr/explore/dataset/codes-competences-transferables-rome-sst-passeport-de-prevention/"
+      },
+      "id": "68954ff59b508a29bd32063b",
+      "internal": {
+        "created_at_internal": "2025-08-08T01:16:37.975000+00:00",
+        "last_modified_internal": "2025-08-08T01:16:37.975000+00:00"
+      },
+      "last_modified": "2025-08-06T14:38:23+00:00",
+      "last_update": "2025-08-06T14:38:23+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 20,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 491
+      },
+      "organization": {
+        "acronym": "CDC",
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "public-service"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa985066333fad0e735c985",
+        "logo": "https://static.data.gouv.fr/avatars/a6/b5cd73ae814b78924314d3beae6902-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/a6/b5cd73ae814b78924314d3beae6902-100.jpg",
+        "name": "Caisse des Dépôts",
+        "page": "https://www.data.gouv.fr/organizations/caisse-des-depots-1/",
+        "slug": "caisse-des-depots-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/caisse-des-depots-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/liste-des-codes-des-competences-transferables-en-sante-et-securite-au-travail/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.6666666666666666,
+        "spatial": false,
+        "temporal_coverage": true,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-08-07T00:00:00+00:00",
+          "description": "Liste des codes des compétences transférables en santé et sécurité au travail (csv)",
+          "extras": {
+            "analysis:checksum": "4dc9a925ecfbeb7b3265eb6e4bab8d97882409be",
+            "analysis:content-length": 28826,
+            "analysis:last-modified-at": "2025-08-06T14:38:23+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-08-09T16:15:33.731698+00:00",
+            "analysis:parsing:parquet_size": 9024,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/fa995572-2ccc-47b3-bb1e-56436d2af839.parquet",
+            "analysis:parsing:parsing_table": "d8dfdef6cbef7d737c46905f2a5300cc",
+            "analysis:parsing:started_at": "2025-08-09T16:15:33.334305+00:00",
+            "check:available": true,
+            "check:date": "2025-08-09T04:13:39.000017+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2025-08-07T00:00:00+00:00",
+            "modified_at": "2025-08-06T14:38:23+00:00",
+            "uri": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-competences-transferables-rome-sst-passeport-de-prevention/exports/csv?use_labels=true"
+          },
+          "id": "fa995572-2ccc-47b3-bb1e-56436d2af839",
+          "internal": {
+            "created_at_internal": "2025-08-08T01:16:37.981000+00:00",
+            "last_modified_internal": "2025-08-08T01:16:37.981000+00:00"
+          },
+          "last_modified": "2025-08-06T14:38:23+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/fa995572-2ccc-47b3-bb1e-56436d2af839",
+          "metrics": {
+            "views": 15
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/fa995572-2ccc-47b3-bb1e-56436d2af839",
+          "schema": null,
+          "title": "codes-competences-transferables-rome-sst-passeport-de-prevention.csv",
+          "type": "main",
+          "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-competences-transferables-rome-sst-passeport-de-prevention/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-08-07T00:00:00+00:00",
+          "description": "Liste des codes des compétences transférables en santé et sécurité au travail (json)",
+          "extras": {
+            "analysis:checksum": "ef33e7d591daf90e3a789099cad8614269be9b47",
+            "analysis:content-length": 42408,
+            "analysis:last-modified-at": "2025-08-06T14:38:23+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-08-09T04:13:18.802053+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2025-08-07T00:00:00+00:00",
+            "modified_at": "2025-08-06T14:38:23+00:00",
+            "uri": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-competences-transferables-rome-sst-passeport-de-prevention/exports/json"
+          },
+          "id": "57c5d468-77ae-4e50-8771-6473c7532d8c",
+          "internal": {
+            "created_at_internal": "2025-08-08T01:16:37.982000+00:00",
+            "last_modified_internal": "2025-08-08T01:16:37.982000+00:00"
+          },
+          "last_modified": "2025-08-06T14:38:23+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/57c5d468-77ae-4e50-8771-6473c7532d8c",
+          "metrics": {
+            "views": 5
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "codes-competences-transferables-rome-sst-passeport-de-prevention.json",
+          "type": "main",
+          "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/codes-competences-transferables-rome-sst-passeport-de-prevention/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "liste-des-codes-des-competences-transferables-en-sante-et-securite-au-travail",
+      "spatial": null,
+      "tags": [
+        "formation",
+        "formation-professionnelle",
+        "passeport-de-prevention",
+        "politiques-sociales",
+        "rome",
+        "sst"
+      ],
+      "temporal_coverage": {
+        "end": "2025-12-31",
+        "start": "2025-01-01"
+      },
+      "title": "Liste des codes des compétences transférables en santé et sécurité au travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/liste-des-codes-des-competences-transferables-en-sante-et-securite-au-travail/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c204f5e65ba3abe26085",
+          "name": "CDC",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c204f5e65ba3abe26086",
+          "name": "CDC",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-08-07T00:00:00+00:00",
+      "deleted": null,
+      "description": "En amont de l’ouverture du Passeport de prévention aux travailleurs en 2026, les organismes de formation qui sont habilités à organiser les épreuves d’évaluation pour le compte d’un certificateur sont invités à déclarer les certifications RNCP et RS via leur espace dédié du Passeport de prévention. \n\nCe jeux de données liste les codes des certifications à renseigner dans le Passeport de prévention.\n\n  \n\n\nIl existe deux grandes catégories de certifications professionnelles :\n\n  1. Les certifications professionnelles qui attestent des compétences et des connaissances professionnelles requises pour exercer un métier. Elles recoupent les diplômes, titres et certificats délivrés par l’État, les organismes certificateurs, les branches professionnelles… Elles sont enregistrées au Répertoire national des certifications professionnelles (RNCP) géré par France compétences. \n  2. Les certifications et habilitations qui attestent des compétences professionnelles complémentaires aux certifications professionnelles. Elles sont enregistrées au Répertoire spécifique (RS) géré par France compétences.\n\n\n\nLa Caisse des dépôts identifie les codes pour les formations en santé et sécurité au travail.\n\n![](data:image/png;base64,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)",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "semiannual",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://opendata.caissedesdepots.fr/explore/dataset/code-des-certification-rs-sst-passeport-de-prevention/",
+        "domain": "opendata.caissedesdepots.fr",
+        "issued_at": "2025-08-07T00:00:00+00:00",
+        "last_update": "2025-10-24T00:02:12.084000+00:00",
+        "modified_at": "2025-08-06T13:40:20+00:00",
+        "remote_id": "https://opendata.caissedesdepots.fr/explore/dataset/code-des-certification-rs-sst-passeport-de-prevention/",
+        "remote_url": "https://opendata.caissedesdepots.fr/explore/dataset/code-des-certification-rs-sst-passeport-de-prevention/",
+        "source_id": "5fa985cc221828792d64fc3b",
+        "uri": "https://opendata.caissedesdepots.fr/explore/dataset/code-des-certification-rs-sst-passeport-de-prevention/"
+      },
+      "id": "689550219b508a29bd32063d",
+      "internal": {
+        "created_at_internal": "2025-08-08T01:17:21.194000+00:00",
+        "last_modified_internal": "2025-08-08T01:17:21.194000+00:00"
+      },
+      "last_modified": "2025-08-06T13:40:20+00:00",
+      "last_update": "2025-08-06T13:40:20+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 17,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 619
+      },
+      "organization": {
+        "acronym": "CDC",
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "public-service"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa985066333fad0e735c985",
+        "logo": "https://static.data.gouv.fr/avatars/a6/b5cd73ae814b78924314d3beae6902-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/a6/b5cd73ae814b78924314d3beae6902-100.jpg",
+        "name": "Caisse des Dépôts",
+        "page": "https://www.data.gouv.fr/organizations/caisse-des-depots-1/",
+        "slug": "caisse-des-depots-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/caisse-des-depots-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/liste-des-certifications-professionnelles-relatives-a-la-sante-et-a-la-securite-au-travail/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": false,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-08-07T00:00:00+00:00",
+          "description": "Liste des certifications professionnelles relatives à la santé et à la sécurité au travail (csv)",
+          "extras": {
+            "analysis:checksum": "e27f10af029b07ed6838f7255d91bca9b92fb386",
+            "analysis:content-length": 14121,
+            "analysis:last-modified-at": "2025-08-06T13:40:20+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-08-09T16:15:11.668272+00:00",
+            "analysis:parsing:parsing_table": "f93f0d58292503f3961752b73449acf4",
+            "analysis:parsing:started_at": "2025-08-09T16:15:11.486635+00:00",
+            "check:available": true,
+            "check:date": "2025-08-09T04:13:34.223366+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2025-08-07T00:00:00+00:00",
+            "modified_at": "2025-08-06T13:40:20+00:00",
+            "uri": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/code-des-certification-rs-sst-passeport-de-prevention/exports/csv?use_labels=true"
+          },
+          "id": "0260ce5c-6aec-49c6-9e8c-e52554132abd",
+          "internal": {
+            "created_at_internal": "2025-08-08T01:17:21.200000+00:00",
+            "last_modified_internal": "2025-08-08T01:17:21.200000+00:00"
+          },
+          "last_modified": "2025-08-06T13:40:20+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/0260ce5c-6aec-49c6-9e8c-e52554132abd",
+          "metrics": {
+            "views": 12
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/0260ce5c-6aec-49c6-9e8c-e52554132abd",
+          "schema": null,
+          "title": "code-des-certification-rs-sst-passeport-de-prevention.csv",
+          "type": "main",
+          "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/code-des-certification-rs-sst-passeport-de-prevention/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-08-07T00:00:00+00:00",
+          "description": "Liste des certifications professionnelles relatives à la santé et à la sécurité au travail (json)",
+          "extras": {
+            "analysis:checksum": "56af76ad271ad90c7c2fe0d0c11aa162ccf88838",
+            "analysis:content-length": 22394,
+            "analysis:last-modified-at": "2025-08-06T13:40:20+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-08-09T04:13:18.628110+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2025-08-07T00:00:00+00:00",
+            "modified_at": "2025-08-06T13:40:20+00:00",
+            "uri": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/code-des-certification-rs-sst-passeport-de-prevention/exports/json"
+          },
+          "id": "c464571e-b4e1-42fc-966a-aa86214409cc",
+          "internal": {
+            "created_at_internal": "2025-08-08T01:17:21.201000+00:00",
+            "last_modified_internal": "2025-08-08T01:17:21.201000+00:00"
+          },
+          "last_modified": "2025-08-06T13:40:20+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c464571e-b4e1-42fc-966a-aa86214409cc",
+          "metrics": {
+            "views": 5
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "code-des-certification-rs-sst-passeport-de-prevention.json",
+          "type": "main",
+          "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/code-des-certification-rs-sst-passeport-de-prevention/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "liste-des-certifications-professionnelles-relatives-a-la-sante-et-a-la-securite-au-travail",
+      "spatial": null,
+      "tags": [
+        "certification",
+        "declaration",
+        "formation",
+        "formation-professionnelle",
+        "passeport-de-prevention",
+        "politiques-sociales",
+        "rs",
+        "sante",
+        "sst"
+      ],
+      "temporal_coverage": {
+        "end": "2025-12-30",
+        "start": "2024-12-31"
+      },
+      "title": "Liste des certifications professionnelles relatives à la santé et à la sécurité au travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/liste-des-certifications-professionnelles-relatives-a-la-sante-et-a-la-securite-au-travail/"
+    }
+  ],
+  "next_page": "https://www.data.gouv.fr/api/1/datasets/?q=travail+sant%C3%A9&page_size=5&page=2",
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 7
+}

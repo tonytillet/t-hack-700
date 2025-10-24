@@ -1,0 +1,357 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2015-10-28T17:14:40.125000+00:00",
+      "deleted": null,
+      "description": "Source : Études et Résultats n° 938, octobre 2015\n\nAuteur : Thomas Barnay, Julie Favrot, Catherine Pollak\n\nParmi les salariés du secteur privé ayant été arrêtés plus d’un mois dans l’année pour maladie, 15 % des femmes et 11 % des hommes sont au chômage ou inactifs l’année suivante (contre, respectivement, 7 % et 4 % des salariés qui n’ont pas eu d’arrêts maladie). Ce constat n’est pas seulement attribuable à une moindre qualité des emplois occupés par les personnes en mauvais état de santé. Il témoigne d’un effet pénalisant des arrêts maladie sur les trajectoires professionnelles, aussi bien chez les femmes que chez les hommes. Cet effet est d’autant plus marqué que la période passée en arrêt maladie est longue.\n\nLes congés maternité sont plus souvent suivis d’une année d’inactivité que les arrêts pour longue maladie, mais les femmes qui se maintiennent en emploi après une naissance reprennent, en majorité, une activité sans interruption.\n\nLorsqu’ils retrouvent un emploi, les anciens chômeurs et les inactifs ont moins d’arrêts maladie que les autres salariés en emploi, signe qu’ils anticipent les risques de trajectoires professionnelles dégradées associés à ces arrêts de travail.\n",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": "2015-10-28T00:00:00+00:00",
+      "harvest": null,
+      "id": "5630f47088ee385066531578",
+      "internal": {
+        "created_at_internal": "2015-10-28T17:14:40.125000+00:00",
+        "last_modified_internal": "2015-10-28T17:14:40.125000+00:00"
+      },
+      "last_modified": "2015-10-28T17:14:40.125000+00:00",
+      "last_update": "2015-10-28T17:15:58.037000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 1,
+        "discussions_open": 1,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 474,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2846
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/les-arrets-maladie-de-longue-duree-penalisent-les-trajectoires-professionnelles/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": true,
+        "has_open_format": false,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.3333333333333333,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2015-10-28T17:15:58.037000+00:00",
+          "description": "",
+          "extras": {
+            "check:available": false,
+            "check:count-availability": 113,
+            "check:date": "2023-06-01T18:53:31.470812+00:00",
+            "check:error": "Cannot connect to host www.drees.sante.gouv.fr:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.drees.sante.gouv.fr'. (_ssl.c:1123)\")]",
+            "check:timeout": false,
+            "check:url": "http://www.drees.sante.gouv.fr/IMG/pdf/er938.pdf"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "pdf",
+          "harvest": null,
+          "id": "18ecba44-bc61-4825-80ed-0f19fbfeb387",
+          "internal": {
+            "created_at_internal": "2015-10-28T17:15:58.037000+00:00",
+            "last_modified_internal": "2015-10-28T17:15:58.037000+00:00"
+          },
+          "last_modified": "2015-10-28T17:15:58.037000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/18ecba44-bc61-4825-80ed-0f19fbfeb387",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 186
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "ER 938 : ouvrage",
+          "type": "main",
+          "url": "http://www.drees.sante.gouv.fr/IMG/pdf/er938.pdf"
+        },
+        {
+          "checksum": null,
+          "created_at": "2015-10-28T17:15:20.042000+00:00",
+          "description": "",
+          "extras": {
+            "check:available": false,
+            "check:count-availability": 117,
+            "check:date": "2023-06-01T02:37:50.702068+00:00",
+            "check:error": "Cannot connect to host www.drees.sante.gouv.fr:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.drees.sante.gouv.fr'. (_ssl.c:1123)\")]",
+            "check:timeout": false,
+            "check:url": "http://www.drees.sante.gouv.fr/IMG/xls/er938.xls"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xls",
+          "harvest": null,
+          "id": "1178cd79-45d7-4ff9-bf66-21a695fa2c41",
+          "internal": {
+            "created_at_internal": "2015-10-28T17:15:20.042000+00:00",
+            "last_modified_internal": "2015-10-28T17:15:20.042000+00:00"
+          },
+          "last_modified": "2015-10-28T17:15:20.042000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1178cd79-45d7-4ff9-bf66-21a695fa2c41",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 356
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "ER 938 : données",
+          "type": "main",
+          "url": "http://www.drees.sante.gouv.fr/IMG/xls/er938.xls"
+        }
+      ],
+      "schema": null,
+      "slug": "les-arrets-maladie-de-longue-duree-penalisent-les-trajectoires-professionnelles",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "arrets-maladie"
+      ],
+      "temporal_coverage": null,
+      "title": "Les arrêts maladie de longue durée pénalisent les trajectoires professionnelles",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/les-arrets-maladie-de-longue-duree-penalisent-les-trajectoires-professionnelles/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2015-10-28T16:06:23.070000+00:00",
+      "deleted": null,
+      "description": "Source : Dossiers Solidarité et Santé n° 69, octobre 2015\n\nAuteur : Samuel MÉNARD, Catherine POLLAK\n\nL’accord national interprofessionnel (ANI) du 11 janvier 2008 a étendu l’accès aux indemnités journalières obligatoirement versées par les employeurs du secteur privé aux salariés de plus d’un an d’ancienneté (contre 3 ans auparavant).\n\nCette étude évalue l’effet de l’augmentation du niveau d’indemnisation sur le recours aux arrêts maladie des salariés concernés par l’ANI. Elle mobilise des données administratives d’un échantillon représentatif d’environ 200 000 salariés suivis de 2005 à 2010. L’impact causal de la réforme est identifié par une méthode de différence de différences consistant à comparer l’évolution du recours aux arrêts maladie avant et après son entrée en vigueur entre les salariés pour lesquels les règles d’indemnisation ont été modifiées (1 à 3 ans d’ancienneté) et les autres salariés. \n\nLes résultats indiquent que l’ANI n’a pas eu d’effet sur le nombre et la durée des arrêts maladie des salariés concernés, ni en 2009, ni en 2010.\n\n\n",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": "2015-10-28T00:00:00+00:00",
+      "harvest": null,
+      "id": "5630e46f88ee385066531575",
+      "internal": {
+        "created_at_internal": "2015-10-28T16:06:23.070000+00:00",
+        "last_modified_internal": "2015-10-28T16:06:23.070000+00:00"
+      },
+      "last_modified": "2015-10-28T16:06:23.070000+00:00",
+      "last_update": "2015-10-28T16:06:58.219000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 118,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 1808
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/leffet-dune-extension-des-indemnites-complementaires-sur-les-arrets-maladie-une-evaluation-de-lani-de-2008/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": true,
+        "has_open_format": false,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.4444444444444444,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2015-10-28T16:06:58.219000+00:00",
+          "description": "",
+          "extras": {
+            "check:available": false,
+            "check:count-availability": 54,
+            "check:date": "2023-06-02T09:38:07.543936+00:00",
+            "check:error": "Cannot connect to host www.drees.sante.gouv.fr:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.drees.sante.gouv.fr'. (_ssl.c:1123)\")]",
+            "check:timeout": false,
+            "check:url": "http://www.drees.sante.gouv.fr/IMG/pdf/dss-69.pdf"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "pdf",
+          "harvest": null,
+          "id": "5b7f5022-120d-4b8b-b826-c891f9e6bc3e",
+          "internal": {
+            "created_at_internal": "2015-10-28T16:06:58.219000+00:00",
+            "last_modified_internal": "2015-10-28T16:06:58.219000+00:00"
+          },
+          "last_modified": "2015-10-28T16:06:58.219000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/5b7f5022-120d-4b8b-b826-c891f9e6bc3e",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 138
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "DSS 69 : ouvrage",
+          "type": "main",
+          "url": "http://www.drees.sante.gouv.fr/IMG/pdf/dss-69.pdf"
+        }
+      ],
+      "schema": null,
+      "slug": "leffet-dune-extension-des-indemnites-complementaires-sur-les-arrets-maladie-une-evaluation-de-lani-de-2008",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "arrets-maladie",
+        "indemnites"
+      ],
+      "temporal_coverage": {
+        "end": "2008-12-31",
+        "start": "2008-01-01"
+      },
+      "title": "L’effet d’une extension des indemnités complémentaires sur les arrêts maladie : Une évaluation de l’ANI de 2008",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/leffet-dune-extension-des-indemnites-complementaires-sur-les-arrets-maladie-une-evaluation-de-lani-de-2008/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 2
+}

@@ -1,0 +1,1570 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2021-01-22T09:39:49.441000+00:00",
+      "deleted": null,
+      "description": "Le Service Médical Rendu et l’Amélioration du Service Médical Rendu sont des notions permettant à la Haute autorité de santé (HAS) de proposer l’inscription d’un médicament sur la liste des spécialités remboursables en ville et/ou hôpital. Aussi, seuls les médicaments pour lesquels le laboratoire qui les commercialise souhaite obtenir leur inscription sur cette liste feront l’objet d’une évaluation du SMR et de l’ASMR. Par ailleurs, les médicaments génériques ne font pas systématiquement l’objet d’une évaluation du SMR et de l’ASMR. Seules les évaluations les plus récentes sont présentées. Les évaluations antérieures restent disponibles sous forme d’avis textuels sur le site de la HAS (https://www.has-sante.fr/portail/jcms/r_1500918/fr/les-avis-sur-les-medicaments) ou encore sur demande auprès de ses services.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "monthly",
+      "frequency_date": "2021-02-22T13:38:07+00:00",
+      "harvest": null,
+      "id": "600a8f554d401b8270a581fb",
+      "internal": {
+        "created_at_internal": "2021-01-22T09:39:49.441000+00:00",
+        "last_modified_internal": "2025-10-21T08:39:20.199000+00:00"
+      },
+      "last_modified": "2025-10-21T08:39:20.199000+00:00",
+      "last_update": "2025-10-21T08:38:55.078000+00:00",
+      "license": "notspecified",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 6,
+        "discussions_open": 5,
+        "followers": 3,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 1,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 444790,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 13942
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff7ba3a7292c64a77e15",
+        "logo": "https://static.data.gouv.fr/avatars/3e/62b4fba2844ff986196cd1fa9bac72-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3e/62b4fba2844ff986196cd1fa9bac72-100.png",
+        "name": "Haute Autorité de santé (HAS)",
+        "page": "https://www.data.gouv.fr/organizations/haute-autorite-de-sante-has/",
+        "slug": "haute-autorite-de-sante-has",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/haute-autorite-de-sante-has/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/evaluation-des-medicaments/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "eaeaa80cd7f3235e2051960dc0aff950a94f1fd5"
+          },
+          "created_at": "2023-03-31T18:02:56.442000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:check_id": 35240935,
+            "analysis:checksum": "13a76d84d3ef8bd9ad10b62c301cd4c5a340d2cf",
+            "analysis:content-length": 72375,
+            "analysis:last-modified-at": "2025-10-21T08:36:48+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-21T12:15:42.261609+00:00",
+            "analysis:parsing:parquet_size": 21312,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/8c0aa85e-3ef5-4910-aa74-74b619b44021.parquet",
+            "analysis:parsing:parsing_table": "421e1206e9ada641ee260da8dd46abc6",
+            "analysis:parsing:started_at": "2025-10-21T12:15:39.741869+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T15:07:29.637000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 72375,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "8c0aa85e-3ef5-4910-aa74-74b619b44021",
+          "internal": {
+            "created_at_internal": "2023-03-31T18:02:56.442000+00:00",
+            "last_modified_internal": "2025-10-21T08:36:49.076000+00:00"
+          },
+          "last_modified": "2025-10-21T08:36:49.076000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/8c0aa85e-3ef5-4910-aa74-74b619b44021",
+          "metrics": {
+            "views": 630
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/8c0aa85e-3ef5-4910-aa74-74b619b44021",
+          "schema": null,
+          "title": "ct-calendrierevaluation-20251021.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/evaluation-des-medicaments/20251021-083648/ct-calendrierevaluation-20251021.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "473c14f530b31e45eec4970539d2652b44668d2d"
+          },
+          "created_at": "2021-01-22T09:42:40.246000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:last-modified-at": "2023-02-07T08:04:20+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "check:available": true,
+            "check:date": "2023-06-01T13:55:40.793591+00:00",
+            "check:headers:content-length": 85217,
+            "check:headers:content-type": "application/pdf",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 85217,
+          "filetype": "file",
+          "format": "pdf",
+          "harvest": null,
+          "id": "a5dc28ff-3a23-40bf-a37c-d91d247c5245",
+          "internal": {
+            "created_at_internal": "2021-01-22T09:42:40.246000+00:00",
+            "last_modified_internal": "2023-02-07T09:04:23.121000+00:00"
+          },
+          "last_modified": "2023-02-07T09:04:23.121000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a5dc28ff-3a23-40bf-a37c-d91d247c5245",
+          "metrics": {
+            "views": 506
+          },
+          "mime": "application/pdf",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "medicament-explication.pdf",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/evaluation-des-medicaments-2022/20230207-090420/medicament-explication.pdf"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "1dae3eaebfa21db9da42f04859a020e33454cd5c"
+          },
+          "created_at": "2021-01-22T09:41:28.804000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:check_id": 35240942,
+            "analysis:checksum": "531c374427289fa81c4e54817cd8eeb96badb810",
+            "analysis:content-length": 492461,
+            "analysis:last-modified-at": "2025-10-21T08:37:30+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-21T12:15:43.184074+00:00",
+            "analysis:parsing:parquet_size": 94703,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/f67407e1-2dae-4edf-9d0f-b280d41b731a.parquet",
+            "analysis:parsing:parsing_table": "00a1eaa9dcbe76102b6d1e98c7982719",
+            "analysis:parsing:started_at": "2025-10-21T12:15:40.448306+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T15:09:44.383000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 492461,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "f67407e1-2dae-4edf-9d0f-b280d41b731a",
+          "internal": {
+            "created_at_internal": "2021-01-22T09:41:28.804000+00:00",
+            "last_modified_internal": "2025-10-21T08:37:31.012000+00:00"
+          },
+          "last_modified": "2025-10-21T08:37:31.012000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f67407e1-2dae-4edf-9d0f-b280d41b731a",
+          "metrics": {
+            "views": 147056
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/f67407e1-2dae-4edf-9d0f-b280d41b731a",
+          "schema": null,
+          "title": "url-has-20251021.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/evaluation-des-medicaments/20251021-083730/url-has-20251021.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "b19261bf9f584c6d954e0a1b940a2d74fee5cc66"
+          },
+          "created_at": "2021-01-22T09:41:13.385000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:check_id": 35240945,
+            "analysis:checksum": "09189da99548d17b6eb6ab13d735f78146f93ded",
+            "analysis:content-length": 5220436,
+            "analysis:last-modified-at": "2025-10-21T08:38:11+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-21T12:15:44.308115+00:00",
+            "analysis:parsing:parquet_size": 799847,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/f6122601-81bc-4b31-a6f9-df72b7a04119.parquet",
+            "analysis:parsing:parsing_table": "93a494dcfbe6d0956af1214a7abe2756",
+            "analysis:parsing:started_at": "2025-10-21T12:15:41.754675+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T15:03:32.512000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 5220436,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "f6122601-81bc-4b31-a6f9-df72b7a04119",
+          "internal": {
+            "created_at_internal": "2021-01-22T09:41:13.385000+00:00",
+            "last_modified_internal": "2025-10-21T08:38:11.525000+00:00"
+          },
+          "last_modified": "2025-10-21T08:38:11.525000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f6122601-81bc-4b31-a6f9-df72b7a04119",
+          "metrics": {
+            "views": 147281
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/f6122601-81bc-4b31-a6f9-df72b7a04119",
+          "schema": null,
+          "title": "asmr-20251021.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/evaluation-des-medicaments/20251021-083810/asmr-20251021.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "c480772917f4bbacdb241b0e1a56eff78dc84aec"
+          },
+          "created_at": "2021-01-22T09:40:17.619000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:check_id": 35240953,
+            "analysis:checksum": "b6372bb9bf8f433248dc021f4303a889acaec00d",
+            "analysis:content-length": 5758352,
+            "analysis:last-modified-at": "2025-10-21T08:38:54+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-21T12:15:44.683439+00:00",
+            "analysis:parsing:parquet_size": 765436,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/4da2d811-1c29-4f73-9805-83ae710be6d7.parquet",
+            "analysis:parsing:parsing_table": "8160eb381c3b8e4ae20fb80c5d5a597b",
+            "analysis:parsing:started_at": "2025-10-21T12:15:42.652168+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T15:58:21.250000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 5758352,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "4da2d811-1c29-4f73-9805-83ae710be6d7",
+          "internal": {
+            "created_at_internal": "2021-01-22T09:40:17.619000+00:00",
+            "last_modified_internal": "2025-10-21T08:38:55.078000+00:00"
+          },
+          "last_modified": "2025-10-21T08:38:55.078000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/4da2d811-1c29-4f73-9805-83ae710be6d7",
+          "metrics": {
+            "views": 147015
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/4da2d811-1c29-4f73-9805-83ae710be6d7",
+          "schema": null,
+          "title": "smr-20251021.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/evaluation-des-medicaments/20251021-083854/smr-20251021.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "evaluation-des-medicaments",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "evaluation",
+        "medicament",
+        "medicaments",
+        "sante",
+        "social",
+        "soins"
+      ],
+      "temporal_coverage": {
+        "end": "2025-10-21",
+        "start": "2017-01-01"
+      },
+      "title": "Evaluation des médicaments",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/evaluation-des-medicaments/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2013-11-28T10:04:33.158000+00:00",
+      "deleted": null,
+      "description": "La base de données publique des médicaments permet au grand public et aux professionnels de santé d'accéder à des données et documents de référence sur les médicaments commercialisés ou ayant été commercialisés durant les deux dernières années en France.\r\n\r\nActuellement la base ne propose pas d'export de ses données.\r\nMais un [script](https://github.com/AlexisEidelman/medicam) permet d'extraire les données de la base.",
+      "description_short": null,
+      "extras": {
+        "datagouv_ckan_id": "f5517b82-0867-4eeb-aaa7-220f96d436e8",
+        "datagouv_ckan_last_sync": "2014-09-17T03:42:56.212000"
+      },
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53698f50a3a729239d2036f3",
+      "internal": {
+        "created_at_internal": "2013-11-28T10:04:33.158000+00:00",
+        "last_modified_internal": "2016-03-13T23:33:44.128000+00:00"
+      },
+      "last_modified": "2016-03-13T23:33:44.128000+00:00",
+      "last_update": "2014-01-07T14:54:04.981000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 2,
+        "discussions_open": 2,
+        "followers": 2,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1381,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 9476
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [],
+        "class": "Organization",
+        "id": "534fff99a3a7292c64a78016",
+        "logo": "https://static.data.gouv.fr/avatars/55/ae53576ff5482899020a1967a7490d-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/55/ae53576ff5482899020a1967a7490d-100.png",
+        "name": "NosDonnées.fr",
+        "page": "https://www.data.gouv.fr/organizations/nosdonnees-fr/",
+        "slug": "nosdonnees-fr",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/nosdonnees-fr/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/base-de-donnees-publique-des-medicaments/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:41:36.531000+00:00",
+          "description": "Extraction JSON de certaines informations de la base de données publique des médicaments",
+          "extras": {
+            "check:available": false,
+            "check:date": "2023-06-02T08:27:19.374126+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "65555593-31af-4a8b-8e0f-877c6a1ff327",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:41:36.531000+00:00",
+            "last_modified_internal": "2014-01-07T14:54:04.981000+00:00"
+          },
+          "last_modified": "2014-01-07T14:54:04.981000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/65555593-31af-4a8b-8e0f-877c6a1ff327",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 1386
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "medicaments.json",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2013-11-28T11%3A43%3A25.672Z/medicaments.json"
+        }
+      ],
+      "schema": null,
+      "slug": "base-de-donnees-publique-des-medicaments",
+      "spatial": {
+        "geom": null,
+        "granularity": "country",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "medicament",
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "Base de données publique des médicaments",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/base-de-donnees-publique-des-medicaments/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2014-02-24T13:52:32.593000+00:00",
+      "deleted": null,
+      "description": "Chiffres de consommation du Médiator, issus des données livrées par la Caisse nationale d’Assurance maladie (Cnam) à la demande du collectif Initiative Transparence Santé.\r\nLes données sont présentées sous la forme de deux fichiers :\r\n- Effectifs des consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)\r\n- Prévalence du diabète et consommation de Médiator dans les départements Français de 2008 à 2010\r\n\r\nCes fichiers permettent de constater la forte disparité entre les départements et de comparer la prévalence du diabète par rapport à la consommation du médicament Médiator. \r\n",
+      "description_short": null,
+      "extras": {
+        "datagouv_ckan_id": "4f50b8bc-2512-4ebf-8689-39643600b4d1",
+        "datagouv_ckan_last_sync": "2014-09-17T04:06:52.042000"
+      },
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53699326a3a729239d2040f0",
+      "internal": {
+        "created_at_internal": "2014-02-24T13:52:32.593000+00:00",
+        "last_modified_internal": "2016-02-03T08:33:51.048000+00:00"
+      },
+      "last_modified": "2016-02-03T08:33:51.048000+00:00",
+      "last_update": "2014-03-05T14:29:01.176000+00:00",
+      "license": "other-pd",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 2,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1692,
+        "reuses": 2,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2986
+      },
+      "organization": null,
+      "owner": {
+        "avatar": null,
+        "avatar_thumbnail": null,
+        "class": "User",
+        "first_name": "OpenHealth",
+        "id": "534fff46a3a7292c64a77a05",
+        "last_name": "CELTIPHARM",
+        "page": "https://www.data.gouv.fr/users/open-data-sante-its/",
+        "slug": "open-data-sante-its",
+        "uri": "https://www.data.gouv.fr/api/1/users/open-data-sante-its/"
+      },
+      "page": "https://www.data.gouv.fr/datasets/donnees-de-consommation-du-medicament-mediator/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Effectifs des consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)\r\nLe fichier est enrichi des données INSEE de l'effectif de la population par département en 2009 ainsi que d'un indice de consommation du médiator par département.",
+          "extras": {
+            "check:available": false,
+            "check:date": "2023-06-01T08:23:42.299946+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "xls",
+          "harvest": null,
+          "id": "77a9769e-3284-4dff-8699-b618101b9303",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-02-24T14:05:05.947000+00:00"
+          },
+          "last_modified": "2014-02-24T14:05:05.947000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/77a9769e-3284-4dff-8699-b618101b9303",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 406
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Effectif consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-02-24T14-55-37/Effectif%20consommateurs%20mediator%202008%202010%20SNIIRAM.xlsx"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Indice de consommation du Médiator comparé aux données de prévalence du diabète de 2008 à 2010.\r\nSources SNIIRAM obtenues par le collectif Initiative Transparence Santé\r\nSources prévalence diabète opac.invs.sante.fr\r\nSources population INSEE",
+          "extras": {
+            "analysis:checksum": "eb78e4c20e0a43a2273d6c5866b11e3a9ce613ce",
+            "analysis:content-length": 32639,
+            "analysis:last-modified-at": "2014-10-15T01:21:35+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "analysis:parsing:finished_at": "2024-10-23T04:41:01.212229+00:00",
+            "analysis:parsing:parsing_table": "521e368ee805641fadba187bbcf7093d",
+            "analysis:parsing:started_at": "2024-10-23T04:41:00.663563+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T15:22:42.399661+00:00",
+            "check:headers:content-length": 32639,
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "xls",
+          "harvest": null,
+          "id": "1f2b8e15-453c-40c2-a8a5-7716b2dc670b",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-02-24T14:05:14.393000+00:00"
+          },
+          "last_modified": "2014-02-24T14:05:14.393000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1f2b8e15-453c-40c2-a8a5-7716b2dc670b",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 427
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/1f2b8e15-453c-40c2-a8a5-7716b2dc670b",
+          "schema": null,
+          "title": "Prévalence du diabète et consommation de Médiator dans les départements Français de 2008 à 2010",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-02-24T15-03-05/Mediator_Diabete_v01.xlsx"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Effectifs des consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)\r\nLe fichier est enrichi des données INSEE de l'effectif de la population par département en 2009 ainsi que d'un indice de consommation du médiator par département.",
+          "extras": {
+            "check:available": false,
+            "check:date": "2023-05-31T21:12:53.125053+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "76af5fdd-c424-40a0-9698-11e14fab247b",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-03-05T14:28:17.005000+00:00"
+          },
+          "last_modified": "2014-03-05T14:28:17.005000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/76af5fdd-c424-40a0-9698-11e14fab247b",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 523
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Effectif consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-03-05T15-28-16/Effectif%20consommateurs%20mediator%202008%202010%20SNIIRAM.csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Indice de consommation du Médiator comparé aux données de prévalence du diabète de 2008 à 2010.\r\nSources SNIIRAM obtenues par le collectif Initiative Transparence Santé\r\nSources prévalence diabète opac.invs.sante.fr\r\nSources population INSEE",
+          "extras": {
+            "analysis:checksum": "c6bd6d6e600a346cf20ce66967eb0c478be2e9da",
+            "analysis:content-length": 3699,
+            "analysis:last-modified-at": "2014-10-15T01:22:02+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-29 20:50:58.534745+02",
+            "analysis:parsing:parsing_table": "c1310b07de73a4ab0b8e39124a8be865",
+            "check:available": true,
+            "check:date": "2023-08-28T16:24:22.518359+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "8b206c51-0125-400d-87a7-2a86d1a47784",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-03-05T14:29:01.176000+00:00"
+          },
+          "last_modified": "2014-03-05T14:29:01.176000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/8b206c51-0125-400d-87a7-2a86d1a47784",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 508
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/8b206c51-0125-400d-87a7-2a86d1a47784",
+          "schema": null,
+          "title": "Prévalence du diabète et consommation de Médiator dans les départements Français de 2008 à 2010",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-03-05T15-29-00/Mediator_Diabete_v01.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-de-consommation-du-medicament-mediator",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:departement",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "mediator",
+        "sante",
+        "sante-publique"
+      ],
+      "temporal_coverage": {
+        "end": "2010-12-31",
+        "start": "2008-01-01"
+      },
+      "title": "Données de consommation du médicament Médiator",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-de-consommation-du-medicament-mediator/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2014-07-30T00:00:00+00:00",
+      "deleted": null,
+      "description": "La base de données publique des médicaments permet au grand public et aux professionnels de santé d'accéder à des données et documents de référence sur les médicaments commercialisés ou ayant été commercialisés durant les deux dernières années en France.\n\nCette base de données administratives et scientifiques sur les traitements et le bon usage des produits de santé est mise en œuvre par l'Agence nationale de sécurité du médicament et des produits de santé (ANSM), en liaison avec la Haute Autorité de santé (HAS) et l'Union nationale des caisses d'assurance maladie (UNCAM), sous l'égide du ministère des Affaires sociales et de la santé.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "domain": "www.nosdonnees.fr",
+        "last_update": "2017-07-10T06:04:45.354000+00:00",
+        "remote_id": "e3a491dd-f96c-4b10-9be1-ef6ecccaf09f",
+        "source_id": "5878ee1588ee385bffa6f719"
+      },
+      "id": "5878ee2aa3a7291484cac7cb",
+      "internal": {
+        "created_at_internal": "2014-07-30T00:00:00+00:00",
+        "last_modified_internal": "2017-07-10T06:04:45.356000+00:00"
+      },
+      "last_modified": "2017-07-10T06:04:45.356000+00:00",
+      "last_update": "2024-06-22T18:46:56.950000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 2,
+        "discussions_open": 2,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 6081,
+        "reuses": 2,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 13630
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [],
+        "class": "Organization",
+        "id": "534fff99a3a7292c64a78016",
+        "logo": "https://static.data.gouv.fr/avatars/55/ae53576ff5482899020a1967a7490d-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/55/ae53576ff5482899020a1967a7490d-100.png",
+        "name": "NosDonnées.fr",
+        "page": "https://www.data.gouv.fr/organizations/nosdonnees-fr/",
+        "slug": "nosdonnees-fr",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/nosdonnees-fr/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/base-de-donnees-publique-des-medicaments-1/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.3333333333333333,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": null
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.145000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "876e45eb6bc3ff5a6d441979713848072a258b4b",
+            "analysis:content-length": 3132608,
+            "analysis:last-modified-at": "2024-06-06T19:56:51.397613+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/csv",
+            "check:available": false,
+            "check:count-availability": 16,
+            "check:date": "2025-07-20T17:35:52.878368+00:00",
+            "check:error": "Not Found",
+            "check:headers:charset": "iso-8859-1",
+            "check:headers:content-disposition": "attachment; filename=CIS_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "c4e833c2-a72d-4519-8374-5ea63387cad6",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.145000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-06T19:56:51.397613+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c4e833c2-a72d-4519-8374-5ea63387cad6",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 1158
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des spécialités",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.146000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "0ff2e3a808f683315d77f1659fae6e6057e59a69",
+            "analysis:content-length": 4043586,
+            "analysis:last-modified-at": "2024-06-22T14:53:50.664218+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 25,
+            "check:date": "2025-07-20T23:30:10.978436+00:00",
+            "check:error": "Not Found",
+            "check:headers:charset": "iso-8859-1",
+            "check:headers:content-disposition": "attachment; filename=CIS_CIP_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CIP_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "49b09446-4859-4cb6-8db6-fd157211c3b4",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.146000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-22T14:53:50.664218+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/49b09446-4859-4cb6-8db6-fd157211c3b4",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 864
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des présentations",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CIP_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.146000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "b88ce7bcf809127584fbb3f3f0c641f6774d8dbd",
+            "analysis:content-length": 2783071,
+            "analysis:last-modified-at": "2024-06-10T06:07:12.427594+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 25,
+            "check:date": "2025-07-20T21:08:40.631751+00:00",
+            "check:error": "Not Found",
+            "check:headers:charset": "iso-8859-1",
+            "check:headers:content-disposition": "attachment; filename=CIS_COMPO_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_COMPO_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "a3013984-069c-44a0-8996-3fe140684fd6",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.146000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-10T06:07:12.427594+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a3013984-069c-44a0-8996-3fe140684fd6",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 681
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des compositions",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_COMPO_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.146000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "4749cd8348b051bfa92df4061a5cc2546f8c357d",
+            "analysis:content-length": 4111367,
+            "analysis:last-modified-at": "2024-06-10T00:21:35.301733+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 25,
+            "check:date": "2025-07-20T07:25:04.005145+00:00",
+            "check:error": "Not Found",
+            "check:headers:charset": "iso-8859-1",
+            "check:headers:content-disposition": "attachment; filename=CIS_HAS_SMR_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_HAS_SMR_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "a1fa7dc5-bc54-469c-9b93-94787fb454e6",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.146000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-10T00:21:35.301733+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a1fa7dc5-bc54-469c-9b93-94787fb454e6",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 680
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des avis SMR de la HAS",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_HAS_SMR_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.147000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "f926271fabf95baae8a433b6d728450f1dccc8a1",
+            "analysis:content-length": 3889155,
+            "analysis:last-modified-at": "2024-06-04T16:06:26.424318+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 20,
+            "check:date": "2025-07-20T08:56:24.840497+00:00",
+            "check:error": "Not Found",
+            "check:headers:charset": "iso-8859-1",
+            "check:headers:content-disposition": "attachment; filename=CIS_HAS_ASMR_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_HAS_ASMR_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "90a554f9-882c-44c2-bced-7cb2fc1594a4",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.147000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-04T16:06:26.424318+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/90a554f9-882c-44c2-bced-7cb2fc1594a4",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 694
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des avis ASMR de la HAS",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_HAS_ASMR_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.147000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "5276b9c0c300b23fd9792d21d0d97a84fd877a8a",
+            "analysis:content-length": 483140,
+            "analysis:last-modified-at": "2024-06-04T22:30:20.289167+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 24,
+            "check:date": "2025-07-19T13:09:25.600247+00:00",
+            "check:error": "Not Found",
+            "check:headers:charset": "iso-8859-1",
+            "check:headers:content-disposition": "attachment; filename=HAS_LiensPageCT_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=HAS_LiensPageCT_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "795f3a5c-c593-40ac-be44-1a5738164cae",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.147000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-04T22:30:20.289167+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/795f3a5c-c593-40ac-be44-1a5738164cae",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 581
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des liens vers les avis de la commission de la transparence de la HAS",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=HAS_LiensPageCT_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.148000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "dbbc4524fe260a2a7f3b108989eef9b5361ec66c",
+            "analysis:content-length": 1187927,
+            "analysis:last-modified-at": "2024-06-09T03:39:46.063226+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 39,
+            "check:date": "2025-07-20T06:10:29.315491+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-disposition": "attachment; filename=CIS_GENER_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_GENER_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "87f7e748-2bcd-4699-b631-9d0814e3f403",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.148000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-09T03:39:46.063226+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/87f7e748-2bcd-4699-b631-9d0814e3f403",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 462
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des groupes génériques",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_GENER_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.148000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "0044b6d886849bbe5fce27c44ab527b6325b66e4",
+            "analysis:content-length": 1180793,
+            "analysis:last-modified-at": "2024-06-06T21:27:38.182752+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 57,
+            "check:date": "2025-07-20T23:05:48.761710+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-disposition": "attachment; filename=CIS_CPD_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CPD_bdpm.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "74dd45df-91fc-49a3-aaf1-13628eb9ec9e",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.148000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-06T21:27:38.182752+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/74dd45df-91fc-49a3-aaf1-13628eb9ec9e",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 473
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des conditions de prescription et de délivrance",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_CPD_bdpm.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2017-01-13T16:11:38.148000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "eee8f0172c67c6027a454ebc736c3b01bf792358",
+            "analysis:content-length": 9684542,
+            "analysis:last-modified-at": "2024-06-22T18:46:56.950167+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": false,
+            "check:count-availability": 36,
+            "check:date": "2025-07-20T00:17:56.996169+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-disposition": "attachment; filename=CIS_InfoImportantes_20210526122753_bdpm.txt",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_InfoImportantes.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "2fa9f96a-ad7e-439c-a6e6-a94e15098fcb",
+          "internal": {
+            "created_at_internal": "2017-01-13T16:11:38.148000+00:00",
+            "last_modified_internal": "2017-07-10T06:04:45.353000+00:00"
+          },
+          "last_modified": "2024-06-22T18:46:56.950167+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2fa9f96a-ad7e-439c-a6e6-a94e15098fcb",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 474
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier des Informations importantes",
+          "type": "main",
+          "url": "http://base-donnees-publique.medicaments.gouv.fr/telechargement.php?fichier=CIS_InfoImportantes.txt"
+        }
+      ],
+      "schema": null,
+      "slug": "base-de-donnees-publique-des-medicaments-1",
+      "spatial": null,
+      "tags": [
+        "medicaments",
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "Base de données publique des médicaments",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/base-de-donnees-publique-des-medicaments-1/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2016-09-11T19:51:02.150000+00:00",
+      "deleted": null,
+      "description": "Le ministère de la ville, de la jeunesse et des sports, en liaison avec les autres ministres et organismes intéressés, engage et coordonne les actions de prévention, de surveillance médicale, de recherche et d'éducation mises en œuvre avec le concours, notamment, des fédérations sportives agréées, pour assurer la protection de la santé des sportifs et lutter contre le dopage.\n\nL'Agence Française de Lutte contre le Dopage (AFLD), autorité publique indépendante dotée de la personnalité morale, définit et met en œuvre les actions de lutte contre le dopage. A cette fin, elle coopère avec l'Agence mondiale antidopage, avec les organismes reconnus par celle-ci et disposant de compétences analogues aux siennes et avec les fédérations sportives internationales. Elle publie un rapport d’activités annuels, et celui de 2015 est accessible librement sur internet à partir de la page suivante :\nhttps://www.afld.fr/wp-content/themes/afld/js/feuilletage/sources/indexPop.htm\n\n\nElle est associée aux activités internationales dans le domaine de la lutte contre le dopage et apporte son expertise à l'Etat, notamment lors de l'élaboration de la liste des substances ou méthodes interdites en application de la convention internationale contre le dopage dans le sport adoptée à Paris le 19 octobre 2005 ou de tout autre accord ultérieur qui aurait le même objet et qui s'y substituerait.\n\nLes produits dopants font l’objet d’une base qui peut être interrogée sur internet à partir de l’adresse suivante :\nhttps://medicaments.afld.fr/\n\n",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "57d59986c751df097c97bae5",
+      "internal": {
+        "created_at_internal": "2016-09-11T19:51:02.150000+00:00",
+        "last_modified_internal": "2025-10-02T08:44:44.704000+00:00"
+      },
+      "last_modified": "2025-10-02T08:44:44.704000+00:00",
+      "last_update": "2025-02-19T21:35:00.665000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 6823,
+        "reuses": 2,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 31594
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff95a3a7292c64a77fd8",
+        "logo": "https://static.data.gouv.fr/avatars/ca/81f3096f3449e6802cd85b1d34fa82-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/ca/81f3096f3449e6802cd85b1d34fa82-100.png",
+        "name": "Ministère chargé des Sports",
+        "page": "https://www.data.gouv.fr/organizations/ministere-charge-des-sports/",
+        "slug": "ministere-charge-des-sports",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-charge-des-sports/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/liste-des-medicaments-et-des-substances-dopantes/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.7777777777777778,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "17125f9e5dc52d60199a7309337132b615cfadf0"
+          },
+          "created_at": "2016-09-27T11:02:15.130000+00:00",
+          "description": "Les produits dopants font l’objet d’une base qui peut être interrogée sur internet.\nLe présent jeu de données est une extraction de cette base mise à jour au 17 mars 2016. Il est présenté par médicaments considérés comme pouvant être dopants, à l’exception de certaines substances dont la modalité d’administration n’est pas liée à la prise d’un médicament.",
+          "extras": {
+            "analysis:checksum": "17125f9e5dc52d60199a7309337132b615cfadf0",
+            "analysis:content-length": 126211,
+            "analysis:last-modified-at": "2016-09-27T09:02:15+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "analysis:parsing:finished_at": "2024-10-22T22:06:03.123785+00:00",
+            "analysis:parsing:parsing_table": "0d9e941ec4a67daff453103ca80d0d2b",
+            "analysis:parsing:started_at": "2024-10-22T22:06:01.837123+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T14:48:29.747271+00:00",
+            "check:headers:content-length": 126211,
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 126211,
+          "filetype": "file",
+          "format": "xlsx",
+          "harvest": null,
+          "id": "e1ea43a5-2d7f-4de8-b617-d8f3fedf8cc2",
+          "internal": {
+            "created_at_internal": "2016-09-27T11:02:15.130000+00:00",
+            "last_modified_internal": "2016-09-27T11:02:20.846000+00:00"
+          },
+          "last_modified": "2016-09-27T11:02:20.846000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/e1ea43a5-2d7f-4de8-b617-d8f3fedf8cc2",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 4163
+          },
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/e1ea43a5-2d7f-4de8-b617-d8f3fedf8cc2",
+          "schema": null,
+          "title": "Liste des médicaments et des substances dopantes",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/liste-des-medicaments-et-des-substances-dopantes/20160927-110215/Produits_dopants_20160317.xlsx"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "6897803f6dd89b24ff2a6ce794a36c1d40e5c902"
+          },
+          "created_at": "2016-09-11T19:51:28.081000+00:00",
+          "description": "Liste des médicaments et des substances dopantes - description",
+          "extras": {
+            "analysis:last-modified-at": "2016-09-27T09:01:30+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "check:available": true,
+            "check:date": "2023-06-02T03:56:16.209443+00:00",
+            "check:headers:content-length": 108780,
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 108780,
+          "filetype": "file",
+          "format": "docx",
+          "harvest": null,
+          "id": "10921813-481e-4917-95db-0caef560f981",
+          "internal": {
+            "created_at_internal": "2016-09-11T19:51:28.081000+00:00",
+            "last_modified_internal": "2016-09-27T11:01:33.473000+00:00"
+          },
+          "last_modified": "2016-09-27T11:01:33.473000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/10921813-481e-4917-95db-0caef560f981",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 1171
+          },
+          "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "preview_url": null,
+          "schema": null,
+          "title": "Liste des médicaments et des substances dopantes - description",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/liste-des-medicaments-et-des-substances-dopantes/20160927-110130/Produits_dopants_20160317_Description.docx"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-09-27T11:03:28.683000+00:00",
+          "description": "Les produits dopants font l’objet d’une base qui peut être interrogée sur internet.\n",
+          "extras": {
+            "analysis:checksum": "06447efeff304c317ac106d7aefb380107e28d2d",
+            "analysis:content-length": 5050,
+            "analysis:last-modified-at": "2025-02-19T21:35:00.665940+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": false,
+            "check:count-availability": 93,
+            "check:date": "2025-02-28T09:35:13.449000",
+            "check:error": "Cannot connect to host medicaments.afld.fr:443 ssl:True [SSLCertVerificationError: (1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:992)')]",
+            "check:headers:charset": "utf-8",
+            "check:timeout": false,
+            "check:url": "https://medicaments.afld.fr"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "url",
+          "harvest": null,
+          "id": "cbbf5710-6a04-467d-b28e-c717b95b8a03",
+          "internal": {
+            "created_at_internal": "2016-09-27T11:03:28.683000+00:00",
+            "last_modified_internal": "2025-10-02T08:44:44.703000+00:00"
+          },
+          "last_modified": "2025-02-19T21:35:00.665940+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/cbbf5710-6a04-467d-b28e-c717b95b8a03",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 1451
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Site Internet AFLD - médicaments et substances dopantes",
+          "type": "main",
+          "url": "https://medicaments.afld.fr"
+        }
+      ],
+      "schema": null,
+      "slug": "liste-des-medicaments-et-des-substances-dopantes",
+      "spatial": {
+        "geom": null,
+        "granularity": "country",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "dopage",
+        "medicaments",
+        "sante",
+        "sport",
+        "sportifs",
+        "substances-dopantes"
+      ],
+      "temporal_coverage": null,
+      "title": "Liste des médicaments et des substances dopantes",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/liste-des-medicaments-et-des-substances-dopantes/"
+    }
+  ],
+  "next_page": "https://www.data.gouv.fr/api/1/datasets/?q=m%C3%A9dicament&page_size=5&page=2",
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 13
+}

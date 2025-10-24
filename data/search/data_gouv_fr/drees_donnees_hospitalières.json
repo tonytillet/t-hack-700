@@ -1,0 +1,2757 @@
+{
+  "data": [
+    {
+      "acronym": "SIVIC",
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2020-03-27T15:40:10.048000+00:00",
+      "deleted": null,
+      "description": "**Dans un contexte d’épidémie favorable, à compter du 1er juillet 2023, le cadre juridique actuellement en cours prévoit l’arrêt du traitement des données personnelles issues de SI-DEP. Par conséquent, après une période transitoire d’ajustement de deux semaines, les nouveaux indicateurs de surveillance virologique seront publiés aux niveaux national, régional et départemental) à une fréquence hebdomadaire. \nLes consignes de saisie spécifiques dans SI-VIC seront levées à partir de cette date, les indicateurs hospitaliers ne seront plus disponibles. \nSanté publique France maintient la surveillance de l’épidémie à travers son dispositif multi-sources. Les indicateurs relatifs à la surveillance génomique, aux recours aux associations SOS Médecins, aux urgences hospitalières et aux décès resteront disponibles.**\n\n**04/04/2023**\nSuite aux adaptations des consignes de saisie des données observées par les établissements de santé, Santé publique France publie fait évoluer sa restitution des indicateurs de la surveillance hospitalière de COVID-19 issus de SIVIC tel que : \n-\tsont suspendus les indicateurs calculés par date de déclaration \n-\tsont maintenus les indicateurs calculés par date d’admission à un rythme bihebdomadaire, les mardi et vendredi.\n\nLes ressources toujours actualisées :\n- covid_hosp_txad_fra\n- covid_hosp_ad_age\n- covid_hosp_txad_reg\n- covid_hosp_txad_age_fra\n\n\n**08/06/2022** Compte tenu de la tendance actuelle favorable et la baisse des principaux indicateurs, à partir du 11 juin 2022, les indicateurs COVID-19 produits par Santé publique France seront actualisés sur Géodes et data.gouv.fr tous les jours à l’exception des week-end et des jours fériés. \n\n**Information 11/03/2022**\nLe **nom de fichiers** a été modifié, suite à la mise à jour du système informatique :\n _donnees-hospitalieres-covid19_ devient covid_hospit\n _donnees-hospitalieres-etablissements-covid19_ devient covid_hospit_etab\n _donnees-hospitalieres-nouveaux-covid19_ devient covid_hospit_incid\n _donnees-hospitalieres-classe-age-covid19_ devient covid_hospit_clage10\n _donnees-hospitalieres-classe-age-hebdo-covid19_ devient covid_hosp_ad_age\n\n**Information 04/02/2022**\nDepuis mardi 1er février, les formats des fichiers décès dans SIVIC ont été modifiés en amont de Santé publique France. Certaines données n’ont pas été dans nos indicateurs, entrainant une sous-estimation des indicateurs hospitaliers les 2 et 3 février. \n\nLes nombres de nouvelles hospitalisations, admissions en soins critiques et décès déclarés le 4 Février 2022 intègrent un rattrapage de données et sont donc surestimés.\n\n**Information 31/01/2022**\nAjout de la variable `pouravec` dans les fichiers _covid-hosp-txad-fra.csv_, _covid-hosp-txad-reg.csv_ et _covid-hosp-txad-age-fra.csv_\nCette variable permet une sélection selon le lien de l'hospitalisation avec la COVID-19 :\n\n`0` =\tHospitalisations avec infection SARS-CoV-2 (quelque soit le motif de l'hospitalisation)\n`1` =\tHospitalisations pour COVID-19\n`2` =\tHospitalisations pour autre motif, avec infection SARS-CoV-2\n\n(la modalité \"0\" est la somme des modalités \"1\" et \"2\")\n\n_SI-VIC est un outil administratif de gestion hospitalière et ne contient aucune information médicale. Les **décès** notifiés dans SI-VIC ne comprennent donc aucune information concernant l'imputabilité de la Covid-19 au décès. La distinction des patients décédés au cours d'une hospitalisation pour COVID-19 de ceux décédés au cours d'une hospitalisation pour un autre motif mais avec une infection SARS-CoV-2 ne peut donc être faite en se basant sur les données SI-VIC_\n\n**Information 26/11/2021**\nAjout de ressources donnant accès aux données hebdomadaires régionales et nationales d'hospitalisation et en fonction de **la date d'admission.**\n\nLes variables pour _covid-hosp-txad-fra.csv_ et _covid-hosp-txad-reg.csv_ \n`tx_indic_7J_DC` = Taux de personnes décédées durant les 7 derniers jours  (pour 100 000 hab.) \n`tx_indic_7J_hosp` = Taux de nouvelles hospitalisation lors des 7 derniers jours  (pour 100 000 hab.) \n`tx_indic_7J_SC` = Taux de nouvelles hospitalisation en soins critiques lors des 7 derniers jours  (pour 100 000 hab.) \n`tx_prev_hosp` = Taux personnes hospitalisées  (pour 100 000 hab.) \n`tx_prev_SC` = Taux de personnes en soins critiques  (pour 100 000 hab.) \n\nEn plus pour _covid-hosp-txad-age-fra.csv_ :\n`cl_age90` = Classe d'âge\n\n### Les actions de Santé publique France\n\nSanté publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.\n\n### Description du jeu de données\n\nLe présent jeu de données renseigne sur la situation hospitalières concernant l'épidémie de COVID-19.\n\nCinq fichiers sont proposés : \n\n- **Les données hospitalières relatives à l'épidémie du COVID-19 par département et sexe du patient** : nombre de patients hospitalisés, nombre de personnes actuellement en réanimation ou soins intensifs, nombre de personnes actuellement en Soins de Suite et de Réadaptation (SSR) ou Unités de Soins de Longue Durée(USLD), nombre de personnes actuellement en hospitalisation conventionnelle, nombre actuellement de personnes hospitalisées dans un autre type de service ou nombre cumulé de personnes retournées à domicile, nombre cumulé de personnes décédées.\n\n- **Les données hospitalières relatives à l'épidémie du COVID-19 par région, et classe d'âge du patient** : nombre de patients hospitalisés, nombre de personnes actuellement en réanimation ou soins intensifs, nombre de personnes actuellement en Soins de Suite et de Réadaptation (SSR) ou Unités de Soins de Longue Durée(USLD), nombre de personnes actuellement en hospitalisation conventionnelle, nombre actuellement de personnes hospitalisées dans un autre type de service, nombre cumulé de personnes retournées à domicile, nombre cumulé de personnes décédées.\nLe codage des classes d'âges est le suivant :\n0\t= tous âges\n09\t= 0-9 ans\n19\t= 10-19 ans\n29\t= 20-29 ans\n39\t= 30-39 ans\n49\t= 40-49 ans\n59\t= 50-59 ans\n69\t= 60-69 ans\n79\t= 70- 79 ans\n89\t= 80-89 ans\n90\t= 90 ans et plus\n\n- **Les données hospitalières quotidiennes relatives à l'épidémie du COVID-19 par département** : nombre quotidien de personnes nouvellement hospitalisées, nombre quotidien de nouvelles admissions en réanimation, nombre quotidien de personnes nouvellement décédées, nombre quotidien de nouveaux retours à domicile.\n\n- **Les données relatives aux établissements hospitaliers par département** : nombre cumulé de services ayant déclaré au moins un cas.\n\n- **Les données relatives à les nouvelles admissions en réanimation par région** : nombre de nouveaux patients admis en réanimation dans les 24 dernières heures.\n\n\n### Anomalies détectées dans les fichiers\n\nAttention, certains fichiers peuvent comporter des anomalies du fait des difficultés de collecte des données.\n\nDes rapports d'erreurs sont publiés tous les jours par Etalab dans la rubrique ressources communautaires :\n- [Rapport d'erreurs pour les données hospitalières](https://www.data.gouv.fr/fr/datasets/r/f19775db-15c0-4261-a8a6-255034e94dbf) ;\n- [Rapport d'erreurs pour les établissements hospitaliers](https://www.data.gouv.fr/fr/datasets/r/8b55024d-6128-4fef-ae03-08692597dd94).\n\nÀ noter que : \n- Le système de déclaration des cas n'est pas exhaustif et le nombre d'établissements déclarant varie au cours du temps ;\n- Certains patients, présents dans la base de données hospitalières à un moment donné, sont retirés de la base de données par les établissements de santé lorsque le résultat biologique du patient est négatif par rapport au COVID-19 ; \n- Pour certains patients, la classe d'âge n'a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d'âge d'un indicateur et le nombre total de cet indicateur ; \n- Pour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F  d'un indicateur et le nombre total de cet indicateur. \n\nN’hésitez pas à signaler d'autres anomalies en commentaire. Ces remarques seront communiquées à l'équipe en charge de la collecte et diffusion des données. \n\n### Autres données disponibles\n\n[Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/) publie également les [données des urgences hospitalières et de SOS médecins relatives à l'épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/) et les données relatives aux [tests de dépistage de COVID-19 réalisés en laboratoire de ville](https://www.data.gouv.fr/fr/datasets/donnees-relatives-aux-tests-de-depistage-de-covid-19-realises-en-laboratoire-de-ville/).",
+      "description_short": null,
+      "extras": {
+        "recommendations-externals": [
+          {
+            "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+            "messages": {
+              "en": {
+                "button": "Visit the COVID-19 pandemic monitoring dashboard",
+                "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+                "title": "Do you want to monitor the COVID-19 pandemic evolution?"
+              },
+              "fr": {
+                "button": "Consulter le tableau de bord de suivi de l’épidémie de COVID-19",
+                "message": "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire.",
+                "title": "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+              }
+            },
+            "score": 50,
+            "source": "edito"
+          }
+        ],
+        "recommendations:sources": [
+          "edito"
+        ]
+      },
+      "featured": true,
+      "frequency": "other",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "5e7e104ace2080d9162b61d8",
+      "internal": {
+        "created_at_internal": "2020-03-27T15:40:10.048000+00:00",
+        "last_modified_internal": "2023-07-04T15:11:16.551000+00:00"
+      },
+      "last_modified": "2023-07-04T15:11:16.551000+00:00",
+      "last_update": "2023-06-30T16:29:23.644000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 332,
+        "discussions_open": 331,
+        "followers": 33,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 1,
+          "2025-02": 0,
+          "2025-03": 1,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1513719,
+        "reuses": 142,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 1,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 357596
+      },
+      "organization": {
+        "acronym": "SPF",
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "5e721a395d57f93d0bed451f",
+        "logo": "https://static.data.gouv.fr/avatars/54/56037b8a5241f6a832d33c33bceead-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/54/56037b8a5241f6a832d33c33bceead-100.png",
+        "name": "Santé publique France",
+        "page": "https://www.data.gouv.fr/organizations/sante-publique-france/",
+        "slug": "sante-publique-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/sante-publique-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "fe58eceed981ec7473dc58bfb981de1a39c39e27"
+          },
+          "created_at": "2021-11-26T15:31:15.971000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "fe58eceed981ec7473dc58bfb981de1a39c39e27",
+            "analysis:content-length": 3320652,
+            "analysis:last-modified-at": "2023-06-30T14:29:23+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 02:51:34.905949+02",
+            "analysis:parsing:parsing_table": "5448c648e57fa3fb5625cafe5d1a6c52",
+            "check:available": true,
+            "check:date": "2023-08-28T17:06:31.994248+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 3320652,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "e3d83ab3-dc52-4c99-abaf-8a38050cc68c",
+          "internal": {
+            "created_at_internal": "2021-11-26T15:31:15.971000+00:00",
+            "last_modified_internal": "2023-06-30T16:29:23.644000+00:00"
+          },
+          "last_modified": "2023-06-30T16:29:23.644000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/e3d83ab3-dc52-4c99-abaf-8a38050cc68c",
+          "metrics": {
+            "views": 10102
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/e3d83ab3-dc52-4c99-abaf-8a38050cc68c",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hosp-txad-age-fra-2023-06-30-16h29.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230630-142923/covid-hosp-txad-age-fra-2023-06-30-16h29.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "52d585072ab4e268d42f9304d90c31b6dfedccce"
+          },
+          "created_at": "2021-11-26T15:30:46.442000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "52d585072ab4e268d42f9304d90c31b6dfedccce",
+            "analysis:content-length": 5033314,
+            "analysis:last-modified-at": "2023-06-30T14:29:23+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 21:02:30.601263+02",
+            "analysis:parsing:parsing_table": "714ef103fa623d4d9457a49ee795f6e5",
+            "check:available": true,
+            "check:date": "2023-08-28T21:45:46.071117+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 5033314,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "46f145d4-9607-45a0-bc3c-86241136ca24",
+          "internal": {
+            "created_at_internal": "2021-11-26T15:30:46.442000+00:00",
+            "last_modified_internal": "2023-06-30T16:29:23.512000+00:00"
+          },
+          "last_modified": "2023-06-30T16:29:23.512000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/46f145d4-9607-45a0-bc3c-86241136ca24",
+          "metrics": {
+            "views": 3111
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/46f145d4-9607-45a0-bc3c-86241136ca24",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hosp-txad-reg-2023-06-30-16h29.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230630-142923/covid-hosp-txad-reg-2023-06-30-16h29.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "c80d4bf2c5075ce63c2d61180a3232ba8d542926"
+          },
+          "created_at": "2021-11-26T15:29:49.651000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "c80d4bf2c5075ce63c2d61180a3232ba8d542926",
+            "analysis:content-length": 301610,
+            "analysis:last-modified-at": "2023-06-30T14:29:17+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 20:22:14.426272+02",
+            "analysis:parsing:parsing_table": "4b7efca9b4ab5dc4610694b1a2a5d81e",
+            "check:available": true,
+            "check:date": "2023-08-28T21:21:25.066729+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 301610,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "fe3e7099-a975-4181-9fb5-2dd1b8f1b552",
+          "internal": {
+            "created_at_internal": "2021-11-26T15:29:49.651000+00:00",
+            "last_modified_internal": "2023-06-30T16:29:17.404000+00:00"
+          },
+          "last_modified": "2023-06-30T16:29:17.404000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/fe3e7099-a975-4181-9fb5-2dd1b8f1b552",
+          "metrics": {
+            "views": 1360
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/fe3e7099-a975-4181-9fb5-2dd1b8f1b552",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hosp-txad-fra-2023-06-30-16h29.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230630-142917/covid-hosp-txad-fra-2023-06-30-16h29.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "0534d089466745e37c8a7eb5c9264cced6757495"
+          },
+          "created_at": "2021-09-02T18:17:27.502000+00:00",
+          "description": "Nombre hebdomadaire selon l'âge d'hospitalisation en fonction de la date d'admission.",
+          "extras": {
+            "analysis:checksum": "0534d089466745e37c8a7eb5c9264cced6757495",
+            "analysis:content-length": 810609,
+            "analysis:last-modified-at": "2023-06-30T14:29:16+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 17:02:48.088014+02",
+            "analysis:parsing:parsing_table": "8d019cc34970befa2dac868658c72b79",
+            "check:available": true,
+            "check:date": "2023-08-28T19:25:03.210700+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 810609,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "dc7663c7-5da9-4765-a98b-ba4bc9de9079",
+          "internal": {
+            "created_at_internal": "2021-09-02T18:17:27.502000+00:00",
+            "last_modified_internal": "2023-06-30T16:29:16.124000+00:00"
+          },
+          "last_modified": "2023-06-30T16:29:16.124000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/dc7663c7-5da9-4765-a98b-ba4bc9de9079",
+          "metrics": {
+            "views": 2205
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/dc7663c7-5da9-4765-a98b-ba4bc9de9079",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hosp-ad-age-2023-06-30-16h29.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230630-142915/covid-hosp-ad-age-2023-06-30-16h29.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "6114a3e0590c339773424230002437efb5cff646"
+          },
+          "created_at": "2020-12-21T16:11:04.261000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "6114a3e0590c339773424230002437efb5cff646",
+            "analysis:content-length": 657483,
+            "analysis:last-modified-at": "2023-03-31T16:01:54+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 19:51:54.832101+02",
+            "analysis:parsing:parsing_table": "bfd385d61bb6c6bcea08f153610bd00a",
+            "check:available": true,
+            "check:count-availability": 7,
+            "check:date": "2023-08-28T21:00:58.972877+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 657483,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "a1466f7f-4ece-4158-a373-f5d4db167eb0",
+          "internal": {
+            "created_at_internal": "2020-12-21T16:11:04.261000+00:00",
+            "last_modified_internal": "2023-03-31T18:01:54.548000+00:00"
+          },
+          "last_modified": "2023-03-31T18:01:54.548000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a1466f7f-4ece-4158-a373-f5d4db167eb0",
+          "metrics": {
+            "views": 95430
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/a1466f7f-4ece-4158-a373-f5d4db167eb0",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hospit-incid-reg-2023-03-31-18h01.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230331-180154/covid-hospit-incid-reg-2023-03-31-18h01.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "94f6c63e1ae3c63e6f138a3b41aab2569982afca"
+          },
+          "created_at": "2020-12-21T16:09:38.734000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "94f6c63e1ae3c63e6f138a3b41aab2569982afca",
+            "analysis:content-length": 391,
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-06-04 02:09:06.865935+02",
+            "analysis:parsing:parsing_table": "9ace7fbf85fd7e116c8f5a98f2356aaa",
+            "check:available": true,
+            "check:count-availability": 9,
+            "check:date": "2025-03-17T21:36:13.974000",
+            "check:headers:content-length": 391,
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 391,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "3405c81f-ad51-4842-aa1b-aefb567eea12",
+          "internal": {
+            "created_at_internal": "2020-12-21T16:09:38.734000+00:00",
+            "last_modified_internal": "2020-12-21T16:09:46.335000+00:00"
+          },
+          "last_modified": "2020-12-21T16:09:46.335000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/3405c81f-ad51-4842-aa1b-aefb567eea12",
+          "metrics": {
+            "views": 2065
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/3405c81f-ad51-4842-aa1b-aefb567eea12",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnees-covid-hospit-incid-reg.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20201221-160938/metadonnees-covid-hospit-incid-reg.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "775b6323af1eca09da210ed83fee76d7ce084da4"
+          },
+          "created_at": "2020-03-27T15:43:24.230000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "775b6323af1eca09da210ed83fee76d7ce084da4",
+            "analysis:content-length": 14291868,
+            "analysis:error": "File too large to download",
+            "analysis:last-modified-at": "2023-03-31T16:02:00+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 16:57:23.08776+02",
+            "analysis:parsing:parsing_table": "99c5855e58b39200cd0f61fe038ff1b3",
+            "check:available": true,
+            "check:count-availability": 8,
+            "check:date": "2025-03-17T00:16:27.057000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 14291868,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "63352e38-d353-4b54-bfd1-f1b3ee1cabd7",
+          "internal": {
+            "created_at_internal": "2020-03-27T15:43:24.230000+00:00",
+            "last_modified_internal": "2023-03-31T18:02:00.640000+00:00"
+          },
+          "last_modified": "2023-03-31T18:02:00.640000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/63352e38-d353-4b54-bfd1-f1b3ee1cabd7",
+          "metrics": {
+            "views": 962337
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/63352e38-d353-4b54-bfd1-f1b3ee1cabd7",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hospit-2023-03-31-18h01.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230331-180159/covid-hospit-2023-03-31-18h01.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "f8c9ba1d213c30451758242239da991a414da2be"
+          },
+          "created_at": "2020-04-07T22:32:02.138000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "f8c9ba1d213c30451758242239da991a414da2be",
+            "analysis:content-length": 2784589,
+            "analysis:last-modified-at": "2023-03-31T16:02:00+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2024-12-05T14:56:43.883426+00:00",
+            "analysis:parsing:parquet_size": 325111,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/4f2a7bc1362f40e262f512231b51fca5.parquet",
+            "analysis:parsing:parsing_table": "4f2a7bc1362f40e262f512231b51fca5",
+            "analysis:parsing:started_at": "2024-12-05T14:56:26.642026+00:00",
+            "check:available": true,
+            "check:count-availability": 7,
+            "check:date": "2024-12-05T11:55:21.168383+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 2784589,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "6fadff46-9efd-4c53-942a-54aca783c30c",
+          "internal": {
+            "created_at_internal": "2020-04-07T22:32:02.138000+00:00",
+            "last_modified_internal": "2023-03-31T18:02:00.340000+00:00"
+          },
+          "last_modified": "2023-03-31T18:02:00.340000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/6fadff46-9efd-4c53-942a-54aca783c30c",
+          "metrics": {
+            "views": 302830
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/6fadff46-9efd-4c53-942a-54aca783c30c",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hospit-incid-2023-03-31-18h01.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230331-180200/covid-hospit-incid-2023-03-31-18h01.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "8be39e888334f8b8f155a9278007820c26872ea0"
+          },
+          "created_at": "2020-04-08T17:10:58.309000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "8be39e888334f8b8f155a9278007820c26872ea0",
+            "analysis:content-length": 9155288,
+            "analysis:last-modified-at": "2023-03-31T16:02:03+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 00:21:21.867494+02",
+            "analysis:parsing:parsing_table": "412f41ba16b05dec459af44df354d2be",
+            "check:available": true,
+            "check:count-availability": 7,
+            "check:date": "2023-08-28T16:47:16.419223+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 9155288,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "08c18e08-6780-452d-9b8c-ae244ad529b3",
+          "internal": {
+            "created_at_internal": "2020-04-08T17:10:58.309000+00:00",
+            "last_modified_internal": "2023-03-31T18:02:03.032000+00:00"
+          },
+          "last_modified": "2023-03-31T18:02:03.032000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/08c18e08-6780-452d-9b8c-ae244ad529b3",
+          "metrics": {
+            "views": 104478
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/08c18e08-6780-452d-9b8c-ae244ad529b3",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hospit-clage10-2023-03-31-18h01.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230331-180202/covid-hospit-clage10-2023-03-31-18h01.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "cf03df2faf4b9d20dcffde1d261a7b210abd41a2"
+          },
+          "created_at": "2020-03-27T15:43:24.329000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "cf03df2faf4b9d20dcffde1d261a7b210abd41a2",
+            "analysis:content-length": 2123248,
+            "analysis:last-modified-at": "2023-03-31T16:01:58+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-29 02:14:12.107866+02",
+            "analysis:parsing:parsing_table": "53d37faf48c422bc0e14c26357424dec",
+            "check:available": true,
+            "check:count-availability": 8,
+            "check:date": "2023-08-28T14:04:35.283025+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 2123248,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "41b9bd2a-b5b6-4271-8878-e45a8902ef00",
+          "internal": {
+            "created_at_internal": "2020-03-27T15:43:24.329000+00:00",
+            "last_modified_internal": "2023-03-31T18:01:58.216000+00:00"
+          },
+          "last_modified": "2023-03-31T18:01:58.216000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/41b9bd2a-b5b6-4271-8878-e45a8902ef00",
+          "metrics": {
+            "views": 8000
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/41b9bd2a-b5b6-4271-8878-e45a8902ef00",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "covid-hospit-etab-2023-03-31-18h01.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20230331-180157/covid-hospit-etab-2023-03-31-18h01.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "4fdcb7559c7110d4a3cdabbf1b9b3e59cddb7a08"
+          },
+          "created_at": "2020-03-27T15:44:14.242000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "4fdcb7559c7110d4a3cdabbf1b9b3e59cddb7a08",
+            "analysis:content-length": 911,
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 7,
+            "check:date": "2023-06-01T16:42:39.851739+00:00",
+            "check:headers:content-length": 911,
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 911,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "3f0f1885-25f4-4102-bbab-edec5a58e34a",
+          "internal": {
+            "created_at_internal": "2020-03-27T15:44:14.242000+00:00",
+            "last_modified_internal": "2021-08-10T11:09:55.659000+00:00"
+          },
+          "last_modified": "2021-08-10T11:09:55.659000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/3f0f1885-25f4-4102-bbab-edec5a58e34a",
+          "metrics": {
+            "views": 2262
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnees-donnees-hospitalieres-covid19-maj20210810.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20210810-110953/metadonnees-donnees-hospitalieres-covid19-maj20210810.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "39939611809f7717a87b1b88ad13c1aa0eb3a44e"
+          },
+          "created_at": "2020-04-07T22:30:14.828000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "39939611809f7717a87b1b88ad13c1aa0eb3a44e",
+            "analysis:content-length": 653,
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-06-03 01:10:33.862706+02",
+            "analysis:parsing:parsing_table": "c91b4eefd29cccba3e031110ade4bbf6",
+            "check:available": true,
+            "check:count-availability": 7,
+            "check:date": "2023-06-01T12:17:11.814899+00:00",
+            "check:headers:content-length": 653,
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 653,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "4900f53f-750d-4c5a-9df7-2d4ceb018acf",
+          "internal": {
+            "created_at_internal": "2020-04-07T22:30:14.828000+00:00",
+            "last_modified_internal": "2020-04-08T17:44:10.666000+00:00"
+          },
+          "last_modified": "2020-04-08T17:44:10.666000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/4900f53f-750d-4c5a-9df7-2d4ceb018acf",
+          "metrics": {
+            "views": 2027
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/4900f53f-750d-4c5a-9df7-2d4ceb018acf",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnees-donnees-hospitalieres-covid19-nouveaux.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20200407-223014/metadonnees-hospit-incid.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "e1930b226853d2537f5fea45e90ba3d1682553ef"
+          },
+          "created_at": "2020-04-08T18:19:01.934000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "e1930b226853d2537f5fea45e90ba3d1682553ef",
+            "analysis:content-length": 915,
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 9,
+            "check:date": "2025-03-17T14:13:10.499000",
+            "check:headers:content-length": 915,
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 915,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "929dff1b-b07c-4637-9690-fb7219ad3eb8",
+          "internal": {
+            "created_at_internal": "2020-04-08T18:19:01.934000+00:00",
+            "last_modified_internal": "2021-08-10T11:05:20.996000+00:00"
+          },
+          "last_modified": "2021-08-10T11:05:20.996000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/929dff1b-b07c-4637-9690-fb7219ad3eb8",
+          "metrics": {
+            "views": 1985
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnees-donnees-hospitalieres-covid19-classes-age-maj20210810.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20210810-110518/metadonnees-donnees-hospitalieres-covid19-classes-age-maj20210810.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "48bbc9297e5c17bc62d16e92fa1d359c53825bc1"
+          },
+          "created_at": "2020-03-27T15:44:14.232000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "48bbc9297e5c17bc62d16e92fa1d359c53825bc1",
+            "analysis:content-length": 327,
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 8,
+            "check:date": "2025-03-20T08:33:33.918000",
+            "check:headers:content-length": 327,
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 327,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "415c852b-7898-40f8-8f71-b9171faf4516",
+          "internal": {
+            "created_at_internal": "2020-03-27T15:44:14.232000+00:00",
+            "last_modified_internal": "2020-03-27T15:44:36.435000+00:00"
+          },
+          "last_modified": "2020-03-27T15:44:36.435000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/415c852b-7898-40f8-8f71-b9171faf4516",
+          "metrics": {
+            "views": 2021
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnees-services-hospitaliers-covid19.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20200327-154414/metadonnees-services-hospitaliers-covid19.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "a8ce869dd07b486f3e40cff6b59d68365180871f"
+          },
+          "created_at": "2020-03-31T16:04:22.961000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "a8ce869dd07b486f3e40cff6b59d68365180871f",
+            "analysis:content-length": 422,
+            "analysis:mime-type": "text/rtf",
+            "check:available": true,
+            "check:count-availability": 9,
+            "check:date": "2025-03-17T17:33:45.570000",
+            "check:headers:content-length": 422,
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 422,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "9f94a259-2a8a-441d-bd0b-d6b45697d477",
+          "internal": {
+            "created_at_internal": "2020-03-31T16:04:22.961000+00:00",
+            "last_modified_internal": "2020-03-31T16:04:34.712000+00:00"
+          },
+          "last_modified": "2020-03-31T16:04:34.712000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/9f94a259-2a8a-441d-bd0b-d6b45697d477",
+          "metrics": {
+            "views": 2788
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnees-sexe.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/20200331-160422/metadonnees-sexe.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:departement",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "coronavius",
+        "covid-19",
+        "covid19",
+        "covid19france"
+      ],
+      "temporal_coverage": null,
+      "title": "Données hospitalières relatives à l'épidémie de COVID-19",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67ba65d061d6994f7ae2609a",
+          "name": "Santé Publique France",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67ba65d061d6994f7ae2609b",
+          "name": "Santé Publique France",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2020-04-07T13:08:12+00:00",
+      "deleted": null,
+      "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données hospitalières quotidiennes relatives à l'épidémie du COVID-19 par département et sexe du patient : nombre de patients hospitalisés, nombre de personnes actuellement en réanimation ou soins intensifs, nombre cumulé de personnes retournées à domicile, nombre cumulé de personnes décédées.\n\nPour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.  \n\n\nLes code régions et iso 3166-1 des zones ont été rajoutés.  \n  \n\n\nAttention : données en cours de constitution. Peut comporter des anomalies ou des donnés manquantes.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "Open License v2.0"
+          ],
+          "rights": [
+            "Open License v2.0"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.bretagne.bzh/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+        "domain": "data.bretagne.bzh",
+        "issued_at": "2020-04-07T13:08:12+00:00",
+        "last_update": "2025-10-24T00:01:41.442000+00:00",
+        "modified_at": "2020-04-07T13:08:12+00:00",
+        "remote_id": "https://data.bretagne.bzh/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+        "remote_url": "https://data.bretagne.bzh/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+        "source_id": "5d512d238b4c416ca969b0ad",
+        "uri": "https://data.bretagne.bzh/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/"
+      },
+      "id": "5e97a0345064fb3803180953",
+      "internal": {
+        "created_at_internal": "2020-04-16T02:00:51.972000+00:00",
+        "last_modified_internal": "2020-04-07T13:08:12+00:00"
+      },
+      "last_modified": "2020-04-07T13:08:12+00:00",
+      "last_update": "2025-10-24T18:29:59.409000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 3788,
+        "reuses": 1,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 5928
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "local-authority"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "559a4970c751df46a9a453ba",
+        "logo": "https://static.data.gouv.fr/avatars/7a/5e61561c444af1b8bb0c76547f0043-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/7a/5e61561c444af1b8bb0c76547f0043-100.jpg",
+        "name": "Région Bretagne",
+        "page": "https://www.data.gouv.fr/organizations/region-bretagne-1/",
+        "slug": "region-bretagne-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-bretagne-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:08:12+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en France (csv)",
+          "extras": {
+            "analysis:checksum": "b5b14a7318c5f730e1f0e411e91da95a0f2a5a2f",
+            "analysis:content-length": 1448844,
+            "analysis:last-modified-at": "2020-04-07T13:08:12+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-06T11:11:03.582942+00:00",
+            "analysis:parsing:parquet_size": 185058,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/a3e99850dfba2b60a3659ec26a7fb86f.parquet",
+            "analysis:parsing:parsing_table": "a3e99850dfba2b60a3659ec26a7fb86f",
+            "analysis:parsing:started_at": "2025-05-06T11:10:53.325254+00:00",
+            "check:available": true,
+            "check:count-availability": 323,
+            "check:date": "2025-05-06T08:42:15.272838+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.csv\"",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2020-04-07T13:08:12+00:00",
+            "modified_at": "2020-04-07T13:08:12+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/csv?use_labels=true"
+          },
+          "id": "e53261c5-71ae-4f1f-9025-d12090b42a59",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:00:51.976000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2020-04-07T13:08:12+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/e53261c5-71ae-4f1f-9025-d12090b42a59",
+          "metrics": {
+            "views": 776
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/e53261c5-71ae-4f1f-9025-d12090b42a59",
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.csv",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:08:12+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en France (json)",
+          "extras": {
+            "analysis:checksum": "e6c2ccc9cc568088963de3415764a72e07ceff09",
+            "analysis:content-length": 5928281,
+            "analysis:last-modified-at": "2020-04-07T13:08:12+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 39,
+            "check:date": "2025-06-05T01:18:53.549839+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2020-04-07T13:08:12+00:00",
+            "modified_at": "2020-04-07T13:08:12+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/json"
+          },
+          "id": "284d2a2a-6edc-4c86-abfb-4142a397a8bb",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:00:51.976000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2020-04-07T13:08:12+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/284d2a2a-6edc-4c86-abfb-4142a397a8bb",
+          "metrics": {
+            "views": 591
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.json",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:08:12+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en France (geojson)",
+          "extras": {
+            "analysis:checksum": "1cf9cec0ca3e7b9ccb47c8e75cbacfbd33f0f219",
+            "analysis:content-length": 6021477,
+            "analysis:last-modified-at": "2020-04-07T13:08:12+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 39,
+            "check:date": "2025-05-05T12:44:21.403597+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2020-04-07T13:08:12+00:00",
+            "modified_at": "2020-04-07T13:08:12+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/geojson"
+          },
+          "id": "e2a2e8d1-e55a-4a18-9e80-a45b68dedd75",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:00:51.976000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2020-04-07T13:08:12+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/e2a2e8d1-e55a-4a18-9e80-a45b68dedd75",
+          "metrics": {
+            "views": 477
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.geojson",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:08:12+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en France (shp)",
+          "extras": {
+            "analysis:checksum": "eff5c68361f46ba0e9418121f7b7d7cee7cc54b8",
+            "analysis:content-length": 721238,
+            "analysis:last-modified-at": "2020-04-07T13:08:12+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:date": "2025-05-13T21:30:44.325311+00:00",
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2020-04-07T13:08:12+00:00",
+            "modified_at": "2020-04-07T13:08:12+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/shp"
+          },
+          "id": "e752143a-21b4-4df1-8e3d-bead40df9e28",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:00:51.976000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2020-04-07T13:08:12+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/e752143a-21b4-4df1-8e3d-bead40df9e28",
+          "metrics": {
+            "views": 409
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.zip",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/shp"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T02:03:26.236000+00:00",
+          "description": "- *Code du Département*: dep_code[text]\n- *Date*: date[date]\n- *Nb actuellement hospitalisés*: day_hosp[int]\n- *Nb actuellement en soins intensifs*: day_intcare[int] réanimation/soins intensifs\n- *Total retour à domicile*: tot_out[int]\n- *Total Décès*: tot_death[int]\n- *Code région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom département*: nom_dep_min[text]\n- *Sexe*: sex[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n- *HospConv*: hospconv[text]\n- *SSR_USLD*: ssr_usld[text]\n- *autres*: autres[text]\n- *Nb Quotidien Admis Hospitalisation*: day_hosp_new[int] Nombre quotidien de personnes nouvellement hospitalisées\n- *Nb Quotidien Admis Réanimation*: day_intcare_new[int] Nombre quotidien de nouvelles admissions en réanimation\n- *Nb Quotidien Décès*: day_death_new[int] Nombre quotidien de personnes nouvellement décédées\n- *Nb Quotidien Retour à Domicile*: day_out_new[int] Nombre quotidien de nouveaux retours à domicile\n",
+          "extras": {
+            "analysis:check_id": 35413837,
+            "analysis:checksum": "a183faad7fcde3165ae39f97cf8fe7607fad49c2",
+            "analysis:content-length": 1435385,
+            "analysis:last-modified-at": "2025-10-24T16:57:03.818127+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-24T16:57:09.848559+00:00",
+            "analysis:parsing:geojson_size": 12742035,
+            "analysis:parsing:geojson_url": "https://object.files.data.gouv.fr/hydra-geojson/hydra-geojson/150eb763-c3a8-47c4-8252-43252ddd86ad.geojson",
+            "analysis:parsing:parquet_size": 165319,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/150eb763-c3a8-47c4-8252-43252ddd86ad.parquet",
+            "analysis:parsing:parsing_table": "1285784f7fcd3bb00ebc1b142a416a5f",
+            "analysis:parsing:pmtiles_size": 215401,
+            "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/150eb763-c3a8-47c4-8252-43252ddd86ad.pmtiles",
+            "analysis:parsing:started_at": "2025-10-24T16:57:05.509871+00:00",
+            "check:available": true,
+            "check:count-availability": 260,
+            "check:date": "2025-10-16T03:36:08.734184+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.csv\"",
+            "check:headers:content-type": "application/csv",
+            "check:id": 34839647,
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {},
+          "id": "150eb763-c3a8-47c4-8252-43252ddd86ad",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:03:26.236000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2025-10-24T16:57:03.818127+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/150eb763-c3a8-47c4-8252-43252ddd86ad",
+          "metrics": {
+            "views": 648
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/150eb763-c3a8-47c4-8252-43252ddd86ad",
+          "schema": null,
+          "title": "Export au format CSV",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T02:03:26.236000+00:00",
+          "description": "- *Code du Département*: dep_code[text]\n- *Date*: date[date]\n- *Nb actuellement hospitalisés*: day_hosp[int]\n- *Nb actuellement en soins intensifs*: day_intcare[int] réanimation/soins intensifs\n- *Total retour à domicile*: tot_out[int]\n- *Total Décès*: tot_death[int]\n- *Code région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom département*: nom_dep_min[text]\n- *Sexe*: sex[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n- *HospConv*: hospconv[text]\n- *SSR_USLD*: ssr_usld[text]\n- *autres*: autres[text]\n- *Nb Quotidien Admis Hospitalisation*: day_hosp_new[int] Nombre quotidien de personnes nouvellement hospitalisées\n- *Nb Quotidien Admis Réanimation*: day_intcare_new[int] Nombre quotidien de nouvelles admissions en réanimation\n- *Nb Quotidien Décès*: day_death_new[int] Nombre quotidien de personnes nouvellement décédées\n- *Nb Quotidien Retour à Domicile*: day_out_new[int] Nombre quotidien de nouveaux retours à domicile\n",
+          "extras": {
+            "analysis:check_id": 35417743,
+            "analysis:checksum": "99ed7de2d9ea22a0618570ca1889a9e3fdb3b53d",
+            "analysis:content-length": 8405286,
+            "analysis:last-modified-at": "2025-10-24T18:20:09.667445+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 324,
+            "check:date": "2025-10-16T05:01:37.934962+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.json\"",
+            "check:headers:content-type": "application/json",
+            "check:id": 34845886,
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {},
+          "id": "4ca2f7a2-d0f9-4777-9fc9-fbb4a05ddb5d",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:03:26.236000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2025-10-24T18:20:09.667445+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/4ca2f7a2-d0f9-4777-9fc9-fbb4a05ddb5d",
+          "metrics": {
+            "views": 584
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "Export au format JSON",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T02:03:26.236000+00:00",
+          "description": "- *Code du Département*: dep_code[text]\n- *Date*: date[date]\n- *Nb actuellement hospitalisés*: day_hosp[int]\n- *Nb actuellement en soins intensifs*: day_intcare[int] réanimation/soins intensifs\n- *Total retour à domicile*: tot_out[int]\n- *Total Décès*: tot_death[int]\n- *Code région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom département*: nom_dep_min[text]\n- *Sexe*: sex[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n- *HospConv*: hospconv[text]\n- *SSR_USLD*: ssr_usld[text]\n- *autres*: autres[text]\n- *Nb Quotidien Admis Hospitalisation*: day_hosp_new[int] Nombre quotidien de personnes nouvellement hospitalisées\n- *Nb Quotidien Admis Réanimation*: day_intcare_new[int] Nombre quotidien de nouvelles admissions en réanimation\n- *Nb Quotidien Décès*: day_death_new[int] Nombre quotidien de personnes nouvellement décédées\n- *Nb Quotidien Retour à Domicile*: day_out_new[int] Nombre quotidien de nouveaux retours à domicile\n",
+          "extras": {
+            "analysis:check_id": 35418149,
+            "analysis:checksum": "2d5d3aac6ff5afd34313cce61cb98d017144d37f",
+            "analysis:content-length": 6222814,
+            "analysis:last-modified-at": "2025-10-24T18:29:59.409667+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "application/json",
+            "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+            "analysis:parsing:finished_at": "2025-10-24T18:30:00.999546+00:00",
+            "analysis:parsing:started_at": "2025-10-24T18:30:00.987388+00:00",
+            "check:available": true,
+            "check:count-availability": 20,
+            "check:date": "2025-08-18T15:15:42.623793+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {},
+          "id": "f6aa8168-9915-4484-b273-6899fd9895c6",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:03:26.236000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2025-10-24T18:29:59.409667+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f6aa8168-9915-4484-b273-6899fd9895c6",
+          "metrics": {
+            "views": 287
+          },
+          "mime": "application/vnd.geo+json",
+          "preview_url": null,
+          "schema": null,
+          "title": "Export au format GeoJSON",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T02:03:26.236000+00:00",
+          "description": "- *Code du Département*: dep_code[text]\n- *Date*: date[date]\n- *Nb actuellement hospitalisés*: day_hosp[int]\n- *Nb actuellement en soins intensifs*: day_intcare[int] réanimation/soins intensifs\n- *Total retour à domicile*: tot_out[int]\n- *Total Décès*: tot_death[int]\n- *Code région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom département*: nom_dep_min[text]\n- *Sexe*: sex[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n- *HospConv*: hospconv[text]\n- *SSR_USLD*: ssr_usld[text]\n- *autres*: autres[text]\n- *Nb Quotidien Admis Hospitalisation*: day_hosp_new[int] Nombre quotidien de personnes nouvellement hospitalisées\n- *Nb Quotidien Admis Réanimation*: day_intcare_new[int] Nombre quotidien de nouvelles admissions en réanimation\n- *Nb Quotidien Décès*: day_death_new[int] Nombre quotidien de personnes nouvellement décédées\n- *Nb Quotidien Retour à Domicile*: day_out_new[int] Nombre quotidien de nouveaux retours à domicile\n",
+          "extras": {},
+          "filesize": null,
+          "filetype": "remote",
+          "format": "shp",
+          "harvest": {},
+          "id": "47df50d1-3f29-4624-a094-bffe6002e676",
+          "internal": {
+            "created_at_internal": "2020-04-16T02:03:26.236000+00:00",
+            "last_modified_internal": "2020-04-07T13:08:12+00:00"
+          },
+          "last_modified": "2020-04-07T13:08:12+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/47df50d1-3f29-4624-a094-bffe6002e676",
+          "metrics": {
+            "views": 193
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Export au format Shapefile",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=false"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france",
+      "spatial": null,
+      "tags": [
+        "coronavirus",
+        "covid19",
+        "epidemie",
+        "hopital",
+        "pandemie",
+        "territoire-solidarite"
+      ],
+      "temporal_coverage": null,
+      "title": "Données hospitalières relatives à l'épidémie de COVID-19 en France",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b94bcf8287a1cf47e26095",
+          "name": "Santé Publique France",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b94bcd8287a1cf47e2608c",
+          "name": "",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2020-04-16T08:35:24+00:00",
+      "deleted": null,
+      "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données hospitalières quotidiennes relatives à l'épidémie du COVID-19 par département et sexe du patient : nombre de patients hospitalisés, nombre de personnes actuellement en réanimation ou soins intensifs, nombre cumulé de personnes retournées à domicile, nombre cumulé de personnes décédées.\n\nPour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.  \n\n\nLes code régions et iso 3166-1 des zones ont été rajoutés.  \n  \n\n\nAttention : données en cours de constitution. Peut comporter des anomalies ou des donnés manquantes.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "Open License v2.0"
+          ],
+          "rights": [
+            "Open License v2.0"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "daily",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+        "domain": "data.iledefrance.fr",
+        "issued_at": "2020-04-16T08:35:24+00:00",
+        "last_update": "2025-10-24T04:02:27.387000+00:00",
+        "modified_at": "2020-04-16T08:35:24+00:00",
+        "remote_id": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+        "remote_url": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/",
+        "source_id": "5898eb3ec751df390fae0a65",
+        "uri": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/"
+      },
+      "id": "5e9fc188454ad4ba6018094a",
+      "internal": {
+        "created_at_internal": "2020-04-22T06:01:12.736000+00:00",
+        "last_modified_internal": "2020-04-16T08:35:24+00:00"
+      },
+      "last_modified": "2020-04-16T08:35:24+00:00",
+      "last_update": "2020-04-16T08:35:24+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 2039,
+        "reuses": 1,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2888
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fffa8a3a7292c64a780c8",
+        "logo": "https://static.data.gouv.fr/avatars/ae/e36a843f5d4f44a76957c3c8994bb6-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/ae/e36a843f5d4f44a76957c3c8994bb6-100.jpg",
+        "name": "Région Île-de-France",
+        "page": "https://www.data.gouv.fr/organizations/region-ile-de-france/",
+        "slug": "region-ile-de-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-ile-de-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-ile-de-france/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.6666666666666666,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T08:35:24+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en Île-de-France (csv)",
+          "extras": {
+            "analysis:checksum": "d8a75753ad064d3beccd63c3338fb907b83a6fd8",
+            "analysis:content-length": 3132711,
+            "analysis:last-modified-at": "2020-04-16T08:35:24+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-14T10:50:03.877025+00:00",
+            "analysis:parsing:parquet_size": 441120,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/b9fe4838b7693187f00b2bbdbdd4dfae.parquet",
+            "analysis:parsing:parsing_table": "b9fe4838b7693187f00b2bbdbdd4dfae",
+            "analysis:parsing:started_at": "2025-05-14T10:49:52.248232+00:00",
+            "check:available": true,
+            "check:count-availability": 396,
+            "check:date": "2025-05-14T10:45:08.155570+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.csv\"",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2020-04-16T08:35:24+00:00",
+            "modified_at": "2020-04-16T08:35:24+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/csv?use_labels=true"
+          },
+          "id": "10988613-0a15-4736-a677-d0ac0f6ca04c",
+          "internal": {
+            "created_at_internal": "2020-04-22T06:01:12.740000+00:00",
+            "last_modified_internal": "2020-04-16T08:35:24+00:00"
+          },
+          "last_modified": "2020-04-16T08:35:24+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/10988613-0a15-4736-a677-d0ac0f6ca04c",
+          "metrics": {
+            "views": 783
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/10988613-0a15-4736-a677-d0ac0f6ca04c",
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.csv",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T08:35:24+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en Île-de-France (json)",
+          "extras": {
+            "analysis:checksum": "5700689e733e9d85817da3a084c90d7c63a3803d",
+            "analysis:content-length": 12145180,
+            "analysis:last-modified-at": "2020-04-16T08:35:24+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 46,
+            "check:date": "2025-05-05T11:58:47.306943+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2020-04-16T08:35:24+00:00",
+            "modified_at": "2020-04-16T08:35:24+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/json"
+          },
+          "id": "64482a77-1099-404b-bb9e-0ffe78506cac",
+          "internal": {
+            "created_at_internal": "2020-04-22T06:01:12.740000+00:00",
+            "last_modified_internal": "2020-04-16T08:35:24+00:00"
+          },
+          "last_modified": "2020-04-16T08:35:24+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/64482a77-1099-404b-bb9e-0ffe78506cac",
+          "metrics": {
+            "views": 664
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.json",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T08:35:24+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en Île-de-France (geojson)",
+          "extras": {
+            "analysis:checksum": "38a38e825b0f27ad92cb726bb6475d2a564be6ef",
+            "analysis:content-length": 12331532,
+            "analysis:last-modified-at": "2020-04-16T08:35:24+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 393,
+            "check:date": "2025-05-06T01:53:47.248388+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2020-04-16T08:35:24+00:00",
+            "modified_at": "2020-04-16T08:35:24+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/geojson"
+          },
+          "id": "0e10bf27-915d-4277-97fa-a46bdf182c0a",
+          "internal": {
+            "created_at_internal": "2020-04-22T06:01:12.740000+00:00",
+            "last_modified_internal": "2020-04-16T08:35:24+00:00"
+          },
+          "last_modified": "2020-04-16T08:35:24+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/0e10bf27-915d-4277-97fa-a46bdf182c0a",
+          "metrics": {
+            "views": 455
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.geojson",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-16T08:35:24+00:00",
+          "description": "Données hospitalières relatives à l'épidémie de COVID-19 en Île-de-France (shp)",
+          "extras": {
+            "analysis:checksum": "f4bd32c87c9920636e643f2963553af707b49f53",
+            "analysis:content-length": 1576168,
+            "analysis:last-modified-at": "2020-04-16T08:35:24+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:date": "2025-05-15T10:46:21.662242+00:00",
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2020-04-16T08:35:24+00:00",
+            "modified_at": "2020-04-16T08:35:24+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/shp"
+          },
+          "id": "9c8c062d-9c1e-49a4-bc99-6958c8202036",
+          "internal": {
+            "created_at_internal": "2020-04-22T06:01:12.740000+00:00",
+            "last_modified_internal": "2020-04-16T08:35:24+00:00"
+          },
+          "last_modified": "2020-04-16T08:35:24+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/9c8c062d-9c1e-49a4-bc99-6958c8202036",
+          "metrics": {
+            "views": 430
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france.zip",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-france/exports/shp"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-ile-de-france",
+      "spatial": null,
+      "tags": [
+        "deces",
+        "epidemie",
+        "hopital",
+        "logement-sante-social",
+        "sante",
+        "virus"
+      ],
+      "temporal_coverage": null,
+      "title": "Données hospitalières relatives à l'épidémie de COVID-19 en Île-de-France",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19-en-ile-de-france/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67ba65d061d6994f7ae2609a",
+          "name": "Santé Publique France",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67ba65d061d6994f7ae2609b",
+          "name": "Santé Publique France",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2020-04-07T13:05:44+00:00",
+      "deleted": null,
+      "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données sont à l'échelles départements sur la France métropolitaine et les départements d'outre-mer.\n\nCe jeu de données présentent les données suivantes:\n\nLes données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d'âge du patient : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences, nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombres total d'actes médicaux SOS Médecins pour suspicion de COVID-19, nombres d'actes médicaux SOS Médecins.\n\nÀ noter que :\n\n  * Le système de déclaration des cas n'est pas exhaustif et le nombre d'établissements déclarant varie au cours du temps ;\n  * Certains patients, présents dans la base de données hospitalières à un moment donné, sont retirés de la base de données par les établissements de santé lorsque le résultat biologique du patient est négatif par rapport au COVID-19 ; \n  * Pour certains patients, la classe d'âge n'a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d'âge d'un indicateur et le nombre total de cet indicateur ; \n  * Pour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.\n\n\n\n**Enrichissement**\n\nles codes iso-3166 et les localisations géographiques ont été rajoutées.\n\n  \nAttention : données en cours de constitution. Peut comporter des anomalies.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "Open License v2.0"
+          ],
+          "rights": [
+            "Open License v2.0"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.bretagne.bzh/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/",
+        "domain": "data.bretagne.bzh",
+        "issued_at": "2020-04-07T13:05:44+00:00",
+        "last_update": "2025-10-24T00:01:34.032000+00:00",
+        "modified_at": "2020-04-07T13:05:44+00:00",
+        "remote_id": "https://data.bretagne.bzh/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/",
+        "remote_url": "https://data.bretagne.bzh/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/",
+        "source_id": "5d512d238b4c416ca969b0ad",
+        "uri": "https://data.bretagne.bzh/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/"
+      },
+      "id": "5e8d14305bac75d5c7c46944",
+      "internal": {
+        "created_at_internal": "2020-04-08T02:00:48.922000+00:00",
+        "last_modified_internal": "2020-04-07T13:05:44+00:00"
+      },
+      "last_modified": "2020-04-07T13:05:44+00:00",
+      "last_update": "2025-10-24T17:57:34.277000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 3241,
+        "reuses": 1,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3590
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "local-authority"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "559a4970c751df46a9a453ba",
+        "logo": "https://static.data.gouv.fr/avatars/7a/5e61561c444af1b8bb0c76547f0043-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/7a/5e61561c444af1b8bb0c76547f0043-100.jpg",
+        "name": "Région Bretagne",
+        "page": "https://www.data.gouv.fr/organizations/region-bretagne-1/",
+        "slug": "region-bretagne-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-bretagne-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en-france/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.4444444444444444,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:05:44+00:00",
+          "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (csv)",
+          "extras": {
+            "analysis:checksum": "51d1d349964fab8b6a4996413924528620fa6c24",
+            "analysis:content-length": 2222645,
+            "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-05T18:11:09.395837+00:00",
+            "analysis:parsing:parquet_size": 173402,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/bac2a0c8fc8dc9e0ece4dad063ce426e.parquet",
+            "analysis:parsing:parsing_table": "bac2a0c8fc8dc9e0ece4dad063ce426e",
+            "analysis:parsing:started_at": "2025-05-05T18:10:59.579661+00:00",
+            "check:available": true,
+            "check:count-availability": 10,
+            "check:date": "2025-05-05T17:10:22.160356+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2020-04-07T13:05:44+00:00",
+            "modified_at": "2020-04-07T13:05:44+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+          },
+          "id": "36643c88-b1dd-4e44-a178-fd3321cca53e",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2020-04-07T13:05:44+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/36643c88-b1dd-4e44-a178-fd3321cca53e",
+          "metrics": {
+            "views": 648
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/36643c88-b1dd-4e44-a178-fd3321cca53e",
+          "schema": null,
+          "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:05:44+00:00",
+          "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (json)",
+          "extras": {
+            "analysis:checksum": "d6c81d583b28949f3291160bca6ab551f4546255",
+            "analysis:content-length": 12555797,
+            "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 207,
+            "check:date": "2025-05-05T12:40:56.928967+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2020-04-07T13:05:44+00:00",
+            "modified_at": "2020-04-07T13:05:44+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+          },
+          "id": "dcf07177-07fc-4ef1-b827-a5c3a4842068",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2020-04-07T13:05:44+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/dcf07177-07fc-4ef1-b827-a5c3a4842068",
+          "metrics": {
+            "views": 535
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:05:44+00:00",
+          "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (geojson)",
+          "extras": {
+            "analysis:checksum": "a2f37522e7f2466463fbdffc41ad38c02d593962",
+            "analysis:content-length": 12535229,
+            "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 207,
+            "check:date": "2025-05-05T17:32:11.457583+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2020-04-07T13:05:44+00:00",
+            "modified_at": "2020-04-07T13:05:44+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+          },
+          "id": "4f205e13-8ccb-43c2-aea1-5a4a0ce927c1",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2020-04-07T13:05:44+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/4f205e13-8ccb-43c2-aea1-5a4a0ce927c1",
+          "metrics": {
+            "views": 429
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-07T13:05:44+00:00",
+          "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (shp)",
+          "extras": {
+            "analysis:checksum": "b0fc1cdd6dc1b2ff2c6f46e39303ca6cd40feefe",
+            "analysis:content-length": 1014383,
+            "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:date": "2025-05-06T07:56:54.936654+00:00",
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2020-04-07T13:05:44+00:00",
+            "modified_at": "2020-04-07T13:05:44+00:00",
+            "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+          },
+          "id": "50588ab9-39d3-4cc6-bbe5-af4867382319",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2020-04-07T13:05:44+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/50588ab9-39d3-4cc6-bbe5-af4867382319",
+          "metrics": {
+            "views": 344
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": null,
+          "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip",
+          "type": "main",
+          "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-08T02:00:54.733000+00:00",
+          "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+          "extras": {
+            "analysis:check_id": 35381964,
+            "analysis:checksum": "8c37bec8079b766b63e770b70370c8b1acb0dab3",
+            "analysis:content-length": 2201979,
+            "analysis:last-modified-at": "2025-10-24T03:42:35.007143+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-24T03:42:48.621845+00:00",
+            "analysis:parsing:geojson_size": 24414287,
+            "analysis:parsing:geojson_url": "https://object.files.data.gouv.fr/hydra-geojson/hydra-geojson/2f53d258-e32b-4deb-a95f-4e41f836b4ec.geojson",
+            "analysis:parsing:parquet_size": 154096,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/2f53d258-e32b-4deb-a95f-4e41f836b4ec.parquet",
+            "analysis:parsing:parsing_table": "5ec4be5d30c2d6a544a1f5f4f860fce1",
+            "analysis:parsing:pmtiles_size": 203839,
+            "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/2f53d258-e32b-4deb-a95f-4e41f836b4ec.pmtiles",
+            "analysis:parsing:started_at": "2025-10-24T03:42:37.549539+00:00",
+            "check:available": false,
+            "check:count-availability": 154,
+            "check:date": "2025-10-24T15:42:46.134347+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+            "check:id": 35408422,
+            "check:timeout": true,
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {},
+          "id": "2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:54.733000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2025-10-24T03:42:35.007143+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+          "metrics": {
+            "views": 608
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+          "schema": null,
+          "title": "Export au format CSV",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-08T02:00:54.733000+00:00",
+          "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+          "extras": {
+            "analysis:check_id": 35416633,
+            "analysis:checksum": "c5d30b080ce943bb8bc51f1ac7655b3a4d577f49",
+            "analysis:content-length": 13532519,
+            "analysis:last-modified-at": "2025-10-24T17:57:34.277613+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:count-availability": 204,
+            "check:date": "2025-08-07T06:10:06.496291+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {},
+          "id": "23160cc1-cce9-40d7-ab61-00b143149982",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:54.733000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2025-10-24T17:57:34.277613+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/23160cc1-cce9-40d7-ab61-00b143149982",
+          "metrics": {
+            "views": 554
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "Export au format JSON",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-08T02:00:54.734000+00:00",
+          "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+          "extras": {
+            "analysis:check_id": 35415111,
+            "analysis:checksum": "e269deede2175ea3cbb8d4ee0a3fb875911b3edb",
+            "analysis:content-length": 9843727,
+            "analysis:last-modified-at": "2025-10-24T17:19:11.568451+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+            "analysis:parsing:finished_at": "2025-10-24T17:19:13.126649+00:00",
+            "analysis:parsing:started_at": "2025-10-24T17:19:13.044129+00:00",
+            "check:available": true,
+            "check:count-availability": 6,
+            "check:date": "2025-10-03T20:05:18.105413+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:id": 34214488,
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {},
+          "id": "66c72752-d441-436e-9099-035e41d117d2",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:54.734000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2025-10-24T17:19:11.568451+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/66c72752-d441-436e-9099-035e41d117d2",
+          "metrics": {
+            "views": 244
+          },
+          "mime": "application/vnd.geo+json",
+          "preview_url": null,
+          "schema": null,
+          "title": "Export au format GeoJSON",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        {
+          "checksum": null,
+          "created_at": "2020-04-08T02:00:54.734000+00:00",
+          "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+          "extras": {
+            "check:available": true,
+            "check:count-availability": 25,
+            "check:date": "2020-09-01T12:58:37.914000",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip\"",
+            "check:headers:content-length": 233674,
+            "check:headers:content-type": "application/zip",
+            "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=true"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "shp",
+          "harvest": {},
+          "id": "3ddcd567-8d7c-447d-9acb-a663445d4614",
+          "internal": {
+            "created_at_internal": "2020-04-08T02:00:54.734000+00:00",
+            "last_modified_internal": "2020-04-07T13:05:44+00:00"
+          },
+          "last_modified": "2020-04-07T13:05:44+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/3ddcd567-8d7c-447d-9acb-a663445d4614",
+          "metrics": {
+            "views": 144
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Export au format Shapefile",
+          "type": "main",
+          "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=false"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en-france",
+      "spatial": null,
+      "tags": [
+        "coronavirus",
+        "covid19",
+        "epidemie",
+        "hopital",
+        "pandemie",
+        "territoire-solidarite",
+        "urgence"
+      ],
+      "temporal_coverage": null,
+      "title": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en-france/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2020-03-20T17:19:01.201000+00:00",
+      "deleted": null,
+      "description": "### INFORMATION IMPORTANTE\n\n**Ce jeudi 4 Novembre 2021**, le format de la variable **sursaud_cl_age_corona** sera modifié :\n\n**Nouveau codage :**\n0 = \"Tous âges\"\n1 = \"0-4 ans\" \n2 = \"5-14 ans\"\n3 = \"15-44 ans\"\n4 = \"45-64 ans\"\n5 = \"65-74 ans\"\n6 = \"75 ans ou plus\"\n\n**Ancien actuel :**\n0 = \"Tous âges\"\nA = \"moins de 15ans\" \nB = \"15-44 ans\"\nC = \"45-64 ans\"\nD = \"65-74 ans\"\nE = \"75 ans ou plus\"\n\n\n### Les actions de Santé publique France\n\nSanté publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.\n\n### Description du jeu de données\n\nDeux fichiers sont proposés :\n\n- **Les données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d’âge des patients** : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences avec un diagnostic médical renseigné, nombre d’hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins avec un diagnostic médical renseigné.\n\n- **Les données quotidiennes de SOS médecins et des urgences hospitalières par région, sexe et tranches d’âge des patients** : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences avec un diagnostic médical renseigné, nombre d’hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombre d’actes médicaux SOS Médecins pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins avec un diagnostic médical renseigné. Le code région correspond au [code INSEE](https://fr.wikipedia.org/wiki/Région_française#Niveau_national) publié par l’INSEE sur [www.data.gouv.fr](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/#resource-c2a54903-513e-41b9-a108-3d9cb2104217).\n\n### Anomalies détectées dans les fichiers\n\nAttention, certains fichiers peuvent comporter des anomalies du fait des difficultés de collecte des données.\n\nDes rapports d'erreurs sont publiés tous les jours par Etalab dans la rubrique ressources communautaires :\n- [Rapport d'erreurs pour le fichier quotidien](https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200402-160328/sursaud-covid19-quotidien-incoherence-01042020.xlsx) ;\n- [Rapport d'erreurs pour le fichier hebdomadaire](https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200402-160350/sursaud-covid19-hebdomadaire-incoherence-01042020.xlsx).\n\nÀ noter que : \n- Pour certains patients, la classe d’âge n’a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d’âge d’un indicateur et le nombre total de cet indicateur ;\n- Pour certains patients, le sexe n’a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d’un indicateur et le nombre total de cet indicateur.\n\n\nN’hésitez pas à signaler d'autres anomalies en commentaire. Ces remarques seront communiquées à l'équipe en charge de la collecte et diffusion des données. \n\n### Autres données disponibles\n\n[Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/) publie également les [données hospitalières relatives à l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/).\n",
+      "description_short": null,
+      "extras": {
+        "recommendations-externals": [
+          {
+            "id": "https://www.gouvernement.fr/info-coronavirus/carte-et-donnees",
+            "messages": {
+              "en": {
+                "button": "Visit the COVID-19 pandemic monitoring dashboard",
+                "message": "The COVID-19 pandemic monitoring dashboard allows you to find all the essential information about the evolution of the health situation.",
+                "title": "Do you want to monitor the COVID-19 pandemic evolution?"
+              },
+              "fr": {
+                "button": "Consulter le tableau de bord de suivi de l’épidémie de COVID-19",
+                "message": "Le tableau de bord de suivi de l’épidémie de COVID-19 vous permet de retrouver toutes les informations essentielles sur l’évolution de la situation sanitaire.",
+                "title": "Vous souhaitez suivre l’évolution de l’épidémie de COVID-19 ?"
+              }
+            },
+            "score": 50,
+            "source": "edito"
+          }
+        ],
+        "recommendations:sources": [
+          "edito"
+        ]
+      },
+      "featured": true,
+      "frequency": "unknown",
+      "frequency_date": "2020-03-21T17:18:23+00:00",
+      "harvest": null,
+      "id": "5e74ecf52eb7514f2d3b8845",
+      "internal": {
+        "created_at_internal": "2020-03-20T17:19:01.201000+00:00",
+        "last_modified_internal": "2025-01-01T17:00:09.987000+00:00"
+      },
+      "last_modified": "2025-01-01T17:00:09.987000+00:00",
+      "last_update": "2025-01-01T18:00:09.843000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 64,
+        "discussions_open": 64,
+        "followers": 18,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 142057,
+        "reuses": 50,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 48162
+      },
+      "organization": {
+        "acronym": "SPF",
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "5e721a395d57f93d0bed451f",
+        "logo": "https://static.data.gouv.fr/avatars/54/56037b8a5241f6a832d33c33bceead-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/54/56037b8a5241f6a832d33c33bceead-100.png",
+        "name": "Santé publique France",
+        "page": "https://www.data.gouv.fr/organizations/sante-publique-france/",
+        "slug": "sante-publique-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/sante-publique-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.6666666666666666,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "d74cac1d64e2d871fb0f14163c3cb169a332acfa"
+          },
+          "created_at": "2020-03-20T18:56:25.178000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "d74cac1d64e2d871fb0f14163c3cb169a332acfa",
+            "analysis:content-length": 20587252,
+            "analysis:last-modified-at": "2025-01-01T17:00:09+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-01-01T20:59:08.168604+00:00",
+            "analysis:parsing:parquet_size": 2136562,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/dd732984c2919e6744b60ca151dd4c7b.parquet",
+            "analysis:parsing:parsing_table": "dd732984c2919e6744b60ca151dd4c7b",
+            "analysis:parsing:started_at": "2025-01-01T20:57:19.872835+00:00",
+            "check:available": true,
+            "check:count-availability": 6,
+            "check:date": "2025-03-19T02:14:30.407000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 20587252,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "eceb9fb4-3ebc-4da3-828d-f5939712600a",
+          "internal": {
+            "created_at_internal": "2020-03-20T18:56:25.178000+00:00",
+            "last_modified_internal": "2025-01-01T18:00:09.843000+00:00"
+          },
+          "last_modified": "2025-01-01T18:00:09.843000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/eceb9fb4-3ebc-4da3-828d-f5939712600a",
+          "metrics": {
+            "views": 58332
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/eceb9fb4-3ebc-4da3-828d-f5939712600a",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "sursaud-covid-quot-dep-2025-01-01-18h00.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20250101-170008/sursaud-covid-quot-dep-2025-01-01-18h00.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "515633f3a5367efa40df0340669d818f5fa33cc7"
+          },
+          "created_at": "2020-03-20T18:56:25.009000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "515633f3a5367efa40df0340669d818f5fa33cc7",
+            "analysis:content-length": 4297961,
+            "analysis:last-modified-at": "2025-01-01T17:00:08+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-01-01T20:57:47.595510+00:00",
+            "analysis:parsing:parquet_size": 652728,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/d5f765eabc74aeb362294125dd74c880.parquet",
+            "analysis:parsing:parsing_table": "d5f765eabc74aeb362294125dd74c880",
+            "analysis:parsing:started_at": "2025-01-01T20:57:19.208142+00:00",
+            "check:available": true,
+            "check:count-availability": 6,
+            "check:date": "2025-03-18T14:44:17.058000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 4297961,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "d2af5160-a21d-47b7-8f30-3c20dade63b1",
+          "internal": {
+            "created_at_internal": "2020-03-20T18:56:25.009000+00:00",
+            "last_modified_internal": "2025-01-01T18:00:08.067000+00:00"
+          },
+          "last_modified": "2025-01-01T18:00:08.067000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/d2af5160-a21d-47b7-8f30-3c20dade63b1",
+          "metrics": {
+            "views": 74390
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/d2af5160-a21d-47b7-8f30-3c20dade63b1",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "sursaud-covid-quot-reg-2025-01-01-18h00.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20250101-170007/sursaud-covid-quot-reg-2025-01-01-18h00.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "f82854be4f6c99a887b6d03fc510e33ae4e9e679"
+          },
+          "created_at": "2020-03-23T19:49:34.576000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "f82854be4f6c99a887b6d03fc510e33ae4e9e679",
+            "analysis:content-length": 2694,
+            "analysis:last-modified-at": "2020-03-23T18:49:34+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2024-07-08T21:34:21.249706+00:00",
+            "analysis:parsing:parsing_table": "cbc876c9b24cb598e2b58886beb01cce",
+            "analysis:parsing:started_at": "2024-07-08T21:34:20.370456+00:00",
+            "check:available": true,
+            "check:count-availability": 5,
+            "check:date": "2025-03-19T19:29:07.856000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 2694,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "2265d880-5260-4b34-8827-b3d76180032e",
+          "internal": {
+            "created_at_internal": "2020-03-23T19:49:34.576000+00:00",
+            "last_modified_internal": "2020-03-27T18:46:47.519000+00:00"
+          },
+          "last_modified": "2020-03-27T18:46:47.519000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2265d880-5260-4b34-8827-b3d76180032e",
+          "metrics": {
+            "views": 2013
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/2265d880-5260-4b34-8827-b3d76180032e",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnee-urgenceshos-sosmedecins-covid19-quot-dep.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200323-194934/metadonnee-urgenceshos-sosmedecin-covid19-quot.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "11861d8a08e39d5ca093e7aa10b8c8cfdc431a8b"
+          },
+          "created_at": "2020-03-27T18:49:59.817000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "11861d8a08e39d5ca093e7aa10b8c8cfdc431a8b",
+            "analysis:content-length": 2682,
+            "analysis:last-modified-at": "2020-03-27T17:49:59+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 23:19:59.303661+02",
+            "analysis:parsing:parsing_table": "eb00b77b5c4f0d84bb3c386a9d2aa871",
+            "check:available": true,
+            "check:count-availability": 5,
+            "check:date": "2025-03-17T05:07:48.678000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 2682,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "02c99d99-96a0-4953-8e30-04fd660530f6",
+          "internal": {
+            "created_at_internal": "2020-03-27T18:49:59.817000+00:00",
+            "last_modified_internal": "2020-03-27T18:50:07.711000+00:00"
+          },
+          "last_modified": "2020-03-27T18:50:07.711000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/02c99d99-96a0-4953-8e30-04fd660530f6",
+          "metrics": {
+            "views": 1399
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/02c99d99-96a0-4953-8e30-04fd660530f6",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnee-urgenceshos-sosmedecin-covid19-quot-reg.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-des-ugences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200327-184959/metadonnee-urgenceshos-sosmedecin-covid19-quot-reg.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "4298826ae95608b509664b32dbf4833d0049a597"
+          },
+          "created_at": "2020-03-27T18:56:34.899000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "4298826ae95608b509664b32dbf4833d0049a597",
+            "analysis:content-length": 2680,
+            "analysis:last-modified-at": "2020-03-27T17:56:34+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 11:26:59.116481+02",
+            "analysis:parsing:parsing_table": "edf07106aed477dcbb8307d12167d946",
+            "check:available": true,
+            "check:count-availability": 5,
+            "check:date": "2025-03-17T20:16:47.805000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 2680,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+          "internal": {
+            "created_at_internal": "2020-03-27T18:56:34.899000+00:00",
+            "last_modified_internal": "2020-03-27T18:56:51.696000+00:00"
+          },
+          "last_modified": "2020-03-27T18:56:51.696000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+          "metrics": {
+            "views": 1557
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnee-urgenceshos-sosmedecin-covid19-quot-fra.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-des-ugences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200327-185634/metadonnee-urgenceshos-sosmedecin-covid19-quot-fra.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "8ae0c8f49f35ff3ab611de8cc8650b1340fe87d0"
+          },
+          "created_at": "2020-03-23T19:49:55.734000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "8ae0c8f49f35ff3ab611de8cc8650b1340fe87d0",
+            "analysis:content-length": 1329,
+            "analysis:last-modified-at": "2020-03-23T18:49:55+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-30 21:17:14.745028+02",
+            "analysis:parsing:parsing_table": "f2440d35e54401f580368af82654925c",
+            "check:available": true,
+            "check:count-availability": 5,
+            "check:date": "2025-03-16T01:46:55.707000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 1329,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+          "internal": {
+            "created_at_internal": "2020-03-23T19:49:55.734000+00:00",
+            "last_modified_internal": "2020-03-23T19:50:19.338000+00:00"
+          },
+          "last_modified": "2020-03-23T19:50:19.338000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+          "metrics": {
+            "views": 1639
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "metadonnee-urgenceshos-sosmedecins-covid19-hebdo.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200323-194955/metadonnee-urgenceshos-sosmedecin-covid19-hebdo.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "06b8b6bd3c95ebc1a283bff184ab7c60b10e6ad7"
+          },
+          "created_at": "2020-03-20T18:19:24.201000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "06b8b6bd3c95ebc1a283bff184ab7c60b10e6ad7",
+            "analysis:content-length": 110,
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-06-03 16:10:57.760544+02",
+            "analysis:parsing:parsing_table": "a592be3a66135e7d3509aefb5ff6a24d",
+            "check:available": true,
+            "check:count-availability": 5,
+            "check:date": "2025-03-18T15:57:12.306000",
+            "check:headers:content-length": 110,
+            "check:headers:content-type": "text/csv",
+            "check:status": 204,
+            "check:timeout": false
+          },
+          "filesize": 110,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+          "internal": {
+            "created_at_internal": "2020-03-20T18:19:24.201000+00:00",
+            "last_modified_internal": "2020-03-23T18:47:52.441000+00:00"
+          },
+          "last_modified": "2020-03-23T18:47:52.441000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+          "metrics": {
+            "views": 1950
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "code-tranches-dage.csv",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200320-181924/code-tranches-dage.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:departement",
+        "zones": []
+      },
+      "tags": [
+        "coronavirus",
+        "covid-19",
+        "covid19"
+      ],
+      "temporal_coverage": null,
+      "title": "Données des urgences hospitalières et de SOS médecins relatives à l'épidémie de COVID-19 ",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/"
+    }
+  ],
+  "next_page": "https://www.data.gouv.fr/api/1/datasets/?q=donn%C3%A9es+hospitali%C3%A8res&page_size=5&page=2",
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 6
+}

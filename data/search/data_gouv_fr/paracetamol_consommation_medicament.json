@@ -1,0 +1,288 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2014-02-24T13:52:32.593000+00:00",
+      "deleted": null,
+      "description": "Chiffres de consommation du Médiator, issus des données livrées par la Caisse nationale d’Assurance maladie (Cnam) à la demande du collectif Initiative Transparence Santé.\r\nLes données sont présentées sous la forme de deux fichiers :\r\n- Effectifs des consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)\r\n- Prévalence du diabète et consommation de Médiator dans les départements Français de 2008 à 2010\r\n\r\nCes fichiers permettent de constater la forte disparité entre les départements et de comparer la prévalence du diabète par rapport à la consommation du médicament Médiator. \r\n",
+      "description_short": null,
+      "extras": {
+        "datagouv_ckan_id": "4f50b8bc-2512-4ebf-8689-39643600b4d1",
+        "datagouv_ckan_last_sync": "2014-09-17T04:06:52.042000"
+      },
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53699326a3a729239d2040f0",
+      "internal": {
+        "created_at_internal": "2014-02-24T13:52:32.593000+00:00",
+        "last_modified_internal": "2016-02-03T08:33:51.048000+00:00"
+      },
+      "last_modified": "2016-02-03T08:33:51.048000+00:00",
+      "last_update": "2014-03-05T14:29:01.176000+00:00",
+      "license": "other-pd",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 2,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1692,
+        "reuses": 2,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2986
+      },
+      "organization": null,
+      "owner": {
+        "avatar": null,
+        "avatar_thumbnail": null,
+        "class": "User",
+        "first_name": "OpenHealth",
+        "id": "534fff46a3a7292c64a77a05",
+        "last_name": "CELTIPHARM",
+        "page": "https://www.data.gouv.fr/users/open-data-sante-its/",
+        "slug": "open-data-sante-its",
+        "uri": "https://www.data.gouv.fr/api/1/users/open-data-sante-its/"
+      },
+      "page": "https://www.data.gouv.fr/datasets/donnees-de-consommation-du-medicament-mediator/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Effectifs des consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)\r\nLe fichier est enrichi des données INSEE de l'effectif de la population par département en 2009 ainsi que d'un indice de consommation du médiator par département.",
+          "extras": {
+            "check:available": false,
+            "check:date": "2023-06-01T08:23:42.299946+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "xls",
+          "harvest": null,
+          "id": "77a9769e-3284-4dff-8699-b618101b9303",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-02-24T14:05:05.947000+00:00"
+          },
+          "last_modified": "2014-02-24T14:05:05.947000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/77a9769e-3284-4dff-8699-b618101b9303",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 406
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Effectif consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-02-24T14-55-37/Effectif%20consommateurs%20mediator%202008%202010%20SNIIRAM.xlsx"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Indice de consommation du Médiator comparé aux données de prévalence du diabète de 2008 à 2010.\r\nSources SNIIRAM obtenues par le collectif Initiative Transparence Santé\r\nSources prévalence diabète opac.invs.sante.fr\r\nSources population INSEE",
+          "extras": {
+            "analysis:checksum": "eb78e4c20e0a43a2273d6c5866b11e3a9ce613ce",
+            "analysis:content-length": 32639,
+            "analysis:last-modified-at": "2014-10-15T01:21:35+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "analysis:parsing:finished_at": "2024-10-23T04:41:01.212229+00:00",
+            "analysis:parsing:parsing_table": "521e368ee805641fadba187bbcf7093d",
+            "analysis:parsing:started_at": "2024-10-23T04:41:00.663563+00:00",
+            "check:available": true,
+            "check:date": "2024-10-22T15:22:42.399661+00:00",
+            "check:headers:content-length": 32639,
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "xls",
+          "harvest": null,
+          "id": "1f2b8e15-453c-40c2-a8a5-7716b2dc670b",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-02-24T14:05:14.393000+00:00"
+          },
+          "last_modified": "2014-02-24T14:05:14.393000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1f2b8e15-453c-40c2-a8a5-7716b2dc670b",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 427
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/1f2b8e15-453c-40c2-a8a5-7716b2dc670b",
+          "schema": null,
+          "title": "Prévalence du diabète et consommation de Médiator dans les départements Français de 2008 à 2010",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-02-24T15-03-05/Mediator_Diabete_v01.xlsx"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Effectifs des consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)\r\nLe fichier est enrichi des données INSEE de l'effectif de la population par département en 2009 ainsi que d'un indice de consommation du médiator par département.",
+          "extras": {
+            "check:available": false,
+            "check:date": "2023-05-31T21:12:53.125053+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:status": 404,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "76af5fdd-c424-40a0-9698-11e14fab247b",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-03-05T14:28:17.005000+00:00"
+          },
+          "last_modified": "2014-03-05T14:28:17.005000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/76af5fdd-c424-40a0-9698-11e14fab247b",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 523
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Effectif consommateurs du médiator de 2008 à 2010 dans les départements Français (données SNIIRAM)",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-03-05T15-28-16/Effectif%20consommateurs%20mediator%202008%202010%20SNIIRAM.csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:57:58.295000+00:00",
+          "description": "Indice de consommation du Médiator comparé aux données de prévalence du diabète de 2008 à 2010.\r\nSources SNIIRAM obtenues par le collectif Initiative Transparence Santé\r\nSources prévalence diabète opac.invs.sante.fr\r\nSources population INSEE",
+          "extras": {
+            "analysis:checksum": "c6bd6d6e600a346cf20ce66967eb0c478be2e9da",
+            "analysis:content-length": 3699,
+            "analysis:last-modified-at": "2014-10-15T01:22:02+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2023-08-29 20:50:58.534745+02",
+            "analysis:parsing:parsing_table": "c1310b07de73a4ab0b8e39124a8be865",
+            "check:available": true,
+            "check:date": "2023-08-28T16:24:22.518359+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "8b206c51-0125-400d-87a7-2a86d1a47784",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:57:58.295000+00:00",
+            "last_modified_internal": "2014-03-05T14:29:01.176000+00:00"
+          },
+          "last_modified": "2014-03-05T14:29:01.176000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/8b206c51-0125-400d-87a7-2a86d1a47784",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 508
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/8b206c51-0125-400d-87a7-2a86d1a47784",
+          "schema": null,
+          "title": "Prévalence du diabète et consommation de Médiator dans les départements Français de 2008 à 2010",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-03-05T15-29-00/Mediator_Diabete_v01.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "donnees-de-consommation-du-medicament-mediator",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:departement",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "mediator",
+        "sante",
+        "sante-publique"
+      ],
+      "temporal_coverage": {
+        "end": "2010-12-31",
+        "start": "2008-01-01"
+      },
+      "title": "Données de consommation du médicament Médiator",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/donnees-de-consommation-du-medicament-mediator/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 1
+}

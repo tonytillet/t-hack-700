@@ -1,6 +1,6 @@
 {
   "source": "Data.gouv.fr",
-  "total_files": 20,
+  "total_files": 37,
   "files": [
     {
       "filename": "absenteisme_dares.json",
@@ -120,6 +120,108 @@
       "filename": "sos_medecins_spf.json",
       "size_kb": 74.86,
       "datasets_found": 3,
+      "status": "success"
+    },
+    {
+      "filename": "pharmacies_officines.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "success"
+    },
+    {
+      "filename": "ansm_paracetamol.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "success"
+    },
+    {
+      "filename": "capacite_hospitaliere.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "success"
+    },
+    {
+      "filename": "hopitaux_urgences.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "success"
+    },
+    {
+      "filename": "arret_maladie.json",
+      "size_kb": 14.66,
+      "datasets_found": 2,
+      "status": "success"
+    },
+    {
+      "filename": "ansm_ansm.json",
+      "size_kb": 16.4,
+      "datasets_found": 2,
+      "status": "success"
+    },
+    {
+      "filename": "ansm_agence_nationale_securite_medicament.json",
+      "size_kb": 6.56,
+      "datasets_found": 1,
+      "status": "success"
+    },
+    {
+      "filename": "ansm_open_medic.json",
+      "size_kb": 357.52,
+      "datasets_found": 4,
+      "status": "success"
+    },
+    {
+      "filename": "ansm_depenses_medicaments.json",
+      "size_kb": 146.24,
+      "datasets_found": 1,
+      "status": "success"
+    },
+    {
+      "filename": "drees_drees.json",
+      "size_kb": 60.72,
+      "datasets_found": 2,
+      "status": "success"
+    },
+    {
+      "filename": "drees_etablissements_hospitaliers.json",
+      "size_kb": 70.71,
+      "datasets_found": 4,
+      "status": "success"
+    },
+    {
+      "filename": "drees_donnees_hospitalières.json",
+      "size_kb": 146.04,
+      "datasets_found": 5,
+      "status": "success"
+    },
+    {
+      "filename": "dares_dares.json",
+      "size_kb": 24.9,
+      "datasets_found": 3,
+      "status": "success"
+    },
+    {
+      "filename": "dares_arrêt_maladie.json",
+      "size_kb": 14.66,
+      "datasets_found": 2,
+      "status": "success"
+    },
+    {
+      "filename": "dares_travail_sante.json",
+      "size_kb": 72.93,
+      "datasets_found": 5,
+      "status": "success"
+    },
+    {
+      "filename": "dares_conditions_travail.json",
+      "size_kb": 35.75,
+      "datasets_found": 4,
+      "status": "success"
+    },
+    {
+      "filename": "dares_sante_travail.json",
+      "size_kb": 72.93,
+      "datasets_found": 5,
       "status": "success"
     }
   ]
