@@ -1,0 +1,108 @@
+{
+  "source": "Data.gouv.fr",
+  "total_files": 17,
+  "files": [
+    {
+      "filename": "absenteisme_dares.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "urgences.json",
+      "size_kb": 91.0,
+      "datasets_found": 5,
+      "status": "success"
+    },
+    {
+      "filename": "ansm_paracetamol.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "syndromes_grippaux_spf.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "pharmacies_officines.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "capacite_hospitaliere.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "oscour_urgences.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "vaccination_grippe.json",
+      "size_kb": 114.73,
+      "datasets_found": 7,
+      "status": "success"
+    },
+    {
+      "filename": "hopitaux_urgences.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "syndromes_grippaux.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "stock_vaccin.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "mobilite.json",
+      "size_kb": 67.37,
+      "datasets_found": 3,
+      "status": "success"
+    },
+    {
+      "filename": "meteo_france.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "population_insee.json",
+      "size_kb": 23.96,
+      "datasets_found": 2,
+      "status": "success"
+    },
+    {
+      "filename": "arret_maladie_cnam.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "twitter_sante.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    },
+    {
+      "filename": "wikipedia_sante.json",
+      "size_kb": 0.11,
+      "datasets_found": 0,
+      "status": "empty"
+    }
+  ]
+}

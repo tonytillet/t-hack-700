@@ -1,0 +1,19 @@
+{
+  "source": "Open-Meteo",
+  "total_files": 1,
+  "files": [
+    {
+      "filename": "donnees_meteo.json",
+      "size_kb": 71.48,
+      "description": "Données météo pour 5 villes françaises",
+      "status": "success",
+      "villes": [
+        "Paris",
+        "Lyon",
+        "Marseille",
+        "Toulouse",
+        "Nice"
+      ]
+    }
+  ]
+}

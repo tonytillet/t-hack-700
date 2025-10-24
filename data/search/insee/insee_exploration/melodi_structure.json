@@ -1,0 +1,43 @@
+{
+  "_links": {
+    "dataSetParametresMelodis": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/dataSetParametresMelodis{?page,size,sort*}",
+      "templated": true
+    },
+    "slices": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/slices{?page,size,sort*}",
+      "templated": true
+    },
+    "mappingChoixes": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/mappingChoixes{?page,size,sort*}",
+      "templated": true
+    },
+    "chargementProducteurs": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/chargementProducteurs{?page,size,sort*}",
+      "templated": true
+    },
+    "produitSdmxes": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/produitSdmxes{?page,size,sort*}",
+      "templated": true
+    },
+    "droitsParSources": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/droitsParSources{?page,size,sort*}",
+      "templated": true
+    },
+    "archivageEvenements": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/archivageEvenements{?page,size,sort*}",
+      "templated": true
+    },
+    "observations": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/observations{?page,size,sort*}",
+      "templated": true
+    },
+    "inseeThemes": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/inseeThemes{?page,size,sort*}",
+      "templated": true
+    },
+    "profile": {
+      "href": "https://api-diffusion-catalogue-donnees-externe.insee.fr/profile"
+    }
+  }
+}

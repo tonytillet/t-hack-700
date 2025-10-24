@@ -1,0 +1,12 @@
+{
+  "source": "INSEE",
+  "total_files": 1,
+  "files": [
+    {
+      "filename": "summary.json",
+      "size_kb": 0.06,
+      "description": "Fichier INSEE",
+      "status": "exploration"
+    }
+  ]
+}
