@@ -1,5 +1,5 @@
 import streamlit as st
-import ckanapi
+import requests
 
 st.set_page_config(
     page_title="LUMEN",

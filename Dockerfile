@@ -2,10 +2,13 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
+# Copier requirements.txt d'abord
+COPY requirements.txt .
+
 # Installer les dépendances
 RUN pip install -r requirements.txt
 
-# Copier l'application
+# Copier le reste de l'application
 COPY . .
 
 # Exposer le port
