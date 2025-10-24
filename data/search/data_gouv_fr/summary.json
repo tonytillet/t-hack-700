@@ -1,6 +1,6 @@
 {
   "source": "Data.gouv.fr",
-  "total_files": 37,
+  "total_files": 39,
   "files": [
     {
       "filename": "absenteisme_dares.json",
@@ -221,6 +221,18 @@
     {
       "filename": "dares_sante_travail.json",
       "size_kb": 72.93,
+      "datasets_found": 5,
+      "status": "success"
+    },
+    {
+      "filename": "vaccins_vaccin_grippe.json",
+      "size_kb": 97.32,
+      "datasets_found": 5,
+      "status": "success"
+    },
+    {
+      "filename": "vaccins_vaccination_grippe.json",
+      "size_kb": 97.33,
       "datasets_found": 5,
       "status": "success"
     }
