@@ -1,8 +1,220 @@
 {
-  "data": [],
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2014-12-03T10:15:21.743000+00:00",
+      "deleted": null,
+      "description": "Estimations d'incidence hebdomadaire des syndromes grippaux basée sur les données des médecins généralistes du réseau Sentinelles (http://www.sentiweb.fr).\r\nLes médecins Sentinelles utilisent depuis 1984 la même définition des syndromes grippaux (Fièvre supérieure à 39°C, d'apparition brutale, accompagnée de myalgies et de signes respiratoires) pour rapporter les cas au réseau.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "weekly",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "547ed4aac751df2c10090fca",
+      "internal": {
+        "created_at_internal": "2014-12-03T10:15:21.743000+00:00",
+        "last_modified_internal": "2015-10-14T23:34:00.814000+00:00"
+      },
+      "last_modified": "2015-10-14T23:34:00.814000+00:00",
+      "last_update": "2025-09-27T17:23:49.487000+00:00",
+      "license": "notspecified",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 894,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 4300
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "public-service"
+          }
+        ],
+        "class": "Organization",
+        "id": "547ed1a3c751df26eb090fca",
+        "logo": null,
+        "logo_thumbnail": null,
+        "name": "réseau Sentinelles",
+        "page": "https://www.data.gouv.fr/organizations/reseau-sentinelles/",
+        "slug": "reseau-sentinelles",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/reseau-sentinelles/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/estimation-dincidence-des-syndromes-grippaux/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": false,
+        "resources_documentation": true,
+        "score": 0.7777777777777778,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-12-03T10:17:38.793000+00:00",
+          "description": "Service d'accès aux données Sentiweb basé sur l'API OData.\r\nCe service permet d'explorer et de télécharger les données disponibles du réseau Sentinelles (http://www.sentiweb.fr)",
+          "extras": {
+            "analysis:checksum": "cc8e10dc7d58529359dd0da4d6cca851cef8f5b1",
+            "analysis:content-length": 3605,
+            "analysis:last-modified-at": "2024-12-05T17:16:32.761964+00:00",
+            "analysis:last-modified-detection": "content-length-header",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 47,
+            "check:date": "2024-12-05T17:16:32.753224+00:00",
+            "check:headers:content-length": 1601,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://odata.sentiweb.fr"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xml",
+          "harvest": null,
+          "id": "c7281f10-151a-4a06-aa74-d1f077fb49c2",
+          "internal": {
+            "created_at_internal": "2014-12-03T10:17:38.793000+00:00",
+            "last_modified_internal": "2014-12-03T10:17:38.793000+00:00"
+          },
+          "last_modified": "2024-12-05T17:16:32.761964+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c7281f10-151a-4a06-aa74-d1f077fb49c2",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 559
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Service OData Sentiweb",
+          "type": "api",
+          "url": "http://odata.sentiweb.fr"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-12-03T11:50:15.809000+00:00",
+          "description": "Page d'accès aux données du réseau Sentinelles : créer des cartes d'interpolation spatiale, visualiser les séries temporelles, extraire les données.",
+          "extras": {
+            "analysis:check_id": 33935450,
+            "analysis:checksum": "a22b8434585e0716048498268a3fe8da2218ae46",
+            "analysis:content-length": 23910,
+            "analysis:last-modified-at": "2025-09-27T17:23:49.487627+00:00",
+            "analysis:last-modified-detection": "content-length-header",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 48,
+            "check:date": "2025-09-27T17:23:49.494112+00:00",
+            "check:headers:content-length": 6628,
+            "check:headers:content-type": "text/html",
+            "check:id": 33935450,
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.sentiweb.fr/?page=database"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "html",
+          "harvest": null,
+          "id": "9c720efa-06c9-4a55-9d2b-7ae896d6347f",
+          "internal": {
+            "created_at_internal": "2014-12-03T11:50:15.809000+00:00",
+            "last_modified_internal": "2014-12-03T11:50:15.809000+00:00"
+          },
+          "last_modified": "2025-09-27T17:23:49.487627+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/9c720efa-06c9-4a55-9d2b-7ae896d6347f",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 354
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Site Sentiweb: accès aux données",
+          "type": "api",
+          "url": "http://www.sentiweb.fr/?page=database"
+        }
+      ],
+      "schema": null,
+      "slug": "estimation-dincidence-des-syndromes-grippaux",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": []
+      },
+      "tags": [
+        "epidemiologie",
+        "grippe",
+        "incidence",
+        "surveillance-epidemiologique"
+      ],
+      "temporal_coverage": {
+        "end": "2014-12-03",
+        "start": "1984-11-26"
+      },
+      "title": "Estimation d'incidence des syndromes grippaux",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/estimation-dincidence-des-syndromes-grippaux/"
+    }
+  ],
   "next_page": null,
   "page": 1,
   "page_size": 10,
   "previous_page": null,
-  "total": 0
+  "total": 1
 }

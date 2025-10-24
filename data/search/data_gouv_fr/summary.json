@@ -1,6 +1,6 @@
 {
   "source": "Data.gouv.fr",
-  "total_files": 17,
+  "total_files": 20,
   "files": [
     {
       "filename": "absenteisme_dares.json",
@@ -103,6 +103,24 @@
       "size_kb": 0.11,
       "datasets_found": 0,
       "status": "empty"
+    },
+    {
+      "filename": "syndromes_grippaux_spf.json",
+      "size_kb": 7.72,
+      "datasets_found": 1,
+      "status": "success"
+    },
+    {
+      "filename": "passages_urgences_spf.json",
+      "size_kb": 13.35,
+      "datasets_found": 1,
+      "status": "success"
+    },
+    {
+      "filename": "sos_medecins_spf.json",
+      "size_kb": 74.86,
+      "datasets_found": 3,
+      "status": "success"
     }
   ]
 }
