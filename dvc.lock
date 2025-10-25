@@ -1,3 +1,8 @@
+# Verrouillage des versions DVC pour LUMEN
+# Ce fichier contient les hash MD5 et métadonnées des dépendances
+# Il garantit la reproductibilité du pipeline
+# NE PAS MODIFIER MANUELLEMENT - généré automatiquement par DVC
+
 schema: '2.0'
 stages:
   clean_data:
