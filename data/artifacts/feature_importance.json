@@ -1,0 +1,729 @@
+{
+  "feature_importance": [
+    {
+      "feature": "covid_cases_rolling_mean_14",
+      "importance": 0.0899609053029808
+    },
+    {
+      "feature": "covid_cases_rolling_mean_3",
+      "importance": 0.08954681430675974
+    },
+    {
+      "feature": "covid_cases_rolling_max_3",
+      "importance": 0.08012613497249318
+    },
+    {
+      "feature": "covid_cases_rolling_min_30",
+      "importance": 0.0676395066256426
+    },
+    {
+      "feature": "covid_cases_rolling_mean_7",
+      "importance": 0.06594633163283933
+    },
+    {
+      "feature": "covid_cases_ma30_lag_1",
+      "importance": 0.06550476196104085
+    },
+    {
+      "feature": "covid_cases_rolling_max_7",
+      "importance": 0.05049824231522083
+    },
+    {
+      "feature": "covid_cases_rolling_min_3",
+      "importance": 0.05028516970791225
+    },
+    {
+      "feature": "covid_cases",
+      "importance": 0.05012323418262101
+    },
+    {
+      "feature": "covid_cases_rolling_mean_30",
+      "importance": 0.05006524101542719
+    },
+    {
+      "feature": "covid_cases_rolling_min_14",
+      "importance": 0.050041832312002904
+    },
+    {
+      "feature": "covid_cases_rolling_max_14",
+      "importance": 0.05000728216610609
+    },
+    {
+      "feature": "covid_cases_ma7_lag_7",
+      "importance": 0.0394972546991738
+    },
+    {
+      "feature": "covid_cases_ma7",
+      "importance": 0.030034750543195727
+    },
+    {
+      "feature": "covid_cases_ma30",
+      "importance": 0.020104659194536793
+    },
+    {
+      "feature": "covid_cases_rolling_max_30",
+      "importance": 0.020019634987377105
+    },
+    {
+      "feature": "covid_cases_ma7_lag_1",
+      "importance": 0.019980268148699173
+    },
+    {
+      "feature": "covid_cases_lag_14",
+      "importance": 0.019531607285323445
+    },
+    {
+      "feature": "covid_cases_lag_30",
+      "importance": 0.019005624266146815
+    },
+    {
+      "feature": "covid_cases_rolling_min_7",
+      "importance": 0.015560273462776903
+    },
+    {
+      "feature": "covid_cases_lag_1",
+      "importance": 0.009980664994085769
+    },
+    {
+      "feature": "covid_cases_ma7_lag_3",
+      "importance": 0.009948371229855962
+    },
+    {
+      "feature": "covid_cases_lag_7",
+      "importance": 0.009892208008935028
+    },
+    {
+      "feature": "covid_cases_ma30_lag_14",
+      "importance": 0.009748337949291917
+    },
+    {
+      "feature": "covid_peak_interaction",
+      "importance": 0.0046913885879311815
+    },
+    {
+      "feature": "covid_quarter_interaction",
+      "importance": 0.004400038929012476
+    },
+    {
+      "feature": "covid_month_interaction",
+      "importance": 0.0043035819340830304
+    },
+    {
+      "feature": "covid_ma7_weekend_interaction",
+      "importance": 0.002360493374357408
+    },
+    {
+      "feature": "department_27",
+      "importance": 0.000486328812222585
+    },
+    {
+      "feature": "department_06",
+      "importance": 0.00045430110662946166
+    },
+    {
+      "feature": "covid_cases_lag_3",
+      "importance": 0.00018520799363967732
+    },
+    {
+      "feature": "department_16",
+      "importance": 3.909469701919314e-05
+    },
+    {
+      "feature": "covid_cases_ma30_lag_7",
+      "importance": 2.9442179646783445e-05
+    },
+    {
+      "feature": "year",
+      "importance": 1.0058886266160257e-06
+    },
+    {
+      "feature": "sin_month",
+      "importance": 5.2263863981343395e-09
+    },
+    {
+      "feature": "department_77",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_73",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_74",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_75",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_76",
+      "importance": 0.0
+    },
+    {
+      "feature": "covid_cases_rolling_std_7",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_78",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_79",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_71",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_80",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_81",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_82",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_83",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_72",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_68",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_70",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_61",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_55",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_56",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_57",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_58",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_59",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_60",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_62",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_69",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_63",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_64",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_65",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_66",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_67",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_85",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_84",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_88",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_86",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_4",
+      "importance": 0.0
+    },
+    {
+      "feature": "month",
+      "importance": 0.0
+    },
+    {
+      "feature": "covid_weekend_interaction",
+      "importance": 0.0
+    },
+    {
+      "feature": "quarter_4",
+      "importance": 0.0
+    },
+    {
+      "feature": "quarter_3",
+      "importance": 0.0
+    },
+    {
+      "feature": "quarter_2",
+      "importance": 0.0
+    },
+    {
+      "feature": "quarter_1",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_12",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_11",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_10",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_9",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_8",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_7",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_6",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_5",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_3",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_87",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_2",
+      "importance": 0.0
+    },
+    {
+      "feature": "month_1",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_peak_season_1",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_peak_season_0",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_weekend_1",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_weekend_0",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_95",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_94",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_93",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_92",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_91",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_90",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_89",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_53",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_54",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_49",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_52",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_07",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_holiday_season",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_01",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_02",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_03",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_04",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_05",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_08",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_51",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_09",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_10",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_11",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_12",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_13",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_14",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_peak_flu_season",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_autumn",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_summer",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_spring",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_winter",
+      "importance": 0.0
+    },
+    {
+      "feature": "cos_quarter",
+      "importance": 0.0
+    },
+    {
+      "feature": "sin_quarter",
+      "importance": 0.0
+    },
+    {
+      "feature": "cos_day",
+      "importance": 0.0
+    },
+    {
+      "feature": "sin_day",
+      "importance": 0.0
+    },
+    {
+      "feature": "cos_month",
+      "importance": 0.0
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.0
+    },
+    {
+      "feature": "week_of_year",
+      "importance": 0.0
+    },
+    {
+      "feature": "covid_cases_rolling_std_30",
+      "importance": 0.0
+    },
+    {
+      "feature": "quarter",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_weekend",
+      "importance": 0.0
+    },
+    {
+      "feature": "is_peak_season",
+      "importance": 0.0
+    },
+    {
+      "feature": "covid_cases_rolling_std_14",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_15",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_17",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_18",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_35",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_50",
+      "importance": 0.0
+    },
+    {
+      "feature": "covid_cases_rolling_std_3",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_48",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_47",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_46",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_45",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_44",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_43",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_42",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_41",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_40",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_39",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_38",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_37",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_34",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_19",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_33",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_32",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_31",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_30",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_2B",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_2A",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_29",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_28",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_26",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_25",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_24",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_23",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_22",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_21",
+      "importance": 0.0
+    },
+    {
+      "feature": "department_36",
+      "importance": 0.0
+    }
+  ],
+  "top_10_features": [
+    {
+      "feature": "covid_cases_rolling_mean_14",
+      "importance": 0.0899609053029808
+    },
+    {
+      "feature": "covid_cases_rolling_mean_3",
+      "importance": 0.08954681430675974
+    },
+    {
+      "feature": "covid_cases_rolling_max_3",
+      "importance": 0.08012613497249318
+    },
+    {
+      "feature": "covid_cases_rolling_min_30",
+      "importance": 0.0676395066256426
+    },
+    {
+      "feature": "covid_cases_rolling_mean_7",
+      "importance": 0.06594633163283933
+    },
+    {
+      "feature": "covid_cases_ma30_lag_1",
+      "importance": 0.06550476196104085
+    },
+    {
+      "feature": "covid_cases_rolling_max_7",
+      "importance": 0.05049824231522083
+    },
+    {
+      "feature": "covid_cases_rolling_min_3",
+      "importance": 0.05028516970791225
+    },
+    {
+      "feature": "covid_cases",
+      "importance": 0.05012323418262101
+    },
+    {
+      "feature": "covid_cases_rolling_mean_30",
+      "importance": 0.05006524101542719
+    }
+  ],
+  "total_features": 170,
+  "mean_importance": 0.0058823529411764705,
+  "std_importance": 0.017162772970790417
+}

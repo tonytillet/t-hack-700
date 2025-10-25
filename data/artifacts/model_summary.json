@@ -1,0 +1,44 @@
+{
+  "model_info": {
+    "type": "RandomForestRegressor",
+    "n_estimators": 100,
+    "max_depth": 20,
+    "features_count": 170,
+    "trained_at": "2025-10-26T01:15:52.381115"
+  },
+  "performance": {
+    "mae": 0.00018886443943281136,
+    "mse": 3.391395473568072e-05,
+    "rmse": 0.0058235689002261075,
+    "r2": 0.9999998616070299,
+    "mae_relative": 0.00038542204692366315,
+    "rmse_relative": 0.01188435394543728,
+    "mean_target": 49.00198131899236,
+    "std_target": 15.654247762385808
+  },
+  "feature_importance": {
+    "top_5_features": [
+      {
+        "feature": "covid_cases_rolling_mean_14",
+        "importance": 0.0899609053029808
+      },
+      {
+        "feature": "covid_cases_rolling_mean_3",
+        "importance": 0.08954681430675974
+      },
+      {
+        "feature": "covid_cases_rolling_max_3",
+        "importance": 0.08012613497249318
+      },
+      {
+        "feature": "covid_cases_rolling_min_30",
+        "importance": 0.0676395066256426
+      },
+      {
+        "feature": "covid_cases_rolling_mean_7",
+        "importance": 0.06594633163283933
+      }
+    ],
+    "total_features": 170
+  }
+}
