@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-10-25T10:27:11.168120",
+  "total_sources": 4,
+  "sources": {
+    "data_gouv_fr": {
+      "type": "dict",
+      "keys": 15,
+      "status": "success"
+    },
+    "weather": {
+      "type": "dict",
+      "keys": 5,
+      "status": "success"
+    },
+    "wikipedia": {
+      "type": "dict",
+      "keys": 11,
+      "status": "success"
+    },
+    "insee": {
+      "type": "dict",
+      "keys": 0,
+      "status": "success"
+    }
+  },
+  "statistics": {
+    "total_files": 0,
+    "total_size_mb": 0,
+    "success_rate": 0
+  }
+}

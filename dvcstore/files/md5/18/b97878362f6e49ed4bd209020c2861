@@ -1,0 +1,1989 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2025-10-17T08:33:00.563000+00:00",
+      "deleted": null,
+      "description": "Suivi quotidien de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Méthodologie**\n\nA partir des données issues du panel IQVIA-Pharmastat couvrant 60 % du réseau officinal de France Métropolitaine + DROM, IQVIA est en mesure d'estimer les volumes extraplolés:\n\n* des dispensations des vaccins (doses) contre la grippe (ATC EPhMRA: J07E1)\n* des actes de vaccination contre la grippe (VGP) réalisés en pharmacie d'officine\n\n**Fréquence**\n\nEntre le 22 octobre 2024 et le 11 mars 2026 IQVIA publiera une mise à jour hebdomadaire de ce jeu donnée le mercredi.\n\n**Description des fichiers**\n\nCe jeu de données se décline en 3 fichiers:\n\n* doses-actes.{csv|json}:\n  Nombre de doses de vaccins de la classe EphMRA J07E1 et actes de vaccination (VGP) dispensés quotidiennement à l'officine, en fonction du groupe de population (patients de 65 ans et plus ou les moins de 65 ans) et du jour.\n* campagne.{csv|json}:\n  Synthèse des actes, doses, officines au cumul campagne en cours comparé à la campagne précédente sur l'ensemble de la population.\n* couverture.{csv|json}\n  Suivi (cumul-campagne) régional exprimé en actes et doses pour 10 000 habitants par groupe de population (patients de 65 ans et plus ou les moins de 65 ans)\n\n**Population**\n\n* Ensemble de la population de France Métropolitaine et de la Corse\n",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "weekly",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "68f1ff3cda987ca867e6ba7e",
+      "internal": {
+        "created_at_internal": "2025-10-17T08:33:00.563000+00:00",
+        "last_modified_internal": "2025-10-23T16:15:30.454000+00:00"
+      },
+      "last_modified": "2025-10-23T16:15:30.454000+00:00",
+      "last_update": "2025-10-23T18:15:30.389000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 1,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": 0,
+        "resources_downloads": 13,
+        "reuses": 0,
+        "reuses_by_months": 0,
+        "views": 36
+      },
+      "organization": {
+        "acronym": "IQVIA",
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa3a69aca811d2fd256cd6c",
+        "logo": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-100.png",
+        "name": "IQVIA France",
+        "page": "https://www.data.gouv.fr/organizations/iqvia-france/",
+        "slug": "iqvia-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/iqvia-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/vaccination-grippe-2025-2026/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "9c7ebdc9c4708b4dae23243efb65ae3fc64ffe22"
+          },
+          "created_at": "2025-10-17T08:33:01.598000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position | libellé  | type   | description                                               | exemple                                |\n| :------- | :------- | :----- | :-------------------------------------------------------- | :------------------------------------- |\n| 1        | campagne | string | libellé de la campagne                                    | \\['2021-2022', '2022-2023']            |\n| 2        | date     | date   | date de dispensation, date d'exécution                    | \\['2021-10-22', '2022-10-18', ...]     |\n| 3        | jour     | int    | jour relatif depuis le début de la campagne               | \\[1,2,3,4,...]                         |\n| 4        | variable | string | type de variable (dose de vaccins ou acte de vaccination) | \\['DOSES(J07E1'), 'ACTE(VGP)']         |\n| 5        | groupe   | string | groupe de patients                                        | \\['65ans et plus', 'population autre'] |\n| 6        | valeur   | int    | quantité                                                  | 10000                                  |\n\n**Population**\n\n* Ensemble de la population de France Métropolitaine et de la Corse\n",
+          "extras": {
+            "analysis:check_id": 35435305,
+            "analysis:checksum": "9c7ebdc9c4708b4dae23243efb65ae3fc64ffe22",
+            "analysis:content-length": 59406,
+            "analysis:last-modified-at": "2025-10-23T16:15:30+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-10-17T08:33:06.769299+00:00",
+            "check:headers:content-type": "application/json",
+            "check:id": 34905048,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 59406,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "3defbd72-f1cb-4e91-8cff-eb4abcba6198",
+          "internal": {
+            "created_at_internal": "2025-10-17T08:33:01.598000+00:00",
+            "last_modified_internal": "2025-10-23T18:15:30.389000+00:00"
+          },
+          "last_modified": "2025-10-23T18:15:30.389000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/3defbd72-f1cb-4e91-8cff-eb4abcba6198",
+          "metrics": {},
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "doses-actes-2025.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2025-2026/20251023-161530/doses-actes-2025.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "a565e915bb6bc35f1cda695a6784d44c8f42407c"
+          },
+          "created_at": "2025-10-17T08:33:01.541000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position | libellé  | type   | description                               | exemple                                                                   |\n| :------- | :------- | :----- | :---------------------------------------- | :------------------------------------------------------------------------ |\n| 1        | campagne | string | libellé de la campagne                    | \\['2021-2022', '2022-2023']                                               |\n| 2        | date     | date   | date de dispensation, date d'exécution    | \\['2021-10-22', '2022-10-18', ...]                                        |\n| 3        | variable | string | type de variable                          | \\['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] |\n| 4        | valeur   | int    | valeur cumulée sur la campagne en cours   | \\[16000, 1000000, 90, ...]                                                |\n| 5        | cible    | int    | valeur cumulée sur la campagne précédente | \\[16000, 1000000, 90, ...]                                                |\n",
+          "extras": {
+            "analysis:check_id": 35435298,
+            "analysis:checksum": "a565e915bb6bc35f1cda695a6784d44c8f42407c",
+            "analysis:content-length": 396,
+            "analysis:last-modified-at": "2025-10-23T16:15:27+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-10-25T04:13:13.412408+00:00",
+            "check:headers:content-length": 396,
+            "check:headers:content-type": "application/json",
+            "check:id": 35435298,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 396,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "d2fe3a2a-96d7-42bc-bd42-e379ccc31826",
+          "internal": {
+            "created_at_internal": "2025-10-17T08:33:01.541000+00:00",
+            "last_modified_internal": "2025-10-23T18:15:27.977000+00:00"
+          },
+          "last_modified": "2025-10-23T18:15:27.977000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/d2fe3a2a-96d7-42bc-bd42-e379ccc31826",
+          "metrics": {},
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "campagne-2025.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2025-2026/20251023-161527/campagne-2025.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "19a770b3a1487a3f4c00e1ae56fc3f0238ee0e9c"
+          },
+          "created_at": "2025-10-17T08:33:01.536000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 100 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 100 000 habitants.\n\n| position | libellé  | type   | description                                    | exemple                                                  |\n| :------- | :------- | :----- | :--------------------------------------------- | :------------------------------------------------------- |\n| 1        | region   | string | libellé de la region                           | \\['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] |\n| 2        | code     | int    | code region                                    | \\['11', '24', ...]                                       |\n| 3        | variable | string | type de variable                               | \\['DOSES(J07E1)', 'ACTE(VGP)']                           |\n| 4        | groupe   | string | groupe de patients                             | \\['65 ans et plus', 'moins de 65 ans']                   |\n| 5        | valeur   | int    | nombre d'actes ou doses pour 100 000 habitants | \\[800,1200, ...]                                         |\n",
+          "extras": {
+            "analysis:check_id": 35435304,
+            "analysis:checksum": "19a770b3a1487a3f4c00e1ae56fc3f0238ee0e9c",
+            "analysis:content-length": 4542,
+            "analysis:last-modified-at": "2025-10-23T16:15:29+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-10-17T08:33:06.786564+00:00",
+            "check:headers:content-type": "application/json",
+            "check:id": 34905051,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 4542,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "1da15253-fce0-48f0-bd8a-d3a9436e2a05",
+          "internal": {
+            "created_at_internal": "2025-10-17T08:33:01.536000+00:00",
+            "last_modified_internal": "2025-10-23T18:15:29.173000+00:00"
+          },
+          "last_modified": "2025-10-23T18:15:29.173000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1da15253-fce0-48f0-bd8a-d3a9436e2a05",
+          "metrics": {},
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "couverture-2025.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2025-2026/20251023-161529/couverture-2025.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "0369d0ffa180a4917e255fc74690206974b7aba6"
+          },
+          "created_at": "2025-10-17T08:33:01.162000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position | libellé  | type   | description                                               | exemple                                |\n| :------- | :------- | :----- | :-------------------------------------------------------- | :------------------------------------- |\n| 1        | campagne | string | libellé de la campagne                                    | \\['2023-2024', '2022-2023']            |\n| 2        | date     | date   | date de dispensation, date d'exécution                    | \\['2023-10-17', '2023-10-18', ...]     |\n| 3        | jour     | int    | jour relatif depuis le début de la campagne               | \\[1,2,3,4,...]                         |\n| 4        | variable | string | type de variable (dose de vaccins ou acte de vaccination) | \\['DOSES(J07E1'), 'ACTE(VGP)']         |\n| 5        | groupe   | string | groupe de patients                                        | \\['65 ans et plus', 'moins de 65 ans'] |\n| 6        | valeur   | int    | quantité                                                  | 10000                                  |\n\n**Population**\n\n* Ensemble de la population de France Métropolitaine et de la Corse\n",
+          "extras": {
+            "analysis:check_id": 35435300,
+            "analysis:checksum": "0369d0ffa180a4917e255fc74690206974b7aba6",
+            "analysis:content-length": 32476,
+            "analysis:last-modified-at": "2025-10-23T16:15:29+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-10-25T04:13:22.865542+00:00",
+            "analysis:parsing:parquet_size": 8761,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/595661ca-dbe8-41cb-899b-b320ad583ac5.parquet",
+            "analysis:parsing:parsing_table": "f25d1145e73a5814e1bf5aaebda40191",
+            "analysis:parsing:started_at": "2025-10-25T04:13:22.107321+00:00",
+            "check:available": true,
+            "check:date": "2025-10-17T08:33:06.695737+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:id": 34905046,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 32476,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "595661ca-dbe8-41cb-899b-b320ad583ac5",
+          "internal": {
+            "created_at_internal": "2025-10-17T08:33:01.162000+00:00",
+            "last_modified_internal": "2025-10-23T18:15:29.773000+00:00"
+          },
+          "last_modified": "2025-10-23T18:15:29.773000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/595661ca-dbe8-41cb-899b-b320ad583ac5",
+          "metrics": {},
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/595661ca-dbe8-41cb-899b-b320ad583ac5",
+          "schema": null,
+          "title": "doses-actes-2025.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2025-2026/20251023-161529/doses-actes-2025.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "2b46e939784cd3d3bffb428e97535fc6dcad8731"
+          },
+          "created_at": "2025-10-17T08:33:01.124000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position | libellé  | type   | description                               | exemple                                                                   |\n| :------- | :------- | :----- | :---------------------------------------- | :------------------------------------------------------------------------ |\n| 1        | campagne | string | libellé de la campagne                    | \\['2023-2024', '2022-2023']                                               |\n| 2        | date     | date   | date de dispensation, date d'exécution    | \\['2023-10-17', '2023-10-18', ...]                                        |\n| 3        | variable | string | type de variable                          | \\['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] |\n| 4        | valeur   | int    | valeur cumulée sur la campagne en cours   | \\[16000, 1000000, 90, ...]                                                |\n| 5        | cible    | int    | valeur cumulée sur la campagne précédente | \\[16000, 1000000, 90, ...]                                                |\n",
+          "extras": {
+            "analysis:check_id": 35435299,
+            "analysis:checksum": "2b46e939784cd3d3bffb428e97535fc6dcad8731",
+            "analysis:content-length": 261,
+            "analysis:last-modified-at": "2025-10-23T16:15:27+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-10-25T04:13:22.475152+00:00",
+            "analysis:parsing:parsing_table": "69a7cedb025014623a4768b0850dfa28",
+            "analysis:parsing:started_at": "2025-10-25T04:13:22.307279+00:00",
+            "check:available": true,
+            "check:date": "2025-10-25T04:13:13.420169+00:00",
+            "check:headers:content-length": 261,
+            "check:headers:content-type": "text/csv",
+            "check:id": 35435299,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 261,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "55433247-6918-49d9-a2d2-bc760e1a38a8",
+          "internal": {
+            "created_at_internal": "2025-10-17T08:33:01.124000+00:00",
+            "last_modified_internal": "2025-10-23T18:15:27.397000+00:00"
+          },
+          "last_modified": "2025-10-23T18:15:27.397000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/55433247-6918-49d9-a2d2-bc760e1a38a8",
+          "metrics": {},
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/55433247-6918-49d9-a2d2-bc760e1a38a8",
+          "schema": null,
+          "title": "campagne-2025.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2025-2026/20251023-161527/campagne-2025.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "2d3004739502cddf4f40159a0e92904b40948b3d"
+          },
+          "created_at": "2025-10-17T08:33:01.080000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 10 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 10 000 habitants.\n\n| position | libellé  | type   | description                                    | exemple                                                  |\n| :------- | :------- | :----- | :--------------------------------------------- | :------------------------------------------------------- |\n| 1        | region   | string | libellé de la region                           | \\['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] |\n| 2        | code     | int    | code region                                    | \\['11', '24', ...]                                       |\n| 3        | variable | string | type de variable                               | \\['DOSES(J07E1)', 'ACTE(VGP)']                           |\n| 4        | groupe   | string | groupe de patients                             | \\['65 ans et plus', 'moins de 65 ans']                   |\n| 5        | valeur   | int    | nombre d'actes ou doses pour 100 000 habitants | \\[800,1200, ...]                                         |\n",
+          "extras": {
+            "analysis:check_id": 35435301,
+            "analysis:checksum": "2d3004739502cddf4f40159a0e92904b40948b3d",
+            "analysis:content-length": 2908,
+            "analysis:last-modified-at": "2025-10-23T16:15:28+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-10-25T04:13:22.272203+00:00",
+            "analysis:parsing:parsing_table": "bead215731138101ee467a07a6a07e6f",
+            "analysis:parsing:started_at": "2025-10-25T04:13:22.100118+00:00",
+            "check:available": true,
+            "check:date": "2025-10-17T08:33:06.774273+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:id": 34905050,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 2908,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "9ceb229c-b879-47d0-b9a1-db887a1a958e",
+          "internal": {
+            "created_at_internal": "2025-10-17T08:33:01.080000+00:00",
+            "last_modified_internal": "2025-10-23T18:15:28.605000+00:00"
+          },
+          "last_modified": "2025-10-23T18:15:28.605000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/9ceb229c-b879-47d0-b9a1-db887a1a958e",
+          "metrics": {},
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/9ceb229c-b879-47d0-b9a1-db887a1a958e",
+          "schema": null,
+          "title": "couverture-2025.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2025-2026/20251023-161528/couverture-2025.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "vaccination-grippe-2025-2026",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [],
+      "temporal_coverage": {
+        "end": "2026-02-28",
+        "start": "2025-10-15"
+      },
+      "title": "Vaccination Grippe 2025-2026",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/vaccination-grippe-2025-2026/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2024-09-26T12:06:52.340000+00:00",
+      "deleted": null,
+      "description": "Suivi quotidien de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Méthodologie**\n\nA partir des données issues du panel IQVIA-Pharmastat couvrant 60 % du réseau officinal de France Métropolitaine + DROM, IQVIA est en mesure d'estimer les volumes extraplolés: \n - des dispensations des vaccins (doses) contre la grippe (ATC EPhMRA: J07E1)\n - des actes de vaccination contre la grippe (VGP) réalisés en pharmacie d'officine\n\n**Fréquence**\n\nEntre le 16 octobre 2024 et le 5 mars 2025 IQVIA publiera une mise à jour hebdomadaire de ce jeu donnée le mercredi.\n\n**Description des fichiers**\n\nCe jeu de données se décline en 3 fichiers:\n - doses-actes.{csv|json}:\n    Nombre de doses de vaccins de la classe EphMRA J07E1 et actes de vaccination (VGP) dispensés quotidiennement à l'officine, en fonction du groupe de population (patients de 65 ans et plus ou les moins de 65 ans) et du jour.\n - campagne.{csv|json}:\n    Synthèse des actes, doses, officines au cumul campagne en cours comparé à la campagne précédente sur l'ensemble de la population. \n - couverture.{csv|json}\n    Suivi (cumul-campagne) régional exprimé en actes et doses pour 10 000 habitants par groupe de population (patients de 65 ans et plus ou les moins de 65 ans)\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "weekly",
+      "frequency_date": "2024-10-22T04:00:00+00:00",
+      "harvest": null,
+      "id": "66f54e5ca320bdebddc28fd8",
+      "internal": {
+        "created_at_internal": "2024-09-26T12:06:52.340000+00:00",
+        "last_modified_internal": "2025-10-23T09:28:07.982000+00:00"
+      },
+      "last_modified": "2025-10-23T09:28:07.982000+00:00",
+      "last_update": "2025-10-23T11:28:07.929000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 1,
+        "discussions_open": 1,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 1,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 4037,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 5267
+      },
+      "organization": {
+        "acronym": "IQVIA",
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa3a69aca811d2fd256cd6c",
+        "logo": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-100.png",
+        "name": "IQVIA France",
+        "page": "https://www.data.gouv.fr/organizations/iqvia-france/",
+        "slug": "iqvia-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/iqvia-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/vaccination-grippe-2024-2025/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "e6ab324d5d245822c107b2e3791d78281e1b165b"
+          },
+          "created_at": "2024-10-15T12:43:30.326000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 10 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 10 000 habitants.\n\n| position \t| libellé  \t| type   \t| description                                    \t| exemple                                                 \t|\n|----------\t|----------\t|--------\t|------------------------------------------------\t|---------------------------------------------------------\t|\n| 1        \t| region   \t| string \t| libellé de la region                           \t| ['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] \t|\n| 2        \t| code     \t| int    \t| code region                                    \t| ['11', '24', ...]                                       \t|\n| 3        \t| variable \t| string \t| type de variable                               \t| ['DOSES(J07E1)', 'ACTE(VGP)']                        \t|\n| 4        \t| groupe   \t| string \t| groupe de patients                             \t| ['65 ans et plus', 'moins de 65 ans']                   \t|\n| 5        \t| valeur   \t| int    \t| nombre d'actes ou doses pour 100 000 habitants \t| [800,1200, ...]                                         \t|",
+          "extras": {
+            "analysis:check_id": 35345630,
+            "analysis:checksum": "e6ab324d5d245822c107b2e3791d78281e1b165b",
+            "analysis:content-length": 1703,
+            "analysis:last-modified-at": "2025-10-23T09:28:06+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-10-23T12:37:28.619272+00:00",
+            "analysis:parsing:parsing_table": "85d41e4f2c758f15c218497525da3f88",
+            "analysis:parsing:started_at": "2025-10-23T12:37:28.469817+00:00",
+            "check:available": true,
+            "check:date": "2024-10-15T12:43:34.510000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 1703,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "848e3e48-4971-4dc5-97c7-d856cdfde2f6",
+          "internal": {
+            "created_at_internal": "2024-10-15T12:43:30.326000+00:00",
+            "last_modified_internal": "2025-10-23T11:28:06.257000+00:00"
+          },
+          "last_modified": "2025-10-23T11:28:06.257000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/848e3e48-4971-4dc5-97c7-d856cdfde2f6",
+          "metrics": {
+            "views": 1267
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/848e3e48-4971-4dc5-97c7-d856cdfde2f6",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "couverture-2024.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2024-2025/20251023-092806/couverture-2024.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "8516ee083efab6817b17ac12a52731ab7d5310cc"
+          },
+          "created_at": "2024-10-15T12:42:00.258000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position \t| libellé  \t| type   \t| description                                      \t| exemple                                                                  \t|\n|----------\t|----------\t|--------\t|--------------------------------------------------\t|--------------------------------------------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                           \t| ['2023-2024', '2022-2023']                                               \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution           \t| ['2023-10-17', '2023-10-18', ...]                                        \t|\n| 3        \t| variable \t| string \t| type de variable                                 \t| ['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] \t|\n| 4        \t| valeur   \t| int    \t| valeur cumulée sur la campagne en cours          \t| [16000, 1000000, 90, ...]                                                \t|\n| 5        \t| cible    \t| int    \t| valeur cumulée sur la campagne précédente \t    | [16000, 1000000, 90, ...]                                                \t|",
+          "extras": {
+            "analysis:check_id": 35345631,
+            "analysis:checksum": "8516ee083efab6817b17ac12a52731ab7d5310cc",
+            "analysis:content-length": 259,
+            "analysis:last-modified-at": "2025-10-23T09:28:05+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-10-23T12:37:29.349939+00:00",
+            "analysis:parsing:parsing_table": "19a5192cea1e6f1b1a956e852a656689",
+            "analysis:parsing:started_at": "2025-10-23T12:37:29.171331+00:00",
+            "check:available": true,
+            "check:date": "2025-10-23T09:28:08.507756+00:00",
+            "check:headers:content-length": 259,
+            "check:headers:content-type": "text/csv",
+            "check:id": 35345631,
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 259,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "c26a4606-b6a5-49a9-ad18-89cc0e1fc8c2",
+          "internal": {
+            "created_at_internal": "2024-10-15T12:42:00.258000+00:00",
+            "last_modified_internal": "2025-10-23T11:28:05.373000+00:00"
+          },
+          "last_modified": "2025-10-23T11:28:05.373000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c26a4606-b6a5-49a9-ad18-89cc0e1fc8c2",
+          "metrics": {
+            "views": 795
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/c26a4606-b6a5-49a9-ad18-89cc0e1fc8c2",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "campagne-2024.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2024-2025/20251023-092805/campagne-2024.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "5c9a4eabc085fec0164f2a8ac331a072c6d96434"
+          },
+          "created_at": "2024-10-15T12:40:44.486000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position \t| libellé  \t| type   \t| description                                               \t| exemple                               \t|\n|----------\t|----------\t|--------\t|-----------------------------------------------------------\t|---------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                                    \t| ['2023-2024', '2022-2023']            \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution                    \t| ['2023-10-17', '2023-10-18', ...]     \t|\n| 3        \t| jour     \t| int    \t| jour relatif depuis le début de la campagne               \t| [1,2,3,4,...]                         \t|\n| 4        \t| variable \t| string \t| type de variable (dose de vaccins ou acte de vaccination) \t| ['DOSES(J07E1'), 'ACTE(VGP)']      \t|\n| 5        \t| groupe   \t| string \t| groupe de patients                                        \t| ['65 ans et plus', 'moins de 65 ans'] \t|\n| 6        \t| valeur   \t| int    \t| quantité                                                  \t| 10000                                 \t|\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse\n ",
+          "extras": {
+            "analysis:check_id": 35345634,
+            "analysis:checksum": "5c9a4eabc085fec0164f2a8ac331a072c6d96434",
+            "analysis:content-length": 61414,
+            "analysis:last-modified-at": "2025-10-23T09:28:07+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2025-10-23T12:37:29.494478+00:00",
+            "analysis:parsing:parquet_size": 11680,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/a6f6c78f-96eb-41e5-8c8e-54c2bcbbe3f2.parquet",
+            "analysis:parsing:parsing_table": "e493e9bbc855783fd0d19fb6e30d2610",
+            "analysis:parsing:started_at": "2025-10-23T12:37:29.177550+00:00",
+            "check:available": true,
+            "check:date": "2024-10-15T12:40:47.819000",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 61414,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "a6f6c78f-96eb-41e5-8c8e-54c2bcbbe3f2",
+          "internal": {
+            "created_at_internal": "2024-10-15T12:40:44.486000+00:00",
+            "last_modified_internal": "2025-10-23T11:28:07.293000+00:00"
+          },
+          "last_modified": "2025-10-23T11:28:07.293000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a6f6c78f-96eb-41e5-8c8e-54c2bcbbe3f2",
+          "metrics": {
+            "views": 1154
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/a6f6c78f-96eb-41e5-8c8e-54c2bcbbe3f2",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "doses-actes-2024.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2024-2025/20251023-092807/doses-actes-2024.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "9f0c9427a548808e733ba14b4f837d772c3d2a28"
+          },
+          "created_at": "2024-10-15T12:39:19.863000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 100 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 100 000 habitants.\n\n| position \t| libellé  \t| type   \t| description                                    \t| exemple                                                 \t|\n|----------\t|----------\t|--------\t|------------------------------------------------\t|---------------------------------------------------------\t|\n| 1        \t| region   \t| string \t| libellé de la region                           \t| ['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] \t|\n| 2        \t| code     \t| int    \t| code region                                    \t| ['11', '24', ...]                                       \t|\n| 3        \t| variable \t| string \t| type de variable                               \t| ['DOSES(J07E1)', 'ACTE(VGP)']                        \t    |\n| 4        \t| groupe   \t| string \t| groupe de patients                             \t| ['65 ans et plus', 'moins de 65 ans']                   \t|\n| 5        \t| valeur   \t| int    \t| nombre d'actes ou doses pour 100 000 habitants \t| [800,1200, ...]                                         \t|",
+          "extras": {
+            "analysis:check_id": 35345632,
+            "analysis:checksum": "9f0c9427a548808e733ba14b4f837d772c3d2a28",
+            "analysis:content-length": 2730,
+            "analysis:last-modified-at": "2025-10-23T09:28:06+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2024-10-15T12:39:21.688000",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 2730,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "6b669e84-bf20-4e56-aab3-ca6f7297f24d",
+          "internal": {
+            "created_at_internal": "2024-10-15T12:39:19.863000+00:00",
+            "last_modified_internal": "2025-10-23T11:28:06.673000+00:00"
+          },
+          "last_modified": "2025-10-23T11:28:06.673000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/6b669e84-bf20-4e56-aab3-ca6f7297f24d",
+          "metrics": {
+            "views": 344
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "couverture-2024.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2024-2025/20251023-092806/couverture-2024.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "84f62e628847cc45e8314d78f07424b8ec8507fe"
+          },
+          "created_at": "2024-10-15T12:36:30.064000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position \t| libellé  \t| type   \t| description                                      \t| exemple                                                                  \t|\n|----------\t|----------\t|--------\t|--------------------------------------------------\t|--------------------------------------------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                           \t| ['2021-2022', '2022-2023']                                               \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution           \t| ['2021-10-22', '2022-10-18', ...]                                        \t|\n| 3        \t| variable \t| string \t| type de variable                                 \t| ['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] \t|\n| 4        \t| valeur   \t| int    \t| valeur cumulée sur la campagne en cours          \t| [16000, 1000000, 90, ...]                                                \t|\n| 5        \t| cible    \t| int    \t| valeur cumulée sur la campagne précédente \t    | [16000, 1000000, 90, ...]                                                \t|",
+          "extras": {
+            "analysis:check_id": 35345629,
+            "analysis:checksum": "84f62e628847cc45e8314d78f07424b8ec8507fe",
+            "analysis:content-length": 400,
+            "analysis:last-modified-at": "2025-10-23T09:28:05+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2024-12-26T13:36:56.388557+00:00",
+            "check:headers:content-length": 400,
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 400,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "d9d240fd-e76f-4757-a535-55bc94f2cf13",
+          "internal": {
+            "created_at_internal": "2024-10-15T12:36:30.064000+00:00",
+            "last_modified_internal": "2025-10-23T11:28:05.845000+00:00"
+          },
+          "last_modified": "2025-10-23T11:28:05.845000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/d9d240fd-e76f-4757-a535-55bc94f2cf13",
+          "metrics": {
+            "views": 214
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "campagne-2024.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2024-2025/20251023-092805/campagne-2024.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "007af9b0d12c028ff9835b7a255cbb95c539968b"
+          },
+          "created_at": "2024-10-15T12:32:43.666000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position \t| libellé  \t| type   \t| description                                               \t| exemple                               \t|\n|----------\t|----------\t|--------\t|-----------------------------------------------------------\t|---------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                                    \t| ['2021-2022', '2022-2023']            \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution                    \t| ['2021-10-22', '2022-10-18', ...]     \t|\n| 3        \t| jour     \t| int    \t| jour relatif depuis le début de la campagne               \t| [1,2,3,4,...]                         \t|\n| 4        \t| variable \t| string \t| type de variable (dose de vaccins ou acte de vaccination) \t| ['DOSES(J07E1'), 'ACTE(VGP)']      \t    |\n| 5        \t| groupe   \t| string \t| groupe de patients                                        \t| ['65ans et plus', 'population autre'] \t|\n| 6        \t| valeur   \t| int    \t| quantité                                                  \t| 10000                                 \t|\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+          "extras": {
+            "analysis:check_id": 35345633,
+            "analysis:checksum": "007af9b0d12c028ff9835b7a255cbb95c539968b",
+            "analysis:content-length": 115584,
+            "analysis:last-modified-at": "2025-10-23T09:28:07+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2024-10-15T12:32:46.923000",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 115584,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "c6a91046-dc31-4006-8818-9c80b5887dba",
+          "internal": {
+            "created_at_internal": "2024-10-15T12:32:43.666000+00:00",
+            "last_modified_internal": "2025-10-23T11:28:07.929000+00:00"
+          },
+          "last_modified": "2025-10-23T11:28:07.929000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c6a91046-dc31-4006-8818-9c80b5887dba",
+          "metrics": {
+            "views": 246
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "doses-actes-2024.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2024-2025/20251023-092807/doses-actes-2024.json"
+        }
+      ],
+      "schema": null,
+      "slug": "vaccination-grippe-2024-2025",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [],
+      "temporal_coverage": {
+        "end": "2025-03-05",
+        "start": "2024-10-16"
+      },
+      "title": "Vaccination Grippe 2024-2025",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/vaccination-grippe-2024-2025/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2023-10-27T19:22:43.986000+00:00",
+      "deleted": null,
+      "description": "Suivi quotidien de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Méthodologie**\n\nA partir des données issues du panel IQVIA-Pharmastat couvrant 60 % du réseau officinal de France Métropolitaine + DROM, IQVIA est en mesure d'estimer les volumes extraplolés: \n - des dispensations des vaccins (doses) contre la grippe (ATC EPhMRA: J07E1)\n - des actes de vaccination contre la grippe (VGP) réalisés en pharmacie d'officine\n\n**Fréquence**\n\nEntre le 18 octobre 2023 et le 29 février 2024 IQVIA publiera une mise à jour quotidienne de ce jeu donnée du mardi au samedi.\n\n**Description des fichiers**\n\nCe jeu de données se décline en 3 fichiers:\n - doses-actes.{csv|json}:\n    Nombre de doses de vaccins de la classe EphMRA J07E1 et actes de vaccination (VGP) dispensés quotidiennement à l'officine, en fonction du groupe de population (patients de 65 ans et plus ou les moins de 65 ans) et du jour.\n - campagne.{csv|json}:\n    Synthèse des actes, doses, officines au cumul campagne en cours comparé à la campagne précédente sur l'ensemble de la population. \n - couverture.{csv|json}\n    Suivi (cumul-campagne) régional exprimé en actes et doses pour 10 000 habitants par groupe de population (patients de 65 ans et plus ou les moins de 65 ans)\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "other",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "653c0e043ffd368fec889353",
+      "internal": {
+        "created_at_internal": "2023-10-27T19:22:43.986000+00:00",
+        "last_modified_internal": "2024-10-15T12:37:14.383000+00:00"
+      },
+      "last_modified": "2024-10-15T12:37:14.383000+00:00",
+      "last_update": "2024-10-15T12:37:14.362000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 3105,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 5835
+      },
+      "organization": {
+        "acronym": "IQVIA",
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa3a69aca811d2fd256cd6c",
+        "logo": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-100.png",
+        "name": "IQVIA France",
+        "page": "https://www.data.gouv.fr/organizations/iqvia-france/",
+        "slug": "iqvia-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/iqvia-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/vaccination-grippe-2023-2024/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "fc194f90c3be2e0006b72eb6df8b5f1771f727c1"
+          },
+          "created_at": "2023-10-30T16:40:03.172000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position \t| libellé  \t| type   \t| description                                      \t| exemple                                                                  \t|\n|----------\t|----------\t|--------\t|--------------------------------------------------\t|--------------------------------------------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                           \t| ['2021-2022', '2022-2023']                                               \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution           \t| ['2021-10-22', '2022-10-18', ...]                                        \t|\n| 3        \t| variable \t| string \t| type de variable                                 \t| ['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] \t|\n| 4        \t| valeur   \t| int    \t| valeur cumulée sur la campagne en cours          \t| [16000, 1000000, 90, ...]                                                \t|\n| 5        \t| cible    \t| int    \t| valeur cumulée sur la campagne précédente \t    | [16000, 1000000, 90, ...]                                                \t|",
+          "extras": {
+            "analysis:checksum": "fc194f90c3be2e0006b72eb6df8b5f1771f727c1",
+            "analysis:content-length": 400,
+            "analysis:last-modified-at": "2024-03-20T12:03:43+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2024-03-29T21:49:51.811000",
+            "check:headers:content-length": 400,
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 400,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "cd098e63-9fba-4e83-80c7-a6bc6d5bb015",
+          "internal": {
+            "created_at_internal": "2023-10-30T16:40:03.172000+00:00",
+            "last_modified_internal": "2024-10-15T12:37:14.362000+00:00"
+          },
+          "last_modified": "2024-10-15T12:37:14.362000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/cd098e63-9fba-4e83-80c7-a6bc6d5bb015",
+          "metrics": {
+            "views": 319
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "campagne-2023.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2023-2024/20240320-120343/campagne-2023.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "0b85680a1e78777e2648f6bf34670c9ee99072af"
+          },
+          "created_at": "2023-10-30T16:39:26.761000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 100 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 100 000 habitants.\n\n| position \t| libellé  \t| type   \t| description                                    \t| exemple                                                 \t|\n|----------\t|----------\t|--------\t|------------------------------------------------\t|---------------------------------------------------------\t|\n| 1        \t| region   \t| string \t| libellé de la region                           \t| ['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] \t|\n| 2        \t| code     \t| int    \t| code region                                    \t| ['11', '24', ...]                                       \t|\n| 3        \t| variable \t| string \t| type de variable                               \t| ['DOSES(J07E1)', 'ACTE(VGP)']                        \t    |\n| 4        \t| groupe   \t| string \t| groupe de patients                             \t| ['65 ans et plus', 'moins de 65 ans']                   \t|\n| 5        \t| valeur   \t| int    \t| nombre d'actes ou doses pour 100 000 habitants \t| [800,1200, ...]                                         \t|",
+          "extras": {
+            "analysis:checksum": "0b85680a1e78777e2648f6bf34670c9ee99072af",
+            "analysis:content-length": 4591,
+            "analysis:last-modified-at": "2024-03-20T12:03:44+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2024-10-28T14:30:01.359663+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 4591,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "c8fb9309-5938-43a1-8567-614d44c34c01",
+          "internal": {
+            "created_at_internal": "2023-10-30T16:39:26.761000+00:00",
+            "last_modified_internal": "2024-03-20T13:03:44.269000+00:00"
+          },
+          "last_modified": "2024-03-20T13:03:44.269000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c8fb9309-5938-43a1-8567-614d44c34c01",
+          "metrics": {
+            "views": 238
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "couverture-2023.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2023-2024/20240320-120344/couverture-2023.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "e5a24b3f8bb591b5ac29b1b3664109c494f7a96b"
+          },
+          "created_at": "2023-10-30T16:38:13.612000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position \t| libellé  \t| type   \t| description                                               \t| exemple                               \t|\n|----------\t|----------\t|--------\t|-----------------------------------------------------------\t|---------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                                    \t| ['2021-2022', '2022-2023']            \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution                    \t| ['2021-10-22', '2022-10-18', ...]     \t|\n| 3        \t| jour     \t| int    \t| jour relatif depuis le début de la campagne               \t| [1,2,3,4,...]                         \t|\n| 4        \t| variable \t| string \t| type de variable (dose de vaccins ou acte de vaccination) \t| ['DOSES(J07E1'), 'ACTE(VGP)']      \t    |\n| 5        \t| groupe   \t| string \t| groupe de patients                                        \t| ['65ans et plus', 'population autre'] \t|\n| 6        \t| valeur   \t| int    \t| quantité                                                  \t| 10000                                 \t|\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+          "extras": {
+            "analysis:checksum": "e5a24b3f8bb591b5ac29b1b3664109c494f7a96b",
+            "analysis:content-length": 114157,
+            "analysis:last-modified-at": "2024-03-20T12:03:45+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2024-03-29T10:19:56.451325+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 114157,
+          "filetype": "file",
+          "format": "json",
+          "harvest": null,
+          "id": "ffb8591b-5fa1-4071-9d2c-640ba873f798",
+          "internal": {
+            "created_at_internal": "2023-10-30T16:38:13.612000+00:00",
+            "last_modified_internal": "2024-03-20T13:03:45.689000+00:00"
+          },
+          "last_modified": "2024-03-20T13:03:45.689000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/ffb8591b-5fa1-4071-9d2c-640ba873f798",
+          "metrics": {
+            "views": 213
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "doses-actes-2023.json",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2023-2024/20240320-120345/doses-actes-2023.json"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "4b0ed407b8bd4c16611553639e98e2a3ca7226d5"
+          },
+          "created_at": "2023-10-28T00:00:39.411000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position \t| libellé  \t| type   \t| description                                               \t| exemple                               \t|\n|----------\t|----------\t|--------\t|-----------------------------------------------------------\t|---------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                                    \t| ['2023-2024', '2022-2023']            \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution                    \t| ['2023-10-17', '2023-10-18', ...]     \t|\n| 3        \t| jour     \t| int    \t| jour relatif depuis le début de la campagne               \t| [1,2,3,4,...]                         \t|\n| 4        \t| variable \t| string \t| type de variable (dose de vaccins ou acte de vaccination) \t| ['DOSES(J07E1'), 'ACTE(VGP)']      \t|\n| 5        \t| groupe   \t| string \t| groupe de patients                                        \t| ['65 ans et plus', 'moins de 65 ans'] \t|\n| 6        \t| valeur   \t| int    \t| quantité                                                  \t| 10000                                 \t|\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse\n ",
+          "extras": {
+            "analysis:checksum": "4b0ed407b8bd4c16611553639e98e2a3ca7226d5",
+            "analysis:content-length": 61724,
+            "analysis:last-modified-at": "2024-03-20T12:03:44+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2024-03-30T15:47:59.730094+00:00",
+            "analysis:parsing:parsing_table": "b66245aba45f48f94681520f83d51a63",
+            "analysis:parsing:started_at": "2024-03-30T15:47:58.860178+00:00",
+            "check:available": true,
+            "check:date": "2024-03-30T15:47:55.558267+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 61724,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "dccbba26-bf9a-4d30-8249-5a539354e69b",
+          "internal": {
+            "created_at_internal": "2023-10-28T00:00:39.411000+00:00",
+            "last_modified_internal": "2024-03-20T13:03:44.893000+00:00"
+          },
+          "last_modified": "2024-03-20T13:03:44.893000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/dccbba26-bf9a-4d30-8249-5a539354e69b",
+          "metrics": {
+            "views": 863
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/dccbba26-bf9a-4d30-8249-5a539354e69b",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "doses-actes-2023.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2023-2024/20240320-120344/doses-actes-2023.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "f7ad1ac782e2f1ce05fa184a129fcc070066443d"
+          },
+          "created_at": "2023-10-27T19:27:07.339000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 10 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 10 000 habitants.\n\n| position \t| libellé  \t| type   \t| description                                    \t| exemple                                                 \t|\n|----------\t|----------\t|--------\t|------------------------------------------------\t|---------------------------------------------------------\t|\n| 1        \t| region   \t| string \t| libellé de la region                           \t| ['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] \t|\n| 2        \t| code     \t| int    \t| code region                                    \t| ['11', '24', ...]                                       \t|\n| 3        \t| variable \t| string \t| type de variable                               \t| ['DOSES(J07E1)', 'ACTE(VGP)']                        \t|\n| 4        \t| groupe   \t| string \t| groupe de patients                             \t| ['65 ans et plus', 'moins de 65 ans']                   \t|\n| 5        \t| valeur   \t| int    \t| nombre d'actes ou doses pour 100 000 habitants \t| [800,1200, ...]                                         \t|",
+          "extras": {
+            "analysis:checksum": "f7ad1ac782e2f1ce05fa184a129fcc070066443d",
+            "analysis:content-length": 2957,
+            "analysis:last-modified-at": "2024-03-20T12:03:43+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/csv",
+            "analysis:parsing:finished_at": "2024-03-28T21:23:21.115479+00:00",
+            "analysis:parsing:parsing_table": "293b145a3a9ee9af5dc3d5d63de62e36",
+            "analysis:parsing:started_at": "2024-03-28T21:23:20.509905+00:00",
+            "check:available": true,
+            "check:date": "2024-03-28T21:12:49.088548+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 2957,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "1b5339fe-47b9-4d29-9be6-792ac20e392b",
+          "internal": {
+            "created_at_internal": "2023-10-27T19:27:07.339000+00:00",
+            "last_modified_internal": "2024-03-20T13:03:43.849000+00:00"
+          },
+          "last_modified": "2024-03-20T13:03:43.849000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1b5339fe-47b9-4d29-9be6-792ac20e392b",
+          "metrics": {
+            "views": 798
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/1b5339fe-47b9-4d29-9be6-792ac20e392b",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "couverture-2023.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2023-2024/20240320-120343/couverture-2023.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "e0f7509d06243c7b4314616934be360249e9869d"
+          },
+          "created_at": "2023-10-27T19:23:22.929000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position \t| libellé  \t| type   \t| description                                      \t| exemple                                                                  \t|\n|----------\t|----------\t|--------\t|--------------------------------------------------\t|--------------------------------------------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                           \t| ['2023-2024', '2022-2023']                                               \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution           \t| ['2023-10-17', '2023-10-18', ...]                                        \t|\n| 3        \t| variable \t| string \t| type de variable                                 \t| ['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] \t|\n| 4        \t| valeur   \t| int    \t| valeur cumulée sur la campagne en cours          \t| [16000, 1000000, 90, ...]                                                \t|\n| 5        \t| cible    \t| int    \t| valeur cumulée sur la campagne précédente \t    | [16000, 1000000, 90, ...]                                                \t|",
+          "extras": {
+            "analysis:checksum": "e0f7509d06243c7b4314616934be360249e9869d",
+            "analysis:content-length": 265,
+            "analysis:last-modified-at": "2024-03-20T12:03:42+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/csv",
+            "analysis:parsing:finished_at": "2024-07-04T17:29:11.727488+00:00",
+            "analysis:parsing:parsing_table": "90bad323eff8ef48ec3d71834aa1e7af",
+            "analysis:parsing:started_at": "2024-07-04T17:29:10.980168+00:00",
+            "check:available": true,
+            "check:date": "2024-07-04T17:29:06.698183+00:00",
+            "check:headers:content-length": 265,
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 265,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "40314f2c-12ea-4f4c-a3a2-855bab16e6dd",
+          "internal": {
+            "created_at_internal": "2023-10-27T19:23:22.929000+00:00",
+            "last_modified_internal": "2024-03-20T13:03:42.581000+00:00"
+          },
+          "last_modified": "2024-03-20T13:03:42.581000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/40314f2c-12ea-4f4c-a3a2-855bab16e6dd",
+          "metrics": {
+            "views": 664
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/40314f2c-12ea-4f4c-a3a2-855bab16e6dd",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "campagne-2023.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2023-2024/20240320-120342/campagne-2023.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "vaccination-grippe-2023-2024",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "2023-2024",
+        "actes",
+        "doses",
+        "grippe",
+        "officine",
+        "officines",
+        "pharmacie",
+        "pharmacies",
+        "vaccination",
+        "vaccination-grippe",
+        "vaccins"
+      ],
+      "temporal_coverage": {
+        "end": "2024-02-29",
+        "start": "2023-10-18"
+      },
+      "title": "Vaccination Grippe 2023-2024",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/vaccination-grippe-2023-2024/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2023-10-28T07:46:48.504000+00:00",
+      "deleted": null,
+      "description": "Suivi quotidien de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Méthodologie**\n\nA partir des données issues du panel IQVIA-Pharmastat couvrant 60 % du réseau officinal de France Métropolitaine + DROM, IQVIA est en mesure d'estimer les volumes extraplolés: \n - des dispensations des vaccins (doses) contre la grippe (ATC EPhMRA: J07E1)\n - des actes de vaccination contre la grippe (VGP) réalisés en pharmacie d'officine\n\n**Fréquence**\n\nEntre le 22 octobre 2021 et le 28 février 2022 IQVIA publiera une mise à jour quotidienne de ce jeu donnée du mardi au samedi.\n\n**Description des fichiers**\n\nCe jeu de données se décline en 3 fichiers:\n - doses-actes.{csv|json}:\n    Nombre de doses de vaccins de la classe EphMRA J07E1 et actes de vaccination (VGP) dispensés quotidiennement à l'officine, en fonction du groupe de population (patients de 65 ans et plus ou les moins de 65 ans) et du jour.\n - campagne.{csv|json}:\n    Synthèse des actes, doses, officines au cumul campagne en cours comparé à la campagne précédente sur l'ensemble de la population. \n - couverture.{csv|json}\n    Suivi (cumul-campagne) régional exprimé en actes et doses pour 10 000 habitants par groupe de population (patients de 65 ans et plus ou les moins de 65 ans)\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": "2023-10-28T04:00:00+00:00",
+      "harvest": null,
+      "id": "653cbc689955c90d0a7b9ee9",
+      "internal": {
+        "created_at_internal": "2023-10-28T07:46:48.504000+00:00",
+        "last_modified_internal": "2023-10-28T14:10:13.088000+00:00"
+      },
+      "last_modified": "2023-10-28T14:10:13.088000+00:00",
+      "last_update": "2023-10-28T14:10:13.078000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1769,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2334
+      },
+      "organization": {
+        "acronym": "IQVIA",
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa3a69aca811d2fd256cd6c",
+        "logo": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-100.png",
+        "name": "IQVIA France",
+        "page": "https://www.data.gouv.fr/organizations/iqvia-france/",
+        "slug": "iqvia-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/iqvia-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/vaccination-grippe-2021-2022/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "065439b13e9ba332fc624fe305da06e4af7ed0a6"
+          },
+          "created_at": "2023-10-28T07:51:49.897000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 10 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 10 000 habitants.\n\n| position \t| libellé  \t| type   \t| description                                    \t| exemple                                                 \t|\n|----------\t|----------\t|--------\t|------------------------------------------------\t|---------------------------------------------------------\t|\n| 1        \t| region   \t| string \t| libellé de la region                           \t| ['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] \t|\n| 2        \t| code     \t| int    \t| code region                                    \t| ['11', '24', ...]                                       \t|\n| 3        \t| variable \t| string \t| type de variable                               \t| ['DOSES(J07E1)', 'ACTE(VGP)']                        \t    |\n| 4        \t| groupe   \t| string \t| groupe de patients                             \t| ['65 ans et plus', 'moins de 65 ans']                   \t|\n| 5        \t| valeur   \t| int    \t| nombre d'actes ou doses pour 100 000 habitants \t| [800,1200, ...]                                         \t|",
+          "extras": {},
+          "filesize": 2903,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "70f1cfba-569c-46fd-aa0d-2bc890a42eb5",
+          "internal": {
+            "created_at_internal": "2023-10-28T07:51:49.897000+00:00",
+            "last_modified_internal": "2023-10-28T14:10:13.078000+00:00"
+          },
+          "last_modified": "2023-10-28T14:10:13.078000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/70f1cfba-569c-46fd-aa0d-2bc890a42eb5",
+          "metrics": {
+            "views": 628
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "couverture.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2021-2022/20231028-075149/couverture-2021.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "ed6b76168bebff1006003131e6c7eb3b414e445f"
+          },
+          "created_at": "2023-10-28T07:50:28.076000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position \t| libellé  \t| type   \t| description                                      \t| exemple                                                                  \t|\n|----------\t|----------\t|--------\t|--------------------------------------------------\t|--------------------------------------------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                           \t| ['2020-2021', '2021-2022']                                               \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution           \t| ['2020-10-13', '2022-10-22', ...]                                        \t|\n| 3        \t| variable \t| string \t| type de variable                                 \t| ['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] \t|\n| 4        \t| valeur   \t| int    \t| valeur cumulée sur la campagne en cours          \t| [16000, 1000000, 90, ...]                                                \t|\n| 5        \t| cible    \t| int    \t| valeur cumulée sur la campagne précédente \t    | [16000, 1000000, 90, ...]         ",
+          "extras": {},
+          "filesize": 259,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "b4867c67-70c9-459f-a88d-859996e8098b",
+          "internal": {
+            "created_at_internal": "2023-10-28T07:50:28.076000+00:00",
+            "last_modified_internal": "2023-10-28T14:09:56.347000+00:00"
+          },
+          "last_modified": "2023-10-28T14:09:56.347000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b4867c67-70c9-459f-a88d-859996e8098b",
+          "metrics": {
+            "views": 507
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "campagne.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2021-2022/20231028-075027/campagne-2021.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "aec8c77d932d7731ed812f18ff98ab7f519f3212"
+          },
+          "created_at": "2023-10-28T07:47:24.767000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position \t| libellé  \t| type   \t| description                                               \t| exemple                               \t|\n|----------\t|----------\t|--------\t|-----------------------------------------------------------\t|---------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                                    \t| ['2020-2021', '2021-2022']            \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution                    \t| ['2020-10-13', '2021-10-22', ...]     \t|\n| 3        \t| jour     \t| int    \t| jour relatif depuis le début de la campagne               \t| [1,2,3,4,...]                         \t|\n| 4        \t| variable \t| string \t| type de variable (dose de vaccins ou acte de vaccination) \t| ['DOSES(J07E1'), 'ACTE(VGP)']      \t    |\n| 5        \t| groupe   \t| string \t| groupe de patients                                        \t| ['65 ans et plus', 'moins de 65 ans'] \t|\n| 6        \t| valeur   \t| int    \t| quantité                                                  \t| 10000                                 \t|\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse\n ",
+          "extras": {},
+          "filesize": 60512,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "d1a7a9c8-da2a-4840-be4e-720b4703462c",
+          "internal": {
+            "created_at_internal": "2023-10-28T07:47:24.767000+00:00",
+            "last_modified_internal": "2023-10-28T14:09:28.941000+00:00"
+          },
+          "last_modified": "2023-10-28T14:09:28.941000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/d1a7a9c8-da2a-4840-be4e-720b4703462c",
+          "metrics": {
+            "views": 641
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "doses-actes.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2020-2021/20231028-074724/doses-actes-2021.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "vaccination-grippe-2021-2022",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "2021-2022",
+        "actes",
+        "doses",
+        "grippe",
+        "officine",
+        "officines",
+        "pharmacie",
+        "pharmacies",
+        "vaccination",
+        "vaccination-grippe",
+        "vaccins"
+      ],
+      "temporal_coverage": {
+        "end": "2022-02-28",
+        "start": "2021-10-22"
+      },
+      "title": "Vaccination Grippe 2021-2022",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/vaccination-grippe-2021-2022/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2023-10-28T08:00:07.115000+00:00",
+      "deleted": null,
+      "description": "Suivi quotidien de la campagne de vaccination contre la grippe saisonnière en officine\n\n**Méthodologie**\n\nA partir des données issues du panel IQVIA-Pharmastat couvrant 60 % du réseau officinal de France Métropolitaine + DROM, IQVIA est en mesure d'estimer les volumes extraplolés: \n - des dispensations des vaccins (doses) contre la grippe (ATC EPhMRA: J07E1)\n - des actes de vaccination contre la grippe (VGP) réalisés en pharmacie d'officine\n\n**Fréquence**\n\nEntre le 19 octobre 2022 et le 28 février 2023 IQVIA publiera une mise à jour quotidienne de ce jeu donnée du mardi au samedi.\n\n**Description des fichiers**\n\nCe jeu de données se décline en 3 fichiers:\n - doses-actes.{csv|json}:\n    Nombre de doses de vaccins de la classe EphMRA J07E1 et actes de vaccination (VGP) dispensés quotidiennement à l'officine, en fonction du groupe de population (patients de 65 ans et plus ou les moins de 65 ans) et du jour.\n - campagne.{csv|json}:\n    Synthèse des actes, doses, officines au cumul campagne en cours comparé à la campagne précédente sur l'ensemble de la population. \n - couverture.{csv|json}\n    Suivi (cumul-campagne) régional exprimé en actes et doses pour 10 000 habitants par groupe de population (patients de 65 ans et plus ou les moins de 65 ans)\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": "2023-10-28T08:00:00+00:00",
+      "harvest": null,
+      "id": "653cbf87ddf11f176c9b63c1",
+      "internal": {
+        "created_at_internal": "2023-10-28T08:00:07.115000+00:00",
+        "last_modified_internal": "2023-10-30T09:53:09.556000+00:00"
+      },
+      "last_modified": "2023-10-30T09:53:09.556000+00:00",
+      "last_update": "2023-10-28T14:13:12.676000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1879,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2661
+      },
+      "organization": {
+        "acronym": "IQVIA",
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "5fa3a69aca811d2fd256cd6c",
+        "logo": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/69/fd484766f34bb28e9838297a53a11e-100.png",
+        "name": "IQVIA France",
+        "page": "https://www.data.gouv.fr/organizations/iqvia-france/",
+        "slug": "iqvia-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/iqvia-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/vaccination-grippe-2022-2023/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "5b1de983fa484f4efd53498bde4b00b6f3676d8e"
+          },
+          "created_at": "2023-10-28T13:04:02.245000+00:00",
+          "description": "Suivi de la campagne de vaccination sur les actes et les doses par région en ratio pour 10 000 habitants\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées exprimées en valeur pour 10 000 habitants.\n\n| position \t| libellé  \t| type   \t| description                                    \t| exemple                                                 \t|\n|----------\t|----------\t|--------\t|------------------------------------------------\t|---------------------------------------------------------\t|\n| 1        \t| region   \t| string \t| libellé de la region                           \t| ['11 - ILE-DE-France', '24 - CENTRE-VAL-DE-LOIRE', ...] \t|\n| 2        \t| code     \t| int    \t| code region                                    \t| ['11', '24', ...]                                       \t|\n| 3        \t| variable \t| string \t| type de variable                               \t| ['DOSES(J07E1)', 'ACTE(VGP)']                        \t    |\n| 4        \t| groupe   \t| string \t| groupe de patients                             \t| ['65 ans et plus', 'moins de 65 ans']                   \t|\n| 5        \t| valeur   \t| int    \t| nombre d'actes ou doses pour 100 000 habitants \t| [800,1200, ...]                                         \t|",
+          "extras": {},
+          "filesize": 2904,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "c36e85ef-077e-465e-b3e4-e218d972f45e",
+          "internal": {
+            "created_at_internal": "2023-10-28T13:04:02.245000+00:00",
+            "last_modified_internal": "2023-10-28T14:12:38.499000+00:00"
+          },
+          "last_modified": "2023-10-28T14:12:38.499000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c36e85ef-077e-465e-b3e4-e218d972f45e",
+          "metrics": {
+            "views": 660
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "couverture.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2021-2022-1/20231028-130402/couverture-2022.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "8127e19f82e90eea55d49de4270100d097fe3074"
+          },
+          "created_at": "2023-10-28T13:03:14.456000+00:00",
+          "description": "Suivi en cumul de la campagne de vaccination contre la grippe saisonnaire en officine\n\n**Description du fichier**\n\nTable qui consolide les différents indicateurs au cumul campagne.\n\n| position \t| libellé  \t| type   \t| description                                      \t| exemple                                                                  \t|\n|----------\t|----------\t|--------\t|--------------------------------------------------\t|--------------------------------------------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                           \t| ['2021-2022', '2022-2023']                                               \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution           \t| ['2021-10-22', '2022-10-18', ...]                                        \t|\n| 3        \t| variable \t| string \t| type de variable                                 \t| ['DOSES', 'ACTE PHARMACEUTIQUE', 'UNIVERS', 'PHARMACIES', 'POURCENTAGE'] \t|\n| 4        \t| valeur   \t| int    \t| valeur cumulée sur la campagne en cours          \t| [16000, 1000000, 90, ...]                                                \t|\n| 5        \t| cible    \t| int    \t| valeur cumulée sur la campagne précédente \t    | [16000, 1000000, 90, ...]                                                \t|",
+          "extras": {},
+          "filesize": 259,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "992e690a-0c9c-4457-a556-3d70b4af29e8",
+          "internal": {
+            "created_at_internal": "2023-10-28T13:03:14.456000+00:00",
+            "last_modified_internal": "2023-10-28T13:03:42.654000+00:00"
+          },
+          "last_modified": "2023-10-28T13:03:42.654000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/992e690a-0c9c-4457-a556-3d70b4af29e8",
+          "metrics": {
+            "views": 543
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "campagne.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2021-2022-1/20231028-130314/campagne-2022.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "e2c5c5a2c36d901ad577db6046645e252c81dd80"
+          },
+          "created_at": "2023-10-28T13:02:17.855000+00:00",
+          "description": "Suivi quotidien de la campagne de vaccination sur les actes et les doses\n\n**Description du fichier**\n\nFichiers contenant les données relatives aux actes de vaccination et au doses de vaccins dispensées.\n\n| position \t| libellé  \t| type   \t| description                                               \t| exemple                               \t|\n|----------\t|----------\t|--------\t|-----------------------------------------------------------\t|---------------------------------------\t|\n| 1        \t| campagne \t| string \t| libellé de la campagne                                    \t| ['2021-2022', '2022-2023']            \t|\n| 2        \t| date     \t| date   \t| date de dispensation, date d'exécution                    \t| ['2021-10-22', '2022-10-18', ...]     \t|\n| 3        \t| jour     \t| int    \t| jour relatif depuis le début de la campagne               \t| [1,2,3,4,...]                         \t|\n| 4        \t| variable \t| string \t| type de variable (dose de vaccins ou acte de vaccination) \t| ['DOSES(J07E1'), 'ACTE(VGP)']      \t    |\n| 5        \t| groupe   \t| string \t| groupe de patients                                        \t| ['65 ans et plus', 'moins de 65 ans'] \t|\n| 6        \t| valeur   \t| int    \t| quantité                                                  \t| 10000                                 \t|\n \n**Population**\n - Ensemble de la population de France Métropolitaine et de la Corse",
+          "extras": {},
+          "filesize": 59474,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "1339c744-6b09-4a21-a5a0-6f56200f7208",
+          "internal": {
+            "created_at_internal": "2023-10-28T13:02:17.855000+00:00",
+            "last_modified_internal": "2023-10-28T14:13:12.676000+00:00"
+          },
+          "last_modified": "2023-10-28T14:13:12.676000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1339c744-6b09-4a21-a5a0-6f56200f7208",
+          "metrics": {
+            "views": 671
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "doses-actes.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/vaccination-grippe-2021-2022-1/20231028-130217/doses-actes-2022.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "vaccination-grippe-2022-2023",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "2021-2022",
+        "actes",
+        "doses",
+        "grippe",
+        "officine",
+        "officines",
+        "pharmacie",
+        "pharmacies",
+        "vaccination",
+        "vaccination-grippe",
+        "vaccins"
+      ],
+      "temporal_coverage": {
+        "end": "2023-02-28",
+        "start": "2022-10-18"
+      },
+      "title": "Vaccination Grippe 2022-2023",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/vaccination-grippe-2022-2023/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2014-10-22T09:49:10.333000+00:00",
+      "deleted": null,
+      "description": "### IAS® Vaccination grippe : suivez en temps réel la campagne de vaccination contre la grippe saisonnière\r\n\r\n\r\n**Un enjeu de santé publique**\r\n\r\nChaque année, une campagne de vaccination contre la grippe saisonnière est mise en place en France entre les mois d’octobre à janvier. L’Assurance maladie invite les assurés ciblés par les recommandations vaccinales du Haut Conseil de la Santé Publique à se faire vacciner via l’envoi d’un imprimé de prise en charge. Il s’agit notamment des assurés de plus de 65 ans, des personnes  atteintes de certaines affections de longue durée (ALD), des personnes souffrant d’asthmes et de Broncho Pneumopathie Chronique Obstructive  (BPCO) (1). Les médecins disposent également d’un imprimé de prise en charge qui leur permet de prescrire le vaccin aux personnes à risque n’ayant pas reçu de bon de vaccination (patients obèses, femmes enceintes). Pendant la période de campagne vaccinale, le vaccin est pris en charge à 100 % pour ces populations à risque munies d’un bon de vaccination. Un objectif de 75% de couverture vaccinale des groupes à risque a été fixé par la loi de santé publique. Cet objectif n’est pas atteint en France. La couverture vaccinale est même en diminution depuis 2009. A titre d’exemple, seulement 57% des français de 65 ans et plus ont été vaccinés en 2013-2014 (France métropolitaine, estimation OpemHealth.fr)\r\n\r\n**L’objectif de l’IAS®**\r\n\r\nL’objectif de l’IAS® est d’estimer un taux de vaccination précis et fiable en temps réel et de diffuser cette information en Open Data au public, aux soignants et aux gestionnaires de la santé publique. Disposer d’informations en temps réel permet de réagir quand il en est encore temps.\r\n\r\n**La méthode de l’IAS®**\r\n\r\nL’IAS® estime le taux de couverture vaccinale du plus nombreux groupe à risque : les personnes de 65 ans et plus. Pour cette tranche d’âge et pour une campagne donnée, les achats de vaccins antigrippaux réalisés à partir de début septembre sont rapportés à la population  présente au premier janvier précédent (données INSEE). Les données de ventes  de vaccins proviennent 3004 pharmacies représentatives des pharmacies de France métropolitaine (réseau Celtipharm). [3]. Les données sont extrapolées à la France métropolitaine. Les informations sont transmises anonymement et automatiquement et publiées à J+1.\r\n\r\nLes données sont disponibles depuis 2008. Ceci a permis, afin de valider la méthodologie OpenHealth.fr,  de calculer les taux de vaccination des 5 dernières campagnes et de les comparer à ceux estimés par la CNAMTS (2). Pour les campagnes 2009/2010 à 2012/2013, le coefficient de corrélation entre les estimations OpenHealth.fr et CNAMTS est de 98,9% pour les plus de 65 ans. La corrélation est donc excellente, ce qui valide la méthodologie de l’IAS. Les taux estimés par OpenHealth.fr sont en moyenne supérieurs de 2,5%  à ceux estimés par la CNAM. Ceci est dû au fait qu’OpenHealth prend en compte des achats non-remboursés par la sécurité sociale. Par ailleurs, les périmètres d’étude sont différents : les données OpenHealth.fr sont celles des achats dans les pharmacies de ville en alors que celles de la CNAM sont celles des remboursements aux assurés du Régime Général, hors Sections Locales Mutualistes.\r\n\r\nDonnées issues des sorties consommateurs des officines du réseau CELTIPHARM.\r\n\r\nPlus d'infos sur nos méthodes: http://www.openhealth.fr/methode\r\n\r\nhttp://www.openhealth.fr/\r\n\r\nLes données sont mises à jour quotidiennement. Adopter le J+1 !",
+      "description_short": null,
+      "extras": {},
+      "featured": true,
+      "frequency": "daily",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "54476176c751df65665d0572",
+      "internal": {
+        "created_at_internal": "2014-10-22T09:49:10.333000+00:00",
+        "last_modified_internal": "2015-10-19T05:35:57.487000+00:00"
+      },
+      "last_modified": "2015-10-19T05:35:57.487000+00:00",
+      "last_update": "2025-09-29T09:24:26+00:00",
+      "license": "odc-odbl",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 2,
+        "discussions_open": 2,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 2646,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 5602
+      },
+      "organization": null,
+      "owner": {
+        "avatar": null,
+        "avatar_thumbnail": null,
+        "class": "User",
+        "first_name": "DELETED",
+        "id": "534fff46a3a7292c64a77a37",
+        "last_name": "DELETED",
+        "page": "https://www.data.gouv.fr/users/deleted-78694/",
+        "slug": "deleted-78694",
+        "uri": "https://www.data.gouv.fr/api/1/users/deleted-78694/"
+      },
+      "page": "https://www.data.gouv.fr/datasets/indicateur-avance-sanitaire-ias-r-vaccination-grippe/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.8888888888888888,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-10-22T09:50:51.490000+00:00",
+          "description": "La série temporelle nationale depuis Janvier 2008 de l'IAS® Vaccination Grippe",
+          "extras": {
+            "analysis:check_id": 34319114,
+            "analysis:checksum": "31fdbb91e50cfd560cf8ffd03172bfb22c63eecb",
+            "analysis:content-length": 2208,
+            "analysis:last-modified-at": "2025-09-29T09:24:26+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 1639,
+            "check:date": "2025-07-12T01:51:41.170501+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-length": 2208,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.openhealth.fr/Portals/1/download/vacgrippe65/Openhealth_VaccGrippe65_Total.csv"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": null,
+          "id": "59fe39e7-114b-4e09-86cf-13a6811e57e0",
+          "internal": {
+            "created_at_internal": "2014-10-22T09:50:51.490000+00:00",
+            "last_modified_internal": "2014-10-22T09:50:51.490000+00:00"
+          },
+          "last_modified": "2025-09-29T09:24:26+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/59fe39e7-114b-4e09-86cf-13a6811e57e0",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 2694
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "IAS® Vaccination Grippe : Série temporelle nationale depuis Juillet 2008",
+          "type": "main",
+          "url": "http://www.openhealth.fr/Portals/1/download/vacgrippe65/Openhealth_VaccGrippe65_Total.csv"
+        }
+      ],
+      "schema": null,
+      "slug": "indicateur-avance-sanitaire-ias-r-vaccination-grippe",
+      "spatial": {
+        "geom": null,
+        "granularity": "country",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [
+        "avance",
+        "grippe",
+        "ias",
+        "indicateur",
+        "openhealth",
+        "sanitaire",
+        "vaccination"
+      ],
+      "temporal_coverage": {
+        "end": "2015-07-01",
+        "start": "2009-07-01"
+      },
+      "title": "Indicateur Avancé Sanitaire IAS® - VACCINATION GRIPPE",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/indicateur-avance-sanitaire-ias-r-vaccination-grippe/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2021-11-24T17:11:55.227000+00:00",
+      "deleted": null,
+      "description": "Le site web [Santé.fr](https://www.sante.fr/) présente l'offre de vaccination contre la grippe portée par les pharmacies d'officine. Les données sont issues d'une déclaration facultative effectuée par les pharmaciens sur le portail de télédéclaration des officines, via un formulaire lancé en novembre 2021.\n\nLes données sont publiées sur cette page une fois par jour (jours ouvrés uniquement). Il n'y a pas toujours une mise à jour ou correction; seule la dernière version est disponible.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "daily",
+      "frequency_date": "2021-11-25T17:11:22+00:00",
+      "harvest": null,
+      "id": "619e644bf3774aac925db897",
+      "internal": {
+        "created_at_internal": "2021-11-24T17:11:55.227000+00:00",
+        "last_modified_internal": "2025-10-23T21:00:25.238000+00:00"
+      },
+      "last_modified": "2025-10-23T21:00:25.238000+00:00",
+      "last_update": "2025-10-23T23:00:25.127000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 1,
+        "discussions_open": 1,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1424,
+        "reuses": 1,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 8082
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.7777777777777778,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "63ed00d0e17a419315d3c6692250e4fb922d1212"
+          },
+          "created_at": "2022-01-11T14:08:18.232000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:check_id": 35370359,
+            "analysis:checksum": "63ed00d0e17a419315d3c6692250e4fb922d1212",
+            "analysis:content-length": 2423014,
+            "analysis:last-modified-at": "2025-10-23T21:00:25+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:finished_at": "2025-10-23T21:00:35.952707+00:00",
+            "analysis:parsing:geojson_size": 4270222,
+            "analysis:parsing:geojson_url": "https://object.files.data.gouv.fr/hydra-geojson/hydra-geojson/479afe3e-a2aa-4519-b509-ba9c106a5576.geojson",
+            "analysis:parsing:parquet_size": 399490,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/479afe3e-a2aa-4519-b509-ba9c106a5576.parquet",
+            "analysis:parsing:parsing_table": "501d1499570998b88c7866cd9ab23ecf",
+            "analysis:parsing:pmtiles_size": 636988,
+            "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/479afe3e-a2aa-4519-b509-ba9c106a5576.pmtiles",
+            "analysis:parsing:started_at": "2025-10-23T21:00:34.173787+00:00",
+            "check:available": true,
+            "check:date": "2024-10-10T21:00:46.397067+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 2423014,
+          "filetype": "file",
+          "format": "csv",
+          "harvest": null,
+          "id": "479afe3e-a2aa-4519-b509-ba9c106a5576",
+          "internal": {
+            "created_at_internal": "2022-01-11T14:08:18.232000+00:00",
+            "last_modified_internal": "2025-10-23T23:00:25.127000+00:00"
+          },
+          "last_modified": "2025-10-23T23:00:25.127000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/479afe3e-a2aa-4519-b509-ba9c106a5576",
+          "metrics": {
+            "views": 1029
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/479afe3e-a2aa-4519-b509-ba9c106a5576",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "santefr-lieux-vaccination-grippe-pharmacie.csv",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/resources/lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr/20251023-210024/santefr-lieux-vaccination-grippe-pharmacie.csv"
+        },
+        {
+          "checksum": {
+            "type": "sha1",
+            "value": "04b9a8ec3365ca66f4447a54eaa825d26ebce53c"
+          },
+          "created_at": "2022-01-12T16:40:04.258000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:last-modified-at": "2022-01-12T15:40:04+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "check:available": true,
+            "check:date": "2023-06-02T01:01:47.652301+00:00",
+            "check:headers:content-length": 98716,
+            "check:headers:content-type": "application/pdf",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": 98716,
+          "filetype": "file",
+          "format": "pdf",
+          "harvest": null,
+          "id": "aff6bcd5-f21a-49d5-82b3-eb5549ba503e",
+          "internal": {
+            "created_at_internal": "2022-01-12T16:40:04.258000+00:00",
+            "last_modified_internal": "2022-01-12T16:41:04.563000+00:00"
+          },
+          "last_modified": "2022-01-12T16:41:04.563000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/aff6bcd5-f21a-49d5-82b3-eb5549ba503e",
+          "metrics": {
+            "views": 370
+          },
+          "mime": "application/pdf",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "20220111-spis-santefr-lieuxvaccination-pharmacies-grippe.pdf",
+          "type": "documentation",
+          "url": "https://static.data.gouv.fr/resources/lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr/20220112-164004/20220111-spis-santefr-lieuxvaccination-pharmacies-grippe.pdf"
+        }
+      ],
+      "schema": null,
+      "slug": "lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr",
+      "spatial": null,
+      "tags": [
+        "grippe",
+        "pharmacies",
+        "sante-fr",
+        "vaccination-grippe"
+      ],
+      "temporal_coverage": null,
+      "title": "Lieux de vaccination contre la grippe (pharmacies) - Santé.fr",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/lieux-de-vaccination-contre-la-grippe-pharmacies-sante-fr/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 20,
+  "previous_page": null,
+  "total": 7
+}
