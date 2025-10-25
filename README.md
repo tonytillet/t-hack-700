@@ -93,3 +93,21 @@ dvc list data/raw
 dvc pull
 dvc push
 ```
+
+### 🔄 Pipeline de données
+
+Le projet utilise un pipeline DVC pour le traitement automatique des données :
+
+```bash
+# Reproduire le pipeline complet
+dvc repro
+
+# Vérifier les changements dans le pipeline
+dvc status
+
+# Synchroniser le pipeline avec le remote
+dvc push
+dvc pull
+```
+
+**Pipeline :** `data/raw/` → `clean_data.py` → `data/processed/lumen_merged_clean.parquet`
