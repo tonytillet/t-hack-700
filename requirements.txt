@@ -1,3 +1,5 @@
 awikipedia-api
 pandas
 pyarrow
+scikit-learn
+joblib
