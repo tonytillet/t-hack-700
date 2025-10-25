@@ -1,0 +1,290 @@
+[
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2021-2022_0000.parquet",
+    "shape": [
+      1076,
+      11
+    ],
+    "source": "Vaccination Grippe 2021-2022",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2021-2022_0000.parquet",
+    "shape": [
+      1076,
+      11
+    ],
+    "source": "Vaccination Grippe 2021-2022",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2023-2024.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2023-2024.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2023-2024_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2023-2024_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2022-2023_0000.parquet",
+    "shape": [
+      1056,
+      11
+    ],
+    "source": "Vaccination Grippe 2022-2023",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2022-2023_0000.parquet",
+    "shape": [
+      1056,
+      11
+    ],
+    "source": "Vaccination Grippe 2022-2023",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2025-2026.parquet",
+    "shape": [
+      1,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2025-2026.parquet",
+    "shape": [
+      1,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2025-2026_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2025-2026_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2024-2025_0000.parquet",
+    "shape": [
+      1088,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2024-2025_0000.parquet",
+    "shape": [
+      1088,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2024-2025.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2024-2025.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2022-2023_0000.parquet",
+    "shape": [
+      1056,
+      11
+    ],
+    "source": "Vaccination Grippe 2022-2023",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2022-2023_0000.parquet",
+    "shape": [
+      1056,
+      11
+    ],
+    "source": "Vaccination Grippe 2022-2023",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2021-2022_0000.parquet",
+    "shape": [
+      1076,
+      11
+    ],
+    "source": "Vaccination Grippe 2021-2022",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2021-2022_0000.parquet",
+    "shape": [
+      1076,
+      11
+    ],
+    "source": "Vaccination Grippe 2021-2022",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2023-2024.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2023-2024.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2023-2024_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2023-2024_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2023-2024",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2024-2025_0000.parquet",
+    "shape": [
+      1088,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2024-2025_0000.parquet",
+    "shape": [
+      1088,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2024-2025.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2024-2025.parquet",
+    "shape": [
+      1,
+      11
+    ],
+    "source": "Vaccination Grippe 2024-2025",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2025-2026.parquet",
+    "shape": [
+      1,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/json_Vaccination_Grippe_2025-2026.parquet",
+    "shape": [
+      1,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "json"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2025-2026_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "csv"
+  },
+  {
+    "file": "data/processed/analyzed_data/chunk_Vaccination_Grippe_2025-2026_0000.parquet",
+    "shape": [
+      52,
+      10
+    ],
+    "source": "Vaccination Grippe 2025-2026",
+    "format": "csv"
+  }
+]
