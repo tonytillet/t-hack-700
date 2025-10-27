@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import timedelta
 import numpy as np
+import json
 
 # Configuration de la page
 st.set_page_config(
@@ -43,6 +44,16 @@ def load_predictions():
         return df
     except Exception as e:
         st.error(f"Erreur lors du chargement des données : {e}")
+        return None
+
+@st.cache_data
+def load_geojson():
+    """Charge le GeoJSON des départements français"""
+    try:
+        with open('data/departements.geojson', 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception as e:
+        st.warning(f"Impossible de charger la carte de France : {e}")
         return None
 
 # Fonction pour calculer le niveau d'alerte
@@ -188,51 +199,99 @@ if df is not None:
         # Section 2 : Carte de France interactive
         st.header("🗺️ Carte de France Interactive")
 
-        # Filtrer les données pour la date sélectionnée
-        df_map = df[df['date'] == selected_date].copy()
+        # Charger le GeoJSON
+        geojson_data = load_geojson()
 
-        # Ajouter les niveaux d'alerte et couleurs
-        df_map['alert_level'] = df_map['y_target'].apply(lambda x: get_alert_level(x)[0])
-        df_map['color'] = df_map['y_target'].apply(lambda x: get_alert_level(x)[1])
+        if geojson_data:
+            # Filtrer les données pour la date sélectionnée
+            df_map = df[df['date'] == selected_date].copy()
 
-        # Créer une carte choroplèthe
-        # Note: Pour une vraie carte de France, il faudrait les données GeoJSON des départements
-        # Ici on fait une visualisation alternative avec un scatter géographique
+            # Ajouter les niveaux d'alerte
+            df_map['alert_level'] = df_map['y_target'].apply(lambda x: get_alert_level(x)[0])
 
-        st.info("📍 Visualisation par département - Taille = nombre de cas, Couleur = niveau d'alerte")
+            # Créer la carte choroplèthe
+            fig_map = px.choropleth(
+                df_map,
+                geojson=geojson_data,
+                locations='department',
+                featureidkey='properties.code',
+                color='y_target',
+                color_continuous_scale=[
+                    [0, '#28a745'],      # Vert
+                    [0.33, '#ffc107'],   # Jaune
+                    [0.66, '#fd7e14'],   # Orange
+                    [1, '#dc3545']       # Rouge
+                ],
+                range_color=[0, 200],
+                labels={'y_target': 'Cas d\'urgences'},
+                hover_name='department',
+                hover_data={
+                    'department': False,
+                    'y_target': ':.0f',
+                    'prediction': ':.0f'
+                }
+            )
 
-        # Créer un graphique à barres horizontal comme alternative
-        df_map_sorted = df_map.sort_values('y_target', ascending=True).tail(20)
+            fig_map.update_geos(
+                fitbounds="locations",
+                visible=False
+            )
 
-        fig_map = go.Figure()
+            fig_map.update_layout(
+                title=f"Carte des alertes par département - {selected_date.strftime('%d/%m/%Y')}",
+                height=700,
+                margin={"r": 0, "t": 50, "l": 0, "b": 0}
+            )
 
-        for idx, row in df_map_sorted.iterrows():
-            alert_level, color = get_alert_level(row['y_target'])
-            fig_map.add_trace(go.Bar(
-                y=[row['department']],
-                x=[row['y_target']],
-                orientation='h',
-                name=row['department'],
-                marker=dict(color=color),
-                hovertemplate=(
-                    f"<b>Département {row['department']}</b><br>" +
-                    f"Cas réels: {row['y_target']:.0f}<br>" +
-                    f"Prédiction J+7: {row['prediction']:.0f}<br>" +
-                    f"Niveau: {alert_level}<br>" +
-                    "<extra></extra>"
-                ),
-                showlegend=False
-            ))
+            st.plotly_chart(fig_map, use_container_width=True)
 
-        fig_map.update_layout(
-            title=f"Top 20 départements les plus touchés - {selected_date.strftime('%d/%m/%Y')}",
-            xaxis_title="Nombre de cas d'urgences",
-            yaxis_title="Département",
-            height=600,
-            hovermode='closest'
-        )
+            # Légende des niveaux d'alerte
+            col_legend1, col_legend2, col_legend3, col_legend4 = st.columns(4)
+            with col_legend1:
+                st.markdown("🟢 **Vert** : < 50 cas")
+            with col_legend2:
+                st.markdown("🟡 **Jaune** : 50-100 cas")
+            with col_legend3:
+                st.markdown("🟠 **Orange** : 100-150 cas")
+            with col_legend4:
+                st.markdown("🔴 **Rouge** : > 150 cas")
 
-        st.plotly_chart(fig_map, use_container_width=True)
+        else:
+            # Fallback si le GeoJSON n'est pas disponible
+            st.warning("Carte GeoJSON non disponible. Affichage du Top 20 des départements.")
+
+            df_map = df[df['date'] == selected_date].copy()
+            df_map_sorted = df_map.sort_values('y_target', ascending=True).tail(20)
+
+            fig_map = go.Figure()
+
+            for idx, row in df_map_sorted.iterrows():
+                alert_level, color = get_alert_level(row['y_target'])
+                fig_map.add_trace(go.Bar(
+                    y=[row['department']],
+                    x=[row['y_target']],
+                    orientation='h',
+                    name=row['department'],
+                    marker=dict(color=color),
+                    hovertemplate=(
+                        f"<b>Département {row['department']}</b><br>" +
+                        f"Cas réels: {row['y_target']:.0f}<br>" +
+                        f"Prédiction J+7: {row['prediction']:.0f}<br>" +
+                        f"Niveau: {alert_level}<br>" +
+                        "<extra></extra>"
+                    ),
+                    showlegend=False
+                ))
+
+            fig_map.update_layout(
+                title=f"Top 20 départements les plus touchés - {selected_date.strftime('%d/%m/%Y')}",
+                xaxis_title="Nombre de cas d'urgences",
+                yaxis_title="Département",
+                height=600,
+                hovermode='closest'
+            )
+
+            st.plotly_chart(fig_map, use_container_width=True)
 
         st.markdown("---")
 

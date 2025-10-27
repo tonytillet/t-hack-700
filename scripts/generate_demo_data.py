@@ -29,7 +29,8 @@ def generate_seasonal_pattern(dates):
 
     # Pattern sinusoïdal avec pic en janvier/février (jour 30-60)
     # et creux en été (jour 180-210)
-    seasonal = np.sin((day_of_year - 45) * 2 * np.pi / 365) * 0.5 + 0.5
+    # Inversé pour avoir le pic en hiver (valeur haute quand sin est bas)
+    seasonal = -np.sin((day_of_year - 45) * 2 * np.pi / 365) * 0.5 + 0.5
     return seasonal
 
 def generate_department_data(dept_code, dates):
