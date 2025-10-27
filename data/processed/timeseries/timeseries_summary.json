@@ -1,0 +1,73 @@
+{
+  "daily_series": {
+    "shape": [
+      0,
+      14
+    ],
+    "period": "NaT to NaT",
+    "departments": 0,
+    "columns": [
+      "date",
+      "department",
+      "covid_cases",
+      "total_emergency",
+      "covid_rate",
+      "year",
+      "month",
+      "day_of_week",
+      "week_of_year",
+      "quarter",
+      "is_weekend",
+      "is_peak_season",
+      "covid_cases_ma7",
+      "covid_cases_ma30"
+    ]
+  },
+  "target_series": {
+    "shape": [
+      0,
+      5
+    ],
+    "period": "NaT to NaT",
+    "columns": [
+      "date",
+      "department",
+      "target_covid_cases",
+      "target_total_emergency",
+      "target_covid_rate"
+    ]
+  },
+  "features_series": {
+    "shape": [
+      0,
+      24
+    ],
+    "period": "NaT to NaT",
+    "columns": [
+      "date",
+      "department",
+      "covid_cases",
+      "total_emergency",
+      "covid_rate",
+      "year",
+      "month",
+      "day_of_week",
+      "week_of_year",
+      "quarter",
+      "is_weekend",
+      "is_peak_season",
+      "covid_cases_ma7",
+      "covid_cases_ma30",
+      "covid_trend_7d",
+      "covid_trend_30d",
+      "covid_volatility_7d",
+      "covid_volatility_30d",
+      "sin_month",
+      "cos_month",
+      "sin_day",
+      "cos_day",
+      "covid_weekend_interaction",
+      "covid_peak_interaction"
+    ]
+  }
+}

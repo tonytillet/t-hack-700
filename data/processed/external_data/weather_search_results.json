@@ -1,0 +1,1994 @@
+[
+  {
+    "title": " Météo Sahurs Rouen Température, Vent et Puissance solaire",
+    "description": "Station météo temps réel 1m #Sahurs #Rouen 1m\nTempérature\nVent\nPuissance solaire\n",
+    "organization": "FULLRAMA",
+    "resources": [],
+    "created": "",
+    "keyword": "météo température"
+  },
+  {
+    "title": "Données d'observation des principales stations météorologiques",
+    "description": "Données d'observations issues des messages internationaux d’observation en surface (SYNOP) circulant sur le système mondial de télécommunication (SMT) de l’Organisation Météorologique Mondiale (OMM). Paramètres atmosphériques mesurés (température, humidité, direction et force du vent, pression atmosphérique, hauteur de précipitations) ou observés (temps sensible, description des nuages, visibilité) depuis la surface terrestre. Selon instrumentation et spécificités locales, d'autres paramètres peuvent être disponibles (hauteur de neige, état du sol, etc.)\nLes archives de ces données sont téléchargeables en ligne depuis janvier 1996\n\n*Métropole et outre-mer*\n\n*Fréquence : 3 h*\n\n*Format : CSV*",
+    "organization": "Météo-France",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2023-12-11T09:18:07.173000+00:00",
+        "description": "Liste stations et descriptif paramètres",
+        "extras": {
+          "analysis:check_id": 35463223,
+          "analysis:checksum": "3ac5e4543f7c2dc270b7cdd1b1bfd5854fce6815",
+          "analysis:content-length": 1289683,
+          "analysis:last-modified-at": "2025-10-25T17:02:28.752618+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-29T00:30:04.284524+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33989146,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "5aadf2f2-2398-4f8c-bd54-4c4c00fefaba",
+        "internal": {
+          "created_at_internal": "2023-12-11T09:18:07.173000+00:00",
+          "last_modified_internal": "2025-09-19T09:11:42.685000+00:00"
+        },
+        "last_modified": "2025-10-25T17:02:28.752618+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/5aadf2f2-2398-4f8c-bd54-4c4c00fefaba",
+        "metrics": {
+          "views": 2702
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation",
+        "type": "documentation",
+        "url": "https://confluence-meteofrance.atlassian.net/wiki/spaces/OpenDataMeteoFrance/pages/888143886/Observations+in+situ#%F0%9F%8C%8D%EF%B8%8F-Donn%C3%A9es-SYNOP-essentielles-OMM"
+      },
+      {
+        "checksum": null,
+        "created_at": "2014-05-07T03:58:04.441000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:check_id": 35415152,
+          "analysis:checksum": "c06603518dc6528548e5b42e1e53701ace291b25",
+          "analysis:content-length": 155066,
+          "analysis:last-modified-at": "2025-10-24T17:19:39.294841+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": false,
+          "check:count-availability": 22,
+          "check:date": "2025-10-25T05:19:48.136438+00:00",
+          "check:headers:charset": "utf-8",
+          "check:id": 35440326,
+          "check:timeout": true,
+          "check:url": "https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=90&id_rubrique=32"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "66f4cfd9-240d-4c6e-8c0b-532d26c2c1dc",
+        "internal": {
+          "created_at_internal": "2014-05-07T03:58:04.441000+00:00",
+          "last_modified_internal": "2025-09-19T09:08:30.167000+00:00"
+        },
+        "last_modified": "2025-10-24T17:19:39.294841+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/66f4cfd9-240d-4c6e-8c0b-532d26c2c1dc",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 12507
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": null,
+        "title": "Données SYNOP essentielles OMM",
+        "type": "main",
+        "url": "https://www.data.gouv.fr/datasets/observations-synop/"
+      }
+    ],
+    "created": "",
+    "keyword": "données météorologiques"
+  },
+  {
+    "title": "Données climatiques prospectives - France +2°C",
+    "description": "L’ADEME, en partenariat avec Météo-France, le CSTB et la DHUP, met à disposition **des fichiers climatiques prospectifs**, non réglementaires, basés sur la Trajectoire de Réchauffement de référence pour l'Adaptation au Changement Climatique (TRACC). \n\nCes données apportent une aide au secteur du bâtiment et aux collectivités pour s’adapter à l’influence du changement climatique sur les consommations d’énergie, l’impact carbone et les conditions thermiques des ambiances intérieures. \n\nCes fichiers complètent les données actuelles de la Réglementation Environnementale des bâtiments neufs (RE2020) par des projections reflétant des climats futurs potentiels, incluant des scénarios de réchauffement, pour la France à respectivement +2°C, +2,7°C et +4°C par rapport à la période préindustrielle (1850-1900) ainsi que des épisodes de vagues de chaleur. \n\nConstruits à partir des simulations climatiques du modèle CNRM-AROME, ces fichiers offrent des séries horaires détaillées pour 17 paramètres climatiques et astronomiques, selon les huit zones de climat de référence en France métropolitaine.\n\n* [Lire la note technique résumée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20r%C3%A9sum%C3%A9e%20-%20VF.pdf)\n* [Lire la note technique détaillée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20technique%20d%C3%A9taill%C3%A9e%20-%20VF.pdf)\n",
+    "organization": "ADEME",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:27:01.339000+00:00",
+        "description": "Consultez directement les données dans une carte interactive.",
+        "extras": {
+          "analysis:check_id": 33644581,
+          "analysis:checksum": "6a979f86913bf67a00c0822e367f8edce50a5f58",
+          "analysis:content-length": 69982,
+          "analysis:last-modified-at": "2025-09-21T16:15:35.491528+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:38.564799+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081301,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "9f31c860-6750-4020-9448-12c964cb6962",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:27:01.339000+00:00",
+          "last_modified_internal": "2025-09-11T07:27:01.339000+00:00"
+        },
+        "last_modified": "2025-09-21T16:15:35.491528+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/9f31c860-6750-4020-9448-12c964cb6962",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Consultez les données",
+        "type": "main",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-2c"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:27:01.339000+00:00",
+        "description": "Documentation interactive de l'API à destination des développeurs. La description de l'API utilise la spécification [OpenAPI 3.1.1](https://github.com/OAI/OpenAPI-Specification)",
+        "extras": {
+          "analysis:check_id": 33670385,
+          "analysis:checksum": "bde039a8520e475b879c57d026dbaaa2f61af55d",
+          "analysis:content-length": 56976,
+          "analysis:last-modified-at": "2025-09-22T04:17:52.525669+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:38.904880+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081302,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "70dd6f28-0fda-4b3e-bfda-1de2326c685d",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:27:01.339000+00:00",
+          "last_modified_internal": "2025-09-11T07:27:01.339000+00:00"
+        },
+        "last_modified": "2025-09-22T04:17:52.525669+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/70dd6f28-0fda-4b3e-bfda-1de2326c685d",
+        "metrics": {
+          "views": 2
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation de l'API",
+        "type": "documentation",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-2c/api-doc"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-07-24T07:16:50.936000+00:00",
+        "description": "Téléchargez le fichier complet au format csv.",
+        "extras": {
+          "analysis:checksum": "47e829f681989611787285fbf2483f4118f7222e",
+          "analysis:content-length": 10131634,
+          "analysis:last-modified-at": "2025-06-04T09:32:06+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-26T04:17:32.739077+00:00",
+          "analysis:parsing:parquet_size": 4254012,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/db974495-8622-471c-8de7-3326100632d4.parquet",
+          "analysis:parsing:parsing_table": "5a1c9172a87e82a270db15e5d2df0b51",
+          "analysis:parsing:started_at": "2025-07-26T04:13:40.056344+00:00",
+          "check:available": true,
+          "check:date": "2025-07-26T04:13:13.208000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 10131634,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "db974495-8622-471c-8de7-3326100632d4",
+        "internal": {
+          "created_at_internal": "2025-07-24T07:16:50.936000+00:00",
+          "last_modified_internal": "2025-07-24T07:16:50.936000+00:00"
+        },
+        "last_modified": "2025-06-04T09:32:06+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/db974495-8622-471c-8de7-3326100632d4",
+        "metrics": {
+          "views": 9
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/db974495-8622-471c-8de7-3326100632d4",
+        "schema": null,
+        "title": "Fichier csv",
+        "type": "main",
+        "url": "https://data.ademe.fr/data-fair/api/v1/datasets/donnees-climatiques-prospectives-france-2c/raw"
+      }
+    ],
+    "created": "",
+    "keyword": "données climatiques"
+  },
+  {
+    "title": "Données climatiques prospectives - France +2°C - Vague de chaleur",
+    "description": "L’ADEME, en partenariat avec Météo-France, le CSTB et la DHUP, met à disposition **des fichiers climatiques prospectifs**, non réglementaires, basés sur la Trajectoire de Réchauffement de référence pour l'Adaptation au Changement Climatique (TRACC). \n\nCes données apportent une aide au secteur du bâtiment et aux collectivités pour s’adapter à l’influence du changement climatique sur les consommations d’énergie, l’impact carbone et les conditions thermiques des ambiances intérieures. \n\nCes fichiers complètent les données actuelles de la Réglementation Environnementale des bâtiments neufs (RE2020) par des projections reflétant des climats futurs potentiels, incluant des scénarios de réchauffement, pour la France à respectivement +2°C, +2,7°C et +4°C par rapport à la période préindustrielle (1850-1900) ainsi que des épisodes de vagues de chaleur. \n\nConstruits à partir des simulations climatiques du modèle CNRM-AROME, ces fichiers offrent des séries horaires détaillées pour 17 paramètres climatiques et astronomiques, selon les huit zones de climat de référence en France métropolitaine.\n\n* [Lire la note technique résumée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20r%C3%A9sum%C3%A9e%20-%20VF.pdf)\n* [Lire la note technique détaillée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20technique%20d%C3%A9taill%C3%A9e%20-%20VF.pdf)\n",
+    "organization": "ADEME",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:29:41.906000+00:00",
+        "description": "Consultez directement les données dans une carte interactive.",
+        "extras": {
+          "analysis:check_id": 33644413,
+          "analysis:checksum": "e401ff361a892db842c4d1b015a3c443f71c04ff",
+          "analysis:content-length": 68607,
+          "analysis:last-modified-at": "2025-09-21T16:14:14.863536+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:38.079762+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081298,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "d9cb57ce-e382-4b0a-8776-9088966b9c6a",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:29:41.906000+00:00",
+          "last_modified_internal": "2025-09-11T07:29:41.906000+00:00"
+        },
+        "last_modified": "2025-09-21T16:14:14.863536+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/d9cb57ce-e382-4b0a-8776-9088966b9c6a",
+        "metrics": {
+          "views": 1
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Consultez les données",
+        "type": "main",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-2c-vague-de-chaleur"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:29:41.906000+00:00",
+        "description": "Documentation interactive de l'API à destination des développeurs. La description de l'API utilise la spécification [OpenAPI 3.1.1](https://github.com/OAI/OpenAPI-Specification)",
+        "extras": {
+          "analysis:check_id": 33644531,
+          "analysis:checksum": "89b634581712d75edbf8f7eff7a7d46483fce70a",
+          "analysis:content-length": 56070,
+          "analysis:last-modified-at": "2025-09-21T16:15:15.184353+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:38.429412+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081300,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "c61df56c-c3a5-4e48-b290-8f68f68f0715",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:29:41.906000+00:00",
+          "last_modified_internal": "2025-09-11T07:29:41.906000+00:00"
+        },
+        "last_modified": "2025-09-21T16:15:15.184353+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/c61df56c-c3a5-4e48-b290-8f68f68f0715",
+        "metrics": {},
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation de l'API",
+        "type": "documentation",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-2c-vague-de-chaleur/api-doc"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-07-24T07:16:31.891000+00:00",
+        "description": "Téléchargez le fichier complet au format csv.",
+        "extras": {
+          "analysis:checksum": "1b86691750492b7b562da6b3b073e54dbe2a94cd",
+          "analysis:content-length": 10130691,
+          "analysis:last-modified-at": "2025-06-04T10:40:30+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-26T04:17:34.690255+00:00",
+          "analysis:parsing:parquet_size": 4268871,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/dc778f6b-2feb-4a74-9cd8-20be11b40b87.parquet",
+          "analysis:parsing:parsing_table": "f2c8869e89f33862ee85b117a6a98c40",
+          "analysis:parsing:started_at": "2025-07-26T04:13:51.204967+00:00",
+          "check:available": true,
+          "check:date": "2025-07-26T04:13:15.156000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 10130691,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "dc778f6b-2feb-4a74-9cd8-20be11b40b87",
+        "internal": {
+          "created_at_internal": "2025-07-24T07:16:31.891000+00:00",
+          "last_modified_internal": "2025-07-24T07:16:31.891000+00:00"
+        },
+        "last_modified": "2025-06-04T10:40:30+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/dc778f6b-2feb-4a74-9cd8-20be11b40b87",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/dc778f6b-2feb-4a74-9cd8-20be11b40b87",
+        "schema": null,
+        "title": "Fichier csv",
+        "type": "main",
+        "url": "https://data.ademe.fr/data-fair/api/v1/datasets/donnees-climatiques-prospectives-france-2c-vague-de-chaleur/raw"
+      }
+    ],
+    "created": "",
+    "keyword": "données climatiques"
+  },
+  {
+    "title": "Données climatiques prospectives - France +2,7°C",
+    "description": "L’ADEME, en partenariat avec Météo-France, le CSTB et la DHUP, met à disposition **des fichiers climatiques prospectifs**, non réglementaires, basés sur la Trajectoire de Réchauffement de référence pour l'Adaptation au Changement Climatique (TRACC). \n\nCes données apportent une aide au secteur du bâtiment et aux collectivités pour s’adapter à l’influence du changement climatique sur les consommations d’énergie, l’impact carbone et les conditions thermiques des ambiances intérieures. \n\nCes fichiers complètent les données actuelles de la Réglementation Environnementale des bâtiments neufs (RE2020) par des projections reflétant des climats futurs potentiels, incluant des scénarios de réchauffement, pour la France à respectivement +2°C, +2,7°C et +4°C par rapport à la période préindustrielle (1850-1900) ainsi que des épisodes de vagues de chaleur. \n\nConstruits à partir des simulations climatiques du modèle CNRM-AROME, ces fichiers offrent des séries horaires détaillées pour 17 paramètres climatiques et astronomiques, selon les huit zones de climat de référence en France métropolitaine.\n\n* [Lire la note technique résumée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20r%C3%A9sum%C3%A9e%20-%20VF.pdf)\n* [Lire la note technique détaillée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20technique%20d%C3%A9taill%C3%A9e%20-%20VF.pdf)\n\n",
+    "organization": "ADEME",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:28:55.077000+00:00",
+        "description": "Consultez directement les données dans une carte interactive.",
+        "extras": {
+          "analysis:check_id": 33644377,
+          "analysis:checksum": "2b5d821cefd94f29139735d28719d0c9377d6356",
+          "analysis:content-length": 68441,
+          "analysis:last-modified-at": "2025-09-21T16:13:55.067902+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:39.027779+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081303,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "636380b1-efd1-4043-8650-3c7b1e94fbc8",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:28:55.077000+00:00",
+          "last_modified_internal": "2025-09-11T07:28:55.077000+00:00"
+        },
+        "last_modified": "2025-09-21T16:13:55.067902+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/636380b1-efd1-4043-8650-3c7b1e94fbc8",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Consultez les données",
+        "type": "main",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-27c"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:28:55.077000+00:00",
+        "description": "Documentation interactive de l'API à destination des développeurs. La description de l'API utilise la spécification [OpenAPI 3.1.1](https://github.com/OAI/OpenAPI-Specification)",
+        "extras": {
+          "analysis:check_id": 33644594,
+          "analysis:checksum": "180efafd3387ae35c30fd972b0387d0f19a0f5e8",
+          "analysis:content-length": 55888,
+          "analysis:last-modified-at": "2025-09-21T16:15:41.049308+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:37.912527+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081295,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "3de9b019-1ba7-4312-9b17-de07768edcf6",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:28:55.077000+00:00",
+          "last_modified_internal": "2025-09-11T07:28:55.077000+00:00"
+        },
+        "last_modified": "2025-09-21T16:15:41.049308+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/3de9b019-1ba7-4312-9b17-de07768edcf6",
+        "metrics": {},
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation de l'API",
+        "type": "documentation",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-27c/api-doc"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-07-24T07:16:15.827000+00:00",
+        "description": "Téléchargez le fichier complet au format csv.",
+        "extras": {
+          "analysis:checksum": "60f9128632f470c35dd2656cc42c1e74d0b72c03",
+          "analysis:content-length": 10134481,
+          "analysis:last-modified-at": "2025-06-04T13:48:24+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-26T04:18:03.330865+00:00",
+          "analysis:parsing:parquet_size": 4254946,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/f215e76f-2589-4f92-b295-714bd5fcef75.parquet",
+          "analysis:parsing:parsing_table": "ae492ffab30c12850591f4c83fb2be5e",
+          "analysis:parsing:started_at": "2025-07-26T04:14:07.619370+00:00",
+          "check:available": true,
+          "check:date": "2025-07-26T04:13:17.828000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 10134481,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "f215e76f-2589-4f92-b295-714bd5fcef75",
+        "internal": {
+          "created_at_internal": "2025-07-24T07:16:15.827000+00:00",
+          "last_modified_internal": "2025-07-24T07:16:15.827000+00:00"
+        },
+        "last_modified": "2025-06-04T13:48:24+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/f215e76f-2589-4f92-b295-714bd5fcef75",
+        "metrics": {
+          "views": 15
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/f215e76f-2589-4f92-b295-714bd5fcef75",
+        "schema": null,
+        "title": "Fichier csv",
+        "type": "main",
+        "url": "https://data.ademe.fr/data-fair/api/v1/datasets/donnees-climatiques-prospectives-france-27c/raw"
+      }
+    ],
+    "created": "",
+    "keyword": "données climatiques"
+  },
+  {
+    "title": "Données climatiques prospectives - France +2,7°C - Vague de chaleur",
+    "description": "L’ADEME, en partenariat avec Météo-France, le CSTB et la DHUP, met à disposition **des fichiers climatiques prospectifs**, non réglementaires, basés sur la Trajectoire de Réchauffement de référence pour l'Adaptation au Changement Climatique (TRACC). \n\nCes données apportent une aide au secteur du bâtiment et aux collectivités pour s’adapter à l’influence du changement climatique sur les consommations d’énergie, l’impact carbone et les conditions thermiques des ambiances intérieures. \n\nCes fichiers complètent les données actuelles de la Réglementation Environnementale des bâtiments neufs (RE2020) par des projections reflétant des climats futurs potentiels, incluant des scénarios de réchauffement, pour la France à respectivement +2°C, +2,7°C et +4°C par rapport à la période préindustrielle (1850-1900) ainsi que des épisodes de vagues de chaleur. \n\nConstruits à partir des simulations climatiques du modèle CNRM-AROME, ces fichiers offrent des séries horaires détaillées pour 17 paramètres climatiques et astronomiques, selon les huit zones de climat de référence en France métropolitaine.\n\n* [Lire la note technique résumée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20r%C3%A9sum%C3%A9e%20-%20VF.pdf)\n* [Lire la note technique détaillée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20technique%20d%C3%A9taill%C3%A9e%20-%20VF.pdf)\n",
+    "organization": "ADEME",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:28:12.566000+00:00",
+        "description": "Consultez directement les données dans une carte interactive.",
+        "extras": {
+          "analysis:check_id": 33720149,
+          "analysis:checksum": "0fa77175201444c2f5f731d664d97a2708471760",
+          "analysis:content-length": 68720,
+          "analysis:last-modified-at": "2025-09-23T04:18:12.085608+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:39.527793+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081304,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "e837e527-83af-4e5d-9c8d-eccc4fe90c7e",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:28:12.566000+00:00",
+          "last_modified_internal": "2025-09-11T07:28:12.566000+00:00"
+        },
+        "last_modified": "2025-09-23T04:18:12.085608+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/e837e527-83af-4e5d-9c8d-eccc4fe90c7e",
+        "metrics": {
+          "views": 1
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Consultez les données",
+        "type": "main",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-27c-vague-de-chaleur"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:28:12.566000+00:00",
+        "description": "Documentation interactive de l'API à destination des développeurs. La description de l'API utilise la spécification [OpenAPI 3.1.1](https://github.com/OAI/OpenAPI-Specification)",
+        "extras": {
+          "analysis:check_id": 33644428,
+          "analysis:checksum": "e45a8335b5d10ddb4046fba4744f8870463daf21",
+          "analysis:content-length": 56184,
+          "analysis:last-modified-at": "2025-09-21T16:14:20.372267+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:37.920388+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081296,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "a1575faa-7dc2-494c-9fd9-f12a375c2773",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:28:12.566000+00:00",
+          "last_modified_internal": "2025-09-11T07:28:12.566000+00:00"
+        },
+        "last_modified": "2025-09-21T16:14:20.372267+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/a1575faa-7dc2-494c-9fd9-f12a375c2773",
+        "metrics": {
+          "views": 5
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation de l'API",
+        "type": "documentation",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-27c-vague-de-chaleur/api-doc"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-07-24T07:16:00.501000+00:00",
+        "description": "Téléchargez le fichier complet au format csv.",
+        "extras": {
+          "analysis:checksum": "41649c06dc29071c9589d031ea37debeddacf58a",
+          "analysis:content-length": 10134258,
+          "analysis:last-modified-at": "2025-06-04T14:08:25+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-26T04:17:27.160880+00:00",
+          "analysis:parsing:parquet_size": 4266988,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/4eb23121-ddbe-4817-ae28-345189ff62d8.parquet",
+          "analysis:parsing:parsing_table": "710fac5ae84b416c80d87329ca3ec2b6",
+          "analysis:parsing:started_at": "2025-07-26T04:13:40.310819+00:00",
+          "check:available": true,
+          "check:date": "2025-07-26T04:13:13.207000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 10134258,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "4eb23121-ddbe-4817-ae28-345189ff62d8",
+        "internal": {
+          "created_at_internal": "2025-07-24T07:16:00.501000+00:00",
+          "last_modified_internal": "2025-07-24T07:16:00.501000+00:00"
+        },
+        "last_modified": "2025-06-04T14:08:25+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/4eb23121-ddbe-4817-ae28-345189ff62d8",
+        "metrics": {
+          "views": 8
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/4eb23121-ddbe-4817-ae28-345189ff62d8",
+        "schema": null,
+        "title": "Fichier csv",
+        "type": "main",
+        "url": "https://data.ademe.fr/data-fair/api/v1/datasets/donnees-climatiques-prospectives-france-27c-vague-de-chaleur/raw"
+      }
+    ],
+    "created": "",
+    "keyword": "données climatiques"
+  },
+  {
+    "title": "Données climatiques prospectives - France +4°C",
+    "description": "L’ADEME, en partenariat avec Météo-France, le CSTB et la DHUP, met à disposition **des fichiers climatiques prospectifs**, non réglementaires, basés sur la Trajectoire de Réchauffement de référence pour l'Adaptation au Changement Climatique (TRACC). \n\nCes données apportent une aide au secteur du bâtiment et aux collectivités pour s’adapter à l’influence du changement climatique sur les consommations d’énergie, l’impact carbone et les conditions thermiques des ambiances intérieures. \n\nCes fichiers complètent les données actuelles de la Réglementation Environnementale des bâtiments neufs (RE2020) par des projections reflétant des climats futurs potentiels, incluant des scénarios de réchauffement, pour la France à respectivement +2°C, +2,7°C et +4°C par rapport à la période préindustrielle (1850-1900) ainsi que des épisodes de vagues de chaleur. \n\nConstruits à partir des simulations climatiques du modèle CNRM-AROME, ces fichiers offrent des séries horaires détaillées pour 17 paramètres climatiques et astronomiques, selon les huit zones de climat de référence en France métropolitaine.\n\n* [Lire la note technique résumée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20r%C3%A9sum%C3%A9e%20-%20VF.pdf)\n* [Lire la note technique détaillée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20technique%20d%C3%A9taill%C3%A9e%20-%20VF.pdf)\n\n",
+    "organization": "ADEME",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:26:14.682000+00:00",
+        "description": "Consultez directement les données dans une carte interactive.",
+        "extras": {
+          "analysis:check_id": 33670275,
+          "analysis:checksum": "a08c537e1aff6632ab9ed3c1768dcc461d3a75e0",
+          "analysis:content-length": 68318,
+          "analysis:last-modified-at": "2025-09-22T04:16:02.328772+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:41.190469+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081312,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "9e9f33f4-e9e3-4186-a7b7-b9ae471da8d6",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:26:14.682000+00:00",
+          "last_modified_internal": "2025-09-11T07:26:14.682000+00:00"
+        },
+        "last_modified": "2025-09-22T04:16:02.328772+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/9e9f33f4-e9e3-4186-a7b7-b9ae471da8d6",
+        "metrics": {},
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Consultez les données",
+        "type": "main",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-4c"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:26:14.683000+00:00",
+        "description": "Documentation interactive de l'API à destination des développeurs. La description de l'API utilise la spécification [OpenAPI 3.1.1](https://github.com/OAI/OpenAPI-Specification)",
+        "extras": {
+          "analysis:check_id": 35410867,
+          "analysis:checksum": "517a754e90aabda8423aac5f702bbab90fb8dc6a",
+          "analysis:content-length": 56023,
+          "analysis:last-modified-at": "2025-10-24T16:18:17.651715+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:38.002013+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081297,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "c9967031-8bab-48a4-9e68-8c5d425a9ea6",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:26:14.683000+00:00",
+          "last_modified_internal": "2025-09-11T07:26:14.683000+00:00"
+        },
+        "last_modified": "2025-10-24T16:18:17.651715+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/c9967031-8bab-48a4-9e68-8c5d425a9ea6",
+        "metrics": {},
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation de l'API",
+        "type": "documentation",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-4c/api-doc"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-07-24T07:15:45.667000+00:00",
+        "description": "Téléchargez le fichier complet au format csv.",
+        "extras": {
+          "analysis:checksum": "4e314b463a4ad8e2d0759a82686930fe94f622ff",
+          "analysis:content-length": 10141634,
+          "analysis:last-modified-at": "2025-06-06T10:12:09+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-26T04:18:22.613369+00:00",
+          "analysis:parsing:parquet_size": 4264633,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/14d90f78-16ed-4e87-b69e-de736d10a7c1.parquet",
+          "analysis:parsing:parsing_table": "f0924f28a709efa05583d7cb5f08762e",
+          "analysis:parsing:started_at": "2025-07-26T04:14:36.286204+00:00",
+          "check:available": true,
+          "check:date": "2025-07-26T04:13:17.860000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 10141634,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "14d90f78-16ed-4e87-b69e-de736d10a7c1",
+        "internal": {
+          "created_at_internal": "2025-07-24T07:15:45.667000+00:00",
+          "last_modified_internal": "2025-07-24T07:15:45.667000+00:00"
+        },
+        "last_modified": "2025-06-06T10:12:09+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/14d90f78-16ed-4e87-b69e-de736d10a7c1",
+        "metrics": {
+          "views": 8
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/14d90f78-16ed-4e87-b69e-de736d10a7c1",
+        "schema": null,
+        "title": "Fichier csv",
+        "type": "main",
+        "url": "https://data.ademe.fr/data-fair/api/v1/datasets/donnees-climatiques-prospectives-france-4c/raw"
+      }
+    ],
+    "created": "",
+    "keyword": "données climatiques"
+  },
+  {
+    "title": "Données climatiques prospectives - France +4°C - Vague de chaleur",
+    "description": "L’ADEME, en partenariat avec Météo-France, le CSTB et la DHUP, met à disposition **des fichiers climatiques prospectifs**, non réglementaires, basés sur la Trajectoire de Réchauffement de référence pour l'Adaptation au Changement Climatique (TRACC). \n\nCes données apportent une aide au secteur du bâtiment et aux collectivités pour s’adapter à l’influence du changement climatique sur les consommations d’énergie, l’impact carbone et les conditions thermiques des ambiances intérieures. \n\nCes fichiers complètent les données actuelles de la Réglementation Environnementale des bâtiments neufs (RE2020) par des projections reflétant des climats futurs potentiels, incluant des scénarios de réchauffement, pour la France à respectivement +2°C, +2,7°C et +4°C par rapport à la période préindustrielle (1850-1900) ainsi que des épisodes de vagues de chaleur. \n\nConstruits à partir des simulations climatiques du modèle CNRM-AROME, ces fichiers offrent des séries horaires détaillées pour 17 paramètres climatiques et astronomiques, selon les huit zones de climat de référence en France métropolitaine.\n\n* [Lire la note technique résumée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20r%C3%A9sum%C3%A9e%20-%20VF.pdf)\n* [Lire la note technique détaillée](https://koumoul.com/data-fair/api/v1/datasets/1f2aqm2g04n1srjjnmb3ib8-/metadata-attachments/20250611-METEO%20FRANCE%20-%20ADEME%20-%20Fichiers%20climatiques%20prospectifs%20B%C3%A2timent%20-%20Note%20technique%20d%C3%A9taill%C3%A9e%20-%20VF.pdf)\n",
+    "organization": "ADEME",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:29:31.656000+00:00",
+        "description": "Consultez directement les données dans une carte interactive.",
+        "extras": {
+          "analysis:check_id": 33644599,
+          "analysis:checksum": "7e7f93e50e436be07724c543e54ee25c6d4e1a2f",
+          "analysis:content-length": 68545,
+          "analysis:last-modified-at": "2025-09-21T16:15:42.512042+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:41.166916+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081311,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "0b3a18a9-ae4e-41ee-b39b-dc25d3030424",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:29:31.656000+00:00",
+          "last_modified_internal": "2025-09-11T07:29:31.656000+00:00"
+        },
+        "last_modified": "2025-09-21T16:15:42.512042+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/0b3a18a9-ae4e-41ee-b39b-dc25d3030424",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Consultez les données",
+        "type": "main",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-4c-vague-de-chaleur"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-09-11T07:29:31.657000+00:00",
+        "description": "Documentation interactive de l'API à destination des développeurs. La description de l'API utilise la spécification [OpenAPI 3.1.1](https://github.com/OAI/OpenAPI-Specification)",
+        "extras": {
+          "analysis:check_id": 33644628,
+          "analysis:checksum": "2bd356bbd13a651b691fbac935747de48953ad66",
+          "analysis:content-length": 56008,
+          "analysis:last-modified-at": "2025-09-21T16:15:59.317511+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:date": "2025-09-13T04:13:38.374314+00:00",
+          "check:headers:content-type": "text/html",
+          "check:id": 33081299,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "page web",
+        "harvest": null,
+        "id": "56c76ec6-bc37-4472-9b00-351285e618d1",
+        "internal": {
+          "created_at_internal": "2025-09-11T07:29:31.657000+00:00",
+          "last_modified_internal": "2025-09-11T07:29:31.657000+00:00"
+        },
+        "last_modified": "2025-09-21T16:15:59.317511+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/56c76ec6-bc37-4472-9b00-351285e618d1",
+        "metrics": {},
+        "mime": "text/html",
+        "preview_url": null,
+        "schema": null,
+        "title": "Documentation de l'API",
+        "type": "documentation",
+        "url": "https://data.ademe.fr/datasets/donnees-climatiques-prospectives-france-4c-vague-de-chaleur/api-doc"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-07-24T07:15:27.426000+00:00",
+        "description": "Téléchargez le fichier complet au format csv.",
+        "extras": {
+          "analysis:checksum": "ce3ab80b8a52374bb58bfd827c250397702823d2",
+          "analysis:content-length": 10138763,
+          "analysis:last-modified-at": "2025-06-06T13:50:44+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-26T04:18:01.739972+00:00",
+          "analysis:parsing:parquet_size": 4303889,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/31df3d97-c7c2-4361-9ebc-e328e633e57e.parquet",
+          "analysis:parsing:parsing_table": "0ac5dca2713fc99442305aa910c369ea",
+          "analysis:parsing:started_at": "2025-07-26T04:14:17.003414+00:00",
+          "check:available": true,
+          "check:date": "2025-07-26T04:13:17.829000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 10138763,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": null,
+        "id": "31df3d97-c7c2-4361-9ebc-e328e633e57e",
+        "internal": {
+          "created_at_internal": "2025-07-24T07:15:27.426000+00:00",
+          "last_modified_internal": "2025-07-24T07:15:27.426000+00:00"
+        },
+        "last_modified": "2025-06-06T13:50:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/31df3d97-c7c2-4361-9ebc-e328e633e57e",
+        "metrics": {
+          "views": 5
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/31df3d97-c7c2-4361-9ebc-e328e633e57e",
+        "schema": null,
+        "title": "Fichier csv",
+        "type": "main",
+        "url": "https://data.ademe.fr/data-fair/api/v1/datasets/donnees-climatiques-prospectives-france-4c-vague-de-chaleur/raw"
+      }
+    ],
+    "created": "",
+    "keyword": "données climatiques"
+  },
+  {
+    "title": "Météo-France : données SIM",
+    "description": "Données quotidiennes du modèle de simulation des schémas de surface (Safran - Isba), échelle = maillage SAFRAN (8 x 8 km).\nIssu d'un moissonnage automatique quotidien, ce jeu de donnée présente par défaut la situation au jour j-1, mais le calendrier accessible sous la légende permet de 'remonter le temps' sur les 15 j.précédents.\nOrigine et métadonnées complémentaires : meteo.data.gouv.fr (https://www.data.gouv.fr/fr/datasets/r/adcca99a-6db0-495a-869f-40c888174a57).\nDonnées présentées :\n* SWI = Indice d'humidité des sols (SWI_Q) et écart à la normale 1991-2020 (les normales 1991-2020 ont été recalculées à partir des archives également présentes sur meteo.data.gouv.fr),\n* Evapotranspiration réelle (EVAP_Q) de la veille,\n* Cumul des précipitations totales (PRENEI_Q + PRELIQ_Q) sur les 15 j. précédents,\n* Cumul des précipitations efficaces (PE_Q) sur les 15 j. précédents.",
+    "organization": "Direction régionale de l'environnement, de l'aménagement et du logement de Bretagne",
+    "resources": [],
+    "created": "",
+    "keyword": "météo France"
+  },
+  {
+    "title": "ECMWF / Météo-France : prévisions de cumul de pluie à 14 j.",
+    "description": "Prévision de cumul de précipitations à horizon de 14 j.\nPrévisions d'ensemble issues de l'European Centre for Medium-Range Weather Forecasts, rapportées aux postes pluviométriques exploités par MétéoFrance (accessibles sous identifiants sur les ExtraNets professionnels de Météo-France).\nLa valeur présentée par défaut correspond au scénario médian, le jeu de données comprend également les quantiles 20 et 40 %.",
+    "organization": "Direction régionale de l'environnement, de l'aménagement et du logement de Bretagne",
+    "resources": [],
+    "created": "",
+    "keyword": "météo France"
+  },
+  {
+    "title": "Météo Vigilance niveau départemental (Île-de-France)",
+    "description": "Prévisions de dangers météorologiques pour la journée en cours (J) et le lendemain (J1), avec un regroupement par phénomène et selon leur chronologie, au niveau départemental (départements franciliens).\n\n### Quatre niveaux de Vigilance\n\n**Vigilance rouge**\n     Une vigilance absolue s'impose. Des phénomènes dangereux d'intensité exceptionnelle sont prévus. Tenez-vous régulièrement au courant de l'évolution de la situation et respectez impérativement les consignes de sécurité émises par les pouvoirs publics. \n**Vigilance orange**\n     Soyez très vigilant. Des phénomènes dangereux sont prévus. Tenez-vous au courant de l'évolution de la situation et suivez les conseils de sécurité émis par les pouvoirs publics. \n**Vigilance jaune**\n     Soyez attentifs. Si vous pratiquez des activités sensibles au risque météorologique ou exposées aux crues, des phénomènes habituels dans la région mais occasionnellement et localement dangereux (ex. orage d'été, montée des eaux) sont en effet prévus. Tenez-vous au courant de l'évolution de la situation. \n**Vigilance verte**\n     Pas de vigilance particulière.\n\n[Plus d'informations sur la vigilance Météo France (Fichier PDF)](https://donneespubliques.meteofrance.fr/client/document/dircom_fiche_evolutions_vigilance_20221017_294.pdf \"Plus d'informations sur la vigilance Météo France - Fichier PDF \\(nouvelle fenêtre\\)\")",
+    "organization": "Région Île-de-France",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2025-10-25T01:15:38+00:00",
+        "description": "Météo Vigilance niveau départemental (Île-de-France) (csv)",
+        "extras": {
+          "analysis:check_id": 35041782,
+          "analysis:checksum": "a7f80db5e6a6677b192f77b3bc4067ddb2ccdf76",
+          "analysis:content-length": 6654,
+          "analysis:last-modified-at": "2025-10-17T01:15:42+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-10-18T15:43:11.113240+00:00",
+          "analysis:parsing:parsing_table": "2c4d50780a25a8194c6ebdaad3e0683f",
+          "analysis:parsing:started_at": "2025-10-18T15:43:10.950971+00:00",
+          "check:available": true,
+          "check:date": "2025-09-01T03:28:13.483460+00:00",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2025-10-25T01:15:38+00:00",
+          "modified_at": "2025-10-25T01:15:38+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/meteo-vigilance-niveau-departemental-idf/exports/csv?use_labels=true"
+        },
+        "id": "cb51db96-ac03-493d-86bc-df946148c480",
+        "internal": {
+          "created_at_internal": "2025-06-27T10:11:51.666000+00:00",
+          "last_modified_internal": "2025-06-27T10:11:51.666000+00:00"
+        },
+        "last_modified": "2025-10-25T01:15:38+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/cb51db96-ac03-493d-86bc-df946148c480",
+        "metrics": {
+          "views": 9
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/cb51db96-ac03-493d-86bc-df946148c480",
+        "schema": null,
+        "title": "meteo-vigilance-niveau-departemental-idf.csv",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/meteo-vigilance-niveau-departemental-idf/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2025-10-25T01:15:38+00:00",
+        "description": "Météo Vigilance niveau départemental (Île-de-France) (json)",
+        "extras": {
+          "analysis:check_id": 35042345,
+          "analysis:checksum": "cebc0947e12c73929d84f4b530c8e75c3ce3eb6b",
+          "analysis:content-length": 15873,
+          "analysis:last-modified-at": "2025-10-17T01:15:42+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/json",
+          "check:available": true,
+          "check:date": "2025-07-01T01:28:29.465407+00:00",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2025-10-25T01:15:38+00:00",
+          "modified_at": "2025-10-25T01:15:38+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/meteo-vigilance-niveau-departemental-idf/exports/json"
+        },
+        "id": "bea0c368-3142-4710-8485-3a587cc7eefd",
+        "internal": {
+          "created_at_internal": "2025-06-27T10:11:51.666000+00:00",
+          "last_modified_internal": "2025-06-27T10:11:51.666000+00:00"
+        },
+        "last_modified": "2025-10-25T01:15:38+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/bea0c368-3142-4710-8485-3a587cc7eefd",
+        "metrics": {
+          "views": 15
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "meteo-vigilance-niveau-departemental-idf.json",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/meteo-vigilance-niveau-departemental-idf/exports/json"
+      }
+    ],
+    "created": "",
+    "keyword": "météo France"
+  },
+  {
+    "title": "Prévisions Météo France",
+    "description": "Champs d'analyse et de prévisions en points de grilles, issus du modèle atmosphérique _Arome_.\n\nParamètres, niveaux, échéances et domaines paramétrables selon diverses résolutions et échéances jusqu'à H+36h.\n\nLes paramètres suivants sont extraits:\n\n  * Température à 2 mètres du sol\n  * Humidité relative à la surface\n  * Somme des précipitations depuis la date de référence\n\n\n\nLes données brutes sont téléchargeables ici: [https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=131&id_rubrique=51](https://donneespubliques.meteofrance.fr/?fond=produit&id_produit=131&id_rubrique=51).",
+    "organization": "Fleury-sur-Orne",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (csv)",
+        "extras": {
+          "analysis:checksum": "62e07da00b934ebda4a73e4c40ca9429efa8a59c",
+          "analysis:content-length": 10009,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:started_at": "2025-06-20T21:38:52.899752+00:00",
+          "check:available": true,
+          "check:date": "2025-06-19T04:31:15.189480+00:00",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/csv?use_labels=true"
+        },
+        "id": "61a93c1c-ff16-4329-bb20-d770f1a8e0b3",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.167000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.167000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/61a93c1c-ff16-4329-bb20-d770f1a8e0b3",
+        "metrics": {
+          "views": 6
+        },
+        "mime": "text/csv",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.csv",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (json)",
+        "extras": {
+          "analysis:checksum": "fff2e538a4d4859635d13a75e96f48ff097ae1c3",
+          "analysis:content-length": 28004,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/json",
+          "check:available": false,
+          "check:date": "2025-10-18T09:28:43.784781+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 35022494,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/json"
+        },
+        "id": "8ad2046e-1f4d-4d63-afe0-9643bced4b09",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.169000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.169000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8ad2046e-1f4d-4d63-afe0-9643bced4b09",
+        "metrics": {
+          "views": 10
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.json",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/json"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (fgb)",
+        "extras": {
+          "analysis:checksum": "9d2afe56f50234518cdf168324c6bc51a17800ef",
+          "analysis:content-length": 13472,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/octet-stream",
+          "check:available": false,
+          "check:date": "2025-10-25T10:04:37.999765+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 35448676,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "octet-stream",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/fgb"
+        },
+        "id": "4790fa8c-b5a1-455f-8f4e-7482dd34b560",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.171000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.171000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/4790fa8c-b5a1-455f-8f4e-7482dd34b560",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "application/octet-stream",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.fgb",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/fgb"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (geojson)",
+        "extras": {
+          "analysis:checksum": "c93dbb3a4634477f6470f8d062fe170ddd5730a7",
+          "analysis:content-length": 28775,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/json",
+          "analysis:parsing:started_at": "2025-06-20T21:07:31.153702+00:00",
+          "check:available": false,
+          "check:date": "2025-10-04T09:08:11.741566+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 34241954,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/geojson"
+        },
+        "id": "a80b5bcd-0392-4654-ab98-80084bd66ccf",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.173000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.173000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/a80b5bcd-0392-4654-ab98-80084bd66ccf",
+        "metrics": {
+          "views": 5
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.geojson",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/geojson"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (gpx)",
+        "extras": {
+          "analysis:checksum": "232f03ae94bf47646d08605b468d5d9f28a6d47a",
+          "analysis:content-length": 48542,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/xml",
+          "check:available": false,
+          "check:date": "2025-10-03T21:55:05.202879+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 34215434,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "xml",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/gpx"
+        },
+        "id": "7c1585d6-4aaa-4861-baf2-b952f5c866ee",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.175000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.175000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/7c1585d6-4aaa-4861-baf2-b952f5c866ee",
+        "metrics": {
+          "views": 7
+        },
+        "mime": "application/gpx+xml",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.gpx",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/gpx"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (jsonl)",
+        "extras": {
+          "analysis:checksum": "0990d393b7d444b9b491043b6f93646d82bb61c4",
+          "analysis:content-length": 28003,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/x-ndjson",
+          "check:available": false,
+          "check:date": "2025-10-22T21:40:56.895648+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 35319752,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/jsonl"
+        },
+        "id": "145c0fac-b241-4ab6-b239-3bd22e9c9752",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.177000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.177000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/145c0fac-b241-4ab6-b239-3bd22e9c9752",
+        "metrics": {
+          "views": 9
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.jsonl",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/jsonl"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (kml)",
+        "extras": {
+          "analysis:checksum": "722a1e3e8b9c8a78c59fb4432b5fc3c637629b50",
+          "analysis:content-length": 58287,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/xml",
+          "check:available": true,
+          "check:date": "2025-08-29T21:08:10.148959+00:00",
+          "check:headers:content-type": "application/vnd.google-earth.kml+xml",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "xml",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/kml"
+        },
+        "id": "71db9673-6715-4a12-b7f7-6a8e9bed362f",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.179000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.179000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/71db9673-6715-4a12-b7f7-6a8e9bed362f",
+        "metrics": {
+          "views": 5
+        },
+        "mime": "application/vnd.google-earth.kml+xml",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.kml",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/kml"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (ov2)",
+        "extras": {
+          "analysis:checksum": "39bb922a9e582f503c4ab56f3c919d74104af023",
+          "analysis:content-length": 99,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-07-15T13:37:04.072453+00:00",
+          "analysis:parsing:parsing_table": "a8808a32ed3a072515be776583457cdb",
+          "analysis:parsing:started_at": "2025-07-15T13:37:03.884759+00:00",
+          "check:available": true,
+          "check:date": "2025-06-19T04:31:25.785935+00:00",
+          "check:headers:content-type": "text/plain",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "plain",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/ov2"
+        },
+        "id": "612f0242-2148-41eb-a2e7-361a30e22bfb",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.181000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.181000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/612f0242-2148-41eb-a2e7-361a30e22bfb",
+        "metrics": {
+          "views": 6
+        },
+        "mime": "text/plain",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/612f0242-2148-41eb-a2e7-361a30e22bfb",
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.ov2",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/ov2"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (parquet)",
+        "extras": {
+          "analysis:checksum": "365de26b43af0d2cdf37b31758b019a2cee158b3",
+          "analysis:content-length": 9706,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/octet-stream",
+          "check:available": false,
+          "check:date": "2025-10-23T09:39:58.454345+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 35345661,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "parquet",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/parquet"
+        },
+        "id": "668b1f0f-c202-4e7c-b4b8-333020bcfe09",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.182000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.182000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/668b1f0f-c202-4e7c-b4b8-333020bcfe09",
+        "metrics": {
+          "views": 8
+        },
+        "mime": "application/parquet",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.parquet",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/parquet"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (rdfxml)",
+        "extras": {
+          "analysis:checksum": "ccfa7eccdacc57d2148a47a4933bcb7579b5c82f",
+          "analysis:content-length": 101503,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/xml",
+          "check:available": false,
+          "check:date": "2025-10-13T09:16:29.033925+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 34699514,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "xml",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/rdfxml"
+        },
+        "id": "5e390da5-11f6-431b-8d10-82d1991a586d",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.184000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.184000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/5e390da5-11f6-431b-8d10-82d1991a586d",
+        "metrics": {
+          "views": 9
+        },
+        "mime": "application/rdf+xml",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.rdf",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/rdfxml"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (jsonld)",
+        "extras": {
+          "analysis:checksum": "fb62a4e7bd3c0c8a31b3e1ac21ce247893b43d2a",
+          "analysis:content-length": 149646,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/json",
+          "check:available": false,
+          "check:date": "2025-10-20T09:37:59.973391+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 35176414,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/jsonld"
+        },
+        "id": "3cc49d48-be42-4766-9728-ddbfc59468cb",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.186000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.186000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/3cc49d48-be42-4766-9728-ddbfc59468cb",
+        "metrics": {
+          "views": 6
+        },
+        "mime": "application/ld+json",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.jsonld",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/jsonld"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (turtle)",
+        "extras": {
+          "analysis:checksum": "b362c3b66b64547660e04b52fb8d83e7c189b0c5",
+          "analysis:content-length": 46227,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:date": "2025-06-19T04:25:48.953900+00:00",
+          "check:headers:content-type": "text/turtle",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "turtle",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/turtle"
+        },
+        "id": "75956ed1-ff12-4fc6-820e-972b2259b21d",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.189000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.189000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/75956ed1-ff12-4fc6-820e-972b2259b21d",
+        "metrics": {
+          "views": 3
+        },
+        "mime": "text/turtle",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.ttl",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/turtle"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (n3)",
+        "extras": {
+          "analysis:checksum": "b362c3b66b64547660e04b52fb8d83e7c189b0c5",
+          "analysis:content-length": 46227,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": false,
+          "check:date": "2025-10-05T09:17:04.013603+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 34290923,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "n3",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/n3"
+        },
+        "id": "0cc53b54-f376-4480-9636-71d2d911b400",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.190000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.190000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/0cc53b54-f376-4480-9636-71d2d911b400",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "text/n3",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.n3",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/n3"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (shp)",
+        "extras": {
+          "analysis:checksum": "0984ef3e9fad4c27a5fcbee26e314af54c088b22",
+          "analysis:content-length": 4686,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/zip",
+          "check:available": false,
+          "check:date": "2025-10-10T09:49:00.787257+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 34547616,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "zip",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/shp"
+        },
+        "id": "0030570c-4fd5-49c8-8684-3c1b4ffab4b0",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.192000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.192000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/0030570c-4fd5-49c8-8684-3c1b4ffab4b0",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "application/zip",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.zip",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/shp"
+      },
+      {
+        "checksum": null,
+        "created_at": "2019-10-05T22:38:57+00:00",
+        "description": "Prévisions Météo France (xlsx)",
+        "extras": {
+          "analysis:checksum": "ba7286b906f56e60c0cff30df2c0e450ce7b784c",
+          "analysis:content-length": 5013,
+          "analysis:last-modified-at": "2019-10-05T22:38:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "analysis:parsing:started_at": "2025-06-19T16:56:41.698909+00:00",
+          "check:available": false,
+          "check:date": "2025-10-07T09:37:03.957144+00:00",
+          "check:error": "Not Found",
+          "check:headers:content-type": "application/json",
+          "check:id": 34399329,
+          "check:status": 404,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "harvest": {
+          "issued_at": "2019-10-05T22:38:57+00:00",
+          "modified_at": "2019-10-05T22:38:57+00:00",
+          "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/xlsx?use_labels=true"
+        },
+        "id": "c12dbb69-1892-4fc8-97a5-cf37cbebb20a",
+        "internal": {
+          "created_at_internal": "2025-06-17T15:46:27.193000+00:00",
+          "last_modified_internal": "2025-06-17T15:46:27.193000+00:00"
+        },
+        "last_modified": "2019-10-05T22:38:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/c12dbb69-1892-4fc8-97a5-cf37cbebb20a",
+        "metrics": {
+          "views": 4
+        },
+        "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "preview_url": null,
+        "schema": null,
+        "title": "previsions-meteo-france-metropole-avec-nom-des-communes.xlsx",
+        "type": "main",
+        "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/previsions-meteo-france-metropole-avec-nom-des-communes/exports/xlsx?use_labels=true"
+      }
+    ],
+    "created": "",
+    "keyword": "météo France"
+  },
+  {
+    "title": "Définition des gribs de Météo-France",
+    "description": "Ceci est un tar.gz vous permettant de définir les paramètres dans les grib issue de météo-France.\n\nIl faut désarchiver avec 7z, et le coller dans le dossier definitions de eccodes.\n\nOu recréer l'environnement du dossier \"definitions\" ailleurs et y coller le désarchivage de se zip.\n\npuis definir l'environement avec  :\n\n* export  ECCODES\\__DEFINITION_\\_PATH=/chemin/ou/est/le\\_dossier/grib\\_\\_def/\n",
+    "organization": "Météo-France",
+    "resources": [
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "3f587dc975601773cd6d914a5fce89086f8d508a"
+        },
+        "created_at": "2025-04-01T06:49:32.543000+00:00",
+        "description": "Fichier de définitions des paramètres de Météo-France aidant à la lecture des gribs.&#x20;\n\nÀ importer dans Eccodes.\n",
+        "extras": {
+          "analysis:checksum": "7bba6e6d88c967bf784a3a3c8790bdc67d1ef631",
+          "analysis:content-length": 532480,
+          "analysis:last-modified-at": "2025-04-01T06:49:32+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "application/x-tar",
+          "check:available": true,
+          "check:date": "2025-04-01T06:49:34.085812+00:00",
+          "check:headers:content-length": 30038,
+          "check:headers:content-type": "application/tar+gzip",
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": 30038,
+        "filetype": "file",
+        "format": "tgz",
+        "harvest": null,
+        "id": "5048c25d-b329-4d09-8f57-cb17c9da4af9",
+        "internal": {
+          "created_at_internal": "2025-04-01T06:49:32.543000+00:00",
+          "last_modified_internal": "2025-04-01T06:49:32.759000+00:00"
+        },
+        "last_modified": "2025-04-01T06:49:32.759000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/5048c25d-b329-4d09-8f57-cb17c9da4af9",
+        "metrics": {
+          "views": 31
+        },
+        "mime": "application/x-tar",
+        "preview_url": null,
+        "schema": null,
+        "title": "Definition des gribs",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/definition-des-gribs-des-meteo-france/20250401-064932/grib-api.def.43.tgz"
+      }
+    ],
+    "created": "",
+    "keyword": "météo France"
+  },
+  {
+    "title": "Température quotidienne régionale (depuis janvier 2016)",
+    "description": "Ce jeu de données présente les températures minimales, maximales et moyennes quotidiennes (en degré celsius), par région administrative française, du 1er janvier 2016 à aujourd'hui. \n\nIl est basé sur les mesures officielles du réseau de stations météorologiques françaises. La mise à jour de ce jeu de données est mensuelle. \n\n* * *",
+    "organization": "Open Data Réseaux Énergies",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2017-12-21T12:58:57+00:00",
+        "description": "Température quotidienne régionale (depuis janvier 2016) (csv)",
+        "extras": {
+          "analysis:checksum": "b87ed1e752b6c19a0b8d596ffcef146f1ae1baa5",
+          "analysis:content-length": 3098151,
+          "analysis:last-modified-at": "2017-12-21T12:58:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-05-06T03:40:29.099843+00:00",
+          "analysis:parsing:parquet_size": 686420,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/3c3a397d61905029a0ba8ff8574d553c.parquet",
+          "analysis:parsing:parsing_table": "3c3a397d61905029a0ba8ff8574d553c",
+          "analysis:parsing:started_at": "2025-05-06T03:40:20.608346+00:00",
+          "check:available": true,
+          "check:count-availability": 651,
+          "check:date": "2025-05-06T03:40:07.472707+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"temperature-quotidienne-regionale.csv\"",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://opendata.reseaux-energies.fr/explore/dataset/temperature-quotidienne-regionale/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2017-12-21T12:58:57+00:00",
+          "modified_at": "2017-12-21T12:58:57+00:00",
+          "uri": "https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/temperature-quotidienne-regionale/exports/csv?use_labels=true"
+        },
+        "id": "50b3f76f-b20c-4095-b3f1-96f5e26cbac6",
+        "internal": {
+          "created_at_internal": "2018-03-14T07:01:17.040000+00:00",
+          "last_modified_internal": "2017-12-21T12:58:57+00:00"
+        },
+        "last_modified": "2017-12-21T12:58:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/50b3f76f-b20c-4095-b3f1-96f5e26cbac6",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 5788
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/50b3f76f-b20c-4095-b3f1-96f5e26cbac6",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "temperature-quotidienne-regionale.csv",
+        "type": "main",
+        "url": "https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/temperature-quotidienne-regionale/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2017-12-21T12:58:57+00:00",
+        "description": "Température quotidienne régionale (depuis janvier 2016) (json)",
+        "extras": {
+          "analysis:checksum": "e0ff4f51a226c4bbcbc652757f4c3bf453324c20",
+          "analysis:content-length": 6761732,
+          "analysis:last-modified-at": "2017-12-21T12:58:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/json",
+          "check:available": true,
+          "check:count-availability": 80,
+          "check:date": "2025-05-06T05:29:57.081808+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"temperature-quotidienne-regionale.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://opendata.reseaux-energies.fr/explore/dataset/temperature-quotidienne-regionale/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ],
+            "rights": [
+              "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2017-12-21T12:58:57+00:00",
+          "modified_at": "2017-12-21T12:58:57+00:00",
+          "uri": "https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/temperature-quotidienne-regionale/exports/json"
+        },
+        "id": "968ec676-7087-486c-b766-0438d1214d9a",
+        "internal": {
+          "created_at_internal": "2018-03-14T07:01:17.041000+00:00",
+          "last_modified_internal": "2017-12-21T12:58:57+00:00"
+        },
+        "last_modified": "2017-12-21T12:58:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/968ec676-7087-486c-b766-0438d1214d9a",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 830
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "temperature-quotidienne-regionale.json",
+        "type": "main",
+        "url": "https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/temperature-quotidienne-regionale/exports/json"
+      },
+      {
+        "checksum": null,
+        "created_at": "2023-05-17T08:22:14.629000+00:00",
+        "description": "- *ID*: id[text]\n- *Date*: date[date] Date de l'observation\n- *Code INSEE région*: code_insee_region[int] Code INSEE région administrative\n- *Région*: region[text] Région administrative\n- *TMin (°C)*: tmin[double] Température minimale quotidienne\n- *TMax (°C)*: tmax[double] Température maximale quotidienne\n- *TMoy (°C)*: tmoy[double] Température moyenne quotidienne\n",
+        "extras": {
+          "analysis:check_id": 34044535,
+          "analysis:checksum": "757b8bd0eb16955250c2f1a058e1de3d0214eaa6",
+          "analysis:content-length": 7000659,
+          "analysis:last-modified-at": "2017-12-21T12:58:57+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/json",
+          "check:available": true,
+          "check:date": "2025-09-30T01:49:09.173774+00:00",
+          "check:headers:content-type": "application/json",
+          "check:id": 34044535,
+          "check:status": 200,
+          "check:timeout": false
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "modified_at": "2017-12-21T12:58:57+00:00"
+        },
+        "id": "22733989-7ea8-4c0d-85d8-d565198ccb80",
+        "internal": {
+          "created_at_internal": "2023-05-17T08:22:14.629000+00:00",
+          "last_modified_internal": "2023-05-17T08:22:14.629000+00:00"
+        },
+        "last_modified": "2017-12-21T12:58:57+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/22733989-7ea8-4c0d-85d8-d565198ccb80",
+        "metrics": {
+          "views": 484
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "Export au format JSON",
+        "type": "main",
+        "url": "https://odre.opendatasoft.com/api/explore/v2.1/catalog/datasets/temperature-quotidienne-regionale/exports/json"
+      }
+    ],
+    "created": "",
+    "keyword": "température régionale"
+  }
+]

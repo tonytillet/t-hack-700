@@ -1,0 +1,52 @@
+{
+  "total_rows": 104,
+  "total_columns": 19,
+  "columns": [
+    "campagne",
+    "date",
+    "jour",
+    "variable",
+    "groupe",
+    "valeur",
+    "source_file",
+    "source_organization",
+    "resource_url",
+    "extraction_date",
+    "file_format",
+    "region",
+    "code",
+    "population",
+    "density",
+    "behavioral_score",
+    "season",
+    "region_code",
+    "age_group"
+  ],
+  "target_variable": "valeur",
+  "features": {
+    "temporal": [
+      "season",
+      "campagne"
+    ],
+    "geographic": [
+      "region",
+      "region_code",
+      "population",
+      "density"
+    ],
+    "demographic": [
+      "age_group",
+      "groupe"
+    ],
+    "behavioral": [
+      "behavioral_score"
+    ],
+    "weather": [
+      "avg_temperature"
+    ],
+    "target": [
+      "valeur"
+    ]
+  },
+  "creation_date": "2025-10-25T23:33:15.864006"
+}

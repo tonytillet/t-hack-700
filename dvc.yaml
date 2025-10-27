@@ -1,0 +1,12 @@
+# Configuration du pipeline DVC (data version control)
+# Ce fichier définit les étapes du pipeline de traitement des données
+# raw data → clean_data.py → clean.parquet
+
+stages:
+  clean_data:
+    cmd: python3 scripts/clean_data.py
+    deps:
+    - data/raw/
+    - scripts/clean_data.py
+    outs:
+    - data/processed/lumen_merged_clean.parquet

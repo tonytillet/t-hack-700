@@ -1,0 +1,306 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2014-08-21T13:45:40.444000+00:00",
+      "deleted": null,
+      "description": "Veuillez trouver les éléments relatifs à l’étude sur l’évolution du prix des produits d’automédication non remboursables en France entre 2009 et 2013.\r\n\r\n\r\nElles sont publiées sous licence ODbL ([Licence ODbL](http://vvlibri.org/fr/licence/odbl/10/fr)).",
+      "description_short": null,
+      "extras": {
+        "datagouv_ckan_id": "53c0d794-60bf-4122-a93b-800011236482",
+        "datagouv_ckan_last_sync": "2014-09-16T09:07:37.120000"
+      },
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53f6fc2fa3a7290b9a513197",
+      "internal": {
+        "created_at_internal": "2014-08-21T13:45:40.444000+00:00",
+        "last_modified_internal": "2016-02-04T23:34:22.828000+00:00"
+      },
+      "last_modified": "2016-02-04T23:34:22.828000+00:00",
+      "last_update": "2025-09-29T09:24:26+00:00",
+      "license": "odc-odbl",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 1,
+        "discussions_open": 1,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1190,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2954
+      },
+      "organization": null,
+      "owner": {
+        "avatar": null,
+        "avatar_thumbnail": null,
+        "class": "User",
+        "first_name": "OpenHealth",
+        "id": "534fff46a3a7292c64a77a05",
+        "last_name": "CELTIPHARM",
+        "page": "https://www.data.gouv.fr/users/open-data-sante-its/",
+        "slug": "open-data-sante-its",
+        "uri": "https://www.data.gouv.fr/api/1/users/open-data-sante-its/"
+      },
+      "page": "https://www.data.gouv.fr/datasets/etude-sur-l-evolution-du-prix-des-produits-d-automedication-non-remboursables-en-france/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 1.0,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-08-22T10:15:43.127000+00:00",
+          "description": "Le jeu de données brutes de l'étude sur l’évolution du prix des produits d’automédication non remboursables en France entre 2009 et 2013",
+          "extras": {
+            "analysis:last-modified-at": "2014-10-15T01:32:42+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "check:available": true,
+            "check:date": "2023-05-31T20:15:21.181542+00:00",
+            "check:headers:content-length": 3399709859,
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "zip",
+          "harvest": null,
+          "id": "54b3656a-6500-4f45-9b27-aecf30e2e3d5",
+          "internal": {
+            "created_at_internal": "2014-08-22T10:15:43.127000+00:00",
+            "last_modified_internal": "2014-08-22T10:54:41.700000+00:00"
+          },
+          "last_modified": "2014-08-22T10:54:41.700000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/54b3656a-6500-4f45-9b27-aecf30e2e3d5",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 339
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Le jeu de données brutes",
+          "type": "main",
+          "url": "https://www.data.gouv.fr/storage/f/2014-08-22T12-54-13/tbl-ctpm-140820-donnes-brutes-jlr.zip"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-08-22T10:15:43.127000+00:00",
+          "description": "la note de synthèse de l'étude sur l’évolution du prix des produits d’automédication non remboursables en France entre 2009 et 2013",
+          "extras": {
+            "analysis:check_id": 34056516,
+            "analysis:checksum": "31fdbb91e50cfd560cf8ffd03172bfb22c63eecb",
+            "analysis:content-length": 2208,
+            "analysis:last-modified-at": "2025-09-29T09:24:26+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 557,
+            "check:date": "2025-07-15T05:35:16.624468+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-length": 2208,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.openhealth.fr/Portals/1/download/CNOP/NT-CNOP%20140819-Note%20Prix_JFD.PDF"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "pdf",
+          "harvest": null,
+          "id": "4f3c0206-1fb5-41b8-8195-6bbc04b77cbe",
+          "internal": {
+            "created_at_internal": "2014-08-22T10:15:43.127000+00:00",
+            "last_modified_internal": "2014-08-21T16:16:20.490000+00:00"
+          },
+          "last_modified": "2025-09-29T09:24:26+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/4f3c0206-1fb5-41b8-8195-6bbc04b77cbe",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 295
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "La note de synthèse de l'étude",
+          "type": "main",
+          "url": "http://www.openhealth.fr/Portals/1/download/CNOP/NT-CNOP%20140819-Note%20Prix_JFD.PDF"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-08-22T10:15:43.127000+00:00",
+          "description": "Les pré-requis méthodologiques pour l'étude sur l’évolution du prix des produits d’automédication non remboursables en France entre 2009 et 2013",
+          "extras": {
+            "analysis:check_id": 34089379,
+            "analysis:checksum": "31fdbb91e50cfd560cf8ffd03172bfb22c63eecb",
+            "analysis:content-length": 2208,
+            "analysis:last-modified-at": "2025-09-29T09:24:26+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 560,
+            "check:date": "2025-06-28T09:59:01.044934+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-length": 2208,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.openhealth.fr/Portals/1/download/CNOP/IN-CTPM%20140821-Instruction%20Etude%20Prix_SMOCC.txt"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "txt",
+          "harvest": null,
+          "id": "6f4d08b3-8769-41d8-bab8-bd3c8a8afc0d",
+          "internal": {
+            "created_at_internal": "2014-08-22T10:15:43.127000+00:00",
+            "last_modified_internal": "2014-08-21T16:39:50.889000+00:00"
+          },
+          "last_modified": "2025-09-29T09:24:26+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/6f4d08b3-8769-41d8-bab8-bd3c8a8afc0d",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 441
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Les pré-requis méthodologiques",
+          "type": "main",
+          "url": "http://www.openhealth.fr/Portals/1/download/CNOP/IN-CTPM%20140821-Instruction%20Etude%20Prix_SMOCC.txt"
+        },
+        {
+          "checksum": null,
+          "created_at": "2014-08-22T10:15:43.128000+00:00",
+          "description": "Licence ODbl (Open Database Licence) ",
+          "extras": {
+            "analysis:check_id": 34056143,
+            "analysis:checksum": "31fdbb91e50cfd560cf8ffd03172bfb22c63eecb",
+            "analysis:content-length": 2208,
+            "analysis:last-modified-at": "2025-09-29T09:24:26+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 560,
+            "check:date": "2025-07-15T05:25:40.148320+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-length": 2208,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.openhealth.fr/Portals/1/download/CNOP/DOC-CTPM-140821-Licence_ODbL_FRA_VF_CC.docx"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "doc",
+          "harvest": null,
+          "id": "43d96763-1566-4e22-8af7-db287298f48e",
+          "internal": {
+            "created_at_internal": "2014-08-22T10:15:43.128000+00:00",
+            "last_modified_internal": "2014-08-21T16:24:12.477000+00:00"
+          },
+          "last_modified": "2025-09-29T09:24:26+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/43d96763-1566-4e22-8af7-db287298f48e",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 257
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "La licence ODbl",
+          "type": "main",
+          "url": "http://www.openhealth.fr/Portals/1/download/CNOP/DOC-CTPM-140821-Licence_ODbL_FRA_VF_CC.docx"
+        }
+      ],
+      "schema": null,
+      "slug": "etude-sur-l-evolution-du-prix-des-produits-d-automedication-non-remboursables-en-france",
+      "spatial": {
+        "geom": null,
+        "granularity": "country",
+        "zones": []
+      },
+      "tags": [
+        "automedication",
+        "cnop",
+        "france",
+        "medicament",
+        "medicaments",
+        "odbl",
+        "pharmacie",
+        "produits-de-sante",
+        "sante",
+        "sociale"
+      ],
+      "temporal_coverage": {
+        "end": "2014-12-31",
+        "start": "2009-01-01"
+      },
+      "title": "Etude sur l’évolution du prix des produits d’automédication non remboursables en France",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/etude-sur-l-evolution-du-prix-des-produits-d-automedication-non-remboursables-en-france/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 1
+}

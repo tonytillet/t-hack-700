@@ -1,0 +1,892 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7fa43cbd2b92c0ee26085",
+          "name": "SNCF",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7fa43cbd2b92c0ee26086",
+          "name": "SNCF",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2016-03-03T00:00:00+00:00",
+      "deleted": null,
+      "description": "Réglementations relatives aux conditions de travail applicables au Groupe public ferroviaire (décret de 1999 et RH 077) et aux entreprises de transport de marchandises (décret de 2010).\n\nL'avant projet de décret socle relatif au régime de la durée du travail du personnel des entreprises ferroviaires a été adressé par le secrétaire d'Etat en charge des Transports, de la Mer et de la Pêche le 12 février 2016.\n\nL'Etat ouvre une phase de concertation susceptible de faire évoluer le texte, qui sera soumis au conseil d'état pour publication probablement mi avril 2016.\n\nIl sera complété d'une convention collective de Branche commune à l'ensemble des entreprises de la branche et des accords propres à chaque entreprise pour adapter les règles générales à l'organisation du travail de chacune.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://data.sncf.com/pages/licence"
+          ],
+          "rights": [
+            "https://data.sncf.com/pages/licence"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://ressources.data.sncf.com/explore/dataset/reglementation-travail/",
+        "domain": "ressources.data.sncf.com",
+        "issued_at": "2016-03-03T00:00:00+00:00",
+        "last_update": "2025-10-24T04:01:24.526000+00:00",
+        "modified_at": "2017-04-13T14:23:56+00:00",
+        "remote_id": "https://ressources.data.sncf.com/explore/dataset/reglementation-travail/",
+        "remote_url": "https://ressources.data.sncf.com/explore/dataset/reglementation-travail/",
+        "source_id": "563dd01f88ee386a21e72046",
+        "uri": "https://ressources.data.sncf.com/explore/dataset/reglementation-travail/"
+      },
+      "id": "5959364da3a7291dd09c8257",
+      "internal": {
+        "created_at_internal": "2017-07-02T20:07:09.262000+00:00",
+        "last_modified_internal": "2017-04-13T14:23:56+00:00"
+      },
+      "last_modified": "2017-04-13T14:23:56+00:00",
+      "last_update": "2017-04-13T14:23:56+00:00",
+      "license": "odc-odbl",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 809,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2379
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fffb0a3a7292c64a78115",
+        "logo": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/f3/0b8ad932f74086a6ab3f291ee9243f-100.png",
+        "name": "SNCF",
+        "page": "https://www.data.gouv.fr/organizations/sncf/",
+        "slug": "sncf",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/sncf/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/reglementations-relatives-aux-conditions-de-travail/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2016-03-03T00:00:00+00:00",
+          "description": "Réglementations relatives aux conditions de travail (csv)",
+          "extras": {
+            "analysis:checksum": "189747b18967e6fc4e8751ad1a58242da124d607",
+            "analysis:content-length": 743,
+            "analysis:last-modified-at": "2017-04-13T14:23:56+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-05T15:00:45.338431+00:00",
+            "analysis:parsing:parsing_table": "cd984b66f0de8d8d77d0aeaf6815b612",
+            "analysis:parsing:started_at": "2025-05-05T15:00:44.864141+00:00",
+            "check:available": true,
+            "check:count-availability": 13,
+            "check:date": "2025-05-05T13:41:59.118947+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"reglementation-travail.csv\"",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://ressources.data.sncf.com/explore/dataset/reglementation-travail/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "https://data.sncf.com/pages/licence"
+              ],
+              "rights": [
+                "https://data.sncf.com/pages/licence"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2016-03-03T00:00:00+00:00",
+            "modified_at": "2017-04-13T14:23:56+00:00",
+            "uri": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/reglementation-travail/exports/csv?use_labels=true"
+          },
+          "id": "52933cc3-42fc-4175-a329-47c3e7d7a877",
+          "internal": {
+            "created_at_internal": "2018-03-14T07:13:43.449000+00:00",
+            "last_modified_internal": "2017-04-13T14:23:56+00:00"
+          },
+          "last_modified": "2017-04-13T14:23:56+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/52933cc3-42fc-4175-a329-47c3e7d7a877",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 601
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/52933cc3-42fc-4175-a329-47c3e7d7a877",
+          "schema": null,
+          "title": "reglementation-travail.csv",
+          "type": "main",
+          "url": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/reglementation-travail/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-03-03T00:00:00+00:00",
+          "description": "Réglementations relatives aux conditions de travail (json)",
+          "extras": {
+            "analysis:checksum": "4697e74a2cdcef3b9558dc49e7d8d5b779198388",
+            "analysis:content-length": 922,
+            "analysis:last-modified-at": "2017-04-13T14:23:56+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 37,
+            "check:date": "2025-05-05T14:47:08.194998+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"reglementation-travail.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://ressources.data.sncf.com/explore/dataset/reglementation-travail/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "https://data.sncf.com/pages/licence"
+              ],
+              "rights": [
+                "https://data.sncf.com/pages/licence"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2016-03-03T00:00:00+00:00",
+            "modified_at": "2017-04-13T14:23:56+00:00",
+            "uri": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/reglementation-travail/exports/json"
+          },
+          "id": "1e8e3d28-fa0d-4679-8a7d-dbc1fec6d147",
+          "internal": {
+            "created_at_internal": "2018-03-14T07:13:43.449000+00:00",
+            "last_modified_internal": "2017-04-13T14:23:56+00:00"
+          },
+          "last_modified": "2017-04-13T14:23:56+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1e8e3d28-fa0d-4679-8a7d-dbc1fec6d147",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 392
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "reglementation-travail.json",
+          "type": "main",
+          "url": "https://ressources.data.sncf.com/api/explore/v2.1/catalog/datasets/reglementation-travail/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "reglementations-relatives-aux-conditions-de-travail",
+      "spatial": null,
+      "tags": [
+        "conditions-de-travail",
+        "direction-cohesion",
+        "ressources-humaines",
+        "salaries",
+        "social",
+        "social-et-ressources-humaines"
+      ],
+      "temporal_coverage": null,
+      "title": "Réglementations relatives aux conditions de travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/reglementations-relatives-aux-conditions-de-travail/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c4741ec104bcb7e2616e",
+          "name": "EDF SA",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c4741ec104bcb7e2616f",
+          "name": "EDF SA",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-09-11T14:16:46+00:00",
+      "deleted": null,
+      "description": "#### Résumé :\n\nVous trouverez ici les données du bilan social d’edf sa, relatives aux autres conditions de travail. \n\nLes indicateurs principaux de ce jeu de donnée sont :\n\n  * Nombre de salariés ayant bénéficié de repos compensateur\n  * Nombre de salariés bénéficiaires d’un système d’horaires individualisés\n  * Nombre de salariés à temps partiel en décembre\n  * Nombre de salariés en réduction collective du temps de travail\n  * Nombre de salariés en services continus de plus de 50 ans\n  * Nombre de salariés déclarés définitivement inaptes à leur emploi par le médecin du travail\n  * Nombre de salariés reclassés dans l’Entreprise à la suite d’une inaptitude\n\n\n\n#### Note d’information :\n\nLes données accessibles ici sont extraites du bilan social d’edf sa. Si vous avez besoin d’informations ou de données complémentaires n’hésitez donc pas à le consulter en vous référant aux paragraphes sources référencés pour chaque ligne de données publiées ici.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://opendata.edf.fr/explore/dataset/bilan-social-d-edf-sa-autres-conditions-de-travail/",
+        "domain": "opendata.edf.fr",
+        "issued_at": "2025-09-11T14:16:46+00:00",
+        "last_update": "2025-10-24T00:08:12.396000+00:00",
+        "modified_at": "2025-09-11T14:16:46+00:00",
+        "remote_id": "https://opendata.edf.fr/explore/dataset/bilan-social-d-edf-sa-autres-conditions-de-travail/",
+        "remote_url": "https://opendata.edf.fr/explore/dataset/bilan-social-d-edf-sa-autres-conditions-de-travail/",
+        "source_id": "61893d9950be92a61e39734d",
+        "uri": "https://opendata.edf.fr/explore/dataset/bilan-social-d-edf-sa-autres-conditions-de-travail/"
+      },
+      "id": "66e380af7889d3b365709381",
+      "internal": {
+        "created_at_internal": "2024-09-13T00:00:47.810000+00:00",
+        "last_modified_internal": "2024-09-13T00:00:47.810000+00:00"
+      },
+      "last_modified": "2025-09-11T14:16:46+00:00",
+      "last_update": "2025-09-11T14:16:46+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 207,
+        "reuses": 1,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 1,
+          "2025-08": 0
+        },
+        "views": 974
+      },
+      "organization": {
+        "acronym": "EDF",
+        "badges": [
+          {
+            "kind": "company"
+          }
+        ],
+        "class": "Organization",
+        "id": "605074cb59c1d13e775073d4",
+        "logo": "https://static.data.gouv.fr/avatars/8e/17abb79fe446959961f5d417606c62-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/8e/17abb79fe446959961f5d417606c62-100.png",
+        "name": "Electricité de France",
+        "page": "https://www.data.gouv.fr/organizations/electricite-de-france/",
+        "slug": "electricite-de-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/electricite-de-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/bilan-social-dedf-sa-autres-conditions-de-travail/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-09-11T14:16:46+00:00",
+          "description": "Bilan social d'EDF SA - Autres conditions de travail (csv)",
+          "extras": {
+            "analysis:check_id": 33687363,
+            "analysis:checksum": "60ab1159943e60bb15a6d243fe19b0d45178c485",
+            "analysis:content-length": 181103,
+            "analysis:last-modified-at": "2025-09-11T14:16:46+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-09-22T14:24:08.615900+00:00",
+            "analysis:parsing:parquet_size": 18125,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/1d00fc4a-93e9-4b1e-aee5-3e13a1096c20.parquet",
+            "analysis:parsing:parsing_table": "e44500c996a973ca0d02d36cb4e27a45",
+            "analysis:parsing:started_at": "2025-09-22T14:24:07.195952+00:00",
+            "check:available": true,
+            "check:date": "2025-09-11T02:23:08.550156+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:id": 32962965,
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2025-09-11T14:16:46+00:00",
+            "modified_at": "2025-09-11T14:16:46+00:00",
+            "uri": "https://opendata.edf.fr/api/explore/v2.1/catalog/datasets/bilan-social-d-edf-sa-autres-conditions-de-travail/exports/csv?use_labels=true"
+          },
+          "id": "1d00fc4a-93e9-4b1e-aee5-3e13a1096c20",
+          "internal": {
+            "created_at_internal": "2024-09-13T00:00:47.811000+00:00",
+            "last_modified_internal": "2024-09-13T00:00:47.811000+00:00"
+          },
+          "last_modified": "2025-09-11T14:16:46+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1d00fc4a-93e9-4b1e-aee5-3e13a1096c20",
+          "metrics": {
+            "views": 132
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/1d00fc4a-93e9-4b1e-aee5-3e13a1096c20",
+          "schema": null,
+          "title": "bilan-social-d-edf-sa-autres-conditions-de-travail.csv",
+          "type": "main",
+          "url": "https://opendata.edf.fr/api/explore/v2.1/catalog/datasets/bilan-social-d-edf-sa-autres-conditions-de-travail/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-09-11T14:16:46+00:00",
+          "description": "Bilan social d'EDF SA - Autres conditions de travail (json)",
+          "extras": {
+            "analysis:check_id": 34429306,
+            "analysis:checksum": "0b160773ec849271386166196dbeceb4b49aee19",
+            "analysis:content-length": 455856,
+            "analysis:last-modified-at": "2025-09-11T14:16:46+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-09-11T08:08:45.082850+00:00",
+            "check:headers:content-type": "application/json",
+            "check:id": 32986237,
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2025-09-11T14:16:46+00:00",
+            "modified_at": "2025-09-11T14:16:46+00:00",
+            "uri": "https://opendata.edf.fr/api/explore/v2.1/catalog/datasets/bilan-social-d-edf-sa-autres-conditions-de-travail/exports/json"
+          },
+          "id": "55880d03-f051-4036-ac5c-dce9d87054eb",
+          "internal": {
+            "created_at_internal": "2024-09-13T00:00:47.811000+00:00",
+            "last_modified_internal": "2024-09-13T00:00:47.811000+00:00"
+          },
+          "last_modified": "2025-09-11T14:16:46+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/55880d03-f051-4036-ac5c-dce9d87054eb",
+          "metrics": {
+            "views": 79
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "bilan-social-d-edf-sa-autres-conditions-de-travail.json",
+          "type": "main",
+          "url": "https://opendata.edf.fr/api/explore/v2.1/catalog/datasets/bilan-social-d-edf-sa-autres-conditions-de-travail/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "bilan-social-dedf-sa-autres-conditions-de-travail",
+      "spatial": null,
+      "tags": [
+        "horaires-individualises",
+        "reclassements",
+        "reduction-collective-temps-de-travail",
+        "ressources-humaines",
+        "rse-responsabilite-societale-des-entreprises"
+      ],
+      "temporal_coverage": null,
+      "title": "Bilan social d'EDF SA - Autres conditions de travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/bilan-social-dedf-sa-autres-conditions-de-travail/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2013-07-08T19:58:09.657000+00:00",
+      "deleted": null,
+      "description": "Les tableaux sont organisés en cinq parties qui reprennent l’ensemble des questions posées aux enquêtes Conditions de travail. Sauf évolution du questionnaire, les résultats sont publiés sous forme de séries (1984, 1991, 1998 et 2005) et sont ventilés par sexe, âge, catégorie socioprofessionnelle et secteur d’activité.",
+      "description_short": null,
+      "extras": {
+        "Date de production des données": "29/07/2009",
+        "Langue": "français",
+        "datagouv_ckan_id": "74d1f2be-b527-4506-9451-97e65690c742",
+        "datagouv_ckan_last_sync": "2014-09-16T10:06:20.988000"
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53699f3da3a729239d2060ac",
+      "internal": {
+        "created_at_internal": "2013-07-08T19:58:09.657000+00:00",
+        "last_modified_internal": "2015-11-14T23:34:20.139000+00:00"
+      },
+      "last_modified": "2015-11-14T23:34:20.139000+00:00",
+      "last_update": "2025-05-21T20:38:07.689000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 4,
+        "discussions_open": 4,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 761,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3632
+      },
+      "organization": {
+        "acronym": "MTEDS",
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff96a3a7292c64a77ff4",
+        "logo": "https://static.data.gouv.fr/avatars/07/49e0a1a0a64b06a435d1f3af417a2e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/07/49e0a1a0a64b06a435d1f3af417a2e-100.png",
+        "name": "Ministère du Travail du Plein emploi et de l'Insertion",
+        "page": "https://www.data.gouv.fr/organizations/ministere-du-travail-du-plein-emploi-et-de-linsertion/",
+        "slug": "ministere-du-travail-du-plein-emploi-et-de-linsertion",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-du-travail-du-plein-emploi-et-de-linsertion/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/resultats-detailles-des-enquetes-sur-les-conditions-de-travail-30378539/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": false,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.5555555555555556,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T04:49:33.332000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "d8725756fb5c997db919b7ffd5e5f89809a72306",
+            "analysis:content-length": 245,
+            "analysis:last-modified-at": "2025-05-21T20:38:07.689102+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 3,
+            "check:date": "2023-06-01T19:03:16.743358+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-length": 246,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.travail-emploi-sante.gouv.fr/etudes-recherche-statistiques-de,76/statistiques,78/conditions-de-travail-et-sante,80/les-enquetes-conditions-de-travail,2000/enquetes-conditions-de-travail,189/"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xls",
+          "harvest": null,
+          "id": "a69b1d9e-41b9-454b-b03c-79d49909d56a",
+          "internal": {
+            "created_at_internal": "2014-05-07T04:49:33.332000+00:00",
+            "last_modified_internal": "2013-11-23T11:13:56.018000+00:00"
+          },
+          "last_modified": "2025-05-21T20:38:07.689102+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a69b1d9e-41b9-454b-b03c-79d49909d56a",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 797
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "",
+          "type": "main",
+          "url": "http://www.travail-emploi-sante.gouv.fr/etudes-recherche-statistiques-de,76/statistiques,78/conditions-de-travail-et-sante,80/les-enquetes-conditions-de-travail,2000/enquetes-conditions-de-travail,189/"
+        }
+      ],
+      "schema": null,
+      "slug": "resultats-detailles-des-enquetes-sur-les-conditions-de-travail-30378539",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [],
+      "temporal_coverage": {
+        "end": "2005-01-01",
+        "start": "1984-01-01"
+      },
+      "title": "Résultats détaillés des enquêtes sur les Conditions de travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/resultats-detailles-des-enquetes-sur-les-conditions-de-travail-30378539/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2111ec104bcb7e26089",
+          "name": "DREES/OSOL/BCL",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2111ec104bcb7e2608a",
+          "name": "DREES/OSOL/BCL",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-06-23T12:54:53.135000+00:00",
+      "deleted": null,
+      "description": "Sont ici mises à disposition des statistiques descriptives sur les conditions de travail des professionnelles du social et de santé. Elles sont élaborées à partir des données issues de l’enquête TraCov2 de la DARES. Des statistiques détaillées par profession sont diffusées pour les aides à domicile, les infirmières et les aides-soignantes. Elles ne sont pas disponibles pour les autres professions, le nombre d'individus interrogées n'étant pas suffisant.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/",
+        "domain": "data.drees.solidarites-sante.gouv.fr",
+        "issued_at": "2025-06-23T12:54:53.135000+00:00",
+        "last_update": "2025-10-24T00:05:38.280000+00:00",
+        "modified_at": "2025-06-23T12:54:53.135000+00:00",
+        "remote_id": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/",
+        "remote_url": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/",
+        "source_id": "620b7a508fcaacfd6a3af237",
+        "uri": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/conditions_travail_tracov/"
+      },
+      "id": "685b35cfd1e39b3c0b6eb9c6",
+      "internal": {
+        "created_at_internal": "2025-06-24T23:33:35.139000+00:00",
+        "last_modified_internal": "2025-06-24T23:33:35.139000+00:00"
+      },
+      "last_modified": "2025-06-23T12:54:53.135000+00:00",
+      "last_update": "2025-06-23T12:52:30+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 24,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 277
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/les-conditions-de-travail-des-professionnelles-du-social-et-de-sante/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.4444444444444444,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-06-24T23:33:35.141000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "60407e8c0e195b76628e9716bcddef49f687dd8f",
+            "analysis:content-length": 55154,
+            "analysis:last-modified-at": "2025-06-23T12:52:30+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "analysis:parsing:finished_at": "2025-07-15T13:21:27.889894+00:00",
+            "analysis:parsing:parsing_table": "577be5354f754bdfebdeeebc55193ec5",
+            "analysis:parsing:started_at": "2025-07-15T13:21:27.271190+00:00",
+            "check:available": true,
+            "check:date": "2025-06-27T04:13:33.292067+00:00",
+            "check:headers:content-length": 55154,
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "harvest": {
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/conditions_travail_tracov/attachments/conditions_travail_tracov_xlsx"
+          },
+          "id": "7c47c68f-1b48-491d-b4fb-68c2fb72774b",
+          "internal": {
+            "created_at_internal": "2025-06-24T23:33:35.141000+00:00",
+            "last_modified_internal": "2025-06-24T23:33:35.141000+00:00"
+          },
+          "last_modified": "2025-06-23T12:52:30+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/7c47c68f-1b48-491d-b4fb-68c2fb72774b",
+          "metrics": {
+            "views": 24
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/7c47c68f-1b48-491d-b4fb-68c2fb72774b",
+          "schema": null,
+          "title": "Conditions_travail_Tracov.xlsx",
+          "type": "other",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/v2/catalog/datasets/conditions_travail_tracov/attachments/conditions_travail_tracov_xlsx"
+        }
+      ],
+      "schema": null,
+      "slug": "les-conditions-de-travail-des-professionnelles-du-social-et-de-sante",
+      "spatial": null,
+      "tags": [
+        "conditions-de-travail",
+        "professionnel-de-sante",
+        "professionnel-du-social",
+        "systeme-de-protection-sociale"
+      ],
+      "temporal_coverage": null,
+      "title": "Les conditions de travail des professionnelles du social et de santé",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/les-conditions-de-travail-des-professionnelles-du-social-et-de-sante/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 4
+}

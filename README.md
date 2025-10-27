@@ -1,50 +1,113 @@
-# 🚨 LUMEN - Système d'alerte grippe France
+# LUMEN - Système d'alerte grippe prédictif
 
-## ✅ SYSTÈME OPÉRATIONNEL
+## Démarrage rapide
 
-Un système d'alerte précoce opérationnel pour prédire les risques de grippe en France avec des **données réelles** et des protocoles automatiques.
-
-### 🎯 État actuel
-- 🏥 **Données réelles collectées** : 4,317 enregistrements SPF
-- 👥 **INSEE** : 13 régions avec données démographiques  
-- 🌡️ **Météo France** : 3,939 enregistrements météorologiques
-- 🚨 **7 alertes actives** détectées
-- 📋 **Protocoles automatiques** générés avec ROI
-
-## 📋 Description
-
-Ce projet utilise l'intelligence artificielle (Random Forest) pour analyser les données de santé publique, les tendances comportementales et les facteurs environnementaux afin de prédire les risques de grippe 1-2 mois à l'avance.
-
-### 🎯 Fonctionnalités principales
-
--   **Carte interactive** : Visualisation des alertes par région
--   **Tableau de bord** : Suivi des alertes en temps réel
--   **Protocoles automatiques** : Actions recommandées avec coûts et ROI
--   **Analyse détaillée** : Zoom sur chaque région
--   **Assistant intelligent** : Chatbot pour répondre à vos questions
-
-## 🚀 Installation
-
-### 📦 Avec Docker
-
+### Production (une seule commande) :
 ```bash
-make dev    # Mode développement (hot-reload)
-make start  # Mode production
-make stop   # Arrêter les conteneurs
+./start.sh
 ```
 
-**L'application sera accessible sur :** http://localhost:8501
+### Développement (avec auto-reload) :
+```bash
+./dev.sh
+```
 
-**Arrêter :** `CTRL+C` puis `make stop`
+## Accès
 
-## 📚 Documentation
+Une fois démarré, ouvrez votre navigateur sur :
+**http://localhost:8501**
 
-| Guide                                         | Description                                                    |
-| --------------------------------------------- | -------------------------------------------------------------- |
-| **[🚀 Processus de Démarrage](docs/PROCESSUS_DEMARRAGE.md)** | Guide complet pour lancer le projet (3 méthodes) |
-| **[📜 Documentation des Scripts](docs/SCRIPTS.md)** | Documentation détaillée de tous les scripts Shell et Python |
-| **[📖 Index Documentation](docs/README.md)** | Index de toute la documentation disponible |
+## Auto-Reload
 
-## 📄 Licence
+En mode développement, l'application se recharge automatiquement quand vous modifiez les fichiers !
 
-MIT License - Voir le fichier `LICENSE` pour plus de détails.
+## Arrêt
+
+```bash
+docker compose down
+```
+
+## 📊 Gestion des données avec DVC
+
+Ce projet utilise **DVC** (Data Version Control) pour gérer les fichiers volumineux.
+
+### 🚀 Première utilisation
+
+```bash
+# Activer l'environnement virtuel
+source .venv/bin/activate
+
+# Récupérer les données
+dvc pull
+```
+
+### 📁 Structure des données
+
+```
+data/
+├── raw/           # Données brutes (versionées avec DVC)
+├── processed/     # Données traitées
+└── logs/         # Logs de traitement
+```
+
+### 🔄 Workflow DVC
+
+**Ajouter de nouvelles données :**
+```bash
+# Ajouter des fichiers à DVC
+dvc add data/raw/nouveau_fichier.csv
+
+# Commiter les métadonnées
+git add data/raw/nouveau_fichier.csv.dvc
+git commit -m "add new data"
+
+# Pousser vers le remote
+dvc push
+```
+
+**Récupérer les données :**
+```bash
+# Cloner le repo
+git clone <url>
+
+# Télécharger les données
+dvc pull
+```
+
+### 💾 Stockage
+
+- **Local** : `dvcstore/` (dossier local)
+- **Métadonnées** : Fichiers `.dvc` dans Git
+- **Fichiers lourds** : Stockés séparément, versionnés par DVC
+
+### 🛠️ Commandes utiles
+
+```bash
+# Voir l'état des données
+dvc status
+
+# Voir l'historique des versions
+dvc list data/raw
+
+# Synchroniser avec le remote
+dvc pull
+dvc push
+```
+
+### 🔄 Pipeline de données
+
+Le projet utilise un pipeline DVC pour le traitement automatique des données :
+
+```bash
+# Reproduire le pipeline complet
+dvc repro
+
+# Vérifier les changements dans le pipeline
+dvc status
+
+# Synchroniser le pipeline avec le remote
+dvc push
+dvc pull
+```
+
+**Pipeline :** `data/raw/` → `clean_data.py` → `data/processed/lumen_merged_clean.parquet`

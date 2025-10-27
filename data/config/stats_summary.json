@@ -1,0 +1,25 @@
+{
+  "generated_at": "2025-10-26T01:15:47.927544",
+  "medians_count": 8,
+  "categories_count": 8,
+  "medians_variables": [
+    "covid_cases",
+    "is_weekend",
+    "is_peak_season",
+    "covid_cases_ma7",
+    "covid_cases_ma30",
+    "covid_cases_by_dept",
+    "covid_cases_ma7_by_dept",
+    "covid_cases_ma30_by_dept"
+  ],
+  "categories_variables": [
+    "department",
+    "is_weekend",
+    "is_peak_season",
+    "month",
+    "quarter",
+    "day_of_week",
+    "season",
+    "temp_category"
+  ]
+}

@@ -1,8 +1,0 @@
-group,count,features
-Temporal,8,"mois, jour_annee, trimestre, sin_semaine, cos_semaine..."
-Lags,28,"incidence_100k_lag1, incidence_100k_lag2, incidence_100k_lag3, incidence_100k_lag4, ias_brut_lag1..."
-Rolling,28,"incidence_100k_ma3, incidence_100k_std3, incidence_100k_ma7, incidence_100k_std7, ias_brut_ma3..."
-Trends,14,"incidence_100k_diff, incidence_100k_pct_change, ias_brut_diff, ias_brut_pct_change, ias_lisse_diff..."
-Interactions,3,"ratio_doses_actes, urgences_per_incidence, ias_x_incidence"
-Anomalies,6,"incidence_100k_zscore, incidence_100k_anomaly, ias_lisse_zscore, ias_lisse_anomaly, taux_urgences_grippe_zscore..."
-Raw,18,"annee, semaine, incidence, incidence_borne_sup, incidence_borne_inf..."

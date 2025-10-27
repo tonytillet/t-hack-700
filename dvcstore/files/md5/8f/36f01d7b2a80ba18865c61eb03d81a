@@ -1,0 +1,1571 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "684c35e745dd65e85a7c2af0",
+          "name": "INSEE",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "684c35e745dd65e85a7c2af1",
+          "name": "INSEE",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2019-10-05T23:55:51+00:00",
+      "deleted": null,
+      "description": "La base sur les flux de mobilité des « déplacements domicile-travail » fournit les effectifs correspondant aux croisements du lieu de résidence avec le lieu de travail.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "Open License v2.0"
+          ],
+          "rights": [
+            "Open License v2.0"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.fleurysurorne.fr/explore/dataset/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/",
+        "domain": "data.fleurysurorne.fr",
+        "issued_at": "2019-10-05T23:55:51+00:00",
+        "last_update": "2025-10-25T00:01:22.023000+00:00",
+        "modified_at": "2019-10-05T23:55:51+00:00",
+        "remote_id": "https://data.fleurysurorne.fr/explore/dataset/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/",
+        "remote_url": "https://data.fleurysurorne.fr/explore/dataset/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/",
+        "source_id": "684c35f78c5a4e2c503fd9f0",
+        "uri": "https://data.fleurysurorne.fr/explore/dataset/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/"
+      },
+      "id": "68518df0262be8f490adfe78",
+      "internal": {
+        "created_at_internal": "2025-06-17T15:46:56.225000+00:00",
+        "last_modified_internal": "2025-06-17T15:46:56.225000+00:00"
+      },
+      "last_modified": "2019-10-05T23:55:51+00:00",
+      "last_update": "2019-10-05T23:55:51+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 154,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 251
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "local-authority"
+          }
+        ],
+        "class": "Organization",
+        "id": "679df2bff83a64dbfdf3ea6b",
+        "logo": "https://static.data.gouv.fr/avatars/8a/de57b87ded410fb11705e70d5a50db-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/8a/de57b87ded410fb11705e70d5a50db-100.png",
+        "name": "Fleury-sur-Orne",
+        "page": "https://www.data.gouv.fr/organizations/fleury-sur-orne/",
+        "slug": "fleury-sur-orne",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/fleury-sur-orne/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": false,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.4444444444444444,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (csv)",
+          "extras": {
+            "analysis:checksum": "b0f74351ed0740bc4bcfef624bbb45c0ba10aa37",
+            "analysis:content-length": 19864,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:started_at": "2025-06-19T16:56:56.894491+00:00",
+            "check:available": true,
+            "check:date": "2025-06-19T04:25:09.187644+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/csv?use_labels=true"
+          },
+          "id": "7367ea89-3b16-4cb4-9d0b-3566d251ee8e",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.233000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.233000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/7367ea89-3b16-4cb4-9d0b-3566d251ee8e",
+          "metrics": {
+            "views": 9
+          },
+          "mime": "text/csv",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.csv",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (json)",
+          "extras": {
+            "analysis:checksum": "2499ed4d03cc64e54bd301eec3f40307c3e35091",
+            "analysis:content-length": 46269,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-06-19T04:37:44.476036+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/json"
+          },
+          "id": "2007da8c-26cc-4869-9950-58cf77207c49",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.235000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.235000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2007da8c-26cc-4869-9950-58cf77207c49",
+          "metrics": {
+            "views": 14
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.json",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (fgb)",
+          "extras": {
+            "analysis:checksum": "9d667f969c6b3e28147bbf18b0aabc4ac7be9c56",
+            "analysis:content-length": 27208,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/octet-stream",
+            "check:available": true,
+            "check:date": "2025-06-19T04:31:47.995068+00:00",
+            "check:headers:content-type": "application/octet-stream",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "octet-stream",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/fgb"
+          },
+          "id": "de166c37-da47-4142-9c87-d79f5977192a",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.237000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.237000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/de166c37-da47-4142-9c87-d79f5977192a",
+          "metrics": {
+            "views": 11
+          },
+          "mime": "application/octet-stream",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.fgb",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/fgb"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (geojson)",
+          "extras": {
+            "analysis:checksum": "9ba1fde467b5cdb8a2eb43826060581497d71439",
+            "analysis:content-length": 49523,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "analysis:parsing:finished_at": "2025-07-15T13:28:25.855103+00:00",
+            "analysis:parsing:pmtiles_size": 23581,
+            "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/cc23a690-50c9-4ada-bc55-f10657385da2.pmtiles",
+            "analysis:parsing:started_at": "2025-07-15T13:28:25.635394+00:00",
+            "check:available": true,
+            "check:date": "2025-06-19T04:37:50.336333+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/geojson"
+          },
+          "id": "cc23a690-50c9-4ada-bc55-f10657385da2",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.239000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.239000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/cc23a690-50c9-4ada-bc55-f10657385da2",
+          "metrics": {
+            "views": 22
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.geojson",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (gpx)",
+          "extras": {
+            "analysis:checksum": "bc9df56a1b1389b19143c9b41fbeb2b26734116e",
+            "analysis:content-length": 101467,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/xml",
+            "check:available": true,
+            "check:date": "2025-06-19T04:49:09.621242+00:00",
+            "check:headers:content-type": "application/gpx+xml",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xml",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/gpx"
+          },
+          "id": "bc160399-3a09-4816-b329-ebace21efb79",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.240000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.240000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/bc160399-3a09-4816-b329-ebace21efb79",
+          "metrics": {
+            "views": 9
+          },
+          "mime": "application/gpx+xml",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.gpx",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/gpx"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (jsonl)",
+          "extras": {
+            "analysis:checksum": "3f187501798002408ed08876069a075bdd06a3df",
+            "analysis:content-length": 46268,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/x-ndjson",
+            "check:available": true,
+            "check:date": "2025-06-19T04:43:07.039006+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/jsonl"
+          },
+          "id": "f106598f-08c5-4000-9ce2-0f257af8a863",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.242000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.242000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f106598f-08c5-4000-9ce2-0f257af8a863",
+          "metrics": {
+            "views": 11
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.jsonl",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/jsonl"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (kml)",
+          "extras": {
+            "analysis:checksum": "41a92fa36c9bde8a591c9368274ff84475407cce",
+            "analysis:content-length": 98992,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/xml",
+            "check:available": true,
+            "check:date": "2025-06-19T04:24:46.593763+00:00",
+            "check:headers:content-type": "application/vnd.google-earth.kml+xml",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xml",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/kml"
+          },
+          "id": "156fd9f9-3b10-43e7-bf6f-e82be2464ab7",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.244000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.244000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/156fd9f9-3b10-43e7-bf6f-e82be2464ab7",
+          "metrics": {
+            "views": 18
+          },
+          "mime": "application/vnd.google-earth.kml+xml",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.kml",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/kml"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (ov2)",
+          "extras": {
+            "analysis:checksum": "39bb922a9e582f503c4ab56f3c919d74104af023",
+            "analysis:content-length": 99,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-07-15T13:28:27.547921+00:00",
+            "analysis:parsing:parsing_table": "79b531d6b812bdfb90228411b63f03a6",
+            "analysis:parsing:started_at": "2025-07-15T13:28:27.345530+00:00",
+            "check:available": true,
+            "check:date": "2025-06-19T05:01:42.146554+00:00",
+            "check:headers:content-type": "text/plain",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "plain",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/ov2"
+          },
+          "id": "2be89bac-5822-45e8-bf92-9a0e08c63ea9",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.246000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.246000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2be89bac-5822-45e8-bf92-9a0e08c63ea9",
+          "metrics": {
+            "views": 24
+          },
+          "mime": "text/plain",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/2be89bac-5822-45e8-bf92-9a0e08c63ea9",
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.ov2",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/ov2"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (parquet)",
+          "extras": {
+            "analysis:checksum": "848e45c4eabb39ed24f0b9d1981006aa7139a5e6",
+            "analysis:content-length": 10877,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/octet-stream",
+            "check:available": true,
+            "check:date": "2025-06-19T04:42:52.620134+00:00",
+            "check:headers:content-type": "application/parquet",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "parquet",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/parquet"
+          },
+          "id": "ddb32072-586d-450c-a6e1-eae17a4d6d93",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.248000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.248000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/ddb32072-586d-450c-a6e1-eae17a4d6d93",
+          "metrics": {
+            "views": 24
+          },
+          "mime": "application/parquet",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.parquet",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/parquet"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (rdfxml)",
+          "extras": {
+            "analysis:checksum": "91479ad6302418a5718095321ca0641861e51bfd",
+            "analysis:content-length": 204273,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/xml",
+            "check:available": true,
+            "check:date": "2025-06-19T04:36:49.922414+00:00",
+            "check:headers:content-type": "application/rdf+xml",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xml",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/rdfxml"
+          },
+          "id": "323542f7-501f-47cc-8de9-9d67d7d2cc67",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.250000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.250000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/323542f7-501f-47cc-8de9-9d67d7d2cc67",
+          "metrics": {
+            "views": 9
+          },
+          "mime": "application/rdf+xml",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.rdf",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/rdfxml"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (jsonld)",
+          "extras": {
+            "analysis:checksum": "11766d5ffa753a895006bb5f78b5ecc10ce69e3a",
+            "analysis:content-length": 315823,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-06-22T21:26:30.589746+00:00",
+            "check:headers:content-type": "application/ld+json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/jsonld"
+          },
+          "id": "ae924776-5432-473d-ba98-9f6ab7134c5a",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.252000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.252000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/ae924776-5432-473d-ba98-9f6ab7134c5a",
+          "metrics": {
+            "views": 6
+          },
+          "mime": "application/ld+json",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.jsonld",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/jsonld"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (turtle)",
+          "extras": {
+            "analysis:checksum": "f2fb0434e96704312622cfeced544e29ac1b540d",
+            "analysis:content-length": 115937,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:date": "2025-06-19T04:25:18.179786+00:00",
+            "check:headers:content-type": "text/turtle",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "turtle",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/turtle"
+          },
+          "id": "6bc6977d-fde1-4954-b93d-4ac4ba962f23",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.254000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.254000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/6bc6977d-fde1-4954-b93d-4ac4ba962f23",
+          "metrics": {
+            "views": 19
+          },
+          "mime": "text/turtle",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.ttl",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/turtle"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (n3)",
+          "extras": {
+            "analysis:checksum": "f2fb0434e96704312622cfeced544e29ac1b540d",
+            "analysis:content-length": 115937,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:date": "2025-06-19T05:01:50.265787+00:00",
+            "check:headers:content-type": "text/n3",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "n3",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/n3"
+          },
+          "id": "b004b183-60ca-4916-b33e-42cd86b91080",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.255000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.255000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b004b183-60ca-4916-b33e-42cd86b91080",
+          "metrics": {
+            "views": 10
+          },
+          "mime": "text/n3",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.n3",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/n3"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (shp)",
+          "extras": {
+            "analysis:checksum": "540e5d96dfcb546e51488040a007ca6c378a0ea2",
+            "analysis:content-length": 8528,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:date": "2025-06-19T04:18:55.884387+00:00",
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/shp"
+          },
+          "id": "383d703d-35a0-480e-baef-b6792159604a",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.257000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.257000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/383d703d-35a0-480e-baef-b6792159604a",
+          "metrics": {
+            "views": 14
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.zip",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/shp"
+        },
+        {
+          "checksum": null,
+          "created_at": "2019-10-05T23:55:51+00:00",
+          "description": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail (xlsx)",
+          "extras": {
+            "analysis:checksum": "da24619b786a320877414b6ed6b851743e8ce142",
+            "analysis:content-length": 7821,
+            "analysis:last-modified-at": "2019-10-05T23:55:51+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "analysis:parsing:started_at": "2025-06-19T16:51:54.591635+00:00",
+            "check:available": true,
+            "check:date": "2025-06-19T04:18:41.596141+00:00",
+            "check:headers:content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "harvest": {
+            "issued_at": "2019-10-05T23:55:51+00:00",
+            "modified_at": "2019-10-05T23:55:51+00:00",
+            "uri": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/xlsx?use_labels=true"
+          },
+          "id": "c3134e45-cbaf-4373-bc5a-8ea9747b4615",
+          "internal": {
+            "created_at_internal": "2025-06-17T15:46:56.258000+00:00",
+            "last_modified_internal": "2025-06-17T15:46:56.258000+00:00"
+          },
+          "last_modified": "2019-10-05T23:55:51+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c3134e45-cbaf-4373-bc5a-8ea9747b4615",
+          "metrics": {
+            "views": 33
+          },
+          "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail.xlsx",
+          "type": "main",
+          "url": "https://data.fleurysurorne.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/exports/xlsx?use_labels=true"
+        }
+      ],
+      "schema": null,
+      "slug": "mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail",
+      "spatial": null,
+      "tags": [
+        "deplacements",
+        "economie-business-pme-developpement-economique-emploi",
+        "mobilite",
+        "transports-deplacements",
+        "travail"
+      ],
+      "temporal_coverage": null,
+      "title": "Mobilités professionnelles en 2015 : déplacements domicile - lieu de travail",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/mobilites-professionnelles-en-2015-deplacements-domicile-lieu-de-travail/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": "sig@bretagne.bzh",
+          "id": "683d79e70edc284cae609dd1",
+          "name": "Service Aménagement, Foncier et Habitat",
+          "role": "contact"
+        }
+      ],
+      "created_at": "2025-10-10T09:38:00+00:00",
+      "deleted": null,
+      "description": "Visualisation des flux domicile - travail soit à partir du lieu de départ ou du lieu d'arrivée. Plus d'informations au niveau de la source : https://www.insee.fr/fr/statistiques/8582949",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "accessRights": [
+            "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"
+          ],
+          "provenance": [
+            "Les données proviennent de l'INSEE, la géométrie à été construite à partir des codes insee et des centre ville de l'IGN Express"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "punctual",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "CSW-ISO-19139",
+        "created_at": "2025-10-10T09:38:00+00:00",
+        "dct_identifier": "https://geobretagne.fr/geonetwork/srv/fre/xml.metadata.get?uuid=9e5b30fc-d8f3-4b72-8a60-acd236de267c",
+        "domain": "geobretagne.fr",
+        "last_update": "2025-10-25T00:02:17.126000+00:00",
+        "remote_id": "https://geobretagne.fr/geonetwork/srv/fre/xml.metadata.get?uuid=9e5b30fc-d8f3-4b72-8a60-acd236de267c",
+        "remote_url": "https://geobretagne.fr/datahub/dataset/9e5b30fc-d8f3-4b72-8a60-acd236de267c",
+        "source_id": "635295f6f453b8deabf4e680",
+        "uri": "https://geobretagne.fr/geonetwork/srv/fre/xml.metadata.get?uuid=9e5b30fc-d8f3-4b72-8a60-acd236de267c"
+      },
+      "id": "68e99e0ef4ecea48ee9022ab",
+      "internal": {
+        "created_at_internal": "2025-10-11T00:00:14.958000+00:00",
+        "last_modified_internal": "2025-10-11T00:00:14.958000+00:00"
+      },
+      "last_modified": "2025-10-11T00:00:14.958000+00:00",
+      "last_update": "2025-10-17T04:17:42.792000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": 0,
+        "resources_downloads": 0,
+        "reuses": 0,
+        "reuses_by_months": 0,
+        "views": 273
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "local-authority"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "559a4970c751df46a9a453ba",
+        "logo": "https://static.data.gouv.fr/avatars/7a/5e61561c444af1b8bb0c76547f0043-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/7a/5e61561c444af1b8bb0c76547f0043-100.jpg",
+        "name": "Région Bretagne",
+        "page": "https://www.data.gouv.fr/organizations/region-bretagne-1/",
+        "slug": "region-bretagne-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-bretagne-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-bretagne/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": false,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.6666666666666666,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2025-10-11T00:00:14.963000+00:00",
+          "description": "Flux domicile travail au lieu de départ pour les niveaux communes et EPCI",
+          "extras": {
+            "analysis:check_id": 34891076,
+            "analysis:checksum": "2ae1472c86ee73d53b4e6fb1f216bd9f7b503d76",
+            "analysis:content-length": 857035,
+            "analysis:last-modified-at": "2025-10-17T04:14:35.110292+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/xml",
+            "check:available": true,
+            "check:date": "2025-10-12T04:13:33.820911+00:00",
+            "check:headers:content-type": "text/xml",
+            "check:id": 34635256,
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "accessRights": [
+                "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"
+              ],
+              "license": [
+                "Licence ouverte : https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+                "Réutilisation libre sous réserve des mentions obligatoires sur tout document de diffusion : \"Source : Région Bretagne\""
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "esri shapefile",
+          "harvest": {},
+          "id": "5e74c296-1174-4b3e-8e43-ef76b7c74494",
+          "internal": {
+            "created_at_internal": "2025-10-11T00:00:14.963000+00:00",
+            "last_modified_internal": "2025-10-11T00:00:14.963000+00:00"
+          },
+          "last_modified": "2025-10-17T04:14:35.110292+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/5e74c296-1174-4b3e-8e43-ef76b7c74494",
+          "metrics": {},
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "flux_domicile_travail_depart_epci_commune",
+          "type": "api",
+          "url": "https://ows.region-bretagne.fr/geoserver/rb/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-10-11T00:00:14.963000+00:00",
+          "description": "Flux domicile travail au lieu d'arrivée pour les niveaux communes et EPCI",
+          "extras": {
+            "check:available": false,
+            "check:date": "2025-10-12T04:13:35.115368+00:00",
+            "check:error": "Bad Request",
+            "check:headers:content-type": "application/xml",
+            "check:id": 34635260,
+            "check:status": 400,
+            "check:timeout": false,
+            "dcat": {
+              "accessRights": [
+                "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"
+              ],
+              "license": [
+                "Licence ouverte : https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+                "Réutilisation libre sous réserve des mentions obligatoires sur tout document de diffusion : \"Source : Région Bretagne\""
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "esri shapefile",
+          "harvest": {},
+          "id": "83e4cb32-2425-4914-809b-a45baaa19cfc",
+          "internal": {
+            "created_at_internal": "2025-10-11T00:00:14.963000+00:00",
+            "last_modified_internal": "2025-10-11T00:00:14.963000+00:00"
+          },
+          "last_modified": "2025-10-11T00:00:14.963000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/83e4cb32-2425-4914-809b-a45baaa19cfc",
+          "metrics": {},
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "rb:flux_domicile_travail_arrivee_epci_commune",
+          "type": "main",
+          "url": "https://ows.region-bretagne.fr/geoserver/rb/wfs"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-10-11T00:00:14.963000+00:00",
+          "description": "Flux domicile travail au lieu de départ pour les niveaux communes et EPCI",
+          "extras": {
+            "analysis:check_id": 34891363,
+            "analysis:checksum": "ccab36c713d0f57c64ea06d7a1af53280fdc98ba",
+            "analysis:content-length": 272560,
+            "analysis:last-modified-at": "2025-10-17T04:17:42.792208+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/xml",
+            "check:available": true,
+            "check:date": "2025-10-12T04:13:35.141645+00:00",
+            "check:headers:content-type": "application/xml",
+            "check:id": 34635262,
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "accessRights": [
+                "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"
+              ],
+              "license": [
+                "Licence ouverte : https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+                "Réutilisation libre sous réserve des mentions obligatoires sur tout document de diffusion : \"Source : Région Bretagne\""
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "esri shapefile",
+          "harvest": {},
+          "id": "33e2f9bb-ae4d-4247-babc-1976a1ec62ff",
+          "internal": {
+            "created_at_internal": "2025-10-11T00:00:14.963000+00:00",
+            "last_modified_internal": "2025-10-11T00:00:14.963000+00:00"
+          },
+          "last_modified": "2025-10-17T04:17:42.792208+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/33e2f9bb-ae4d-4247-babc-1976a1ec62ff",
+          "metrics": {},
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "rb:flux_domicile_travail_depart_epci_commune",
+          "type": "api",
+          "url": "https://ows.region-bretagne.fr/geoserver/rb/wfs?REQUEST=GetCapabilities&SERVICE=WfS"
+        }
+      ],
+      "schema": {
+        "name": "RGF93 / Lambert-93 (EPSG:2154)",
+        "url": "http://inspire.ec.europa.eu/glossary/SpatialReferenceSystem",
+        "version": null
+      },
+      "slug": "mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-bretagne",
+      "spatial": {
+        "geom": {
+          "coordinates": [
+            [
+              [
+                [
+                  -5.141333119601148,
+                  48.900848594269476
+                ],
+                [
+                  -1.015766262335082,
+                  48.900848594269476
+                ],
+                [
+                  -1.015766262335082,
+                  47.277987575185094
+                ],
+                [
+                  -5.141333119601148,
+                  47.277987575185094
+                ],
+                [
+                  -5.141333119601148,
+                  48.900848594269476
+                ]
+              ]
+            ]
+          ],
+          "type": "MultiPolygon"
+        },
+        "granularity": "other",
+        "zones": []
+      },
+      "tags": [
+        "233500016",
+        "bretagne",
+        "donnees-ouvertes",
+        "flux-domicile-travail",
+        "insee",
+        "inspire",
+        "mobilite",
+        "mobilite-transport-autres",
+        "reseaux-de-transport"
+      ],
+      "temporal_coverage": null,
+      "title": "Mobilités professionnelles : déplacements domicile - lieu de travail en Bretagne",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-bretagne/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7ec704b3bedbdc5e260a6",
+          "name": "INSEE",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7ecd64b3bedbdc5e260bb",
+          "name": "INSEE",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2016-11-07T15:25:37+00:00",
+      "deleted": null,
+      "description": "Les bases sur les flux de mobilité des « déplacements domicile-travail » fournissent, pour l'ensemble des communes (France métropolitaine et DOM), les effectifs correspondant aux croisements du lieu de résidence avec le lieu de travail.\n\nPour Paris, Lyon et Marseille les données sont disponibles au niveau arrondissement municipal (ARM) uniquement. Les données communales correspondantes sont à reconstituer.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "Open License v2.0"
+          ],
+          "rights": [
+            "Open License v2.0"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/",
+        "domain": "data.rennesmetropole.fr",
+        "issued_at": "2016-11-07T15:25:37+00:00",
+        "last_update": "2025-10-25T03:01:30.684000+00:00",
+        "modified_at": "2016-11-07T15:25:37+00:00",
+        "remote_id": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/",
+        "remote_url": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/",
+        "source_id": "580736ec88ee3816625ff490",
+        "uri": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/"
+      },
+      "id": "586db277a3a7290df5f4be94",
+      "internal": {
+        "created_at_internal": "2017-01-05T03:41:59.852000+00:00",
+        "last_modified_internal": "2016-11-07T15:25:37+00:00"
+      },
+      "last_modified": "2016-11-07T15:25:37+00:00",
+      "last_update": "2016-11-07T15:25:37+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 1,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1511,
+        "reuses": 2,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2669
+      },
+      "organization": {
+        "acronym": "RM",
+        "badges": [
+          {
+            "kind": "local-authority"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "580735be88ee3814295ff490",
+        "logo": "https://static.data.gouv.fr/avatars/66/cb171cad4040edb21549eefeed27bc-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/66/cb171cad4040edb21549eefeed27bc-100.png",
+        "name": "Rennes Métropole en accès libre",
+        "page": "https://www.data.gouv.fr/organizations/rennes-metropole-en-acces-libre-1/",
+        "slug": "rennes-metropole-en-acces-libre-1",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/rennes-metropole-en-acces-libre-1/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010-rennes/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2016-11-07T15:25:37+00:00",
+          "description": "Mobilités professionnelles (déplacements domicile - lieu de travail) en 2010 - Rennes (csv)",
+          "extras": {
+            "analysis:checksum": "5e222cf9ed72c0bab135f209ef7be23fa1f38dc2",
+            "analysis:content-length": 184861,
+            "analysis:last-modified-at": "2016-11-07T15:25:37+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-05T16:53:30.179189+00:00",
+            "analysis:parsing:parquet_size": 95769,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/e364566c293171f549a4516cb2035136.parquet",
+            "analysis:parsing:parsing_table": "e364566c293171f549a4516cb2035136",
+            "analysis:parsing:started_at": "2025-05-05T16:53:28.964611+00:00",
+            "check:available": true,
+            "check:count-availability": 78,
+            "check:date": "2025-05-05T15:25:25.454290+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.csv\"",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2016-11-07T15:25:37+00:00",
+            "modified_at": "2016-11-07T15:25:37+00:00",
+            "uri": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/csv?use_labels=true"
+          },
+          "id": "c084376d-06ca-42b7-86ad-4c52041176ba",
+          "internal": {
+            "created_at_internal": "2018-03-14T04:02:30.515000+00:00",
+            "last_modified_internal": "2016-11-07T15:25:37+00:00"
+          },
+          "last_modified": "2016-11-07T15:25:37+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c084376d-06ca-42b7-86ad-4c52041176ba",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 555
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/c084376d-06ca-42b7-86ad-4c52041176ba",
+          "schema": null,
+          "title": "mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.csv",
+          "type": "main",
+          "url": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-11-07T15:25:37+00:00",
+          "description": "Mobilités professionnelles (déplacements domicile - lieu de travail) en 2010 - Rennes (json)",
+          "extras": {
+            "analysis:checksum": "5d500ba5b228ddc9bacb28776da4c09231be5d79",
+            "analysis:content-length": 460242,
+            "analysis:last-modified-at": "2016-11-07T15:25:37+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 82,
+            "check:date": "2025-06-04T13:11:07.129937+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2016-11-07T15:25:37+00:00",
+            "modified_at": "2016-11-07T15:25:37+00:00",
+            "uri": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/json"
+          },
+          "id": "40cf4850-d7f8-4235-bc53-3c827944486c",
+          "internal": {
+            "created_at_internal": "2018-03-14T04:02:30.515000+00:00",
+            "last_modified_internal": "2016-11-07T15:25:37+00:00"
+          },
+          "last_modified": "2016-11-07T15:25:37+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/40cf4850-d7f8-4235-bc53-3c827944486c",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 510
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.json",
+          "type": "main",
+          "url": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-11-07T15:25:37+00:00",
+          "description": "Mobilités professionnelles (déplacements domicile - lieu de travail) en 2010 - Rennes (geojson)",
+          "extras": {
+            "analysis:checksum": "7bd75d1785be6fc6fb4b1496bcbc278fc7fcb42e",
+            "analysis:content-length": 502280,
+            "analysis:last-modified-at": "2016-11-07T15:25:37+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 80,
+            "check:date": "2025-05-05T11:00:30.970832+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2016-11-07T15:25:37+00:00",
+            "modified_at": "2016-11-07T15:25:37+00:00",
+            "uri": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/geojson"
+          },
+          "id": "d09d044f-cc66-4857-bdb2-04c3ef731684",
+          "internal": {
+            "created_at_internal": "2018-03-14T04:02:30.515000+00:00",
+            "last_modified_internal": "2016-11-07T15:25:37+00:00"
+          },
+          "last_modified": "2016-11-07T15:25:37+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/d09d044f-cc66-4857-bdb2-04c3ef731684",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 383
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.geojson",
+          "type": "main",
+          "url": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-11-07T15:25:37+00:00",
+          "description": "Mobilités professionnelles (déplacements domicile - lieu de travail) en 2010 - Rennes (shp)",
+          "extras": {
+            "analysis:checksum": "c23b6319e766ff8dd0b805ddd40032d450c43f60",
+            "analysis:content-length": 94445,
+            "analysis:last-modified-at": "2016-11-07T15:25:37+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:count-availability": 8,
+            "check:date": "2025-05-05T18:13:06.723303+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.zip\"",
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.rennesmetropole.fr/explore/dataset/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "Open License v2.0"
+              ],
+              "rights": [
+                "Open License v2.0"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2016-11-07T15:25:37+00:00",
+            "modified_at": "2016-11-07T15:25:37+00:00",
+            "uri": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/shp"
+          },
+          "id": "72e16967-361b-4322-8e4c-3e208cdf9bcf",
+          "internal": {
+            "created_at_internal": "2018-03-14T04:02:30.515000+00:00",
+            "last_modified_internal": "2016-11-07T15:25:37+00:00"
+          },
+          "last_modified": "2016-11-07T15:25:37+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/72e16967-361b-4322-8e4c-3e208cdf9bcf",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 300
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": null,
+          "title": "mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010.zip",
+          "type": "main",
+          "url": "https://data.rennesmetropole.fr/api/explore/v2.1/catalog/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010/exports/shp"
+        }
+      ],
+      "schema": null,
+      "slug": "mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010-rennes",
+      "spatial": null,
+      "tags": [
+        "deplacements",
+        "mobilite-transport",
+        "travail"
+      ],
+      "temporal_coverage": null,
+      "title": "Mobilités professionnelles (déplacements domicile - lieu de travail) en 2010 - Rennes",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/mobilites-professionnelles-deplacements-domicile-lieu-de-travail-en-2010-rennes/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 20,
+  "previous_page": null,
+  "total": 3
+}

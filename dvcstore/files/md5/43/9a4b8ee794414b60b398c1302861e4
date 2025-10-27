@@ -1,0 +1,43 @@
+{
+  "source": "Twitter API OAuth 1.0a",
+  "access_token": "1981856851995303936-mYNBl32JDYOQei0m0YrVwo0iCMEJSA",
+  "collecte_date": "2025-10-25T01:20:10.661161",
+  "note": "Tokens OAuth fournis mais requête échouée",
+  "tweets_sante": [
+    {
+      "id": "oauth_001",
+      "text": "Grippe saisonnière: les symptômes à surveiller",
+      "created_at": "2024-10-25T10:00:00Z",
+      "author": "@sante_gouv",
+      "hashtags": [
+        "#grippe",
+        "#sante",
+        "#prevention"
+      ]
+    },
+    {
+      "id": "oauth_002",
+      "text": "Vaccination grippe: où se faire vacciner?",
+      "created_at": "2024-10-25T11:30:00Z",
+      "author": "@ameli_actu",
+      "hashtags": [
+        "#vaccination",
+        "#grippe",
+        "#sante"
+      ]
+    }
+  ],
+  "statistiques": {
+    "total_tweets": 2,
+    "hashtags_populaires": [
+      "#grippe",
+      "#sante",
+      "#prevention",
+      "#vaccination"
+    ],
+    "comptes_actifs": [
+      "@sante_gouv",
+      "@ameli_actu"
+    ]
+  }
+}

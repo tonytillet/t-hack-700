@@ -1,0 +1,78 @@
+[2025-10-25 10:26:30] 🚀 DÉBUT DE LA COLLECTE DE DONNÉES LUMEN
+[2025-10-25 10:26:30] ==================================================
+[2025-10-25 10:26:30] 🦠 Collecte des données data.gouv.fr...
+[2025-10-25 10:26:30]   Recherche: grippe syndromes grippaux spf
+[2025-10-25 10:26:30]     ✅ Sauvegardé: grippe_syndromes_grippaux_spf.json (0 résultats)
+[2025-10-25 10:26:31]   Recherche: oscour urgences grippe
+[2025-10-25 10:26:31]     ✅ Sauvegardé: oscour_urgences_grippe.json (0 résultats)
+[2025-10-25 10:26:32]   Recherche: vaccination grippe
+[2025-10-25 10:26:32]     ✅ Sauvegardé: vaccination_grippe.json (7 résultats)
+[2025-10-25 10:26:33]   Recherche: météo france température humidité
+[2025-10-25 10:26:33]     ✅ Sauvegardé: météo_france_température_humidité.json (0 résultats)
+[2025-10-25 10:26:34]   Recherche: insee population région
+[2025-10-25 10:26:35]     ✅ Sauvegardé: insee_population_région.json (2 résultats)
+[2025-10-25 10:26:36]   Recherche: mobilité domicile travail
+[2025-10-25 10:26:36]     ✅ Sauvegardé: mobilité_domicile_travail.json (3 résultats)
+[2025-10-25 10:26:37]   Recherche: pharmacies officines france
+[2025-10-25 10:26:37]     ✅ Sauvegardé: pharmacies_officines_france.json (0 résultats)
+[2025-10-25 10:26:38]   Recherche: stock vaccin grippe
+[2025-10-25 10:26:38]     ✅ Sauvegardé: stock_vaccin_grippe.json (0 résultats)
+[2025-10-25 10:26:39]   Recherche: ansm ventes paracetamol grippe
+[2025-10-25 10:26:40]     ✅ Sauvegardé: ansm_ventes_paracetamol_grippe.json (0 résultats)
+[2025-10-25 10:26:41]   Recherche: wikipedia santé grippe
+[2025-10-25 10:26:41]     ✅ Sauvegardé: wikipedia_santé_grippe.json (0 résultats)
+[2025-10-25 10:26:42]   Recherche: twitter santé grippe
+[2025-10-25 10:26:42]     ✅ Sauvegardé: twitter_santé_grippe.json (0 résultats)
+[2025-10-25 10:26:43]   Recherche: capacité hospitalière lits hôpital
+[2025-10-25 10:26:43]     ✅ Sauvegardé: capacité_hospitalière_lits_hôpital.json (0 résultats)
+[2025-10-25 10:26:44]   Recherche: hopitaux urgences
+[2025-10-25 10:26:44]     ✅ Sauvegardé: hopitaux_urgences.json (0 résultats)
+[2025-10-25 10:26:45]   Recherche: absentéisme maladie dares
+[2025-10-25 10:26:45]     ✅ Sauvegardé: absentéisme_maladie_dares.json (0 résultats)
+[2025-10-25 10:26:46]   Recherche: arrêt maladie cnam
+[2025-10-25 10:26:47]     ✅ Sauvegardé: arrêt_maladie_cnam.json (0 résultats)
+[2025-10-25 10:26:48] 🌦️ Collecte des données météo...
+[2025-10-25 10:26:48]   Météo pour Paris...
+[2025-10-25 10:26:49]     ✅ Données météo récupérées pour Paris
+[2025-10-25 10:26:49]   Météo pour Lyon...
+[2025-10-25 10:26:50]     ✅ Données météo récupérées pour Lyon
+[2025-10-25 10:26:50]   Météo pour Marseille...
+[2025-10-25 10:26:50]     ✅ Données météo récupérées pour Marseille
+[2025-10-25 10:26:51]   Météo pour Toulouse...
+[2025-10-25 10:26:51]     ✅ Données météo récupérées pour Toulouse
+[2025-10-25 10:26:51]   Météo pour Nice...
+[2025-10-25 10:26:52]     ✅ Données météo récupérées pour Nice
+[2025-10-25 10:26:52] ✅ Données météo sauvegardées: data/raw/other/donnees_meteo.json
+[2025-10-25 10:26:52] 🧠 Collecte des données Wikipedia...
+[2025-10-25 10:26:52]   Page: Grippe
+[2025-10-25 10:26:53]     ✅ Page récupérée: Grippe
+[2025-10-25 10:26:54]   Page: Épidémie de grippe
+[2025-10-25 10:26:54]     ❌ Page non trouvée: Épidémie de grippe
+[2025-10-25 10:26:55]   Page: Vaccin antigrippal
+[2025-10-25 10:26:56]     ✅ Page récupérée: Vaccin antigrippal
+[2025-10-25 10:26:57]   Page: Santé publique en France
+[2025-10-25 10:26:57]     ✅ Page récupérée: Santé publique en France
+[2025-10-25 10:26:58]   Page: Institut Pasteur
+[2025-10-25 10:26:59]     ✅ Page récupérée: Institut Pasteur
+[2025-10-25 10:27:00]   Page: Santé publique France
+[2025-10-25 10:27:01]     ✅ Page récupérée: Santé publique France
+[2025-10-25 10:27:02]   Page: Agence nationale de sécurité du médicament
+[2025-10-25 10:27:02]     ✅ Page récupérée: Agence nationale de sécurité du médicament
+[2025-10-25 10:27:03]   Page: Direction de la recherche, des études, de l'évaluation et des statistiques
+[2025-10-25 10:27:04]     ✅ Page récupérée: Direction de la recherche, des études, de l'évaluation et des statistiques
+[2025-10-25 10:27:05]   Page: Ministère de la Santé (France)
+[2025-10-25 10:27:05]     ✅ Page récupérée: Ministère de la Santé (France)
+[2025-10-25 10:27:06]   Page: Système de santé français
+[2025-10-25 10:27:06]     ✅ Page récupérée: Système de santé français
+[2025-10-25 10:27:07]   Page: Prévention des maladies
+[2025-10-25 10:27:08]     ✅ Page récupérée: Prévention des maladies
+[2025-10-25 10:27:09]   Page: Surveillance épidémiologique
+[2025-10-25 10:27:09]     ✅ Page récupérée: Surveillance épidémiologique
+[2025-10-25 10:27:10] ✅ Données Wikipedia sauvegardées: data/raw/other/wikipedia_sante.json
+[2025-10-25 10:27:10] 👥 Collecte des données INSEE...
+[2025-10-25 10:27:11] ❌ Erreur INSEE HTTP 404
+[2025-10-25 10:27:11] 📊 Création du résumé...
+[2025-10-25 10:27:11] ✅ Résumé créé: data/raw/summary.json
+[2025-10-25 10:27:11] ==================================================
+[2025-10-25 10:27:11] ✅ COLLECTE TERMINÉE AVEC SUCCÈS
+[2025-10-25 10:27:11] 📊 Résumé sauvegardé dans: data/raw/logs/collect_20251025_102630.log

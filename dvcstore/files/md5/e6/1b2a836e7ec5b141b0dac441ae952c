@@ -1,0 +1,662 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2013-07-08T15:53:36.263000+00:00",
+      "deleted": null,
+      "description": "Présentation sous forme de fiches répertoriées par thèmes des enquêtes menées par la Dares avec reprise des objectifs, de la périodicité, de la taille de l'échantillon, des publications",
+      "description_short": null,
+      "extras": {
+        "Date de production des données": "13/05/2011",
+        "Langue": "français",
+        "datagouv_ckan_id": "0d2b2fa0-ea79-459b-91ca-45998c414f97",
+        "datagouv_ckan_last_sync": "2014-09-17T03:50:07.471000"
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53699042a3a729239d20396c",
+      "internal": {
+        "created_at_internal": "2013-07-08T15:53:36.263000+00:00",
+        "last_modified_internal": "2016-02-10T10:33:43.304000+00:00"
+      },
+      "last_modified": "2016-02-10T10:33:43.304000+00:00",
+      "last_update": "2025-05-21T16:33:03.391000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 188,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2851
+      },
+      "organization": {
+        "acronym": "MTEDS",
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff96a3a7292c64a77ff4",
+        "logo": "https://static.data.gouv.fr/avatars/07/49e0a1a0a64b06a435d1f3af417a2e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/07/49e0a1a0a64b06a435d1f3af417a2e-100.png",
+        "name": "Ministère du Travail du Plein emploi et de l'Insertion",
+        "page": "https://www.data.gouv.fr/organizations/ministere-du-travail-du-plein-emploi-et-de-linsertion/",
+        "slug": "ministere-du-travail-du-plein-emploi-et-de-linsertion",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-du-travail-du-plein-emploi-et-de-linsertion/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/catalogue-des-enquetes-realisees-par-la-dares-30378497/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": false,
+        "has_open_format": false,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.4444444444444444,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:45:38.440000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:checksum": "fdf3ae89c3ff68c5870848ce90ab7e6171819990",
+            "analysis:content-length": 245,
+            "analysis:last-modified-at": "2025-05-21T16:33:03.391353+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:count-availability": 8,
+            "check:date": "2023-06-02T10:45:31.037251+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-length": 246,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://www.travail-emploi-sante.gouv.fr/IMG/pdf/catalogue_2011_def.pdf"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "pdf",
+          "harvest": null,
+          "id": "a9cd2f0d-4ad0-4d45-9f87-220f9b8dd5ab",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:45:38.440000+00:00",
+            "last_modified_internal": "2013-11-13T11:13:32.364000+00:00"
+          },
+          "last_modified": "2025-05-21T16:33:03.391353+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a9cd2f0d-4ad0-4d45-9f87-220f9b8dd5ab",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 206
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "",
+          "type": "main",
+          "url": "http://www.travail-emploi-sante.gouv.fr/IMG/pdf/catalogue_2011_def.pdf"
+        }
+      ],
+      "schema": null,
+      "slug": "catalogue-des-enquetes-realisees-par-la-dares-30378497",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [],
+      "temporal_coverage": {
+        "end": "2011-12-31",
+        "start": "2011-01-01"
+      },
+      "title": "Catalogue des enquêtes réalisées par la Dares",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/catalogue-des-enquetes-realisees-par-la-dares-30378497/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2013-07-08T15:40:52.689000+00:00",
+      "deleted": null,
+      "description": "Présentation sous forme de fiches répertoriées par thèmes des enquêtes menées par la DARES avec reprise des objectifs, de la périodicité, de la taille de l'échantillon, des publications",
+      "description_short": null,
+      "extras": {
+        "Date de production des données": "03/09/2012",
+        "Langue": "français",
+        "Type de données": "analyse",
+        "datagouv_ckan_id": "d1dc0bc0-6442-4412-97e1-e88f20261a5c",
+        "datagouv_ckan_last_sync": "2014-09-17T03:50:06.862000"
+      },
+      "featured": false,
+      "frequency": "annual",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "53699042a3a729239d20396b",
+      "internal": {
+        "created_at_internal": "2013-07-08T15:40:52.689000+00:00",
+        "last_modified_internal": "2015-08-05T23:34:48.106000+00:00"
+      },
+      "last_modified": "2015-08-05T23:34:48.106000+00:00",
+      "last_update": "2014-01-06T09:32:19.757000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 1,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 63,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2476
+      },
+      "organization": {
+        "acronym": "MTEDS",
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff96a3a7292c64a77ff4",
+        "logo": "https://static.data.gouv.fr/avatars/07/49e0a1a0a64b06a435d1f3af417a2e-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/07/49e0a1a0a64b06a435d1f3af417a2e-100.png",
+        "name": "Ministère du Travail du Plein emploi et de l'Insertion",
+        "page": "https://www.data.gouv.fr/organizations/ministere-du-travail-du-plein-emploi-et-de-linsertion/",
+        "slug": "ministere-du-travail-du-plein-emploi-et-de-linsertion",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-du-travail-du-plein-emploi-et-de-linsertion/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/catalogue-des-enquetes-realisees-par-la-dares-2012-572205/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": false,
+        "has_open_format": false,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.5555555555555556,
+        "spatial": true,
+        "temporal_coverage": true,
+        "update_frequency": true,
+        "update_fulfilled_in_time": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2014-05-07T03:45:38.060000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:last-modified-at": "2014-01-06T09:33:35+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "check:available": false,
+            "check:count-availability": 53,
+            "check:date": "2025-10-18T17:28:39.935220+00:00",
+            "check:error": "Not Found",
+            "check:headers:content-length": 146,
+            "check:headers:content-type": "text/html",
+            "check:id": 35062928,
+            "check:status": 404,
+            "check:timeout": false,
+            "check:url": "http://static.data.gouv.fr/01/f5187ecf6d3582bc8bf3f0202ad757745f7007fd5155106afbcc7dbe6bb0f8.pdf"
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "pdf",
+          "harvest": null,
+          "id": "1dd9686b-935f-41bd-bbe0-1beda2b76121",
+          "internal": {
+            "created_at_internal": "2014-05-07T03:45:38.060000+00:00",
+            "last_modified_internal": "2014-01-06T09:32:19.757000+00:00"
+          },
+          "last_modified": "2014-01-06T09:32:19.757000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1dd9686b-935f-41bd-bbe0-1beda2b76121",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 66
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "",
+          "type": "main",
+          "url": "https://static.data.gouv.fr/01/f5187ecf6d3582bc8bf3f0202ad757745f7007fd5155106afbcc7dbe6bb0f8.pdf"
+        }
+      ],
+      "schema": null,
+      "slug": "catalogue-des-enquetes-realisees-par-la-dares-2012-572205",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": [
+          "country:fr"
+        ]
+      },
+      "tags": [],
+      "temporal_coverage": {
+        "end": "2012-08-31",
+        "start": "1984-01-01"
+      },
+      "title": "Catalogue des enquêtes réalisées par la DARES - 2012",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/catalogue-des-enquetes-realisees-par-la-dares-2012-572205/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": "opendata@centrevaldeloire.fr",
+          "id": "65c2ca87b8c9b193bce5f9fe",
+          "name": "",
+          "role": "contact"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c31ce2714e0e9de26092",
+          "name": "DARES - Ministère du travail, de l'Emploi et de l'Insertion - France Travail",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c315e2714e0e9de2608b",
+          "name": "",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2025-07-29T12:52:39+00:00",
+      "deleted": null,
+      "description": "Nombre de demandeurs d'emploi en France métropolitaine, en Région Centre-Val de Loire et par département. \n\nCes données présentent les séries corrigées des variations saisonnières et des jours ouvrables (CVS-CJO) :\n\n  * nombre de demandeurs d'emploi en moyenne sur le trimestre pour la catégorie A et ABC\n  * selon l'âge et la durée d'inscription (DELD : demande d'emploi de longue durée) pour les catégories ABC.\n\n\n\n  \n\n\n![](/assets/theme_image/Conjoncture%20regionale5.png\t) Ce jeu de données est utilisé dans la page : [Conjoncture régionale : demandeurs d'emploi](https://data.centrevaldeloire.fr/pages/conjoncture-regionale-demandeurs-emploi/)",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "quarterly",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.centrevaldeloire.fr/explore/dataset/dares-demandeurs-demploi/",
+        "domain": "data.centrevaldeloire.fr",
+        "issued_at": "2025-07-29T12:52:39+00:00",
+        "last_update": "2025-10-24T00:15:04.105000+00:00",
+        "modified_at": "2025-07-29T12:52:39+00:00",
+        "remote_id": "https://data.centrevaldeloire.fr/explore/dataset/dares-demandeurs-demploi/",
+        "remote_url": "https://data.centrevaldeloire.fr/explore/dataset/dares-demandeurs-demploi/",
+        "source_id": "5c3f6071634f416215b2cafa",
+        "uri": "https://data.centrevaldeloire.fr/explore/dataset/dares-demandeurs-demploi/"
+      },
+      "id": "6261f252845eb165133c6758",
+      "internal": {
+        "created_at_internal": "2022-04-22T02:09:54.301000+00:00",
+        "last_modified_internal": "2022-10-26T14:27:25+00:00"
+      },
+      "last_modified": "2025-07-29T12:52:39+00:00",
+      "last_update": "2025-07-29T12:52:39+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 728,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 1551
+      },
+      "organization": {
+        "acronym": "Région Centre-Val de Loire",
+        "badges": [
+          {
+            "kind": "local-authority"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "561a7f00c751df4e6dcdbb48",
+        "logo": "https://static.data.gouv.fr/avatars/9b/955ddde73842bf9a5daa890ee24062-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/9b/955ddde73842bf9a5daa890ee24062-100.png",
+        "name": "Région Centre-Val de Loire",
+        "page": "https://www.data.gouv.fr/organizations/region-centre-val-de-loire/",
+        "slug": "region-centre-val-de-loire",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-centre-val-de-loire/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/dares-demandeurs-demploi-en-region-centre-val-de-loire/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.7777777777777778,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": true,
+        "update_fulfilled_in_time": true
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2022-04-22T02:09:54.309000+00:00",
+          "description": "- *Trimestre source*: trimestre_source[text]\n- *Variable*: filename[text]\n- *Territoire*: territoire[text]\n- *Valeur*: valeur[double]\n- *trimestres*: trimestres[text]\n- *Année*: annee[text]\n- *trimestre_mois*: trimestre_mois[text]\n- *Date*: date[date]\n- *annee_trimestre*: annee_trimestre[text]\n",
+          "extras": {
+            "analysis:checksum": "38361bb4be3764c0a4a774527ed160b1bb4a0b9e",
+            "analysis:content-length": 382048,
+            "analysis:last-modified-at": "2023-10-25T14:43:41+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-05T11:36:00.635296+00:00",
+            "analysis:parsing:parquet_size": 31504,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/442eb8b61de81b3dd65e1a1c4c1c4a12.parquet",
+            "analysis:parsing:parsing_table": "442eb8b61de81b3dd65e1a1c4c1c4a12",
+            "analysis:parsing:started_at": "2025-05-05T11:35:51.749948+00:00",
+            "check:available": true,
+            "check:date": "2025-05-05T11:14:59.057784+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "modified_at": "2023-10-25T14:43:41+00:00"
+          },
+          "id": "24ab645e-b02e-4191-aeaa-09d10720c31a",
+          "internal": {
+            "created_at_internal": "2022-04-22T02:09:54.309000+00:00",
+            "last_modified_internal": "2022-10-26T14:27:25+00:00"
+          },
+          "last_modified": "2023-10-25T14:43:41+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/24ab645e-b02e-4191-aeaa-09d10720c31a",
+          "metrics": {
+            "views": 551
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/24ab645e-b02e-4191-aeaa-09d10720c31a",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "Export au format CSV",
+          "type": "main",
+          "url": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/dares-demandeurs-demploi/exports/csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-07-29T12:52:39+00:00",
+          "description": "DARES - Demandeurs d'emploi en Région Centre-Val de Loire (json)",
+          "extras": {
+            "analysis:checksum": "7ac871e922e59fb557233645ecfe39c7f7379c0a",
+            "analysis:content-length": 1239536,
+            "analysis:last-modified-at": "2025-07-29T12:52:39+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:date": "2025-05-05T11:06:35.336666+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2025-07-29T12:52:39+00:00",
+            "modified_at": "2025-07-29T12:52:39+00:00",
+            "uri": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/dares-demandeurs-demploi/exports/json"
+          },
+          "id": "a55b3ead-c027-46ad-914a-a9e4943cb608",
+          "internal": {
+            "created_at_internal": "2022-04-22T02:09:54.310000+00:00",
+            "last_modified_internal": "2022-10-26T14:27:25+00:00"
+          },
+          "last_modified": "2025-07-29T12:52:39+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/a55b3ead-c027-46ad-914a-a9e4943cb608",
+          "metrics": {
+            "views": 427
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "dares-demandeurs-demploi.json",
+          "type": "main",
+          "url": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/dares-demandeurs-demploi/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2025-07-29T12:52:39+00:00",
+          "description": "DARES - Demandeurs d'emploi en Région Centre-Val de Loire (csv)",
+          "extras": {
+            "analysis:checksum": "6a755359cc7004191a0c8073b83e99b7debc7916",
+            "analysis:content-length": 385317,
+            "analysis:last-modified-at": "2025-07-29T12:52:39+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-08-12T14:16:59.160552+00:00",
+            "analysis:parsing:parquet_size": 27478,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/4a8722a5-cfc2-4055-9b0f-f56a6e9571b1.parquet",
+            "analysis:parsing:parsing_table": "8b3465e786ac1fd6690b0ade49d74c03",
+            "analysis:parsing:started_at": "2025-08-12T14:16:54.299931+00:00",
+            "check:available": true,
+            "check:date": "2025-05-05T20:40:01.572999+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Licence_Ouverte.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2025-07-29T12:52:39+00:00",
+            "modified_at": "2025-07-29T12:52:39+00:00",
+            "uri": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/dares-demandeurs-demploi/exports/csv?use_labels=true"
+          },
+          "id": "4a8722a5-cfc2-4055-9b0f-f56a6e9571b1",
+          "internal": {
+            "created_at_internal": "2024-10-26T00:03:45.095000+00:00",
+            "last_modified_internal": "2024-10-26T00:03:45.095000+00:00"
+          },
+          "last_modified": "2025-07-29T12:52:39+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/4a8722a5-cfc2-4055-9b0f-f56a6e9571b1",
+          "metrics": {
+            "views": 98
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/4a8722a5-cfc2-4055-9b0f-f56a6e9571b1",
+          "schema": null,
+          "title": "dares-demandeurs-demploi.csv",
+          "type": "main",
+          "url": "https://data.centrevaldeloire.fr/api/explore/v2.1/catalog/datasets/dares-demandeurs-demploi/exports/csv?use_labels=true"
+        }
+      ],
+      "schema": null,
+      "slug": "dares-demandeurs-demploi-en-region-centre-val-de-loire",
+      "spatial": null,
+      "tags": [
+        "cat-a",
+        "chomage",
+        "conjoncture",
+        "defm",
+        "deld",
+        "demande-demploi",
+        "economie-europe",
+        "france-travail"
+      ],
+      "temporal_coverage": null,
+      "title": "DARES - Demandeurs d'emploi en Région Centre-Val de Loire",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/dares-demandeurs-demploi-en-region-centre-val-de-loire/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 3
+}

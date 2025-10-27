@@ -1,0 +1,2113 @@
+[
+  {
+    "title": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France",
+    "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données sont à l'échelle départementale sur l'Île-de-France .\n\nCe jeu de données présentent les données suivantes:\n\nLes données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d'âge du patient : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences, nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombres total d'actes médicaux SOS Médecins pour suspicion de COVID-19, nombres d'actes médicaux SOS Médecins.\n\nÀ noter que :\n\n  * Le système de déclaration des cas n'est pas exhaustif et le nombre d'établissements déclarant varie au cours du temps ;\n  * Certains patients, présents dans la base de données hospitalières à un moment donné, sont retirés de la base de données par les établissements de santé lorsque le résultat biologique du patient est négatif par rapport au COVID-19 ; \n  * Pour certains patients, la classe d'âge n'a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d'âge d'un indicateur et le nombre total de cet indicateur ; \n  * Pour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.\n\n\n\n**Enrichissement**\n\nles codes iso-3166 et les localisations géographiques ont été rajoutées.\n\n  \nAttention : données en cours de constitution. Peut comporter des anomalies.",
+    "organization": "Région Île-de-France",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (csv)",
+        "extras": {
+          "analysis:checksum": "3992534a92cb7078b3d8d29b5316ab98358e5ece",
+          "analysis:content-length": 4625568,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-05-05T10:04:23.421359+00:00",
+          "analysis:parsing:parquet_size": 342075,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/631ce36e119c81933269f3bfeb879a98.parquet",
+          "analysis:parsing:parsing_table": "631ce36e119c81933269f3bfeb879a98",
+          "analysis:parsing:started_at": "2025-05-05T10:04:07.928861+00:00",
+          "check:available": true,
+          "check:count-availability": 86,
+          "check:date": "2025-05-05T09:09:47.782982+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+        },
+        "id": "8da9d634-f038-43af-b652-8fc919c60b16",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.206000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8da9d634-f038-43af-b652-8fc919c60b16",
+        "metrics": {
+          "views": 652
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/8da9d634-f038-43af-b652-8fc919c60b16",
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (json)",
+        "extras": {
+          "analysis:checksum": "036855fae5f6c34ff4005c29a63247f46f2b1867",
+          "analysis:content-length": 25440040,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 86,
+          "check:date": "2025-05-05T12:58:34.582280+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+        },
+        "id": "d0f452f4-49af-4e47-ae1e-bf7fe8d50a58",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.206000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/d0f452f4-49af-4e47-ae1e-bf7fe8d50a58",
+        "metrics": {
+          "views": 462
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (geojson)",
+        "extras": {
+          "analysis:checksum": "a1491779c36da1a1f7288f80f74108d340403fca",
+          "analysis:content-length": 25398864,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 85,
+          "check:date": "2025-05-05T10:48:24.961188+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+        },
+        "id": "8fffdc1a-a7b8-432d-869d-90913ab80074",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.207000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8fffdc1a-a7b8-432d-869d-90913ab80074",
+        "metrics": {
+          "views": 352
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (shp)",
+        "extras": {
+          "analysis:check_id": 33035206,
+          "analysis:checksum": "c7c5a3a356c13c7bbaa20c30235bd12d3238336a",
+          "analysis:content-length": 2020206,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/zip",
+          "check:available": true,
+          "check:date": "2025-09-12T04:53:23.603013+00:00",
+          "check:headers:content-type": "application/zip",
+          "check:id": 33035206,
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "zip",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+        },
+        "id": "7155f190-2453-4a9d-9494-7de3870a8bef",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.207000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/7155f190-2453-4a9d-9494-7de3870a8bef",
+        "metrics": {
+          "views": 259
+        },
+        "mime": "application/zip",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences hospitalières"
+  },
+  {
+    "title": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France",
+    "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données sont à l'échelles départements sur la France métropolitaine et les départements d'outre-mer.\n\nCe jeu de données présentent les données suivantes:\n\nLes données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d'âge du patient : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences, nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombres total d'actes médicaux SOS Médecins pour suspicion de COVID-19, nombres d'actes médicaux SOS Médecins.\n\nÀ noter que :\n\n  * Le système de déclaration des cas n'est pas exhaustif et le nombre d'établissements déclarant varie au cours du temps ;\n  * Certains patients, présents dans la base de données hospitalières à un moment donné, sont retirés de la base de données par les établissements de santé lorsque le résultat biologique du patient est négatif par rapport au COVID-19 ; \n  * Pour certains patients, la classe d'âge n'a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d'âge d'un indicateur et le nombre total de cet indicateur ; \n  * Pour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.\n\n\n\n**Enrichissement**\n\nles codes iso-3166 et les localisations géographiques ont été rajoutées.\n\n  \nAttention : données en cours de constitution. Peut comporter des anomalies.",
+    "organization": "Région Bretagne",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (csv)",
+        "extras": {
+          "analysis:checksum": "51d1d349964fab8b6a4996413924528620fa6c24",
+          "analysis:content-length": 2222645,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-05-05T18:11:09.395837+00:00",
+          "analysis:parsing:parquet_size": 173402,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/bac2a0c8fc8dc9e0ece4dad063ce426e.parquet",
+          "analysis:parsing:parsing_table": "bac2a0c8fc8dc9e0ece4dad063ce426e",
+          "analysis:parsing:started_at": "2025-05-05T18:10:59.579661+00:00",
+          "check:available": true,
+          "check:count-availability": 10,
+          "check:date": "2025-05-05T17:10:22.160356+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+        },
+        "id": "36643c88-b1dd-4e44-a178-fd3321cca53e",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/36643c88-b1dd-4e44-a178-fd3321cca53e",
+        "metrics": {
+          "views": 648
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/36643c88-b1dd-4e44-a178-fd3321cca53e",
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (json)",
+        "extras": {
+          "analysis:checksum": "d6c81d583b28949f3291160bca6ab551f4546255",
+          "analysis:content-length": 12555797,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 207,
+          "check:date": "2025-05-05T12:40:56.928967+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+        },
+        "id": "dcf07177-07fc-4ef1-b827-a5c3a4842068",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/dcf07177-07fc-4ef1-b827-a5c3a4842068",
+        "metrics": {
+          "views": 535
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (geojson)",
+        "extras": {
+          "analysis:checksum": "a2f37522e7f2466463fbdffc41ad38c02d593962",
+          "analysis:content-length": 12535229,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 207,
+          "check:date": "2025-05-05T17:32:11.457583+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+        },
+        "id": "4f205e13-8ccb-43c2-aea1-5a4a0ce927c1",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/4f205e13-8ccb-43c2-aea1-5a4a0ce927c1",
+        "metrics": {
+          "views": 429
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (shp)",
+        "extras": {
+          "analysis:checksum": "b0fc1cdd6dc1b2ff2c6f46e39303ca6cd40feefe",
+          "analysis:content-length": 1014383,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/zip",
+          "check:available": true,
+          "check:date": "2025-05-06T07:56:54.936654+00:00",
+          "check:headers:content-type": "application/zip",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "zip",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+        },
+        "id": "50588ab9-39d3-4cc6-bbe5-af4867382319",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/50588ab9-39d3-4cc6-bbe5-af4867382319",
+        "metrics": {
+          "views": 344
+        },
+        "mime": "application/zip",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.733000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "analysis:check_id": 35458644,
+          "analysis:checksum": "dda5be86e5b8d2d20fd2fa8450a154655e5dd471",
+          "analysis:content-length": 2201979,
+          "analysis:last-modified-at": "2025-10-25T15:43:21.801535+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-10-25T15:43:30.798313+00:00",
+          "analysis:parsing:geojson_size": 24414287,
+          "analysis:parsing:geojson_url": "https://object.files.data.gouv.fr/hydra-geojson/hydra-geojson/2f53d258-e32b-4deb-a95f-4e41f836b4ec.geojson",
+          "analysis:parsing:parquet_size": 154096,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/2f53d258-e32b-4deb-a95f-4e41f836b4ec.parquet",
+          "analysis:parsing:parsing_table": "5ec4be5d30c2d6a544a1f5f4f860fce1",
+          "analysis:parsing:pmtiles_size": 203936,
+          "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/2f53d258-e32b-4deb-a95f-4e41f836b4ec.pmtiles",
+          "analysis:parsing:started_at": "2025-10-25T15:43:24.637474+00:00",
+          "check:available": true,
+          "check:count-availability": 154,
+          "check:date": "2025-10-25T03:43:16.550467+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+          "check:headers:content-type": "application/csv",
+          "check:id": 35433492,
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {},
+        "id": "2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.733000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2025-10-25T15:43:21.801535+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+        "metrics": {
+          "views": 608
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+        "schema": null,
+        "title": "Export au format CSV",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.733000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "analysis:check_id": 35466304,
+          "analysis:checksum": "6b544195797ee614ae309c8009c4072008329eb2",
+          "analysis:content-length": 13532519,
+          "analysis:last-modified-at": "2025-10-25T17:58:24.115557+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 204,
+          "check:date": "2025-08-07T06:10:06.496291+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {},
+        "id": "23160cc1-cce9-40d7-ab61-00b143149982",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.733000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2025-10-25T17:58:24.115557+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/23160cc1-cce9-40d7-ab61-00b143149982",
+        "metrics": {
+          "views": 554
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "Export au format JSON",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.734000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "analysis:check_id": 35464653,
+          "analysis:checksum": "cac2fab15ace76f3295f705c2f0ac65ebff1f3a8",
+          "analysis:content-length": 9843727,
+          "analysis:last-modified-at": "2025-10-25T17:19:51.788758+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+          "analysis:parsing:finished_at": "2025-10-25T17:19:53.034236+00:00",
+          "analysis:parsing:started_at": "2025-10-25T17:19:53.022945+00:00",
+          "check:available": true,
+          "check:count-availability": 6,
+          "check:date": "2025-10-03T20:05:18.105413+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+          "check:headers:content-type": "application/json",
+          "check:id": 34214488,
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {},
+        "id": "66c72752-d441-436e-9099-035e41d117d2",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.734000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2025-10-25T17:19:51.788758+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/66c72752-d441-436e-9099-035e41d117d2",
+        "metrics": {
+          "views": 244
+        },
+        "mime": "application/vnd.geo+json",
+        "preview_url": null,
+        "schema": null,
+        "title": "Export au format GeoJSON",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.734000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "check:available": true,
+          "check:count-availability": 25,
+          "check:date": "2020-09-01T12:58:37.914000",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip\"",
+          "check:headers:content-length": 233674,
+          "check:headers:content-type": "application/zip",
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=true"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "shp",
+        "harvest": {},
+        "id": "3ddcd567-8d7c-447d-9acb-a663445d4614",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.734000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/3ddcd567-8d7c-447d-9acb-a663445d4614",
+        "metrics": {
+          "views": 144
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": null,
+        "title": "Export au format Shapefile",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=false"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences hospitalières"
+  },
+  {
+    "title": "Données des urgences hospitalières et de SOS médecins relatives à l'épidémie de COVID-19 ",
+    "description": "### INFORMATION IMPORTANTE\n\n**Ce jeudi 4 Novembre 2021**, le format de la variable **sursaud_cl_age_corona** sera modifié :\n\n**Nouveau codage :**\n0 = \"Tous âges\"\n1 = \"0-4 ans\" \n2 = \"5-14 ans\"\n3 = \"15-44 ans\"\n4 = \"45-64 ans\"\n5 = \"65-74 ans\"\n6 = \"75 ans ou plus\"\n\n**Ancien actuel :**\n0 = \"Tous âges\"\nA = \"moins de 15ans\" \nB = \"15-44 ans\"\nC = \"45-64 ans\"\nD = \"65-74 ans\"\nE = \"75 ans ou plus\"\n\n\n### Les actions de Santé publique France\n\nSanté publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.\n\n### Description du jeu de données\n\nDeux fichiers sont proposés :\n\n- **Les données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d’âge des patients** : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences avec un diagnostic médical renseigné, nombre d’hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins avec un diagnostic médical renseigné.\n\n- **Les données quotidiennes de SOS médecins et des urgences hospitalières par région, sexe et tranches d’âge des patients** : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences avec un diagnostic médical renseigné, nombre d’hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombre d’actes médicaux SOS Médecins pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins avec un diagnostic médical renseigné. Le code région correspond au [code INSEE](https://fr.wikipedia.org/wiki/Région_française#Niveau_national) publié par l’INSEE sur [www.data.gouv.fr](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/#resource-c2a54903-513e-41b9-a108-3d9cb2104217).\n\n### Anomalies détectées dans les fichiers\n\nAttention, certains fichiers peuvent comporter des anomalies du fait des difficultés de collecte des données.\n\nDes rapports d'erreurs sont publiés tous les jours par Etalab dans la rubrique ressources communautaires :\n- [Rapport d'erreurs pour le fichier quotidien](https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200402-160328/sursaud-covid19-quotidien-incoherence-01042020.xlsx) ;\n- [Rapport d'erreurs pour le fichier hebdomadaire](https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200402-160350/sursaud-covid19-hebdomadaire-incoherence-01042020.xlsx).\n\nÀ noter que : \n- Pour certains patients, la classe d’âge n’a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d’âge d’un indicateur et le nombre total de cet indicateur ;\n- Pour certains patients, le sexe n’a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d’un indicateur et le nombre total de cet indicateur.\n\n\nN’hésitez pas à signaler d'autres anomalies en commentaire. Ces remarques seront communiquées à l'équipe en charge de la collecte et diffusion des données. \n\n### Autres données disponibles\n\n[Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/) publie également les [données hospitalières relatives à l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/).\n",
+    "organization": "Santé publique France",
+    "resources": [
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "d74cac1d64e2d871fb0f14163c3cb169a332acfa"
+        },
+        "created_at": "2020-03-20T18:56:25.178000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "d74cac1d64e2d871fb0f14163c3cb169a332acfa",
+          "analysis:content-length": 20587252,
+          "analysis:last-modified-at": "2025-01-01T17:00:09+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-01-01T20:59:08.168604+00:00",
+          "analysis:parsing:parquet_size": 2136562,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/dd732984c2919e6744b60ca151dd4c7b.parquet",
+          "analysis:parsing:parsing_table": "dd732984c2919e6744b60ca151dd4c7b",
+          "analysis:parsing:started_at": "2025-01-01T20:57:19.872835+00:00",
+          "check:available": true,
+          "check:count-availability": 6,
+          "check:date": "2025-03-19T02:14:30.407000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 20587252,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "eceb9fb4-3ebc-4da3-828d-f5939712600a",
+        "internal": {
+          "created_at_internal": "2020-03-20T18:56:25.178000+00:00",
+          "last_modified_internal": "2025-01-01T18:00:09.843000+00:00"
+        },
+        "last_modified": "2025-01-01T18:00:09.843000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/eceb9fb4-3ebc-4da3-828d-f5939712600a",
+        "metrics": {
+          "views": 58449
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/eceb9fb4-3ebc-4da3-828d-f5939712600a",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "sursaud-covid-quot-dep-2025-01-01-18h00.csv",
+        "type": "main",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20250101-170008/sursaud-covid-quot-dep-2025-01-01-18h00.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "515633f3a5367efa40df0340669d818f5fa33cc7"
+        },
+        "created_at": "2020-03-20T18:56:25.009000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "515633f3a5367efa40df0340669d818f5fa33cc7",
+          "analysis:content-length": 4297961,
+          "analysis:last-modified-at": "2025-01-01T17:00:08+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-01-01T20:57:47.595510+00:00",
+          "analysis:parsing:parquet_size": 652728,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/d5f765eabc74aeb362294125dd74c880.parquet",
+          "analysis:parsing:parsing_table": "d5f765eabc74aeb362294125dd74c880",
+          "analysis:parsing:started_at": "2025-01-01T20:57:19.208142+00:00",
+          "check:available": true,
+          "check:count-availability": 6,
+          "check:date": "2025-03-18T14:44:17.058000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 4297961,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "d2af5160-a21d-47b7-8f30-3c20dade63b1",
+        "internal": {
+          "created_at_internal": "2020-03-20T18:56:25.009000+00:00",
+          "last_modified_internal": "2025-01-01T18:00:08.067000+00:00"
+        },
+        "last_modified": "2025-01-01T18:00:08.067000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/d2af5160-a21d-47b7-8f30-3c20dade63b1",
+        "metrics": {
+          "views": 74487
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/d2af5160-a21d-47b7-8f30-3c20dade63b1",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "sursaud-covid-quot-reg-2025-01-01-18h00.csv",
+        "type": "main",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20250101-170007/sursaud-covid-quot-reg-2025-01-01-18h00.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "f82854be4f6c99a887b6d03fc510e33ae4e9e679"
+        },
+        "created_at": "2020-03-23T19:49:34.576000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "f82854be4f6c99a887b6d03fc510e33ae4e9e679",
+          "analysis:content-length": 2694,
+          "analysis:last-modified-at": "2020-03-23T18:49:34+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2024-07-08T21:34:21.249706+00:00",
+          "analysis:parsing:parsing_table": "cbc876c9b24cb598e2b58886beb01cce",
+          "analysis:parsing:started_at": "2024-07-08T21:34:20.370456+00:00",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-19T19:29:07.856000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 2694,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "2265d880-5260-4b34-8827-b3d76180032e",
+        "internal": {
+          "created_at_internal": "2020-03-23T19:49:34.576000+00:00",
+          "last_modified_internal": "2020-03-27T18:46:47.519000+00:00"
+        },
+        "last_modified": "2020-03-27T18:46:47.519000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/2265d880-5260-4b34-8827-b3d76180032e",
+        "metrics": {
+          "views": 2014
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/2265d880-5260-4b34-8827-b3d76180032e",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecins-covid19-quot-dep.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200323-194934/metadonnee-urgenceshos-sosmedecin-covid19-quot.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "11861d8a08e39d5ca093e7aa10b8c8cfdc431a8b"
+        },
+        "created_at": "2020-03-27T18:49:59.817000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "11861d8a08e39d5ca093e7aa10b8c8cfdc431a8b",
+          "analysis:content-length": 2682,
+          "analysis:last-modified-at": "2020-03-27T17:49:59+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-08-30 23:19:59.303661+02",
+          "analysis:parsing:parsing_table": "eb00b77b5c4f0d84bb3c386a9d2aa871",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-17T05:07:48.678000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 2682,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "02c99d99-96a0-4953-8e30-04fd660530f6",
+        "internal": {
+          "created_at_internal": "2020-03-27T18:49:59.817000+00:00",
+          "last_modified_internal": "2020-03-27T18:50:07.711000+00:00"
+        },
+        "last_modified": "2020-03-27T18:50:07.711000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/02c99d99-96a0-4953-8e30-04fd660530f6",
+        "metrics": {
+          "views": 1399
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/02c99d99-96a0-4953-8e30-04fd660530f6",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecin-covid19-quot-reg.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-ugences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200327-184959/metadonnee-urgenceshos-sosmedecin-covid19-quot-reg.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "4298826ae95608b509664b32dbf4833d0049a597"
+        },
+        "created_at": "2020-03-27T18:56:34.899000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "4298826ae95608b509664b32dbf4833d0049a597",
+          "analysis:content-length": 2680,
+          "analysis:last-modified-at": "2020-03-27T17:56:34+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-08-30 11:26:59.116481+02",
+          "analysis:parsing:parsing_table": "edf07106aed477dcbb8307d12167d946",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-17T20:16:47.805000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 2680,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+        "internal": {
+          "created_at_internal": "2020-03-27T18:56:34.899000+00:00",
+          "last_modified_internal": "2020-03-27T18:56:51.696000+00:00"
+        },
+        "last_modified": "2020-03-27T18:56:51.696000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+        "metrics": {
+          "views": 1557
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecin-covid19-quot-fra.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-ugences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200327-185634/metadonnee-urgenceshos-sosmedecin-covid19-quot-fra.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "8ae0c8f49f35ff3ab611de8cc8650b1340fe87d0"
+        },
+        "created_at": "2020-03-23T19:49:55.734000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "8ae0c8f49f35ff3ab611de8cc8650b1340fe87d0",
+          "analysis:content-length": 1329,
+          "analysis:last-modified-at": "2020-03-23T18:49:55+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-08-30 21:17:14.745028+02",
+          "analysis:parsing:parsing_table": "f2440d35e54401f580368af82654925c",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-16T01:46:55.707000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 1329,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+        "internal": {
+          "created_at_internal": "2020-03-23T19:49:55.734000+00:00",
+          "last_modified_internal": "2020-03-23T19:50:19.338000+00:00"
+        },
+        "last_modified": "2020-03-23T19:50:19.338000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+        "metrics": {
+          "views": 1639
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecins-covid19-hebdo.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200323-194955/metadonnee-urgenceshos-sosmedecin-covid19-hebdo.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "06b8b6bd3c95ebc1a283bff184ab7c60b10e6ad7"
+        },
+        "created_at": "2020-03-20T18:19:24.201000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "06b8b6bd3c95ebc1a283bff184ab7c60b10e6ad7",
+          "analysis:content-length": 110,
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-06-03 16:10:57.760544+02",
+          "analysis:parsing:parsing_table": "a592be3a66135e7d3509aefb5ff6a24d",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-18T15:57:12.306000",
+          "check:headers:content-length": 110,
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 110,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+        "internal": {
+          "created_at_internal": "2020-03-20T18:19:24.201000+00:00",
+          "last_modified_internal": "2020-03-23T18:47:52.441000+00:00"
+        },
+        "last_modified": "2020-03-23T18:47:52.441000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+        "metrics": {
+          "views": 1950
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "code-tranches-dage.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200320-181924/code-tranches-dage.csv"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences hospitalières"
+  },
+  {
+    "title": "Urgences hospitalières en 2013 : des organisations différentes selon le niveau d’activité",
+    "description": "_Source : DREES, Études et résultats N°906_\r\n\r\n_Auteurs : Layla Ricroch_\r\n\r\nLes points d’accueil des urgences, répartis sur tout le territoire, sont majoritairement situés dans des établissements de santé publics. Leur organisation et leurs ressources sont variables : tous n’ont pas de poste d’accueil et d’orientation, d’assistance sociale, de psychiatre ou encore d’accès prioritaire à une imagerie par résonance magnétique (IRM). Cette organisation dépend surtout du volume de passages, du statut de l’établissement et de sa spécialisation ou non en pédiatrie.",
+    "organization": "Ministère des Solidarités et de la Santé",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2015-05-22T11:50:11.037000+00:00",
+        "description": "Données : Urgences hospitalières en 2013 : des organisations différentes selon le niveau d’activité",
+        "extras": {
+          "check:available": false,
+          "check:count-availability": 65,
+          "check:date": "2023-06-01T19:47:34.046668+00:00",
+          "check:error": "Cannot connect to host www.drees.sante.gouv.fr:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.drees.sante.gouv.fr'. (_ssl.c:1123)\")]",
+          "check:timeout": false,
+          "check:url": "http://www.drees.sante.gouv.fr/IMG/xls/er906.xls"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "xls",
+        "harvest": null,
+        "id": "74442f8b-9ac2-4dbd-b7ab-165bc7716fb4",
+        "internal": {
+          "created_at_internal": "2015-05-22T11:50:11.037000+00:00",
+          "last_modified_internal": "2015-05-22T11:50:11.037000+00:00"
+        },
+        "last_modified": "2015-05-22T11:50:11.037000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/74442f8b-9ac2-4dbd-b7ab-165bc7716fb4",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 289
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": null,
+        "title": "Données : Urgences hospitalières en 2013 : des organisations différentes selon le niveau d’activité",
+        "type": "main",
+        "url": "http://www.drees.sante.gouv.fr/IMG/xls/er906.xls"
+      },
+      {
+        "checksum": null,
+        "created_at": "2015-05-22T11:49:35.740000+00:00",
+        "description": "Urgences hospitalières en 2013 : des organisations différentes selon le niveau d’activité",
+        "extras": {
+          "check:available": false,
+          "check:count-availability": 67,
+          "check:date": "2023-06-01T17:27:55.130823+00:00",
+          "check:error": "Cannot connect to host www.drees.sante.gouv.fr:443 ssl:True [SSLCertVerificationError: (1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.drees.sante.gouv.fr'. (_ssl.c:1123)\")]",
+          "check:timeout": false,
+          "check:url": "http://www.drees.sante.gouv.fr/IMG/pdf/er906.pdf"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "pdf",
+        "harvest": null,
+        "id": "37cf4a2e-4c06-4552-8cf0-e4f5a31e899a",
+        "internal": {
+          "created_at_internal": "2015-05-22T11:49:35.740000+00:00",
+          "last_modified_internal": "2015-05-22T11:49:35.740000+00:00"
+        },
+        "last_modified": "2015-05-22T11:49:35.740000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/37cf4a2e-4c06-4552-8cf0-e4f5a31e899a",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 187
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": null,
+        "title": "Urgences hospitalières en 2013 : des organisations différentes selon le niveau d’activité",
+        "type": "main",
+        "url": "http://www.drees.sante.gouv.fr/IMG/pdf/er906.pdf"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences hospitalières"
+  },
+  {
+    "title": "Enquête nationale sur les structures des urgences hospitalières",
+    "description": "*Source : DREES*\n\nCette enquête est destinée à décrire la genèse du recours des patients aux urgences hospitalières, les difficultés éventuelles rencontrées lors de leur prise en charge, la diversité des organisations sur l’ensemble du territoire.\n\n**/!\\ Des jeux de données plus récents existent sur ce thème. Ils sont disponibles sur le portail data.gouv.fr à la référence \"[L'enquête nationale sur les structures des urgences hospitalières](https://www.data.gouv.fr/fr/datasets/lenquete-nationale-sur-les-structures-des-urgences-hospitalieres/)\". Mis à jour régulièrement par moissonnage, il est recommandé d'utiliser ces nouveaux jeux de données.**\n",
+    "organization": "Ministère des Solidarités et de la Santé",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2016-01-15T16:40:28.600000+00:00",
+        "description": "Présentation, champ, objectifs, méthodologie de l'enquête",
+        "extras": {
+          "analysis:check_id": 35458117,
+          "analysis:checksum": "81ce5c95825ae5a549d26f659ba9d2a3bfee40fa",
+          "analysis:content-length": 61741,
+          "analysis:last-modified-at": "2025-10-25T15:29:26+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/html",
+          "check:available": true,
+          "check:count-availability": 1259,
+          "check:date": "2025-02-15T05:00:05.407391+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-type": "text/html",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://www.drees.sante.gouv.fr/enquete-nationale-sur-les-structures-des-urgences,11113.html"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "html",
+        "harvest": null,
+        "id": "4f0cf770-d1c7-48b9-8d37-91979ea60785",
+        "internal": {
+          "created_at_internal": "2016-01-15T16:40:28.600000+00:00",
+          "last_modified_internal": "2022-03-16T11:02:24.789000+00:00"
+        },
+        "last_modified": "2025-10-25T15:29:26+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/4f0cf770-d1c7-48b9-8d37-91979ea60785",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 408
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "Présentation de l'enquête",
+        "type": "main",
+        "url": "https://drees.solidarites-sante.gouv.fr/sources-outils-et-enquetes/01-enquete-nationale-sur-les-structures-des-urgences-hospitalieres-juin"
+      },
+      {
+        "checksum": null,
+        "created_at": "2016-01-15T16:40:28.600000+00:00",
+        "description": "Le volet **Structure**",
+        "extras": {
+          "check:available": false,
+          "check:count-availability": 51,
+          "check:date": "2025-04-30T10:08:56.794422+00:00",
+          "check:error": "Not Found",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-type": "text/html",
+          "check:status": 404,
+          "check:timeout": false,
+          "check:url": "http://www.data.drees.sante.gouv.fr/ReportFolders/reportFolders.aspx?IF_ActivePath=P,432,507"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "xls, csv, ivt",
+        "harvest": null,
+        "id": "602e8c0c-53ce-4050-b884-14e2048f3ee1",
+        "internal": {
+          "created_at_internal": "2016-01-15T16:40:28.600000+00:00",
+          "last_modified_internal": "2016-01-15T16:40:28.600000+00:00"
+        },
+        "last_modified": "2016-01-15T16:40:28.600000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/602e8c0c-53ce-4050-b884-14e2048f3ee1",
+        "metrics": {
+          "nb_hits": 0,
+          "nb_uniq_visitors": 0,
+          "nb_visits": 0,
+          "views": 411
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "Enquête Urgences - structure - 2013 ",
+        "type": "main",
+        "url": "http://www.data.drees.sante.gouv.fr/ReportFolders/reportFolders.aspx?IF_ActivePath=P,432,507"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences hospitalières"
+  },
+  {
+    "title": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France",
+    "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données sont à l'échelle départementale sur l'Île-de-France .\n\nCe jeu de données présentent les données suivantes:\n\nLes données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d'âge du patient : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences, nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombres total d'actes médicaux SOS Médecins pour suspicion de COVID-19, nombres d'actes médicaux SOS Médecins.\n\nÀ noter que :\n\n  * Le système de déclaration des cas n'est pas exhaustif et le nombre d'établissements déclarant varie au cours du temps ;\n  * Certains patients, présents dans la base de données hospitalières à un moment donné, sont retirés de la base de données par les établissements de santé lorsque le résultat biologique du patient est négatif par rapport au COVID-19 ; \n  * Pour certains patients, la classe d'âge n'a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d'âge d'un indicateur et le nombre total de cet indicateur ; \n  * Pour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.\n\n\n\n**Enrichissement**\n\nles codes iso-3166 et les localisations géographiques ont été rajoutées.\n\n  \nAttention : données en cours de constitution. Peut comporter des anomalies.",
+    "organization": "Région Île-de-France",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (csv)",
+        "extras": {
+          "analysis:checksum": "3992534a92cb7078b3d8d29b5316ab98358e5ece",
+          "analysis:content-length": 4625568,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-05-05T10:04:23.421359+00:00",
+          "analysis:parsing:parquet_size": 342075,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/631ce36e119c81933269f3bfeb879a98.parquet",
+          "analysis:parsing:parsing_table": "631ce36e119c81933269f3bfeb879a98",
+          "analysis:parsing:started_at": "2025-05-05T10:04:07.928861+00:00",
+          "check:available": true,
+          "check:count-availability": 86,
+          "check:date": "2025-05-05T09:09:47.782982+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+        },
+        "id": "8da9d634-f038-43af-b652-8fc919c60b16",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.206000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8da9d634-f038-43af-b652-8fc919c60b16",
+        "metrics": {
+          "views": 652
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/8da9d634-f038-43af-b652-8fc919c60b16",
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (json)",
+        "extras": {
+          "analysis:checksum": "036855fae5f6c34ff4005c29a63247f46f2b1867",
+          "analysis:content-length": 25440040,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 86,
+          "check:date": "2025-05-05T12:58:34.582280+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+        },
+        "id": "d0f452f4-49af-4e47-ae1e-bf7fe8d50a58",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.206000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/d0f452f4-49af-4e47-ae1e-bf7fe8d50a58",
+        "metrics": {
+          "views": 462
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (geojson)",
+        "extras": {
+          "analysis:checksum": "a1491779c36da1a1f7288f80f74108d340403fca",
+          "analysis:content-length": 25398864,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 85,
+          "check:date": "2025-05-05T10:48:24.961188+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://data.iledefrance.fr/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+        },
+        "id": "8fffdc1a-a7b8-432d-869d-90913ab80074",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.207000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8fffdc1a-a7b8-432d-869d-90913ab80074",
+        "metrics": {
+          "views": 352
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-16T08:36:08+00:00",
+        "description": "Données urgences hospitalières - SOS Médécins relatives à l'épidémie de COVID-19 en Île-de-France (shp)",
+        "extras": {
+          "analysis:check_id": 33035206,
+          "analysis:checksum": "c7c5a3a356c13c7bbaa20c30235bd12d3238336a",
+          "analysis:content-length": 2020206,
+          "analysis:last-modified-at": "2020-04-16T08:36:08+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/zip",
+          "check:available": true,
+          "check:date": "2025-09-12T04:53:23.603013+00:00",
+          "check:headers:content-type": "application/zip",
+          "check:id": 33035206,
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "zip",
+        "harvest": {
+          "issued_at": "2020-04-16T08:36:08+00:00",
+          "modified_at": "2020-04-16T08:36:08+00:00",
+          "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+        },
+        "id": "7155f190-2453-4a9d-9494-7de3870a8bef",
+        "internal": {
+          "created_at_internal": "2020-04-22T06:01:27.207000+00:00",
+          "last_modified_internal": "2020-04-16T08:36:08+00:00"
+        },
+        "last_modified": "2020-04-16T08:36:08+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/7155f190-2453-4a9d-9494-7de3870a8bef",
+        "metrics": {
+          "views": 259
+        },
+        "mime": "application/zip",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip",
+        "type": "main",
+        "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences épidémie"
+  },
+  {
+    "title": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France",
+    "description": "Santé publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national. \n\nLes données sont à l'échelles départements sur la France métropolitaine et les départements d'outre-mer.\n\nCe jeu de données présentent les données suivantes:\n\nLes données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d'âge du patient : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences, nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombres total d'actes médicaux SOS Médecins pour suspicion de COVID-19, nombres d'actes médicaux SOS Médecins.\n\nÀ noter que :\n\n  * Le système de déclaration des cas n'est pas exhaustif et le nombre d'établissements déclarant varie au cours du temps ;\n  * Certains patients, présents dans la base de données hospitalières à un moment donné, sont retirés de la base de données par les établissements de santé lorsque le résultat biologique du patient est négatif par rapport au COVID-19 ; \n  * Pour certains patients, la classe d'âge n'a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d'âge d'un indicateur et le nombre total de cet indicateur ; \n  * Pour certains patients, le sexe n'a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d'un indicateur et le nombre total de cet indicateur.\n\n\n\n**Enrichissement**\n\nles codes iso-3166 et les localisations géographiques ont été rajoutées.\n\n  \nAttention : données en cours de constitution. Peut comporter des anomalies.",
+    "organization": "Région Bretagne",
+    "resources": [
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (csv)",
+        "extras": {
+          "analysis:checksum": "51d1d349964fab8b6a4996413924528620fa6c24",
+          "analysis:content-length": 2222645,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-05-05T18:11:09.395837+00:00",
+          "analysis:parsing:parquet_size": 173402,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/bac2a0c8fc8dc9e0ece4dad063ce426e.parquet",
+          "analysis:parsing:parsing_table": "bac2a0c8fc8dc9e0ece4dad063ce426e",
+          "analysis:parsing:started_at": "2025-05-05T18:10:59.579661+00:00",
+          "check:available": true,
+          "check:count-availability": 10,
+          "check:date": "2025-05-05T17:10:22.160356+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+          "check:headers:content-type": "text/csv",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+        },
+        "id": "36643c88-b1dd-4e44-a178-fd3321cca53e",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/36643c88-b1dd-4e44-a178-fd3321cca53e",
+        "metrics": {
+          "views": 648
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/36643c88-b1dd-4e44-a178-fd3321cca53e",
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/csv?use_labels=true"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (json)",
+        "extras": {
+          "analysis:checksum": "d6c81d583b28949f3291160bca6ab551f4546255",
+          "analysis:content-length": 12555797,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 207,
+          "check:date": "2025-05-05T12:40:56.928967+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+        },
+        "id": "dcf07177-07fc-4ef1-b827-a5c3a4842068",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/dcf07177-07fc-4ef1-b827-a5c3a4842068",
+        "metrics": {
+          "views": 535
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/json"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (geojson)",
+        "extras": {
+          "analysis:checksum": "a2f37522e7f2466463fbdffc41ad38c02d593962",
+          "analysis:content-length": 12535229,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 207,
+          "check:date": "2025-05-05T17:32:11.457583+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "http://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+        },
+        "id": "4f205e13-8ccb-43c2-aea1-5a4a0ce927c1",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/4f205e13-8ccb-43c2-aea1-5a4a0ce927c1",
+        "metrics": {
+          "views": 429
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/geojson"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-07T13:05:44+00:00",
+        "description": "Données urgences hospitalières - SOS Médecins relatives à l'épidémie de COVID-19 en France (shp)",
+        "extras": {
+          "analysis:checksum": "b0fc1cdd6dc1b2ff2c6f46e39303ca6cd40feefe",
+          "analysis:content-length": 1014383,
+          "analysis:last-modified-at": "2020-04-07T13:05:44+00:00",
+          "analysis:last-modified-detection": "harvest-resource-metadata",
+          "analysis:mime-type": "application/zip",
+          "check:available": true,
+          "check:date": "2025-05-06T07:56:54.936654+00:00",
+          "check:headers:content-type": "application/zip",
+          "check:status": 200,
+          "check:timeout": false,
+          "dcat": {
+            "license": [
+              "Open License v2.0"
+            ],
+            "rights": [
+              "Open License v2.0"
+            ]
+          }
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "zip",
+        "harvest": {
+          "issued_at": "2020-04-07T13:05:44+00:00",
+          "modified_at": "2020-04-07T13:05:44+00:00",
+          "uri": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+        },
+        "id": "50588ab9-39d3-4cc6-bbe5-af4867382319",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:48.929000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/50588ab9-39d3-4cc6-bbe5-af4867382319",
+        "metrics": {
+          "views": 344
+        },
+        "mime": "application/zip",
+        "preview_url": null,
+        "schema": null,
+        "title": "donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip",
+        "type": "main",
+        "url": "https://data.bretagne.bzh/api/explore/v2.1/catalog/datasets/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/exports/shp"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.733000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "analysis:check_id": 35458644,
+          "analysis:checksum": "dda5be86e5b8d2d20fd2fa8450a154655e5dd471",
+          "analysis:content-length": 2201979,
+          "analysis:last-modified-at": "2025-10-25T15:43:21.801535+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-10-25T15:43:30.798313+00:00",
+          "analysis:parsing:geojson_size": 24414287,
+          "analysis:parsing:geojson_url": "https://object.files.data.gouv.fr/hydra-geojson/hydra-geojson/2f53d258-e32b-4deb-a95f-4e41f836b4ec.geojson",
+          "analysis:parsing:parquet_size": 154096,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/2f53d258-e32b-4deb-a95f-4e41f836b4ec.parquet",
+          "analysis:parsing:parsing_table": "5ec4be5d30c2d6a544a1f5f4f860fce1",
+          "analysis:parsing:pmtiles_size": 203936,
+          "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/2f53d258-e32b-4deb-a95f-4e41f836b4ec.pmtiles",
+          "analysis:parsing:started_at": "2025-10-25T15:43:24.637474+00:00",
+          "check:available": true,
+          "check:count-availability": 154,
+          "check:date": "2025-10-25T03:43:16.550467+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.csv\"",
+          "check:headers:content-type": "application/csv",
+          "check:id": 35433492,
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "csv",
+        "harvest": {},
+        "id": "2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.733000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2025-10-25T15:43:21.801535+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+        "metrics": {
+          "views": 608
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/2f53d258-e32b-4deb-a95f-4e41f836b4ec",
+        "schema": null,
+        "title": "Export au format CSV",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.733000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "analysis:check_id": 35466304,
+          "analysis:checksum": "6b544195797ee614ae309c8009c4072008329eb2",
+          "analysis:content-length": 13532519,
+          "analysis:last-modified-at": "2025-10-25T17:58:24.115557+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/plain",
+          "check:available": true,
+          "check:count-availability": 204,
+          "check:date": "2025-08-07T06:10:06.496291+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.json\"",
+          "check:headers:content-type": "application/json",
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {},
+        "id": "23160cc1-cce9-40d7-ab61-00b143149982",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.733000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2025-10-25T17:58:24.115557+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/23160cc1-cce9-40d7-ab61-00b143149982",
+        "metrics": {
+          "views": 554
+        },
+        "mime": "application/json",
+        "preview_url": null,
+        "schema": null,
+        "title": "Export au format JSON",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.734000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "analysis:check_id": 35464653,
+          "analysis:checksum": "cac2fab15ace76f3295f705c2f0ac65ebff1f3a8",
+          "analysis:content-length": 9843727,
+          "analysis:last-modified-at": "2025-10-25T17:19:51.788758+00:00",
+          "analysis:last-modified-detection": "computed-checksum",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+          "analysis:parsing:finished_at": "2025-10-25T17:19:53.034236+00:00",
+          "analysis:parsing:started_at": "2025-10-25T17:19:53.022945+00:00",
+          "check:available": true,
+          "check:count-availability": 6,
+          "check:date": "2025-10-03T20:05:18.105413+00:00",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.geojson\"",
+          "check:headers:content-type": "application/json",
+          "check:id": 34214488,
+          "check:status": 200,
+          "check:timeout": false,
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "json",
+        "harvest": {},
+        "id": "66c72752-d441-436e-9099-035e41d117d2",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.734000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2025-10-25T17:19:51.788758+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/66c72752-d441-436e-9099-035e41d117d2",
+        "metrics": {
+          "views": 244
+        },
+        "mime": "application/vnd.geo+json",
+        "preview_url": null,
+        "schema": null,
+        "title": "Export au format GeoJSON",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+      },
+      {
+        "checksum": null,
+        "created_at": "2020-04-08T02:00:54.734000+00:00",
+        "description": "- *Code département*: dep_code[text]\n- *Date*: date[date]\n- *Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid[int] Nombre de passages aux urgences pour suspicion de COVID-19\n- *Total pass. urgences*: tot_pass_emgy[int] Nombre de passages aux urgences total\n- *Nb. hosp. urgences pr suspicion*: nb_ho_emgy_covid[int] Nombre d'hospitalisations parmi les passages aux urgences pour suspicion de COVID-19\n- *H - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_m[int]\n- *F - Nb. pass. urgences pr suspicion*: nb_pass_emgy_covid_f[int]\n- *H - Total pass. urgences*: tot_pass_emgy_m[int]\n- *F - Total pass. urgences*: tot_pass_emgy_f[int]\n- *H - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_m[int]\n- *F - Nb. hosp. pass. urgences pr suspicion*: nb_ho_emgy_covid_f[int]\n- *Nb. actes méd. SOS Méd. pr suspicion*: nb_acte_sos_covid[int] Nombres d'actes médicaux SOS Médecins pour suspicion de COVID-19\n- *Total actes méd. SOS Méd.*: tot_acte_sos[int] Nombres d'actes médicaux SOS Médecins total\n- *H - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_m[int]\n- *F - Nb. actes méd. SOS Méd. pr suspicion*: nb_sos_covid_f[int]\n- *H - Total actes méd. SOS Méd.*: tot_sos_m[int]\n- *F - Total actes méd. SOS Méd.*: tot_sos_f[int]\n- *Code de la région*: reg_code[int]\n- *Code ISO 3166 de la zone*: countrycode_iso_3166_1_alpha3[text]\n- *Nom région*: region_min[text]\n- *Nom du département*: nom_dep_min[text]\n- *Libellé tranches d'âge*: age_label[text]\n- *geo_point_2d*: geo_point_2d[geo_point_2d]\n",
+        "extras": {
+          "check:available": true,
+          "check:count-availability": 25,
+          "check:date": "2020-09-01T12:58:37.914000",
+          "check:headers:charset": "utf-8",
+          "check:headers:content-disposition": "attachment; filename=\"donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en.zip\"",
+          "check:headers:content-length": 233674,
+          "check:headers:content-type": "application/zip",
+          "check:url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=true"
+        },
+        "filesize": null,
+        "filetype": "remote",
+        "format": "shp",
+        "harvest": {},
+        "id": "3ddcd567-8d7c-447d-9acb-a663445d4614",
+        "internal": {
+          "created_at_internal": "2020-04-08T02:00:54.734000+00:00",
+          "last_modified_internal": "2020-04-07T13:05:44+00:00"
+        },
+        "last_modified": "2020-04-07T13:05:44+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/3ddcd567-8d7c-447d-9acb-a663445d4614",
+        "metrics": {
+          "views": 144
+        },
+        "mime": null,
+        "preview_url": null,
+        "schema": null,
+        "title": "Export au format Shapefile",
+        "type": "main",
+        "url": "https://breizh.opendatasoft.com/explore/dataset/donnees-urgences-hospitalieres-sos-medecins-relatives-a-lepidemie-de-covid-19-en/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=false"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences épidémie"
+  },
+  {
+    "title": "Données des urgences hospitalières et de SOS médecins relatives à l'épidémie de COVID-19 ",
+    "description": "### INFORMATION IMPORTANTE\n\n**Ce jeudi 4 Novembre 2021**, le format de la variable **sursaud_cl_age_corona** sera modifié :\n\n**Nouveau codage :**\n0 = \"Tous âges\"\n1 = \"0-4 ans\" \n2 = \"5-14 ans\"\n3 = \"15-44 ans\"\n4 = \"45-64 ans\"\n5 = \"65-74 ans\"\n6 = \"75 ans ou plus\"\n\n**Ancien actuel :**\n0 = \"Tous âges\"\nA = \"moins de 15ans\" \nB = \"15-44 ans\"\nC = \"45-64 ans\"\nD = \"65-74 ans\"\nE = \"75 ans ou plus\"\n\n\n### Les actions de Santé publique France\n\nSanté publique France a pour mission d'améliorer et de protéger la santé des populations. Durant la crise sanitaire liée à l'épidémie du COVID-19, Santé publique France se charge de surveiller et comprendre la dynamique de l'épidémie, d'anticiper les différents scénarii et de mettre en place des actions pour prévenir et limiter la transmission de ce virus sur le territoire national.\n\n### Description du jeu de données\n\nDeux fichiers sont proposés :\n\n- **Les données quotidiennes de SOS médecins et des urgences hospitalières par département, sexe et tranche d’âge des patients** : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences avec un diagnostic médical renseigné, nombre d’hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins avec un diagnostic médical renseigné.\n\n- **Les données quotidiennes de SOS médecins et des urgences hospitalières par région, sexe et tranches d’âge des patients** : nombre de passages aux urgences pour suspicion de COVID-19, nombre total de passages aux urgences avec un diagnostic médical renseigné, nombre d’hospitalisations parmi les passages aux urgences pour suspicion de COVID-19, nombre d’actes médicaux SOS Médecins pour suspicion de COVID-19, nombre total d’actes médicaux SOS Médecins avec un diagnostic médical renseigné. Le code région correspond au [code INSEE](https://fr.wikipedia.org/wiki/Région_française#Niveau_national) publié par l’INSEE sur [www.data.gouv.fr](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/#resource-c2a54903-513e-41b9-a108-3d9cb2104217).\n\n### Anomalies détectées dans les fichiers\n\nAttention, certains fichiers peuvent comporter des anomalies du fait des difficultés de collecte des données.\n\nDes rapports d'erreurs sont publiés tous les jours par Etalab dans la rubrique ressources communautaires :\n- [Rapport d'erreurs pour le fichier quotidien](https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200402-160328/sursaud-covid19-quotidien-incoherence-01042020.xlsx) ;\n- [Rapport d'erreurs pour le fichier hebdomadaire](https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200402-160350/sursaud-covid19-hebdomadaire-incoherence-01042020.xlsx).\n\nÀ noter que : \n- Pour certains patients, la classe d’âge n’a pas été identifiée dans la base de données. Ce qui peut induire un décalage entre la somme de toutes les classes d’âge d’un indicateur et le nombre total de cet indicateur ;\n- Pour certains patients, le sexe n’a pas été identifié dans la base de données. Ce qui peut induire un décalage entre la somme H/F d’un indicateur et le nombre total de cet indicateur.\n\n\nN’hésitez pas à signaler d'autres anomalies en commentaire. Ces remarques seront communiquées à l'équipe en charge de la collecte et diffusion des données. \n\n### Autres données disponibles\n\n[Santé publique France](https://www.data.gouv.fr/fr/organizations/sante-publique-france/) publie également les [données hospitalières relatives à l’épidémie de COVID-19](https://www.data.gouv.fr/fr/datasets/donnees-hospitalieres-relatives-a-lepidemie-de-covid-19/).\n",
+    "organization": "Santé publique France",
+    "resources": [
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "d74cac1d64e2d871fb0f14163c3cb169a332acfa"
+        },
+        "created_at": "2020-03-20T18:56:25.178000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "d74cac1d64e2d871fb0f14163c3cb169a332acfa",
+          "analysis:content-length": 20587252,
+          "analysis:last-modified-at": "2025-01-01T17:00:09+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-01-01T20:59:08.168604+00:00",
+          "analysis:parsing:parquet_size": 2136562,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/dd732984c2919e6744b60ca151dd4c7b.parquet",
+          "analysis:parsing:parsing_table": "dd732984c2919e6744b60ca151dd4c7b",
+          "analysis:parsing:started_at": "2025-01-01T20:57:19.872835+00:00",
+          "check:available": true,
+          "check:count-availability": 6,
+          "check:date": "2025-03-19T02:14:30.407000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 20587252,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "eceb9fb4-3ebc-4da3-828d-f5939712600a",
+        "internal": {
+          "created_at_internal": "2020-03-20T18:56:25.178000+00:00",
+          "last_modified_internal": "2025-01-01T18:00:09.843000+00:00"
+        },
+        "last_modified": "2025-01-01T18:00:09.843000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/eceb9fb4-3ebc-4da3-828d-f5939712600a",
+        "metrics": {
+          "views": 58449
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/eceb9fb4-3ebc-4da3-828d-f5939712600a",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "sursaud-covid-quot-dep-2025-01-01-18h00.csv",
+        "type": "main",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20250101-170008/sursaud-covid-quot-dep-2025-01-01-18h00.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "515633f3a5367efa40df0340669d818f5fa33cc7"
+        },
+        "created_at": "2020-03-20T18:56:25.009000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "515633f3a5367efa40df0340669d818f5fa33cc7",
+          "analysis:content-length": 4297961,
+          "analysis:last-modified-at": "2025-01-01T17:00:08+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2025-01-01T20:57:47.595510+00:00",
+          "analysis:parsing:parquet_size": 652728,
+          "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/d5f765eabc74aeb362294125dd74c880.parquet",
+          "analysis:parsing:parsing_table": "d5f765eabc74aeb362294125dd74c880",
+          "analysis:parsing:started_at": "2025-01-01T20:57:19.208142+00:00",
+          "check:available": true,
+          "check:count-availability": 6,
+          "check:date": "2025-03-18T14:44:17.058000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 4297961,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "d2af5160-a21d-47b7-8f30-3c20dade63b1",
+        "internal": {
+          "created_at_internal": "2020-03-20T18:56:25.009000+00:00",
+          "last_modified_internal": "2025-01-01T18:00:08.067000+00:00"
+        },
+        "last_modified": "2025-01-01T18:00:08.067000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/d2af5160-a21d-47b7-8f30-3c20dade63b1",
+        "metrics": {
+          "views": 74487
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/d2af5160-a21d-47b7-8f30-3c20dade63b1",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "sursaud-covid-quot-reg-2025-01-01-18h00.csv",
+        "type": "main",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-urgences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20250101-170007/sursaud-covid-quot-reg-2025-01-01-18h00.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "f82854be4f6c99a887b6d03fc510e33ae4e9e679"
+        },
+        "created_at": "2020-03-23T19:49:34.576000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "f82854be4f6c99a887b6d03fc510e33ae4e9e679",
+          "analysis:content-length": 2694,
+          "analysis:last-modified-at": "2020-03-23T18:49:34+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2024-07-08T21:34:21.249706+00:00",
+          "analysis:parsing:parsing_table": "cbc876c9b24cb598e2b58886beb01cce",
+          "analysis:parsing:started_at": "2024-07-08T21:34:20.370456+00:00",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-19T19:29:07.856000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 2694,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "2265d880-5260-4b34-8827-b3d76180032e",
+        "internal": {
+          "created_at_internal": "2020-03-23T19:49:34.576000+00:00",
+          "last_modified_internal": "2020-03-27T18:46:47.519000+00:00"
+        },
+        "last_modified": "2020-03-27T18:46:47.519000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/2265d880-5260-4b34-8827-b3d76180032e",
+        "metrics": {
+          "views": 2014
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/2265d880-5260-4b34-8827-b3d76180032e",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecins-covid19-quot-dep.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200323-194934/metadonnee-urgenceshos-sosmedecin-covid19-quot.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "11861d8a08e39d5ca093e7aa10b8c8cfdc431a8b"
+        },
+        "created_at": "2020-03-27T18:49:59.817000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "11861d8a08e39d5ca093e7aa10b8c8cfdc431a8b",
+          "analysis:content-length": 2682,
+          "analysis:last-modified-at": "2020-03-27T17:49:59+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-08-30 23:19:59.303661+02",
+          "analysis:parsing:parsing_table": "eb00b77b5c4f0d84bb3c386a9d2aa871",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-17T05:07:48.678000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 2682,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "02c99d99-96a0-4953-8e30-04fd660530f6",
+        "internal": {
+          "created_at_internal": "2020-03-27T18:49:59.817000+00:00",
+          "last_modified_internal": "2020-03-27T18:50:07.711000+00:00"
+        },
+        "last_modified": "2020-03-27T18:50:07.711000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/02c99d99-96a0-4953-8e30-04fd660530f6",
+        "metrics": {
+          "views": 1399
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/02c99d99-96a0-4953-8e30-04fd660530f6",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecin-covid19-quot-reg.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-ugences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200327-184959/metadonnee-urgenceshos-sosmedecin-covid19-quot-reg.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "4298826ae95608b509664b32dbf4833d0049a597"
+        },
+        "created_at": "2020-03-27T18:56:34.899000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "4298826ae95608b509664b32dbf4833d0049a597",
+          "analysis:content-length": 2680,
+          "analysis:last-modified-at": "2020-03-27T17:56:34+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-08-30 11:26:59.116481+02",
+          "analysis:parsing:parsing_table": "edf07106aed477dcbb8307d12167d946",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-17T20:16:47.805000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 2680,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+        "internal": {
+          "created_at_internal": "2020-03-27T18:56:34.899000+00:00",
+          "last_modified_internal": "2020-03-27T18:56:51.696000+00:00"
+        },
+        "last_modified": "2020-03-27T18:56:51.696000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+        "metrics": {
+          "views": 1557
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/0289e4fe-bb67-42b9-a320-cd22c98d82c3",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecin-covid19-quot-fra.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-des-ugences-hospitalieres-et-de-sos-medecins-relatives-a-lepidemie-de-covid-19/20200327-185634/metadonnee-urgenceshos-sosmedecin-covid19-quot-fra.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "8ae0c8f49f35ff3ab611de8cc8650b1340fe87d0"
+        },
+        "created_at": "2020-03-23T19:49:55.734000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "8ae0c8f49f35ff3ab611de8cc8650b1340fe87d0",
+          "analysis:content-length": 1329,
+          "analysis:last-modified-at": "2020-03-23T18:49:55+00:00",
+          "analysis:last-modified-detection": "last-modified-header",
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-08-30 21:17:14.745028+02",
+          "analysis:parsing:parsing_table": "f2440d35e54401f580368af82654925c",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-16T01:46:55.707000",
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 1329,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+        "internal": {
+          "created_at_internal": "2020-03-23T19:49:55.734000+00:00",
+          "last_modified_internal": "2020-03-23T19:50:19.338000+00:00"
+        },
+        "last_modified": "2020-03-23T19:50:19.338000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+        "metrics": {
+          "views": 1639
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/8ed0a51f-147f-4c6b-b2f3-b50c88fc7c07",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "metadonnee-urgenceshos-sosmedecins-covid19-hebdo.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200323-194955/metadonnee-urgenceshos-sosmedecin-covid19-hebdo.csv"
+      },
+      {
+        "checksum": {
+          "type": "sha1",
+          "value": "06b8b6bd3c95ebc1a283bff184ab7c60b10e6ad7"
+        },
+        "created_at": "2020-03-20T18:19:24.201000+00:00",
+        "description": null,
+        "extras": {
+          "analysis:checksum": "06b8b6bd3c95ebc1a283bff184ab7c60b10e6ad7",
+          "analysis:content-length": 110,
+          "analysis:mime-type": "text/plain",
+          "analysis:parsing:finished_at": "2023-06-03 16:10:57.760544+02",
+          "analysis:parsing:parsing_table": "a592be3a66135e7d3509aefb5ff6a24d",
+          "check:available": true,
+          "check:count-availability": 5,
+          "check:date": "2025-03-18T15:57:12.306000",
+          "check:headers:content-length": 110,
+          "check:headers:content-type": "text/csv",
+          "check:status": 204,
+          "check:timeout": false
+        },
+        "filesize": 110,
+        "filetype": "file",
+        "format": "csv",
+        "harvest": null,
+        "id": "cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+        "internal": {
+          "created_at_internal": "2020-03-20T18:19:24.201000+00:00",
+          "last_modified_internal": "2020-03-23T18:47:52.441000+00:00"
+        },
+        "last_modified": "2020-03-23T18:47:52.441000+00:00",
+        "latest": "https://www.data.gouv.fr/api/1/datasets/r/cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+        "metrics": {
+          "views": 1950
+        },
+        "mime": "text/csv",
+        "preview_url": "https://explore.data.gouv.fr/fr/resources/cbed61a8-64e8-4c8c-8e97-65d3a31a99b6",
+        "schema": {
+          "name": null,
+          "url": null,
+          "version": null
+        },
+        "title": "code-tranches-dage.csv",
+        "type": "documentation",
+        "url": "https://static.data.gouv.fr/resources/donnees-relatives-a-lepidemie-du-covid-19/20200320-181924/code-tranches-dage.csv"
+      }
+    ],
+    "created": "",
+    "keyword": "urgences épidémie"
+  }
+]

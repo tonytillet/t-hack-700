@@ -3,30 +3,12 @@ version: '3.8'
 services:
   lumen:
     build: .
-    container_name: lumen-app
     ports:
-      - "8080:8080"
-    environment:
-      - LUMEN_PORT=8080
-    volumes:
-      # Montage des données (optionnel)
-      - ./data:/app/data:ro
-      - ./models:/app/models:ro
-      # Montage des logs (optionnel)
-      - lumen-logs:/app/logs
+      - "8501:8501"
+    container_name: lumen-app
     restart: unless-stopped
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 40s
-    networks:
-      - lumen-network
-
-volumes:
-  lumen-logs:
-
-networks:
-  lumen-network:
-    driver: bridge
+    volumes:
+      - .:/app
+    environment:
+      - STREAMLIT_SERVER_RUN_ON_SAVE=true
+      - STREAMLIT_SERVER_FILE_WATCHER_TYPE=poll

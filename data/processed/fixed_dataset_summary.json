@@ -1,0 +1,44 @@
+{
+  "total_rows": 104,
+  "total_columns": 33,
+  "target_variable": "valeur",
+  "features": {
+    "temporal": [
+      "campagne",
+      "season",
+      "year",
+      "month",
+      "quarter",
+      "is_winter",
+      "is_spring",
+      "is_summer",
+      "is_autumn"
+    ],
+    "geographic": [
+      "region",
+      "population",
+      "density",
+      "region_code",
+      "population_density_ratio"
+    ],
+    "demographic": [
+      "groupe",
+      "age_group",
+      "is_senior"
+    ],
+    "behavioral": [
+      "behavioral_score"
+    ],
+    "weather": [
+      "avg_temperature",
+      "temperature_variance",
+      "humidity",
+      "precipitation"
+    ],
+    "target": [
+      "valeur",
+      "valeur_normalized"
+    ]
+  },
+  "creation_date": "2025-10-25T23:40:02.225467"
+}

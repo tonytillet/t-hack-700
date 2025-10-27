@@ -1,0 +1,5 @@
+# Exclusion des données traitées de Git
+# Les fichiers Parquet sont volumineux et versionnés avec DVC
+# Seules les métadonnées (.dvc) sont dans Git
+
+/lumen_merged_clean.parquet

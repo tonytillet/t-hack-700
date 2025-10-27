@@ -1,0 +1,264 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c21e1ec104bcb7e2609d",
+          "name": "DREES",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c21e1ec104bcb7e2609e",
+          "name": "DREES",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2024-12-12T08:57:34.643000+00:00",
+      "deleted": null,
+      "description": "La DREES met à disposition un jeu de données qui accompagne l’étude et résultat 1320 publié en décembre 2024 : [« Passages aux urgences entre 2017 et 2023 : des dynamiques contrastées selon les départements »](https://drees.solidarites-sante.gouv.fr/publications-communique-de-presse/etudes-et-resultats/241212_ER_passages-aux-urgences). Ces données sont disponibles au format CSV et permettent d’explorer à un niveau départemental le nombre de passages journaliers aux urgences de 2017 à 2023.\n\nPlus précisément, elles fournissent, pour chaque département et chaque date entre le 1er janvier 2017 et le 31 décembre 2023, le nombre de passages au sein des services d’urgences. Cependant, la qualité des données journalières n’a pas été jugée suffisante pour inclure la Martinique, ni pour couvrir l’ensemble de la période pour certains départements (La Réunion, Mayotte, la Corse-du-Sud, la Haute-Corse et le Territoire de Belfort, couverts à partir de 2018 uniquement ; la Guyane, à partir de 2020). Les données de la Lozère et de Mayotte ne sont pas mises à disposition, les données y étant plus fragiles puisque reposant sur un seul établissement remontant des données journalières.\n\nCes séries temporelles sont obtenues en combinant plusieurs sources : les RPU (résumés des passages aux urgences) pour la variabilité journalière, la SAE (statistique annuelle des établissements de santé) pour les totaux annuels de référence, et le PMSI (programme de médicalisation des systèmes d’information) pour combler les lacunes ou corriger des anomalies. Une désagrégation des totaux annuels en données journalières a été réalisée grâce une méthode d’étalonnage-calage (Denton-Cholette), assurant la cohérence avec les données annuelles tout en respectant la variabilité journalière (voir encadrés 1 et 2 de l’étude et résultat 1320 pour plus de précisions sur les sources et la méthode).\n\nLe fichier CSV comprend donc 4 champs :\n\nNom| Descriptif| Format  \n---|---|---  \ndate| La date à laquelle les passages ont été enregistrés au sein des structures d'urgence| dd/mm/yyyy  \ndep| Le code officiel géographique du département où les passages ont été enregistrés par les structures d’urgences.| Texte  \nlibelle_dep| Le libellé du département.| Texte  \nnb_passages| Le nombre de passages enregistrés (corrigés) au sein des structures d’urgence du département.| Numérique  \n  \n  \n\n\n**Précisions complémentaires :**\n\nLe champ \"nb_passages\" inclus des chiffres après la virgule, car il résulte d’une estimation (étalonnage et calage des données). Cette méthode consiste à ajuster les données, en tenant compte des variations journalières d’une source tout en intégrant des contraintes liées aux données annuelles d’une source de référence. Cette méthode donne lieu à des valeurs avec des décimales, qui reflètent l’ajustement effectués autour des valeurs exactes.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/series_longues_passages_urgences_2017_2023/",
+        "domain": "data.drees.solidarites-sante.gouv.fr",
+        "issued_at": "2024-12-12T08:57:34.643000+00:00",
+        "last_update": "2025-10-24T00:05:37.645000+00:00",
+        "modified_at": "2024-12-12T08:57:34.643000+00:00",
+        "remote_id": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/series_longues_passages_urgences_2017_2023/",
+        "remote_url": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/series_longues_passages_urgences_2017_2023/",
+        "source_id": "620b7a508fcaacfd6a3af237",
+        "uri": "https://data.drees.solidarites-sante.gouv.fr/explore/dataset/series_longues_passages_urgences_2017_2023/"
+      },
+      "id": "675b7bbf79cf8f76c2b02f3f",
+      "internal": {
+        "created_at_internal": "2024-12-13T00:11:43.028000+00:00",
+        "last_modified_internal": "2024-12-13T00:11:43.028000+00:00"
+      },
+      "last_modified": "2024-12-12T08:57:34.643000+00:00",
+      "last_update": "2024-12-12T08:57:34.643000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 244,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2896
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fff94a3a7292c64a77fc1",
+        "logo": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/3c/2a35d973814c2681b6941e11810ff3-100.png",
+        "name": "Ministère des Solidarités et de la Santé",
+        "page": "https://www.data.gouv.fr/organizations/ministere-des-solidarites-et-de-la-sante/",
+        "slug": "ministere-des-solidarites-et-de-la-sante",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ministere-des-solidarites-et-de-la-sante/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/series-longues-corrigees-du-nombre-de-passages-aux-urgences-2017-a-2023-en-france/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2024-12-12T08:57:34.643000+00:00",
+          "description": "Séries longues corrigées du nombre de passages aux urgences 2017 à 2023 en France (csv)",
+          "extras": {
+            "analysis:checksum": "5f84f459d8c9ebfe188b6514681cdd73a042c6dc",
+            "analysis:content-length": 7797857,
+            "analysis:last-modified-at": "2024-12-12T08:57:34.643000+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-07-15T17:18:45.033925+00:00",
+            "analysis:parsing:parquet_size": 960922,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/b0005488-e2a9-455a-ae33-b3263d06d119.parquet",
+            "analysis:parsing:parsing_table": "ce1862137943190758ce6ecf2703587f",
+            "analysis:parsing:started_at": "2025-07-15T17:18:13.536793+00:00",
+            "check:available": true,
+            "check:date": "2025-05-05T10:31:47.345269+00:00",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2024-12-12T08:57:34.643000+00:00",
+            "modified_at": "2024-12-12T08:57:34.643000+00:00",
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/series_longues_passages_urgences_2017_2023/exports/csv?use_labels=true"
+          },
+          "id": "b0005488-e2a9-455a-ae33-b3263d06d119",
+          "internal": {
+            "created_at_internal": "2024-12-13T00:11:43.030000+00:00",
+            "last_modified_internal": "2024-12-13T00:11:43.030000+00:00"
+          },
+          "last_modified": "2024-12-12T08:57:34.643000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b0005488-e2a9-455a-ae33-b3263d06d119",
+          "metrics": {
+            "views": 166
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/b0005488-e2a9-455a-ae33-b3263d06d119",
+          "schema": null,
+          "title": "series_longues_passages_urgences_2017_2023.csv",
+          "type": "main",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/series_longues_passages_urgences_2017_2023/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-12-12T08:57:34.643000+00:00",
+          "description": "Séries longues corrigées du nombre de passages aux urgences 2017 à 2023 en France (json)",
+          "extras": {
+            "analysis:checksum": "d49f503bc71dc55a4a4d18d910e96833e41e6a63",
+            "analysis:content-length": 21678052,
+            "analysis:last-modified-at": "2024-12-12T08:57:34.643000+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "check:available": true,
+            "check:date": "2025-05-05T12:40:40.504324+00:00",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2024-12-12T08:57:34.643000+00:00",
+            "modified_at": "2024-12-12T08:57:34.643000+00:00",
+            "uri": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/series_longues_passages_urgences_2017_2023/exports/json"
+          },
+          "id": "8c9230a1-d4ef-415e-a53f-ff7560a8fe99",
+          "internal": {
+            "created_at_internal": "2024-12-13T00:11:43.031000+00:00",
+            "last_modified_internal": "2024-12-13T00:11:43.031000+00:00"
+          },
+          "last_modified": "2024-12-12T08:57:34.643000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/8c9230a1-d4ef-415e-a53f-ff7560a8fe99",
+          "metrics": {
+            "views": 78
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "series_longues_passages_urgences_2017_2023.json",
+          "type": "main",
+          "url": "https://data.drees.solidarites-sante.gouv.fr/api/explore/v2.1/catalog/datasets/series_longues_passages_urgences_2017_2023/exports/json"
+        }
+      ],
+      "schema": null,
+      "slug": "series-longues-corrigees-du-nombre-de-passages-aux-urgences-2017-a-2023-en-france",
+      "spatial": null,
+      "tags": [
+        "acces-aux-soins",
+        "activite-hospitaliere",
+        "disparites-et-inegalites-territoriales",
+        "personnel-hospitalier",
+        "sante-et-systeme-de-soins",
+        "urgences"
+      ],
+      "temporal_coverage": null,
+      "title": "Séries longues corrigées du nombre de passages aux urgences 2017 à 2023 en France",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/series-longues-corrigees-du-nombre-de-passages-aux-urgences-2017-a-2023-en-france/"
+    }
+  ],
+  "next_page": null,
+  "page": 1,
+  "page_size": 10,
+  "previous_page": null,
+  "total": 1
+}

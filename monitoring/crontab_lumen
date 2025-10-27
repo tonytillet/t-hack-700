@@ -1,9 +1,0 @@
-# LUMEN - Monitoring automatique
-# Monitoring quotidien à 6h00
-0 6 * * * /Users/meriemzahzouh/epitech/t-hack-700/t-hack-700/monitoring/daily_monitoring.sh
-
-# Retrain hebdomadaire le dimanche à 2h00
-0 2 * * 0 /Users/meriemzahzouh/epitech/t-hack-700/t-hack-700/monitoring/weekly_retrain.sh
-
-# Nettoyage des logs mensuel
-0 0 1 * * find /Users/meriemzahzouh/epitech/t-hack-700/t-hack-700/monitoring/logs -name "*.log" -mtime +30 -delete

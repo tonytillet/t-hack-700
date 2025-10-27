@@ -1,0 +1,1965 @@
+{
+  "data": [
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2017-10-12T15:23:03.189000+00:00",
+      "deleted": null,
+      "description": "Les achats des établissements publics de santé constituent un enjeu majeur, avec au total 25 Md€ de dépenses par an. Les seuls achats de matériels, biens et services  (18,7 Md€, +52 % en 10 ans) représentent leur deuxième poste de dépenses après le personnel. Indispensables à l’activité hospitalière, ils constituent un chaînon déterminant de la qualité des prises en charge. À l’issue d’une enquête menée avec les chambres régionales des comptes, la Cour constate des risques persistants en matière de régularité des achats, une mutualisation insuffisante de cette fonction entre hôpitaux, une estimation insuffisamment rigoureuse des économies obtenues,  et une politique d’achat des médicaments peu efficace. Elle formule 12 recommandations visant notamment à améliorer la performance des achats dans le cadre des groupements hospitaliers de territoire et à repenser les modalités d’acquisition des médicaments par les hôpitaux.\n\nCe rapport est accessible sur [le site de la Cour](https://www.ccomptes.fr/fr/publications/les-achats-hospitaliers).\n\nLes fichiers publiés correspondent aux données ayant servi de base à l'élaboration du rapport.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": null,
+      "id": "59df6cb7c751df4bd38d228e",
+      "internal": {
+        "created_at_internal": "2017-10-12T15:23:03.189000+00:00",
+        "last_modified_internal": "2018-09-13T17:19:19.906000+00:00"
+      },
+      "last_modified": "2018-09-13T17:19:19.906000+00:00",
+      "last_update": "2018-09-19T14:56:05+00:00",
+      "license": "odc-odbl",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 313,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2960
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "53698dada3a729239d20331d",
+        "logo": "https://static.data.gouv.fr/avatars/ac/83f761a23f4263be8b3401b01625e8-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/ac/83f761a23f4263be8b3401b01625e8-100.png",
+        "name": "Cour des comptes",
+        "page": "https://www.data.gouv.fr/organizations/cour-des-comptes/",
+        "slug": "cour-des-comptes",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/cour-des-comptes/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/les-achats-hospitaliers/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.5555555555555556,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2017-10-12T15:23:30.350000+00:00",
+          "description": null,
+          "extras": {
+            "analysis:checksum": "a3db272bc9ef0043e3950c127359a96eed6edb80",
+            "analysis:content-length": 13002,
+            "analysis:last-modified-at": "2018-09-19T14:56:05+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:count-availability": 5,
+            "check:date": "2025-03-21T15:10:54.855008+00:00",
+            "check:headers:content-length": 13002,
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://www.ccomptes.fr/sites/default/files/2017-10/20171012-donnees-Achats-hospitaliers.zip"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv/utf8",
+          "harvest": null,
+          "id": "976ba45b-31fb-460f-b319-ed4975e1572d",
+          "internal": {
+            "created_at_internal": "2017-10-12T15:23:30.350000+00:00",
+            "last_modified_internal": "2017-10-12T15:23:30.350000+00:00"
+          },
+          "last_modified": "2018-09-19T14:56:05+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/976ba45b-31fb-460f-b319-ed4975e1572d",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 330
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Les achats hospitaliers",
+          "type": "main",
+          "url": "https://www.ccomptes.fr/sites/default/files/2017-10/20171012-donnees-Achats-hospitaliers.zip"
+        }
+      ],
+      "schema": null,
+      "slug": "les-achats-hospitaliers",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": []
+      },
+      "tags": [],
+      "temporal_coverage": null,
+      "title": "Les achats hospitaliers",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/les-achats-hospitaliers/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b94bcf8287a1cf47e2609b",
+          "name": "Région Île-de-France",
+          "role": "publisher"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b94bcf8287a1cf47e2609c",
+          "name": "Région Île-de-France",
+          "role": "creator"
+        }
+      ],
+      "created_at": "2013-06-14T00:00:00+00:00",
+      "deleted": null,
+      "description": "Liste et géolocalisation des établissements hospitaliers d'Île-de-France (source FINESS) :\n\n  * centres hospitaliers régionaux (C.H.R.), \n  * centres hospitaliers (C.H.), \n  * centres hospitaliers spécialisés lutte maladies mentales, \n  * centres de lutte contre le cancer, \n  * hôpitaux locaux, \n  * établissements de soins de suite et de réadaptation, \n  * établissements de soins de longue durée, \n  * établissements de soins de courte durée, \n  * autres établissements de lutte contre les maladies mentales, \n  * établissements d'enfants à caractère sanitaire, établissements de lutte contre l'alcoolisme.",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "license": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ],
+          "rights": [
+            "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "dct_identifier": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/",
+        "domain": "data.iledefrance.fr",
+        "issued_at": "2013-06-14T00:00:00+00:00",
+        "last_update": "2025-10-24T04:03:57.063000+00:00",
+        "modified_at": "2013-06-14T14:55:55+00:00",
+        "remote_id": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/",
+        "remote_url": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/",
+        "source_id": "5898eb3ec751df390fae0a65",
+        "uri": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/"
+      },
+      "id": "595916afa3a7291dcf9c809a",
+      "internal": {
+        "created_at_internal": "2017-07-02T17:52:15.867000+00:00",
+        "last_modified_internal": "2013-06-14T14:55:55+00:00"
+      },
+      "last_modified": "2013-06-14T14:55:55+00:00",
+      "last_update": "2013-06-14T14:55:55+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 2,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 1855,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3130
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fffa8a3a7292c64a780c8",
+        "logo": "https://static.data.gouv.fr/avatars/ae/e36a843f5d4f44a76957c3c8994bb6-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/ae/e36a843f5d4f44a76957c3c8994bb6-100.jpg",
+        "name": "Région Île-de-France",
+        "page": "https://www.data.gouv.fr/organizations/region-ile-de-france/",
+        "slug": "region-ile-de-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-ile-de-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/les-etablissements-hospitaliers-franciliens/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.5555555555555556,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2013-06-14T00:00:00+00:00",
+          "description": "Les établissements hospitaliers franciliens (csv)",
+          "extras": {
+            "analysis:checksum": "4ed25e19043d47a09e9ddc580f84ba52869d317b",
+            "analysis:content-length": 533100,
+            "analysis:last-modified-at": "2013-06-14T14:55:55+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-05-05T16:56:11.785919+00:00",
+            "analysis:parsing:parquet_size": 183914,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/839a5a17b59758196f0175607e36ee28.parquet",
+            "analysis:parsing:parsing_table": "839a5a17b59758196f0175607e36ee28",
+            "analysis:parsing:started_at": "2025-05-05T16:56:07.712808+00:00",
+            "check:available": true,
+            "check:count-availability": 128,
+            "check:date": "2025-05-05T15:28:39.185774+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.csv\"",
+            "check:headers:content-type": "text/csv",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2013-06-14T00:00:00+00:00",
+            "modified_at": "2013-06-14T14:55:55+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/csv?use_labels=true"
+          },
+          "id": "3d95ce97-ca80-44e1-846c-66646d7fbe3f",
+          "internal": {
+            "created_at_internal": "2018-03-16T07:40:47.761000+00:00",
+            "last_modified_internal": "2013-06-14T14:55:55+00:00"
+          },
+          "last_modified": "2013-06-14T14:55:55+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/3d95ce97-ca80-44e1-846c-66646d7fbe3f",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 565
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/3d95ce97-ca80-44e1-846c-66646d7fbe3f",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "les_etablissements_hospitaliers_franciliens.csv",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/csv?use_labels=true"
+        },
+        {
+          "checksum": null,
+          "created_at": "2013-06-14T00:00:00+00:00",
+          "description": "Les établissements hospitaliers franciliens (json)",
+          "extras": {
+            "analysis:checksum": "3d9a7e0d9fa90669f965bde85b9e92e6c2bf787e",
+            "analysis:content-length": 1307016,
+            "analysis:last-modified-at": "2013-06-14T14:55:55+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 125,
+            "check:date": "2025-05-05T20:09:30.223429+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.json\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2013-06-14T00:00:00+00:00",
+            "modified_at": "2013-06-14T14:55:55+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/json"
+          },
+          "id": "cf8d65a6-2c0e-4a9f-93ef-f9f07c3b9dc5",
+          "internal": {
+            "created_at_internal": "2018-03-16T07:40:47.761000+00:00",
+            "last_modified_internal": "2013-06-14T14:55:55+00:00"
+          },
+          "last_modified": "2013-06-14T14:55:55+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/cf8d65a6-2c0e-4a9f-93ef-f9f07c3b9dc5",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 426
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "les_etablissements_hospitaliers_franciliens.json",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2013-06-14T00:00:00+00:00",
+          "description": "Les établissements hospitaliers franciliens (geojson)",
+          "extras": {
+            "analysis:checksum": "90d767fcd0452f9c38160c7f3e65be33c0b36374",
+            "analysis:content-length": 1294916,
+            "analysis:last-modified-at": "2013-06-14T14:55:55+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 23,
+            "check:date": "2025-05-06T01:07:47.232331+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.geojson\"",
+            "check:headers:content-type": "application/json",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false",
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2013-06-14T00:00:00+00:00",
+            "modified_at": "2013-06-14T14:55:55+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/geojson"
+          },
+          "id": "2f51fa1a-9868-42ab-af9b-c65db29629e1",
+          "internal": {
+            "created_at_internal": "2018-03-16T07:40:47.762000+00:00",
+            "last_modified_internal": "2013-06-14T14:55:55+00:00"
+          },
+          "last_modified": "2013-06-14T14:55:55+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2f51fa1a-9868-42ab-af9b-c65db29629e1",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 260
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "les_etablissements_hospitaliers_franciliens.geojson",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2013-06-14T00:00:00+00:00",
+          "description": "Les établissements hospitaliers franciliens (shp)",
+          "extras": {
+            "analysis:checksum": "51e21ffa6e97125cba16ce7222ec7a5d1af81dd6",
+            "analysis:content-length": 256087,
+            "analysis:last-modified-at": "2013-06-14T14:55:55+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "application/zip",
+            "check:available": true,
+            "check:count-availability": 21,
+            "check:date": "2025-05-05T11:29:53.959803+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.zip\"",
+            "check:headers:content-type": "application/zip",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "https://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=true",
+            "dcat": {
+              "license": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ],
+              "rights": [
+                "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+              ]
+            }
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2013-06-14T00:00:00+00:00",
+            "modified_at": "2013-06-14T14:55:55+00:00",
+            "uri": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/shp"
+          },
+          "id": "2f96b424-bc68-4628-931c-c068e13c5ace",
+          "internal": {
+            "created_at_internal": "2018-03-16T07:40:47.762000+00:00",
+            "last_modified_internal": "2013-06-14T14:55:55+00:00"
+          },
+          "last_modified": "2013-06-14T14:55:55+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/2f96b424-bc68-4628-931c-c068e13c5ace",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 231
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "les_etablissements_hospitaliers_franciliens.zip",
+          "type": "main",
+          "url": "https://data.iledefrance.fr/api/explore/v2.1/catalog/datasets/les_etablissements_hospitaliers_franciliens/exports/shp"
+        }
+      ],
+      "schema": null,
+      "slug": "les-etablissements-hospitaliers-franciliens",
+      "spatial": null,
+      "tags": [
+        "geolocalisation",
+        "logement-sante-social",
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "Les établissements hospitaliers franciliens",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/les-etablissements-hospitaliers-franciliens/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2013-12-10T13:05:13.497000+00:00",
+      "deleted": null,
+      "description": "Liste et géolocalisation des établissements hospitaliers d'Île-de-France\n(source FINESS) :\n\n-   centres hospitaliers régionaux (C.H.R.),\n-   centres hospitaliers (C.H.),\n-   centres hospitaliers spécialisés lutte maladies mentales,\n-   centres de lutte contre le cancer,\n-   hôpitaux locaux,\n-   établissements de soins de suite et de réadaptation,\n-   établissements de soins de longue durée,\n-   établissements de soins de courte durée,\n-   autres établissements de lutte contre les maladies mentales,\n-   établissements d'enfants à caractère sanitaire, établissements de\n    lutte contre l'alcoolisme.",
+      "description_short": null,
+      "extras": {
+        "datagouv_ckan_id": "e99ecf1b-281b-4ba2-8f8d-42f57b9b7173",
+        "datagouv_ckan_last_sync": "2014-09-16T09:27:06.118000",
+        "remote_url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/"
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": "2016-01-15T00:00:00+00:00",
+      "harvest": null,
+      "id": "5369983da3a729239d204edc",
+      "internal": {
+        "created_at_internal": "2013-12-10T13:05:13.497000+00:00",
+        "last_modified_internal": "2016-02-05T15:33:55.251000+00:00"
+      },
+      "last_modified": "2016-02-05T15:33:55.251000+00:00",
+      "last_update": "2025-10-19T14:31:17.860000+00:00",
+      "license": "fr-lo",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 1,
+        "discussions_open": 1,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 8776,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 12336
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "public-service"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "534fffa8a3a7292c64a780c8",
+        "logo": "https://static.data.gouv.fr/avatars/ae/e36a843f5d4f44a76957c3c8994bb6-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/ae/e36a843f5d4f44a76957c3c8994bb6-100.jpg",
+        "name": "Région Île-de-France",
+        "page": "https://www.data.gouv.fr/organizations/region-ile-de-france/",
+        "slug": "region-ile-de-france",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-ile-de-france/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/les-etablissements-hospitaliers-franciliens-idf/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": false,
+        "score": 0.4444444444444444,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2016-01-15T16:35:51.561000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:check_id": 35136432,
+            "analysis:checksum": "ddadf77639d2da89ed8a2b3baa9919fff8197ea3",
+            "analysis:content-length": 531874,
+            "analysis:last-modified-at": "2025-10-19T14:31:17.860461+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/plain",
+            "analysis:parsing:finished_at": "2025-10-19T14:31:21.120852+00:00",
+            "analysis:parsing:geojson_size": 2148810,
+            "analysis:parsing:geojson_url": "https://object.files.data.gouv.fr/hydra-geojson/hydra-geojson/fb2b2335-66d7-4688-9eb0-ca813871338e.geojson",
+            "analysis:parsing:parquet_size": 148773,
+            "analysis:parsing:parquet_url": "https://object.files.data.gouv.fr/hydra-parquet/hydra-parquet/fb2b2335-66d7-4688-9eb0-ca813871338e.parquet",
+            "analysis:parsing:parsing_table": "72ffc1c2722fe5e70e5ed8c0f633e371",
+            "analysis:parsing:pmtiles_size": 324508,
+            "analysis:parsing:pmtiles_url": "https://object.files.data.gouv.fr/hydra-pmtiles/hydra-pmtiles/fb2b2335-66d7-4688-9eb0-ca813871338e.pmtiles",
+            "analysis:parsing:started_at": "2025-10-19T14:31:19.414463+00:00",
+            "check:available": true,
+            "check:count-availability": 270,
+            "check:date": "2025-10-18T02:31:03.933162+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.csv\"",
+            "check:headers:content-type": "application/csv",
+            "check:id": 34981740,
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=csv"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": null,
+          "id": "fb2b2335-66d7-4688-9eb0-ca813871338e",
+          "internal": {
+            "created_at_internal": "2016-01-15T16:35:51.561000+00:00",
+            "last_modified_internal": "2016-01-15T16:35:51.561000+00:00"
+          },
+          "last_modified": "2025-10-19T14:31:17.860461+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/fb2b2335-66d7-4688-9eb0-ca813871338e",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 3760
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/fb2b2335-66d7-4688-9eb0-ca813871338e",
+          "schema": null,
+          "title": "Fichier CSV",
+          "type": "main",
+          "url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-01-15T16:35:51.562000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:check_id": 35136375,
+            "analysis:checksum": "fdac6835e2e66462be66aa3dcd5898ceea59e88c",
+            "analysis:content-length": 1415589,
+            "analysis:last-modified-at": "2025-10-19T14:29:08.505723+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "application/json",
+            "check:available": true,
+            "check:count-availability": 53,
+            "check:date": "2025-10-19T02:29:02.376177+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.json\"",
+            "check:headers:content-type": "application/json",
+            "check:id": 35110629,
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=json"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": null,
+          "id": "235d5a2a-7b23-46fc-a96e-7d926781ddb4",
+          "internal": {
+            "created_at_internal": "2016-01-15T16:35:51.562000+00:00",
+            "last_modified_internal": "2016-01-15T16:35:51.562000+00:00"
+          },
+          "last_modified": "2025-10-19T14:29:08.505723+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/235d5a2a-7b23-46fc-a96e-7d926781ddb4",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 1020
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier JSON",
+          "type": "main",
+          "url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-01-15T16:35:51.562000+00:00",
+          "description": "",
+          "extras": {
+            "analysis:check_id": 34887457,
+            "analysis:checksum": "bbe486953281a29d194c43a550e1d4c8d3e1aa9a",
+            "analysis:content-length": 2875862,
+            "analysis:last-modified-at": "2025-10-17T02:35:58.747114+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/xml",
+            "check:available": true,
+            "check:count-availability": 330,
+            "check:date": "2025-04-29T15:04:10.682230+00:00",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.xls\"",
+            "check:headers:content-type": "application/xls",
+            "check:status": 200,
+            "check:timeout": false,
+            "check:url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=xls"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "xls",
+          "harvest": null,
+          "id": "13c5d27c-54cb-44df-a530-172ae35569dd",
+          "internal": {
+            "created_at_internal": "2016-01-15T16:35:51.562000+00:00",
+            "last_modified_internal": "2016-01-15T16:35:51.562000+00:00"
+          },
+          "last_modified": "2025-10-17T02:35:58.747114+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/13c5d27c-54cb-44df-a530-172ae35569dd",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 2897
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier XLS",
+          "type": "main",
+          "url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=xls"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-01-15T16:35:51.563000+00:00",
+          "description": "",
+          "extras": {
+            "check:available": false,
+            "check:count-availability": 162,
+            "check:date": "2020-11-10T07:33:34.294000",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"les_etablissements_hospitaliers_franciliens.zip\"",
+            "check:headers:content-length": 244714,
+            "check:headers:content-type": "application/zip",
+            "check:url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=shp"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "shp",
+          "harvest": null,
+          "id": "f96574ae-7d83-4266-b8ba-911e4043e07f",
+          "internal": {
+            "created_at_internal": "2016-01-15T16:35:51.563000+00:00",
+            "last_modified_internal": "2016-01-15T16:35:51.563000+00:00"
+          },
+          "last_modified": "2016-01-15T16:35:51.563000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f96574ae-7d83-4266-b8ba-911e4043e07f",
+          "metrics": {
+            "nb_hits": 0,
+            "nb_uniq_visitors": 0,
+            "nb_visits": 0,
+            "views": 1042
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "Fichier SHAPEFILE",
+          "type": "main",
+          "url": "http://data.iledefrance.fr/explore/dataset/les_etablissements_hospitaliers_franciliens/download?format=shp"
+        }
+      ],
+      "schema": null,
+      "slug": "les-etablissements-hospitaliers-franciliens-idf",
+      "spatial": {
+        "geom": null,
+        "granularity": "other",
+        "zones": []
+      },
+      "tags": [
+        "geolocalisation",
+        "necmergitur",
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "Les établissements hospitaliers franciliens",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/les-etablissements-hospitaliers-franciliens-idf/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [
+        {
+          "contact_form": null,
+          "email": "{{orgContactEmail}}",
+          "id": "65c2ce441ef694ce8de5f9fe",
+          "name": "UserOD",
+          "role": "contact"
+        },
+        {
+          "contact_form": null,
+          "email": null,
+          "id": "67b7c2654c7d750c7ce26089",
+          "name": "Région Normandie",
+          "role": "publisher"
+        }
+      ],
+      "created_at": "2022-05-17T14:52:10+00:00",
+      "deleted": null,
+      "description": "Med’Instal Normandie offre l’opportunité de rejoindre une équipe et un projet dans de nombreuses spécialités.\n\nSur ce portail web lancé par la Région Normandie (<https://medinstal.normandie.fr/>), les étudiants et l’ensemble des professionnels de santé, quel que soit leur mode d’exercice, peuvent trouver :\n\n→ des offres d’emploi et d’installation, en ville et à l’hôpital.\n\n→ des cartes interactives, des terrains de stage et des structures/ établissements de santé.\n\n→ des contacts utiles, des possibilités de logement et des aides financières disponibles pour vous installer.\n\n→ une présentation détaillée du territoire et de l’environnement professionnel\n\n→ des éléments sur la démographie médicale, l’état de santé des Normands, les études en cours.\n\n  \n\n\nMed’Instal est géré et animé par la Région Normandie.  \n\n\nIl a été créé en partenariat avec :\n\n· les Départements, des EPCI et des communes\n\n· l’Agence Régionale de Santé, l’Assurance Maladie\n\n· l’Union Régionale des Médecins Libéraux, les Unions Régionales des Professionnels de Santé\n\n· les établissements d’enseignement supérieur (facultés de médecine…)\n\n· les associations régionales liées à la santé (Observatoire Régional de la Santé, Promotion Santé Normandie, Normand’e-santé…).\n\n  \n\n\n**Zoom sur...**\n\nAvec deux centres hospitaliers universitaires (CHU), plus d’une soixantaine d’hôpitaux publics, une cinquantaine de cliniques et de nombreux centres spécialisés, la Normandie dispose d’un écosystème hospitalier à la fois performant et innovant. Elle dispose d’équipements de pointe, notamment :\n\n· l’Institut normand de génomique qui regroupera sur un site unique à Rouen tous les acteurs de la génétique\n\n· la plateforme d’imagerie biomédicale CYCERON et le tout nouveau centre d’hadronthérapie ARCHADE à Caen unique en Europe\n\n· le Medical Training Center à Rouen…\n\n  \n\n\nCette base de données présente les établissements hospitaliers.   \n\n\n  \n\n\n**Fréquence de mise à jour :** Trimestrielle\n\n**Prochaine mise à jour :** T4 2022\n\n  \n\n\n[Vous pouvez télécharger le descriptif des attributs ici.](https://normandie.maps.arcgis.com/sharing/rest/content/items/2ea345838b68434298b141a91b60ba67/data)",
+      "description_short": null,
+      "extras": {
+        "dcat": {
+          "accessRights": [
+            "N25ecb12243444a6487184683b94d6ee8"
+          ],
+          "provenance": [
+            "N6f18616c406b4a979cea126efa0beca3"
+          ]
+        }
+      },
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "created_at": "2022-05-17T14:52:10+00:00",
+        "dct_identifier": "https://www.arcgis.com/home/item.html?id=7a86241202f046d2a12bb70b30662fde&sublayer=0",
+        "domain": "opendata.normandie.fr",
+        "last_update": "2025-06-10T00:05:47.463000+00:00",
+        "modified_at": "2022-05-17T15:12:42.044000+00:00",
+        "remote_id": "https://www.arcgis.com/home/item.html?id=7a86241202f046d2a12bb70b30662fde&sublayer=0",
+        "remote_url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0",
+        "source_id": "61bc515c5acfabe91af4a044",
+        "uri": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0"
+      },
+      "id": "6491ad3cbd5821a3ee43d74c",
+      "internal": {
+        "created_at_internal": "2023-06-20T13:44:27.971000+00:00",
+        "last_modified_internal": "2023-06-23T07:41:56.541000+00:00"
+      },
+      "last_modified": "2022-05-17T15:12:42.044000+00:00",
+      "last_update": "2025-10-24T01:59:05.945000+00:00",
+      "license": "lov2",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 16906,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 3689
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "local-authority"
+          },
+          {
+            "kind": "certified"
+          }
+        ],
+        "class": "Organization",
+        "id": "565ebf4788ee3869aae72046",
+        "logo": "https://static.data.gouv.fr/avatars/dc/6a0a36e58d4e44b21c809b7cc5ceaa-original.jpg",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/dc/6a0a36e58d4e44b21c809b7cc5ceaa-100.jpg",
+        "name": "Région Normandie",
+        "page": "https://www.data.gouv.fr/organizations/region-normandie/",
+        "slug": "region-normandie",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/region-normandie/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/etablissements-hospitaliers-en-normandie/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": true,
+        "dataset_description_quality": true,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.6666666666666666,
+        "spatial": true,
+        "temporal_coverage": false,
+        "update_frequency": false
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2023-06-20T13:44:27.986000+00:00",
+          "description": "Web Page",
+          "extras": {
+            "analysis:check_id": 35001224,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:58:34.799868+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-10T15:09:14.769902+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/html",
+          "harvest": {},
+          "id": "444bb8fe-92ef-45ff-92b1-83ecf86b73bf",
+          "internal": {
+            "created_at_internal": "2023-06-20T13:44:27.986000+00:00",
+            "last_modified_internal": "2023-06-20T13:44:27.986000+00:00"
+          },
+          "last_modified": "2025-10-18T05:58:34.799868+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/444bb8fe-92ef-45ff-92b1-83ecf86b73bf",
+          "metrics": {
+            "views": 219
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ArcGIS Hub Dataset",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/maps/7a86241202f046d2a12bb70b30662fde_0"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-06-20T13:44:27.988000+00:00",
+          "description": "Esri REST",
+          "extras": {
+            "analysis:last-modified-at": "2022-05-17T15:12:42+00:00",
+            "analysis:last-modified-detection": "last-modified-header",
+            "check:available": true,
+            "check:date": "2025-07-20T22:48:15.606208+00:00",
+            "check:headers:content-length": 4928,
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/json",
+          "harvest": {},
+          "id": "79b502f6-9f7f-4606-815f-e1d6d859fc88",
+          "internal": {
+            "created_at_internal": "2023-06-20T13:44:27.988000+00:00",
+            "last_modified_internal": "2023-06-20T13:44:27.988000+00:00"
+          },
+          "last_modified": "2022-05-17T15:12:42+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/79b502f6-9f7f-4606-815f-e1d6d859fc88",
+          "metrics": {
+            "views": 165
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ArcGIS GeoService",
+          "type": "main",
+          "url": "https://services2.arcgis.com/OSTljxuSj3y4z219/arcgis/rest/services/TBL_SAN_DAT_EH/FeatureServer/0"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-06-20T13:44:27.990000+00:00",
+          "description": "CSV",
+          "extras": {
+            "analysis:check_id": 35404656,
+            "analysis:checksum": "b9975c4c048f5c9524322b1c6ca4aa6a73fda1b6",
+            "analysis:content-length": 48827,
+            "analysis:last-modified-at": "2025-10-24T14:22:09.766818+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:finished_at": "2025-05-21T13:05:18.775919+00:00",
+            "analysis:parsing:parsing_table": "35bb6d3a3403287f9d0b3d406a23fb3a",
+            "analysis:parsing:started_at": "2025-05-21T13:05:16.653068+00:00",
+            "check:available": true,
+            "check:date": "2025-06-29T01:05:46.145881+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "file:///srv/udata/ftype/csv",
+          "harvest": {},
+          "id": "f570e56f-a241-42c2-af49-54be52ea870e",
+          "internal": {
+            "created_at_internal": "2023-06-20T13:44:27.990000+00:00",
+            "last_modified_internal": "2023-06-20T13:44:27.991000+00:00"
+          },
+          "last_modified": "2023-06-20T13:44:27.991000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f570e56f-a241-42c2-af49-54be52ea870e",
+          "metrics": {
+            "views": 336
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/f570e56f-a241-42c2-af49-54be52ea870e",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "CSV",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-06-20T13:44:27.993000+00:00",
+          "description": "GeoJSON",
+          "extras": {
+            "analysis:check_id": 34999328,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:40:56.250335+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+            "analysis:parsing:finished_at": "2025-10-18T05:40:57.804127+00:00",
+            "analysis:parsing:started_at": "2025-10-18T05:40:57.786708+00:00",
+            "check:available": true,
+            "check:date": "2025-06-20T12:10:16.724772+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "file:///srv/udata/ftype/geojson",
+          "harvest": {},
+          "id": "62aede55-3e00-4f99-a52d-ebacb091aaee",
+          "internal": {
+            "created_at_internal": "2023-06-20T13:44:27.993000+00:00",
+            "last_modified_internal": "2023-06-20T13:44:27.993000+00:00"
+          },
+          "last_modified": "2023-06-20T13:44:27.993000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/62aede55-3e00-4f99-a52d-ebacb091aaee",
+          "metrics": {
+            "views": 15327
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "GeoJSON",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.geojson?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-06-20T13:44:27.995000+00:00",
+          "description": "Shapefile",
+          "extras": {
+            "analysis:check_id": 34998828,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:36:46.008686+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-28T22:49:26.645575+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "file:///srv/udata/ftype/zip",
+          "harvest": {},
+          "id": "1c08546f-10a3-4829-99bf-1fa9b649d4b1",
+          "internal": {
+            "created_at_internal": "2023-06-20T13:44:27.995000+00:00",
+            "last_modified_internal": "2023-06-20T13:44:27.995000+00:00"
+          },
+          "last_modified": "2023-06-20T13:44:27.995000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/1c08546f-10a3-4829-99bf-1fa9b649d4b1",
+          "metrics": {
+            "views": 183
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ZIP",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-06-20T13:44:27.997000+00:00",
+          "description": "KML",
+          "extras": {
+            "analysis:check_id": 35001628,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T06:02:56.490989+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-20T18:15:05.826116+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "file",
+          "format": "file:///srv/udata/ftype/kml",
+          "harvest": {},
+          "id": "642d50b3-9759-46a7-b9e0-b3f2e089a559",
+          "internal": {
+            "created_at_internal": "2023-06-20T13:44:27.997000+00:00",
+            "last_modified_internal": "2023-06-20T13:44:27.998000+00:00"
+          },
+          "last_modified": "2023-06-20T13:44:27.998000+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/642d50b3-9759-46a7-b9e0-b3f2e089a559",
+          "metrics": {
+            "views": 166
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "KML",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.kml?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-09-14T00:01:52.181000+00:00",
+          "description": "CSV",
+          "extras": {
+            "analysis:check_id": 35002687,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T06:12:58.292175+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:finished_at": "2024-01-16 14:54:48.635448+01",
+            "analysis:parsing:parsing_table": "629c5a84494bf4b621f94bb88c78d992",
+            "check:available": true,
+            "check:date": "2025-06-20T11:58:02.597932+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/csv",
+          "harvest": {},
+          "id": "f5a929d1-ec1f-42e3-9298-1b5c62af7c19",
+          "internal": {
+            "created_at_internal": "2023-09-14T00:01:52.181000+00:00",
+            "last_modified_internal": "2023-09-14T00:01:52.181000+00:00"
+          },
+          "last_modified": "2025-10-18T06:12:58.292175+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f5a929d1-ec1f-42e3-9298-1b5c62af7c19",
+          "metrics": {
+            "views": 102
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/f5a929d1-ec1f-42e3-9298-1b5c62af7c19",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "CSV",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.csv?where=1=1&outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-09-14T00:01:52.181000+00:00",
+          "description": "GeoJSON",
+          "extras": {
+            "analysis:check_id": 35376816,
+            "analysis:checksum": "7b71dcd63fd90555bf839174128d3503aa6919ad",
+            "analysis:content-length": 48827,
+            "analysis:last-modified-at": "2025-10-24T01:59:05.945746+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+            "analysis:parsing:finished_at": "2025-10-24T01:59:07.267850+00:00",
+            "analysis:parsing:started_at": "2025-10-24T01:59:07.246610+00:00",
+            "check:available": true,
+            "check:date": "2025-06-19T22:25:42.413203+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/geojson",
+          "harvest": {},
+          "id": "37eaac50-5c8c-4551-965d-6740af018ef2",
+          "internal": {
+            "created_at_internal": "2023-09-14T00:01:52.181000+00:00",
+            "last_modified_internal": "2023-09-14T00:01:52.181000+00:00"
+          },
+          "last_modified": "2025-10-24T01:59:05.945746+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/37eaac50-5c8c-4551-965d-6740af018ef2",
+          "metrics": {
+            "views": 84
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "GeoJSON",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.geojson?where=1=1&outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-09-14T00:01:52.182000+00:00",
+          "description": "Shapefile",
+          "extras": {
+            "analysis:check_id": 34999528,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:42:48.694290+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-29T08:31:01.636830+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/zip",
+          "harvest": {},
+          "id": "b013722e-238c-4180-8659-59654b5d704a",
+          "internal": {
+            "created_at_internal": "2023-09-14T00:01:52.182000+00:00",
+            "last_modified_internal": "2023-09-14T00:01:52.182000+00:00"
+          },
+          "last_modified": "2025-10-18T05:42:48.694290+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b013722e-238c-4180-8659-59654b5d704a",
+          "metrics": {
+            "views": 93
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ZIP",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.zip?where=1=1&outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2023-09-14T00:01:52.183000+00:00",
+          "description": "KML",
+          "extras": {
+            "analysis:check_id": 34999060,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:38:46.755893+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-20T00:57:17.567753+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/kml",
+          "harvest": {},
+          "id": "05af421f-becd-4ae2-b0fa-4886d0e0e070",
+          "internal": {
+            "created_at_internal": "2023-09-14T00:01:52.183000+00:00",
+            "last_modified_internal": "2023-09-14T00:01:52.183000+00:00"
+          },
+          "last_modified": "2025-10-18T05:38:46.755893+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/05af421f-becd-4ae2-b0fa-4886d0e0e070",
+          "metrics": {
+            "views": 242
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "KML",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0.kml?where=1=1&outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-02-08T00:16:05.852000+00:00",
+          "description": "CSV",
+          "extras": {
+            "analysis:check_id": 35375672,
+            "analysis:checksum": "7b71dcd63fd90555bf839174128d3503aa6919ad",
+            "analysis:content-length": 48827,
+            "analysis:last-modified-at": "2025-10-24T01:36:58.845752+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:finished_at": "2024-12-27T00:32:32.676186+00:00",
+            "analysis:parsing:parsing_table": "ca773ce4c1d973694233cdca778f5d8e",
+            "analysis:parsing:started_at": "2024-12-27T00:32:30.757261+00:00",
+            "check:available": true,
+            "check:date": "2025-06-19T15:00:06.103716+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/csv",
+          "harvest": {},
+          "id": "b5d113e1-80a1-4d7b-9170-d55b2be6a247",
+          "internal": {
+            "created_at_internal": "2024-02-08T00:16:05.852000+00:00",
+            "last_modified_internal": "2024-02-08T00:16:05.852000+00:00"
+          },
+          "last_modified": "2025-10-24T01:36:58.845752+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/b5d113e1-80a1-4d7b-9170-d55b2be6a247",
+          "metrics": {
+            "views": 65
+          },
+          "mime": null,
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/b5d113e1-80a1-4d7b-9170-d55b2be6a247",
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "CSV",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/api/download/v1/items/7a86241202f046d2a12bb70b30662fde/csv?layers=0"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-02-08T00:16:05.852000+00:00",
+          "description": "GeoJSON",
+          "extras": {
+            "analysis:check_id": 35002686,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T06:12:57.898616+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:error": "pmtiles_export:GeoJSON to PMTiles conversion failed with exit code 104",
+            "analysis:parsing:finished_at": "2025-10-18T06:12:59.100198+00:00",
+            "analysis:parsing:started_at": "2025-10-18T06:12:59.085563+00:00",
+            "check:available": true,
+            "check:date": "2025-06-20T20:37:44.845270+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/geojson",
+          "harvest": {},
+          "id": "e7bbe5e5-51f9-43b6-8308-48f95cd04e46",
+          "internal": {
+            "created_at_internal": "2024-02-08T00:16:05.852000+00:00",
+            "last_modified_internal": "2024-02-08T00:16:05.852000+00:00"
+          },
+          "last_modified": "2025-10-18T06:12:57.898616+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/e7bbe5e5-51f9-43b6-8308-48f95cd04e46",
+          "metrics": {
+            "views": 64
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "GeoJSON",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/api/download/v1/items/7a86241202f046d2a12bb70b30662fde/geojson?layers=0"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-02-08T00:16:05.852000+00:00",
+          "description": "Shapefile",
+          "extras": {
+            "analysis:check_id": 35001252,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:58:54.457419+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-20T16:35:20.563315+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/zip",
+          "harvest": {},
+          "id": "299957b9-8dc4-40a0-9927-aae4df1b957e",
+          "internal": {
+            "created_at_internal": "2024-02-08T00:16:05.852000+00:00",
+            "last_modified_internal": "2024-02-08T00:16:05.852000+00:00"
+          },
+          "last_modified": "2025-10-18T05:58:54.457419+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/299957b9-8dc4-40a0-9927-aae4df1b957e",
+          "metrics": {
+            "views": 61
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "ZIP",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/api/download/v1/items/7a86241202f046d2a12bb70b30662fde/shapefile?layers=0"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-02-08T00:16:05.853000+00:00",
+          "description": "KML",
+          "extras": {
+            "analysis:check_id": 34997721,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:26:40.427674+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-20T11:24:27.944221+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/kml",
+          "harvest": {},
+          "id": "5e8a1989-cd31-4b7c-a5f0-d3997fa9be17",
+          "internal": {
+            "created_at_internal": "2024-02-08T00:16:05.853000+00:00",
+            "last_modified_internal": "2024-02-08T00:16:05.853000+00:00"
+          },
+          "last_modified": "2025-10-18T05:26:40.427674+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/5e8a1989-cd31-4b7c-a5f0-d3997fa9be17",
+          "metrics": {
+            "views": 59
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": {
+            "name": null,
+            "url": null,
+            "version": null
+          },
+          "title": "KML",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/api/download/v1/items/7a86241202f046d2a12bb70b30662fde/kml?layers=0"
+        },
+        {
+          "checksum": null,
+          "created_at": "2024-09-17T00:00:13.899000+00:00",
+          "description": "Web Page",
+          "extras": {
+            "analysis:check_id": 34999787,
+            "analysis:checksum": "269b40983a4bb71b5fb7ecf92ab71b337eea6443",
+            "analysis:content-length": 48855,
+            "analysis:last-modified-at": "2025-10-18T05:45:20.694037+00:00",
+            "analysis:last-modified-detection": "computed-checksum",
+            "analysis:mime-type": "text/html",
+            "check:available": true,
+            "check:date": "2025-06-11T02:01:24.263902+00:00",
+            "check:headers:content-type": "text/html",
+            "check:status": 200,
+            "check:timeout": false
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "file:///srv/udata/ftype/html",
+          "harvest": {},
+          "id": "f3818779-ccd7-4531-9c17-071a188ed57b",
+          "internal": {
+            "created_at_internal": "2024-09-17T00:00:13.899000+00:00",
+            "last_modified_internal": "2024-09-17T00:00:13.899000+00:00"
+          },
+          "last_modified": "2025-10-18T05:45:20.694037+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/f3818779-ccd7-4531-9c17-071a188ed57b",
+          "metrics": {
+            "views": 40
+          },
+          "mime": null,
+          "preview_url": null,
+          "schema": null,
+          "title": "ArcGIS Hub Dataset",
+          "type": "main",
+          "url": "https://opendata.normandie.fr/datasets/7a86241202f046d2a12bb70b30662fde_0"
+        }
+      ],
+      "schema": null,
+      "slug": "etablissements-hospitaliers-en-normandie",
+      "spatial": {
+        "geom": null,
+        "granularity": "fr:region",
+        "zones": []
+      },
+      "tags": [
+        "centres-hospitaliers",
+        "ch",
+        "chu",
+        "etablissements-hospitaliers",
+        "geospatial",
+        "medecine",
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "Établissements hospitaliers en Normandie",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/etablissements-hospitaliers-en-normandie/"
+    },
+    {
+      "acronym": null,
+      "archived": null,
+      "badges": [],
+      "contact_points": [],
+      "created_at": "2016-04-12T08:11:02+00:00",
+      "deleted": null,
+      "description": "Liste des centres hospitaliers, centres médico psychologiques, chirurgiens, cliniques et établissement de santé à Agen.",
+      "description_short": null,
+      "extras": {},
+      "featured": false,
+      "frequency": "unknown",
+      "frequency_date": null,
+      "harvest": {
+        "backend": "DCAT",
+        "created_at": "2016-04-12T08:11:02+00:00",
+        "dct_identifier": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/",
+        "domain": "data.agen.fr",
+        "last_update": "2024-06-24T00:00:54.367000+00:00",
+        "modified_at": "2016-04-12T08:11:02+00:00",
+        "remote_id": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/",
+        "remote_url": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/",
+        "source_id": "5bec29c58b4c412dae6b4f80",
+        "uri": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/"
+      },
+      "id": "5bec456906e3e753e177c6e8",
+      "internal": {
+        "created_at_internal": "2018-11-14T16:55:21.147000+00:00",
+        "last_modified_internal": "2016-04-12T08:11:02+00:00"
+      },
+      "last_modified": "2016-04-12T08:11:02+00:00",
+      "last_update": "2016-04-12T08:11:02+00:00",
+      "license": "notspecified",
+      "metrics": {
+        "dataservices": 0,
+        "discussions": 0,
+        "discussions_open": 0,
+        "followers": 0,
+        "followers_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "resources_downloads": 994,
+        "reuses": 0,
+        "reuses_by_months": {
+          "2024-08": 0,
+          "2024-09": 0,
+          "2024-10": 0,
+          "2024-11": 0,
+          "2024-12": 0,
+          "2025-01": 0,
+          "2025-02": 0,
+          "2025-03": 0,
+          "2025-04": 0,
+          "2025-05": 0,
+          "2025-06": 0,
+          "2025-07": 0,
+          "2025-08": 0
+        },
+        "views": 2223
+      },
+      "organization": {
+        "acronym": null,
+        "badges": [
+          {
+            "kind": "certified"
+          },
+          {
+            "kind": "local-authority"
+          }
+        ],
+        "class": "Organization",
+        "id": "5bec29278b4c412a07c7ee5f",
+        "logo": "https://static.data.gouv.fr/avatars/56/94384a11434578ba9b3865ec0e3c46-original.png",
+        "logo_thumbnail": "https://static.data.gouv.fr/avatars/56/94384a11434578ba9b3865ec0e3c46-100.png",
+        "name": "Ville d'Agen",
+        "page": "https://www.data.gouv.fr/organizations/ville-dagen/",
+        "slug": "ville-dagen",
+        "uri": "https://www.data.gouv.fr/api/1/organizations/ville-dagen/"
+      },
+      "owner": null,
+      "page": "https://www.data.gouv.fr/datasets/centres-hospitaliers-cmp-chirurgie/",
+      "permissions": {
+        "delete": false,
+        "edit": false,
+        "edit_resources": false
+      },
+      "private": false,
+      "quality": {
+        "all_resources_available": false,
+        "dataset_description_quality": false,
+        "has_open_format": true,
+        "has_resources": true,
+        "license": true,
+        "resources_documentation": true,
+        "score": 0.3333333333333333,
+        "spatial": false,
+        "temporal_coverage": false,
+        "update_frequency": null
+      },
+      "resources": [
+        {
+          "checksum": null,
+          "created_at": "2016-04-12T08:11:02+00:00",
+          "description": "Centres hospitaliers, CMP, chirurgie (csv)",
+          "extras": {
+            "analysis:checksum": "b192694bc1c0372b8b419887ab9c8e72853d49ab",
+            "analysis:content-length": 322446,
+            "analysis:last-modified-at": "2016-04-12T08:11:02+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/html",
+            "analysis:parsing:finished_at": "2024-06-19T02:16:47.031620+00:00",
+            "analysis:parsing:parsing_table": "c8ff1c771324f9281afe3f6ecd3eab65",
+            "analysis:parsing:started_at": "2024-06-19T02:16:46.427278+00:00",
+            "check:available": false,
+            "check:count-availability": 104,
+            "check:date": "2025-02-25T22:28:44.238679+00:00",
+            "check:error": "Cannot connect to host data.agen.fr:443 ssl:default [None]",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"centres-hospitaliers-cmp-chirurgie.csv\"",
+            "check:timeout": false,
+            "check:url": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/download?format=csv&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "csv",
+          "harvest": {
+            "issued_at": "2016-04-12T08:11:02+00:00",
+            "modified_at": "2016-04-12T08:11:02+00:00",
+            "uri": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/csv"
+          },
+          "id": "dc328ff6-59b1-4104-82e2-cd3d04c90007",
+          "internal": {
+            "created_at_internal": "2018-11-14T16:55:21.149000+00:00",
+            "last_modified_internal": "2016-04-12T08:11:02+00:00"
+          },
+          "last_modified": "2016-04-12T08:11:02+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/dc328ff6-59b1-4104-82e2-cd3d04c90007",
+          "metrics": {
+            "views": 496
+          },
+          "mime": "text/csv",
+          "preview_url": "https://explore.data.gouv.fr/fr/resources/dc328ff6-59b1-4104-82e2-cd3d04c90007",
+          "schema": null,
+          "title": "centres-hospitaliers-cmp-chirurgie.csv",
+          "type": "main",
+          "url": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/csv"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-04-12T08:11:02+00:00",
+          "description": "Centres hospitaliers, CMP, chirurgie (json)",
+          "extras": {
+            "analysis:checksum": "093dbed263add202a89b42f5d4ba141965097878",
+            "analysis:content-length": 322445,
+            "analysis:last-modified-at": "2016-04-12T08:11:02+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/html",
+            "check:available": false,
+            "check:count-availability": 105,
+            "check:date": "2025-02-26T01:32:59.365014+00:00",
+            "check:error": "Cannot connect to host data.agen.fr:443 ssl:default [None]",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"centres-hospitaliers-cmp-chirurgie.json\"",
+            "check:timeout": false,
+            "check:url": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/download?format=json&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2016-04-12T08:11:02+00:00",
+            "modified_at": "2016-04-12T08:11:02+00:00",
+            "uri": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/json"
+          },
+          "id": "3363a108-9d74-4ebe-bc0c-3cbf92f206bd",
+          "internal": {
+            "created_at_internal": "2018-11-14T16:55:21.149000+00:00",
+            "last_modified_internal": "2016-04-12T08:11:02+00:00"
+          },
+          "last_modified": "2016-04-12T08:11:02+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/3363a108-9d74-4ebe-bc0c-3cbf92f206bd",
+          "metrics": {
+            "views": 366
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "centres-hospitaliers-cmp-chirurgie.json",
+          "type": "main",
+          "url": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/json"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-04-12T08:11:02+00:00",
+          "description": "Centres hospitaliers, CMP, chirurgie (geojson)",
+          "extras": {
+            "analysis:checksum": "c200ebaecfbe1ee4e6be03b1efe794a802712b82",
+            "analysis:content-length": 322445,
+            "analysis:last-modified-at": "2016-04-12T08:11:02+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/html",
+            "check:available": false,
+            "check:count-availability": 105,
+            "check:date": "2025-02-26T13:43:33.157544+00:00",
+            "check:error": "Cannot connect to host data.agen.fr:443 ssl:default [Connect call failed ('193.169.64.141', 443)]",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"centres-hospitaliers-cmp-chirurgie.geojson\"",
+            "check:timeout": false,
+            "check:url": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/download?format=geojson&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "json",
+          "harvest": {
+            "issued_at": "2016-04-12T08:11:02+00:00",
+            "modified_at": "2016-04-12T08:11:02+00:00",
+            "uri": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/geojson"
+          },
+          "id": "13e7e720-5840-4e1e-8d6e-d6765df91f14",
+          "internal": {
+            "created_at_internal": "2018-11-14T16:55:21.150000+00:00",
+            "last_modified_internal": "2016-04-12T08:11:02+00:00"
+          },
+          "last_modified": "2016-04-12T08:11:02+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/13e7e720-5840-4e1e-8d6e-d6765df91f14",
+          "metrics": {
+            "views": 254
+          },
+          "mime": "application/json",
+          "preview_url": null,
+          "schema": null,
+          "title": "centres-hospitaliers-cmp-chirurgie.geojson",
+          "type": "main",
+          "url": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/geojson"
+        },
+        {
+          "checksum": null,
+          "created_at": "2016-04-12T08:11:02+00:00",
+          "description": "Centres hospitaliers, CMP, chirurgie (shp)",
+          "extras": {
+            "analysis:checksum": "e9d06bc27edfaf3f95a75b4d3b76d3b5b85a07b2",
+            "analysis:content-length": 322437,
+            "analysis:last-modified-at": "2016-04-12T08:11:02+00:00",
+            "analysis:last-modified-detection": "harvest-resource-metadata",
+            "analysis:mime-type": "text/html",
+            "check:available": false,
+            "check:count-availability": 2,
+            "check:date": "2025-02-25T22:30:53.611783+00:00",
+            "check:error": "Cannot connect to host data.agen.fr:443 ssl:default [None]",
+            "check:headers:charset": "utf-8",
+            "check:headers:content-disposition": "attachment; filename=\"centres-hospitaliers-cmp-chirurgie.zip\"",
+            "check:timeout": false,
+            "check:url": "https://data.agen.fr/explore/dataset/centres-hospitaliers-cmp-chirurgie/download?format=shp&timezone=Europe/Berlin&use_labels_for_header=false"
+          },
+          "filesize": null,
+          "filetype": "remote",
+          "format": "zip",
+          "harvest": {
+            "issued_at": "2016-04-12T08:11:02+00:00",
+            "modified_at": "2016-04-12T08:11:02+00:00",
+            "uri": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/shp"
+          },
+          "id": "c340446e-f31b-42b9-83a3-2daf3b478566",
+          "internal": {
+            "created_at_internal": "2018-11-14T16:55:21.150000+00:00",
+            "last_modified_internal": "2016-04-12T08:11:02+00:00"
+          },
+          "last_modified": "2016-04-12T08:11:02+00:00",
+          "latest": "https://www.data.gouv.fr/api/1/datasets/r/c340446e-f31b-42b9-83a3-2daf3b478566",
+          "metrics": {
+            "views": 167
+          },
+          "mime": "application/zip",
+          "preview_url": null,
+          "schema": null,
+          "title": "centres-hospitaliers-cmp-chirurgie.zip",
+          "type": "main",
+          "url": "https://data.agen.fr/api/explore/v2.1/catalog/datasets/centres-hospitaliers-cmp-chirurgie/exports/shp"
+        }
+      ],
+      "schema": null,
+      "slug": "centres-hospitaliers-cmp-chirurgie",
+      "spatial": null,
+      "tags": [
+        "sante"
+      ],
+      "temporal_coverage": null,
+      "title": "Centres hospitaliers, CMP, chirurgie",
+      "uri": "https://www.data.gouv.fr/api/1/datasets/centres-hospitaliers-cmp-chirurgie/"
+    }
+  ],
+  "next_page": "https://www.data.gouv.fr/api/1/datasets/?q=hospitalier&page_size=5&page=2",
+  "page": 1,
+  "page_size": 5,
+  "previous_page": null,
+  "total": 26
+}

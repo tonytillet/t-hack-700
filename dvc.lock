@@ -1,0 +1,25 @@
+# Verrouillage des versions DVC pour LUMEN
+# Ce fichier contient les hash MD5 et métadonnées des dépendances
+# Il garantit la reproductibilité du pipeline
+# NE PAS MODIFIER MANUELLEMENT - généré automatiquement par DVC
+
+schema: '2.0'
+stages:
+  clean_data:
+    cmd: python3 scripts/clean_data.py
+    deps:
+    - path: data/raw/
+      hash: md5
+      md5: bdad00ea9eaadaea7968672ecb5f12d4.dir
+      size: 2300439
+      nfiles: 64
+    - path: scripts/clean_data.py
+      hash: md5
+      md5: 7f37adf1971bad5e63da90823114b439
+      size: 16439
+      isexec: true
+    outs:
+    - path: data/processed/lumen_merged_clean.parquet
+      hash: md5
+      md5: da0ef1ddcf912928528ca330d5fae2db
+      size: 10044
