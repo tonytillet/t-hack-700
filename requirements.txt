@@ -3,3 +3,7 @@ pandas
 pyarrow
 scikit-learn
 joblib
+streamlit
+plotly
+numpy
+matplotlib
