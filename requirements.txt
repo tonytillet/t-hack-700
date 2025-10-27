@@ -1,4 +1,4 @@
-awikipedia-api
+wikipedia-api
 pandas
 pyarrow
 scikit-learn
